@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
+import TreeWithNavigation from "../components/Tree/TreeWithNavigation/TreeWithNavigation";
 
-const TreePage: NextPage = () => <div>Страница с деревом будет здесь</div>;
+const TreePage: NextPage = () => <TreeWithNavigation />;
 
 export default TreePage;
