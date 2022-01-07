@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import { useRouter } from "next/router";
 import { FC } from "react";
+import s from "./Navbar.module.css";
 
 const navigation = [
   { id: 1, title: "О проекте", path: "/" },
@@ -9,22 +9,21 @@ const navigation = [
 ];
 
 const Navbar: FC = () => {
-  const { pathname } = useRouter();
-
   return (
-    <nav>
-      <div>
+    <nav className={s.navbar}>
+      <div className={s.logoContainer}>
         <Image
-          src="/Logo.png"
-          width={60}
-          height={60}
+          src="/favicon.ico"
+          width={40}
+          height={34}
           alt="Логотип проекта древо"
         />
+        <span className={s.logoTitle}>ДРЕВО</span>
       </div>
       <div>
         {navigation.map(({ id, title, path }) => (
           <Link key={id} href={path}>
-            <a>{title}</a>
+            <a className={s.link}>{title}</a>
           </Link>
         ))}
       </div>

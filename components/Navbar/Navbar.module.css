@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 6rem;
+  background-color: var(--background-color);
+}
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+.logoTitle {
+  margin-left: 12px;
+  font-size: 2rem;
+}
+.link {
+  font-size: 1.6rem;
+}
+.link:not(:last-child) {
+  margin-right: 60px;
+}

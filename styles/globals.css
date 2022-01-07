@@ -8,7 +8,9 @@
   --gradient-to-color: #4dffdf;
   --gradient-from-color: #4da1ff;
 }
-
+html {
+  font-size: 10px;
+}
 *,
 *::before,
 *::after {
@@ -24,6 +26,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Open Sans", sans-serif;
+  color: var(--main-font-color);
+  background-color: var(--main-background-color);
 }
 body {
   line-height: 1.5;
@@ -56,4 +60,8 @@ h6 {
 #__next {
   isolation: isolate;
   height: 100%;
+}
+a {
+  color: inherit;
+  text-decoration: none;
 }
