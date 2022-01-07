@@ -10,8 +10,8 @@ const ReactFamilyTree = dynamic(() => import("react-family-tree"), {
   loading: () => <p>Загружаем дерево...</p>,
 });
 
-const WIDTH = 70;
-const HEIGHT = 80;
+const WIDTH = 280;
+const HEIGHT = 280;
 
 const nodes: TreeNode[] = familyNodes as TreeNode[];
 
