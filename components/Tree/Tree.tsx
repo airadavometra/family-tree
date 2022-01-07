@@ -1,9 +1,10 @@
 import dynamic from "next/dynamic";
 import { FC } from "react";
-import { ExtNode, Node } from "relatives-tree/lib/types";
+import { ExtNode } from "relatives-tree/lib/types";
 import familyNodes from "./data/family.json";
 import FamilyNode from "./FamilyNode/FamilyNode";
 import s from "./Tree.module.css";
+import { TreeExtNode, TreeNode } from "./types";
 const ReactFamilyTree = dynamic(() => import("react-family-tree"), {
   ssr: false,
   loading: () => <p>Загружаем дерево...</p>,
@@ -12,7 +13,7 @@ const ReactFamilyTree = dynamic(() => import("react-family-tree"), {
 const WIDTH = 70;
 const HEIGHT = 80;
 
-const nodes: Node[] = familyNodes as Node[];
+const nodes: TreeNode[] = familyNodes as TreeNode[];
 
 const rootId = nodes[0].id;
 
@@ -26,7 +27,7 @@ const Tree: FC = () => (
     renderNode={(node: ExtNode) => (
       <FamilyNode
         key={node.id}
-        node={node}
+        node={node as TreeExtNode}
         style={{
           width: WIDTH,
           height: HEIGHT,

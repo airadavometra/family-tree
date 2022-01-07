@@ -10,6 +10,9 @@
         "type": "married"
       }
     ],
+    "props": {
+      "name": "Vova"
+    },
     "children": []
   },
   {
@@ -23,6 +26,9 @@
         "type": "married"
       }
     ],
+    "props": {
+      "name": "Dasha"
+    },
     "children": []
   }
 ]
