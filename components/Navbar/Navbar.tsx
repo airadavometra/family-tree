@@ -14,7 +14,12 @@ const Navbar: FC = () => {
   return (
     <nav>
       <div>
-        <Image src="/favicon.ico" width={60} height={60} alt="webDev" />
+        <Image
+          src="/Logo.png"
+          width={60}
+          height={60}
+          alt="Логотип проекта древо"
+        />
       </div>
       <div>
         {navigation.map(({ id, title, path }) => (

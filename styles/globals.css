@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
+:root {
+  --main-background-color: #05050f;
+  --background-color: #191932;
+  --main-font-color: #ffffff;
+  --font-color: #6a6a9f;
+  --gradient-to-color: #4dffdf;
+  --gradient-from-color: #4da1ff;
+}
+
 *,
 *::before,
 *::after {
