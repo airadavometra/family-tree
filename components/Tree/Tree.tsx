@@ -4,7 +4,10 @@ import { ExtNode, Node } from "relatives-tree/lib/types";
 import familyNodes from "./data/family.json";
 import FamilyNode from "./FamilyNode/FamilyNode";
 import s from "./Tree.module.css";
-const ReactFamilyTree = dynamic(import("react-family-tree"), { ssr: false });
+const ReactFamilyTree = dynamic(() => import("react-family-tree"), {
+  ssr: false,
+  loading: () => <p>Загружаем дерево...</p>,
+});
 
 const WIDTH = 70;
 const HEIGHT = 80;
