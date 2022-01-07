@@ -60,6 +60,7 @@ h6 {
 #__next {
   isolation: isolate;
   height: 100%;
+  overflow: hidden;
 }
 a {
   color: inherit;
