@@ -14,8 +14,23 @@
   font-size: 2rem;
 }
 .link {
+  color: var(--font-color);
   font-size: 1.6rem;
 }
 .link:not(:last-child) {
   margin-right: 60px;
+}
+.selected {
+  padding-bottom: 1.6rem;
+  color: var(--main-font-color);
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(
+      270deg,
+      var(--gradient-from-color) 0%,
+      var(--gradient-to-color) 96.35%
+    )
+    100% 1;
 }

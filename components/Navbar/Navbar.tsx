@@ -2,6 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { FC } from "react";
 import s from "./Navbar.module.css";
+import classNames from "classnames";
+import { useRouter } from "next/router";
 
 const navigation = [
   { id: 1, title: "О проекте", path: "/" },
@@ -9,6 +11,7 @@ const navigation = [
 ];
 
 const Navbar: FC = () => {
+  const { pathname } = useRouter();
   return (
     <nav className={s.navbar}>
       <div className={s.logoContainer}>
@@ -23,7 +26,13 @@ const Navbar: FC = () => {
       <div>
         {navigation.map(({ id, title, path }) => (
           <Link key={id} href={path}>
-            <a className={s.link}>{title}</a>
+            <a
+              className={classNames(s.link, {
+                [s.selected]: path === pathname,
+              })}
+            >
+              {title}
+            </a>
           </Link>
         ))}
       </div>
