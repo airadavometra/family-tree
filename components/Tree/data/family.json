@@ -11,7 +11,10 @@
       }
     ],
     "props": {
-      "name": "Vova"
+      "firstName": "Василий",
+      "lastName": "Артемов",
+      "birthYear": 1924,
+      "deathYear": 1999
     },
     "children": []
   },
@@ -27,7 +30,10 @@
       }
     ],
     "props": {
-      "name": "Dasha"
+      "firstName": "Нина",
+      "lastName": "Артемова",
+      "birthYear": 1924,
+      "deathYear": 1973
     },
     "children": []
   }
