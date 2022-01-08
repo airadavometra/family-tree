@@ -1,0 +1,80 @@
+[
+  {
+    "gender": "m",
+    "lastName": "Артемов",
+    "firstName": "Максим",
+    "deathDate": [1928],
+    "id": "84763863"
+  },
+  {
+    "gender": "f",
+    "lastName": "Артемова",
+    "firstName": "Акулина",
+    "deathDate": [1929],
+    "id": "3b26cecc"
+  },
+  {
+    "gender": "m",
+    "lastName": "Артемов",
+    "firstName": "Михаил",
+    "patronym": "Максимович",
+    "birthDate": [1887],
+    "deathDate": [1975, 2, 15],
+    "id": "14d056cd"
+  },
+  {
+    "gender": "f",
+    "maidenName": "Чуйкова",
+    "lastName": "Артемова",
+    "firstName": "Наталья",
+    "patronym": "Афанасьевна",
+    "birthDate": [1886],
+    "deathDate": [1947, 10],
+    "id": "d1b03089"
+  },
+  {
+    "gender": "m",
+    "lastName": "Артемов",
+    "firstName": "Василий",
+    "patronym": "Михайлович",
+    "birthPlace": "Озерковка",
+    "deathPlace": "Ишимбай",
+    "birthDate": [1924, 5, 20],
+    "deathDate": [1999, 2, 14],
+    "id": "8b76eca1"
+  },
+  {
+    "gender": "f",
+    "maidenName": "Дьяконова",
+    "lastName": "Артемова",
+    "firstName": "Нина",
+    "patronym": "Антоновна",
+    "deathPlace": "Ишимбай",
+    "birthDate": [1924, 9, 10],
+    "deathDate": [1973, 7, 24],
+    "id": "b7f863bf"
+  },
+  {
+    "gender": "m",
+    "lastName": "Артемов",
+    "firstName": "Николай",
+    "patronym": "Васильевич",
+    "birthPlace": "Ишимбай",
+    "deathPlace": "Ишимбай",
+    "birthDate": [1950, 1, 2],
+    "deathDate": [2003, 1, 26],
+    "id": "94442207"
+  },
+  {
+    "gender": "f",
+    "maidenName": "Дьяконова",
+    "lastName": "Артемова",
+    "firstName": "Людмила",
+    "patronym": "Андреевна",
+    "birthPlace": "Ишимбай",
+    "deathPlace": "Ишимбай",
+    "birthDate": [1950, 12, 18],
+    "deathDate": [],
+    "id": "739857d0"
+  }
+]

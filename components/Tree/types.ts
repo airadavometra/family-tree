@@ -5,10 +5,15 @@ export type TreeExtNode = ExtNode & TreeNodeProps;
 export type TreeNode = Node & TreeNodeProps;
 
 export type TreeNodeProps = Readonly<{
-  props: {
-    firstName: string;
+  props: Partial<{
+    gender: string;
+    maidenName: string;
     lastName: string;
-    birthYear: number;
-    deathYear: number;
-  };
+    firstName: string;
+    patronym: string;
+    birthDate: TreeNodeDate;
+    deathDate: TreeNodeDate;
+  }>;
 }>;
+
+export type TreeNodeDate = number[];
