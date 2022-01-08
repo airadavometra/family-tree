@@ -4,14 +4,14 @@
     "lastName": "Артемов",
     "firstName": "Максим",
     "deathDate": [1928],
-    "id": "84763863"
+    "id": "Максим--84763863"
   },
   {
     "gender": "f",
     "lastName": "Артемова",
     "firstName": "Акулина",
     "deathDate": [1929],
-    "id": "3b26cecc"
+    "id": "Акулина--3b26cecc"
   },
   {
     "gender": "m",
@@ -20,7 +20,7 @@
     "patronym": "Максимович",
     "birthDate": [1887],
     "deathDate": [1975, 2, 15],
-    "id": "14d056cd"
+    "id": "Михаил-1887-14d056cd"
   },
   {
     "gender": "f",
@@ -30,7 +30,7 @@
     "patronym": "Афанасьевна",
     "birthDate": [1886],
     "deathDate": [1947, 10],
-    "id": "d1b03089"
+    "id": "Наталья-1886-d1b03089"
   },
   {
     "gender": "m",
@@ -41,7 +41,7 @@
     "deathPlace": "Ишимбай",
     "birthDate": [1924, 5, 20],
     "deathDate": [1999, 2, 14],
-    "id": "8b76eca1"
+    "id": "Василий-1924-8b76eca1"
   },
   {
     "gender": "f",
@@ -52,7 +52,7 @@
     "deathPlace": "Ишимбай",
     "birthDate": [1924, 9, 10],
     "deathDate": [1973, 7, 24],
-    "id": "b7f863bf"
+    "id": "Нина-1924-b7f863bf"
   },
   {
     "gender": "m",
@@ -63,7 +63,7 @@
     "deathPlace": "Ишимбай",
     "birthDate": [1950, 1, 2],
     "deathDate": [2003, 1, 26],
-    "id": "94442207"
+    "id": "Николай-1950-94442207"
   },
   {
     "gender": "f",
@@ -75,6 +75,6 @@
     "deathPlace": "Ишимбай",
     "birthDate": [1950, 12, 18],
     "deathDate": [],
-    "id": "739857d0"
+    "id": "Людмила-1950-739857d0"
   }
 ]

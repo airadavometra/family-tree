@@ -15,7 +15,7 @@ export const getTreeNodes = (): TreeNode[] => {
       ...person,
       gender: getGender(props.gender),
       props,
-    };
+    } as TreeNode;
   });
 
   return treeNodes;

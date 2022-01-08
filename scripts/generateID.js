@@ -8,7 +8,10 @@ const props = JSON.parse(
 
 for (const person of props) {
   if (!person.id) {
-    person.id = v4().split("-")[0];
+    const id = v4().split("-")[0];
+    const { birthDate } = person;
+    const birthYear = (birthDate && birthDate[0]) ?? "";
+    person.id = `${person.firstName}-${birthYear}-${id}`;
   }
 }
 
