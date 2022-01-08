@@ -1,0 +1,11 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 6rem;
+  background-color: var(--background-color);
+}
+.footerItem {
+  color: var(--font-color);
+  font-weight: 700;
+}
