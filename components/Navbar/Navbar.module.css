@@ -20,6 +20,10 @@
 .link:not(:last-child) {
   margin-right: 60px;
 }
+.link:hover,
+.link:focus {
+  color: var(--main-font-color);
+}
 .selected {
   padding-bottom: 1.6rem;
   color: var(--main-font-color);
