@@ -10,9 +10,9 @@ const HomePage: NextPage = () => (
     <div className={s.descriptionContainer}>
       <div className={classNames(s.logoContainer, s.descriptionItem)}>
         <Image
-          src="/favicon.ico"
-          width={127}
-          height={108}
+          src="/LogoBig.png"
+          width={120}
+          height={110}
           alt="Логотип проекта древо"
         />
         <span className={s.logoTitle}>ДРЕВО</span>
