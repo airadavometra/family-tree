@@ -26,6 +26,10 @@
 .description {
   font-size: 2.4rem;
 }
+.buttonsContainer {
+  margin-top: 24px;
+  display: flex;
+}
 .button {
   width: fit-content;
   padding: 2rem 6rem;
@@ -39,6 +43,9 @@
 .button:focus {
   background-color: #023aff;
 }
+.button:not(:last-child) {
+  margin-right: 60px;
+}
 .descriptionItem {
   margin-bottom: 24px;
 }
@@ -48,6 +55,5 @@
   margin: auto;
   position: absolute;
   right: 60px;
-  top: 0;
-  bottom: 0;
+  top: 60px;
 }
