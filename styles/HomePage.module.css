@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow: auto;
 }
 .descriptionContainer {
   display: flex;
@@ -34,6 +35,6 @@
 .button:focus {
   background-color: #023aff;
 }
-.descriptionItem:not(:last-child) {
+.descriptionItem {
   margin-bottom: 24px;
 }
