@@ -1,4 +1,6 @@
 .root {
+  pointer-events: none;
+  padding: 20px 32px 16px 32px;
   width: clamp(30vw, 400px, 568px);
   border-radius: 10px;
   top: 100px;
@@ -8,4 +10,11 @@
   display: flex;
   flex-direction: column;
   background-color: var(--background-color);
+}
+
+.name {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.75px;
 }

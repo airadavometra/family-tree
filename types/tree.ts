@@ -2,18 +2,22 @@ import { ExtNode, Node } from "relatives-tree/lib/types";
 
 export type TreeExtNode = ExtNode & TreeNodeProps;
 
-export type TreeNode = Node & TreeNodeProps;
+export type TreeNode = Node & {
+  props: TreeNodeGeneratedProps;
+};
 
-export type TreeNodeProps = Readonly<{
-  props: Partial<{
-    gender: string;
-    maidenName: string;
-    lastName: string;
-    firstName: string;
-    patronym: string;
-    birthDate: TreeNodeDate;
-    deathDate: TreeNodeDate;
-  }>;
+export type TreeNodeProps = Partial<{
+  gender: string;
+  maidenName: string;
+  lastName: string;
+  firstName: string;
+  patronym: string;
+  birthDate: TreeNodeDate;
+  deathDate: TreeNodeDate;
 }>;
+
+export type TreeNodeGeneratedProps = TreeNodeProps & {
+  fullName: string;
+};
 
 export type TreeNodeDate = number[];

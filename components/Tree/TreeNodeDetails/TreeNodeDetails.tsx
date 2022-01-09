@@ -10,9 +10,15 @@ const TreeNodeDetails: FC = () => {
 
   if (!nodeDetailsId) return null;
 
-  const { props } = nodesMap[nodeDetailsId];
+  const {
+    props: { fullName },
+  } = nodesMap[nodeDetailsId];
 
-  return <div className={s.root}>{props.firstName}</div>;
+  return (
+    <div className={s.root}>
+      <h2 className={s.name}>{fullName}</h2>
+    </div>
+  );
 };
 
 export default TreeNodeDetails;
