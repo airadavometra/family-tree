@@ -1,15 +1,17 @@
 import classNames from "classnames";
-import { FC, memo } from "react";
+import { FC, memo, useCallback, useState } from "react";
 import { TreeExtNode, TreeNodeDate } from "../../../types/tree";
 import s from "./FamilyNode.module.css";
 
 interface FamilyNodeProps {
+  selectedNodeId?: string;
   node: TreeExtNode;
   style?: React.CSSProperties;
   onClick: (id: string) => void;
 }
 
 export default memo<FamilyNodeProps>(function FamilyNode({
+  selectedNodeId,
   style,
   node,
   onClick,
@@ -20,14 +22,20 @@ export default memo<FamilyNodeProps>(function FamilyNode({
   return (
     <div style={style} className={s.root}>
       <div
-        onClick={() => onClick(node.id)}
-        className={classNames(s.inner, s[gender])}
+        className={classNames(s.scaling, {
+          [s.selected]: selectedNodeId === node.id,
+        })}
       >
-        <div className={s.fullName}>
-          <span className={s.firstName}>{firstName}</span>
-          <span className={s.lastName}>{lastName}</span>
+        <div
+          onClick={() => onClick(node.id)}
+          className={classNames(s.inner, s[gender])}
+        >
+          <div className={s.fullName}>
+            <span className={s.firstName}>{firstName}</span>
+            <span className={s.lastName}>{lastName}</span>
+          </div>
+          <FamilyNodeYears birthDate={birthDate} deathDate={deathDate} />
         </div>
-        <FamilyNodeYears birthDate={birthDate} deathDate={deathDate} />
       </div>
     </div>
   );

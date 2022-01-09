@@ -27,6 +27,35 @@
   font-size: 14px;
   line-height: 24px;
 }
+.inner:hover {
+  animation: float 3s linear infinite alternate both;
+}
+@keyframes float {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-3px, -3px);
+  }
+  40% {
+    transform: translate(-3px, 3px);
+  }
+  60% {
+    transform: translate(0px, 3px);
+  }
+  80% {
+    transform: translate(3px, 0px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+.scaling {
+  transition: all 0.8s ease-in-out;
+}
+.selected {
+  transform: scale(1.4);
+}
 
 .male {
   box-shadow: 0px 10.4918px 209.836px #2300f8,

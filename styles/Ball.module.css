@@ -16,7 +16,7 @@
     0px 13.0993px 261.987px rgba(248, 0, 119, 0.48),
     inset 0px 6.54967px 32.7484px rgba(255, 255, 255, 0.58),
     inset 32.7484px 65.4967px 327.484px #ff0000;
-  animation: float1 9s linear infinite both;
+  animation: float1 9s linear infinite alternate both;
 }
 @keyframes float1 {
   0% {
@@ -54,7 +54,7 @@
   box-shadow: 0px 13.0993px 261.987px rgba(248, 0, 119, 0.48),
     inset 0px 6.54967px 32.7484px rgba(255, 255, 255, 0.58),
     inset 32.7484px 65.4967px 327.484px #ff0505;
-  animation: float2 6s linear infinite both;
+  animation: float2 6s linear infinite alternate both;
 }
 @keyframes float2 {
   0% {
@@ -92,7 +92,7 @@
   box-shadow: 0px 13.0993px 261.987px rgba(248, 0, 119, 0.48),
     inset 0px 6.54967px 32.7484px rgba(255, 255, 255, 0.58),
     inset 32.7484px 65.4967px 98.2451px #ff0505;
-  animation: float3 4s linear infinite both;
+  animation: float3 4s linear infinite alternate both;
 }
 @keyframes float3 {
   0% {
@@ -130,7 +130,7 @@
   box-shadow: 0px 13.0993px 261.987px #2300f8,
     inset 0px 6.54967px 32.7484px rgba(255, 255, 255, 0.58),
     inset 32.7484px 52.3974px 65.4967px rgba(130, 5, 255, 0.95);
-  animation: float4 5s linear infinite both;
+  animation: float4 5s linear infinite alternate both;
 }
 @keyframes float4 {
   0% {
@@ -168,7 +168,7 @@
   box-shadow: 0px 13.0993px 261.987px rgba(248, 0, 119, 0.48),
     inset 0px 6.54967px 32.7484px rgba(255, 255, 255, 0.58),
     inset 32.7484px 65.4967px 327.484px #ff0505;
-  animation: float5 3s linear infinite both;
+  animation: float5 3s linear infinite alternate both;
 }
 @keyframes float5 {
   0% {
