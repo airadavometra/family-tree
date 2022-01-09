@@ -1,14 +1,14 @@
 import { Gender } from "relatives-tree/lib/types";
-import props from "../../data/props.json";
-import relations from "../../data/relations.json";
-import { TreeNode } from "./types";
+import { TreeNode } from "../types/tree";
+import nodesData from "./props.json";
+import nodesRelations from "./relations.json";
 
-export const getTreeNodes = (): TreeNode[] => {
+export const generateTreeNodes = (): TreeNode[] => {
   const personPropsMap = Object.fromEntries(
-    props.map((prop) => [prop.id, prop])
+    nodesData.map((prop) => [prop.id, prop])
   );
 
-  const treeNodes: TreeNode[] = relations.map((person) => {
+  const treeNodes: TreeNode[] = nodesRelations.map((person) => {
     const props = personPropsMap[person.id];
 
     return {

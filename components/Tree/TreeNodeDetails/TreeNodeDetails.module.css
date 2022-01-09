@@ -1,0 +1,11 @@
+.root {
+  width: clamp(30vw, 400px, 568px);
+  border-radius: 10px;
+  top: 100px;
+  bottom: 80px;
+  left: 60px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-color);
+}

@@ -1,20 +1,28 @@
 import classNames from "classnames";
-import { FC } from "react";
-import { TreeExtNode, TreeNodeDate } from "../types";
+import { FC, memo } from "react";
+import { TreeExtNode, TreeNodeDate } from "../../../types/tree";
 import s from "./FamilyNode.module.css";
 
 interface FamilyNodeProps {
   node: TreeExtNode;
   style?: React.CSSProperties;
+  onClick: (id: string) => void;
 }
 
-const FamilyNode: FC<FamilyNodeProps> = ({ style, node }) => {
+export default memo<FamilyNodeProps>(function FamilyNode({
+  style,
+  node,
+  onClick,
+}) {
   const { props, gender } = node;
   const { firstName, lastName, birthDate, deathDate } = props;
 
   return (
     <div style={style} className={s.root}>
-      <div className={classNames(s.inner, s[gender])}>
+      <div
+        onClick={() => onClick(node.id)}
+        className={classNames(s.inner, s[gender])}
+      >
         <div className={s.fullName}>
           <span className={s.firstName}>{firstName}</span>
           <span className={s.lastName}>{lastName}</span>
@@ -23,7 +31,7 @@ const FamilyNode: FC<FamilyNodeProps> = ({ style, node }) => {
       </div>
     </div>
   );
-};
+});
 
 type FamilyNodeYearsProps = {
   birthDate?: TreeNodeDate;
@@ -48,5 +56,3 @@ const FamilyNodeYears: FC<FamilyNodeYearsProps> = ({
     </div>
   );
 };
-
-export default FamilyNode;
