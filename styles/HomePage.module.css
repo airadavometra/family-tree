@@ -46,6 +46,17 @@
 .button:not(:last-child) {
   margin-right: 60px;
 }
+.secondaryButton {
+  color: #a1a8c2;
+  background-color: transparent;
+  border: 2px solid #00239d;
+}
+.secondaryButton:hover,
+.secondaryButton:focus {
+  color: #a1a8c2;
+  background-color: transparent;
+  border: 2px solid #023aff;
+}
 .descriptionItem {
   margin-bottom: 24px;
 }

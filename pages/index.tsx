@@ -30,7 +30,7 @@ const HomePage: NextPage = () => (
         </span>
         <span className={classNames(s.description, s.descriptionItem)}>
           Если вы обладаете информацией и желаете добавить ее в проект,
-          пожалуйста, свяжитесь с нами по электронной почте.
+          пожалуйста, свяжитесь с нами в телеграме.
         </span>
         <div className={s.buttonsContainer}>
           <Link href="/tree">
@@ -39,12 +39,16 @@ const HomePage: NextPage = () => (
             </button>
           </Link>
           <a
-            className={classNames(s.button, s.descriptionItem)}
-            href="mailto:airadavometra@yandex.ru?"
+            className={classNames(
+              s.button,
+              s.secondaryButton,
+              s.descriptionItem
+            )}
+            href="https://t.me/airadavometra"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Написать на почту
+            Написать в телеграме
           </a>
         </div>
       </div>
