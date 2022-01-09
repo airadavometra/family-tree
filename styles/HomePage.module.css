@@ -38,6 +38,7 @@
   background-color: #00239d;
   border: none;
   border-radius: 100px;
+  cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
 .button:hover,
@@ -51,7 +52,6 @@
   color: #a1a8c2;
   background-color: transparent;
   border: 2px solid #00239d;
-  cursor: pointer;
 }
 .secondaryButton:hover,
 .secondaryButton:focus {
