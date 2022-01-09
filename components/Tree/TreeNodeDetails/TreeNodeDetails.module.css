@@ -1,4 +1,5 @@
 .root {
+  position: relative;
   pointer-events: none;
   padding: 20px 32px 16px 32px;
   width: clamp(30vw, 400px, 568px);
@@ -17,4 +18,23 @@
   font-size: 24px;
   line-height: 36px;
   letter-spacing: -0.75px;
+}
+
+.closeButton {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.closeIcon {
+  width: 24px;
+  fill: rgba(255, 255, 255, 0.8);
+  padding: 0.25em;
+  transition: fill 0.2s;
+}
+
+.closeIcon:hover {
+  fill: rgba(255, 255, 255, 1);
 }

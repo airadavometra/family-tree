@@ -8,6 +8,7 @@
 }
 
 .inner {
+  cursor: pointer;
   width: 160px;
   height: 160px;
   display: flex;
