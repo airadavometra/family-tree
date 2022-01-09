@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import s from "../styles/HomePage.module.css";
 import classNames from "classnames";
+import ballS from "../styles/Ball.module.css";
 
 const HomePage: NextPage = () => (
   <div className={s.pageContainer}>
@@ -19,26 +20,42 @@ const HomePage: NextPage = () => (
           <span className={s.logoTitle}>ДРЕВО</span>
         </div>
         <span className={classNames(s.description, s.descriptionItem)}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ex hic quo
-          est facere dignissimos esse minima tenetur consequatur, vitae
-          molestias tempora qui adipisci amet fugit sapiente deserunt accusamus
-          odit?
+          ДРЕВО – это открытый групповой проект по восстановлению
+          генеалогических связей и сборе информации о происхождении семьи
+          Артемовых и родстве с другими семьями.
         </span>
-        <Link href="/tree">
-          <button className={classNames(s.button, s.descriptionItem)}>
-            Посмотреть дерево
-          </button>
-        </Link>
+        <span className={classNames(s.description, s.descriptionItem)}>
+          Результатом детективно-архивных исследований многих людей является
+          масштабное генеалогическое дерево, уходящее корнями в 19 век.
+        </span>
+        <span className={classNames(s.description, s.descriptionItem)}>
+          Если вы обладаете информацией и желаете добавить ее в проект,
+          пожалуйста, свяжитесь с нами по электронной почте.
+        </span>
+        <div className={s.buttonsContainer}>
+          <Link href="/tree">
+            <button className={classNames(s.button, s.descriptionItem)}>
+              Посмотреть дерево
+            </button>
+          </Link>
+          <a
+            className={classNames(s.button, s.descriptionItem)}
+            href="mailto:airadavometra@yandex.ru?"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Написать на почту
+          </a>
+        </div>
       </div>
       <NodesCounter />
     </div>
     <div className={s.imageContainer}>
-      <Image
-        src="/LogoBig.png"
-        width={960}
-        height={880}
-        alt="Логотип проекта древо"
-      />
+      <div className={ballS.ball1} />
+      <div className={ballS.ball2} />
+      <div className={ballS.ball3} />
+      <div className={ballS.ball4} />
+      <div className={ballS.ball5} />
     </div>
   </div>
 );
