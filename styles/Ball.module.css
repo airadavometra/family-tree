@@ -1,0 +1,192 @@
+.ball1 {
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  top: 150px;
+  left: 165px;
+  border-radius: 100%;
+  background: radial-gradient(
+      96% 96% at 70.4% 31.2%,
+      #3244e8 0%,
+      rgba(0, 2, 16, 0) 100%
+    ),
+    #030092;
+  box-shadow: 0px 0px 65.4967px rgba(255, 147, 147, 0.13),
+    196.49px 392.98px 261.987px rgba(5, 0, 255, 0.2),
+    0px 13.0993px 261.987px rgba(248, 0, 119, 0.48),
+    inset 0px 6.54967px 32.7484px rgba(255, 255, 255, 0.58),
+    inset 32.7484px 65.4967px 327.484px #ff0000;
+  animation: float1 9s linear infinite both;
+}
+@keyframes float1 {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-10px, 10px);
+  }
+  40% {
+    transform: translate(-10px, -10px);
+  }
+  60% {
+    transform: translate(10px, 10px);
+  }
+  80% {
+    transform: translate(10px, -10px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+.ball2 {
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  top: 43px;
+  left: 425px;
+  border-radius: 100%;
+  background: radial-gradient(
+      96% 96% at 70.4% 31.2%,
+      #3244e8 0%,
+      rgba(0, 2, 16, 0) 100%
+    ),
+    #030092;
+  box-shadow: 0px 13.0993px 261.987px rgba(248, 0, 119, 0.48),
+    inset 0px 6.54967px 32.7484px rgba(255, 255, 255, 0.58),
+    inset 32.7484px 65.4967px 327.484px #ff0505;
+  animation: float2 6s linear infinite both;
+}
+@keyframes float2 {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(5px, -5px);
+  }
+  40% {
+    transform: translate(5px, 5px);
+  }
+  60% {
+    transform: translate(-5px, -5px);
+  }
+  80% {
+    transform: translate(-5px, 5px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+.ball3 {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 181px;
+  left: 59px;
+  border-radius: 100%;
+  background: radial-gradient(
+      96% 96% at 70.4% 31.2%,
+      #3244e8 0%,
+      rgba(0, 2, 16, 0) 100%
+    ),
+    #030092;
+  box-shadow: 0px 13.0993px 261.987px rgba(248, 0, 119, 0.48),
+    inset 0px 6.54967px 32.7484px rgba(255, 255, 255, 0.58),
+    inset 32.7484px 65.4967px 98.2451px #ff0505;
+  animation: float3 4s linear infinite both;
+}
+@keyframes float3 {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(5px, -5px);
+  }
+  40% {
+    transform: translate(-5px, -5px);
+  }
+  60% {
+    transform: translate(-5px, 5px);
+  }
+  80% {
+    transform: translate(5px, 5px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+.ball4 {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 447px;
+  left: 360px;
+  border-radius: 100%;
+  background: radial-gradient(
+      96% 96% at 70.4% 31.2%,
+      #3244e8 0%,
+      rgba(0, 2, 16, 0) 100%
+    ),
+    #030092;
+  box-shadow: 0px 13.0993px 261.987px #2300f8,
+    inset 0px 6.54967px 32.7484px rgba(255, 255, 255, 0.58),
+    inset 32.7484px 52.3974px 65.4967px rgba(130, 5, 255, 0.95);
+  animation: float4 5s linear infinite both;
+}
+@keyframes float4 {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-5px, 5px);
+  }
+  40% {
+    transform: translate(0px, 10px);
+  }
+  60% {
+    transform: translate(5px, 5px);
+  }
+  80% {
+    transform: translate(5px, 0px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+.ball5 {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 461px;
+  left: 287px;
+  border-radius: 100%;
+  background: radial-gradient(
+      96% 96% at 70.4% 31.2%,
+      #3244e8 0%,
+      rgba(0, 2, 16, 0) 100%
+    ),
+    #030092;
+  box-shadow: 0px 13.0993px 261.987px rgba(248, 0, 119, 0.48),
+    inset 0px 6.54967px 32.7484px rgba(255, 255, 255, 0.58),
+    inset 32.7484px 65.4967px 327.484px #ff0505;
+  animation: float5 3s linear infinite both;
+}
+@keyframes float5 {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-5px, -5px);
+  }
+  40% {
+    transform: translate(-5px, 5px);
+  }
+  60% {
+    transform: translate(0px, 5px);
+  }
+  80% {
+    transform: translate(5px, 0px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}

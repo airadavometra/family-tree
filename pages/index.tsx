@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import s from "../styles/HomePage.module.css";
 import classNames from "classnames";
+import ballS from "../styles/Ball.module.css";
 
 const HomePage: NextPage = () => (
   <div className={s.pageContainer}>
@@ -33,12 +34,11 @@ const HomePage: NextPage = () => (
       <NodesCounter />
     </div>
     <div className={s.imageContainer}>
-      <Image
-        src="/LogoBig.png"
-        width={960}
-        height={880}
-        alt="Логотип проекта древо"
-      />
+      <div className={ballS.ball1} />
+      <div className={ballS.ball2} />
+      <div className={ballS.ball3} />
+      <div className={ballS.ball4} />
+      <div className={ballS.ball5} />
     </div>
   </div>
 );

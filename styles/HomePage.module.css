@@ -1,11 +1,12 @@
 .pageContainer {
   height: 100%;
   padding: 4.2rem 6rem;
-  display: flex;
+  position: relative;
   overflow: auto;
 }
 .content {
   max-width: 50%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -42,4 +43,11 @@
   margin-bottom: 24px;
 }
 .imageContainer {
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  position: absolute;
+  right: 60px;
+  top: 0;
+  bottom: 0;
 }
