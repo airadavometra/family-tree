@@ -8,10 +8,22 @@ const props = JSON.parse(
 
 for (const person of props) {
   if (!person.id) {
-    const id = v4().split("-")[0];
-    const { birthDate } = person;
+    const uuid = v4().split("-")[0];
+    const { birthDate, firstName, lastName, maidenName, patronym, deathDate } =
+      person;
     const birthYear = (birthDate && birthDate[0]) ?? "";
-    person.id = `${person.firstName}-${birthYear}-${id}`;
+    const deathYear = (deathDate && deathDate[0]) ?? "";
+
+    const parts = [];
+    if (firstName) parts.push(firstName);
+    if (lastName) parts.push(lastName);
+    if (maidenName) parts.push(`(${maidenName})`);
+    if (patronym) parts.push(patronym);
+    if (birthYear) parts.push(`b:${birthYear}`);
+    if (deathYear) parts.push(`d:${deathYear}`);
+    parts.push(uuid);
+
+    person.id = parts.join("_");
   }
 }
 
