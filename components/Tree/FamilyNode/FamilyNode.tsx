@@ -1,17 +1,17 @@
 import classNames from "classnames";
-import { FC, memo, useCallback, useState } from "react";
+import { FC, memo, useState } from "react";
 import { TreeExtNode, TreeNodeDate } from "../../../types/tree";
 import s from "./FamilyNode.module.css";
 
 interface FamilyNodeProps {
-  selectedNodeId?: string;
+  isSelected: boolean;
   node: TreeExtNode;
   style?: React.CSSProperties;
   onClick: (id: string) => void;
 }
 
 export default memo<FamilyNodeProps>(function FamilyNode({
-  selectedNodeId,
+  isSelected,
   style,
   node,
   onClick,
@@ -19,16 +19,22 @@ export default memo<FamilyNodeProps>(function FamilyNode({
   const { props, gender } = node;
   const { firstName, lastName, birthDate, deathDate } = props;
 
+  const [isMouseOver, setMouseOver] = useState(false);
+
   return (
     <div style={style} className={s.root}>
       <div
-        className={classNames(s.scaling, {
-          [s.selected]: selectedNodeId === node.id,
+        className={classNames(s.scalingWrapper, {
+          [s.selected]: isSelected,
         })}
+        onMouseEnter={() => setMouseOver(true)}
+        onMouseLeave={() => setMouseOver(false)}
       >
         <div
           onClick={() => onClick(node.id)}
-          className={classNames(s.inner, s[gender])}
+          className={classNames(s.inner, s[gender], {
+            [s.floating]: isSelected || isMouseOver,
+          })}
         >
           <div className={s.fullName}>
             <span className={s.firstName}>{firstName}</span>

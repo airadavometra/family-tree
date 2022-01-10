@@ -1,5 +1,5 @@
 import dynamic from "next/dynamic";
-import { FC, useCallback, useState } from "react";
+import { FC } from "react";
 import { ExtNode } from "relatives-tree/lib/types";
 import { useTree } from "../../context/tree";
 import { getTreeNodes } from "../../data";
@@ -30,7 +30,7 @@ const Tree: FC = () => {
       className={s.root}
       renderNode={(node: ExtNode) => (
         <FamilyNode
-          selectedNodeId={nodeDetailsId}
+          isSelected={nodeDetailsId === node.id}
           key={node.id}
           node={node as TreeExtNode}
           onClick={openNodeDetails}

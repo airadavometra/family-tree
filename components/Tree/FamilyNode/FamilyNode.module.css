@@ -8,7 +8,6 @@
 }
 
 .inner {
-  cursor: pointer;
   width: 160px;
   height: 160px;
   display: flex;
@@ -26,8 +25,9 @@
   padding: 8px;
   font-size: 14px;
   line-height: 24px;
+  will-change: transform;
 }
-.inner:hover {
+.inner.floating {
   animation: float 3s linear infinite alternate both;
 }
 @keyframes float {
@@ -50,11 +50,14 @@
     transform: translate(0);
   }
 }
-.scaling {
+.scalingWrapper {
   transition: all 0.8s ease-in-out;
+  will-change: transform;
+  cursor: pointer;
 }
 .selected {
   transform: scale(1.4);
+  cursor: default;
 }
 
 .male {
