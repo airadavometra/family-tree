@@ -10,7 +10,7 @@ const PinchZoomPan = dynamic(
   }
 );
 
-const MIN_ZOOM = 0.1;
+const MIN_ZOOM = 0.15;
 const MAX_ZOOM = 1;
 
 const TreeWithNavigation: FC = () => (
