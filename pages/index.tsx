@@ -1,10 +1,10 @@
+import classNames from "classnames";
 import type { NextPage } from "next";
-import NodesCounter from "../components/NodesCounter/NodesCounter";
 import Image from "next/image";
 import Link from "next/link";
-import s from "../styles/HomePage.module.css";
-import classNames from "classnames";
+import NodesCounter from "../components/NodesCounter/NodesCounter";
 import ballS from "../styles/Ball.module.css";
+import s from "../styles/HomePage.module.css";
 
 const HomePage: NextPage = () => (
   <div className={s.pageContainer}>
