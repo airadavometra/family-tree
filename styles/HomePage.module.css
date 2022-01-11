@@ -70,3 +70,31 @@
   right: 60px;
   top: 60px;
 }
+@media (max-width: 700px) {
+  .pageContainer {
+    padding: 6rem 3rem;
+  }
+  .logoContainer {
+    display: none;
+  }
+  .content {
+    max-width: 100%;
+  }
+  .imageContainer {
+    display: none;
+  }
+  .buttonsContainer {
+    margin-bottom: 24px;
+    flex-direction: column;
+  }
+  .button {
+    width: 240px;
+    padding: 2rem 3rem;
+    font-size: 2rem;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .button:not(:last-child) {
+    margin-right: 0;
+  }
+}
