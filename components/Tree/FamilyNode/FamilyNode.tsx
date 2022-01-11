@@ -1,28 +1,39 @@
 import classNames from "classnames";
 import { FC, memo, useState } from "react";
-import { TreeExtNode, TreeNodeDate } from "../../../types/tree";
+import { TreeExtNode } from "../../../types/tree";
 import s from "./FamilyNode.module.css";
+import { FamilyNodeYears } from "./FamilyNodeYears";
+import { getTreeNodeStyleTransform } from "./utils";
 
 interface FamilyNodeProps {
+  width: number;
+  height: number;
   isSelected: boolean;
   node: TreeExtNode;
-  style?: React.CSSProperties;
   onClick: (id: string) => void;
 }
 
-export default memo<FamilyNodeProps>(function FamilyNode({
+const FamilyNode: FC<FamilyNodeProps> = ({
   isSelected,
-  style,
   node,
   onClick,
-}) {
+  width,
+  height,
+}) => {
   const { props, gender } = node;
   const { firstName, lastName, birthDate, deathDate } = props;
 
   const [isMouseOver, setMouseOver] = useState(false);
 
   return (
-    <div style={style} className={s.root}>
+    <div
+      style={{
+        width: width,
+        height: height,
+        transform: getTreeNodeStyleTransform(node, width, height),
+      }}
+      className={s.root}
+    >
       <div
         className={classNames(s.scalingWrapper, {
           [s.selected]: isSelected,
@@ -45,28 +56,6 @@ export default memo<FamilyNodeProps>(function FamilyNode({
       </div>
     </div>
   );
-});
-
-type FamilyNodeYearsProps = {
-  birthDate?: TreeNodeDate;
-  deathDate?: TreeNodeDate;
 };
-const FamilyNodeYears: FC<FamilyNodeYearsProps> = ({
-  birthDate,
-  deathDate,
-}) => {
-  if (!birthDate && !deathDate) {
-    return null;
-  }
 
-  const birthYear = birthDate && birthDate[0];
-  const deathYear = deathDate && deathDate[0];
-
-  return (
-    <div className={s.years}>
-      {birthYear && <span className={s.birthYear}>{birthYear}</span>}
-      <span className={s.yearsDelimiter}>&nbsp;–&nbsp;</span>
-      {deathYear && <span className={s.deathYear}>{deathYear}</span>}
-    </div>
-  );
-};
+export default memo(FamilyNode);

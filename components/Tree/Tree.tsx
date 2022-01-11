@@ -1,5 +1,5 @@
 import dynamic from "next/dynamic";
-import { FC } from "react";
+import { FC, memo } from "react";
 import { ExtNode } from "relatives-tree/lib/types";
 import { useTree } from "../../context/tree";
 import { getTreeNodes } from "../../data";
@@ -34,17 +34,12 @@ const Tree: FC = () => {
           key={node.id}
           node={node as TreeExtNode}
           onClick={selectNode}
-          style={{
-            width: WIDTH,
-            height: HEIGHT,
-            transform: `translate(${node.left * (WIDTH / 2)}px, ${
-              node.top * (HEIGHT / 2)
-            }px)`,
-          }}
+          width={WIDTH}
+          height={HEIGHT}
         />
       )}
     />
   );
 };
 
-export default Tree;
+export default memo(Tree);
