@@ -14,5 +14,6 @@ export const PageHead = () => (
       content="width=device-width, initial-scale=1"
       key="viewport"
     />
+    <meta property="og:image" content="/share.jpg" />
   </NextHead>
 );
