@@ -1,13 +1,13 @@
 import { FC } from "react";
 import { TreeNodeDate } from "../../../types/tree";
-import s from "./FamilyNode.module.css";
+import s from "./TreeNode.module.css";
 
-type FamilyNodeYearsProps = {
+type TreeNodeYearsProps = {
   birthDate?: TreeNodeDate;
   deathDate?: TreeNodeDate;
 };
 
-export const FamilyNodeYears: FC<FamilyNodeYearsProps> = ({
+export const TreeNodeYears: FC<TreeNodeYearsProps> = ({
   birthDate,
   deathDate,
 }) => {

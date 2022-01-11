@@ -4,8 +4,8 @@ import { ExtNode } from "relatives-tree/lib/types";
 import { useTree } from "../../context/tree";
 import { getTreeNodes } from "../../data";
 import { TreeExtNode } from "../../types/tree";
-import FamilyNode from "./FamilyNode/FamilyNode";
 import s from "./Tree.module.css";
+import TreeNode from "./TreeNode/TreeNode";
 
 const ReactFamilyTree = dynamic(() => import("react-family-tree"), {
   ssr: false,
@@ -29,7 +29,7 @@ const Tree: FC = () => {
       height={HEIGHT}
       className={s.root}
       renderNode={(node: ExtNode) => (
-        <FamilyNode
+        <TreeNode
           isSelected={selectedNodeId === node.id}
           key={node.id}
           node={node as TreeExtNode}

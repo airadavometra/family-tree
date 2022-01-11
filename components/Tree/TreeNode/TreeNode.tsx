@@ -1,11 +1,11 @@
 import classNames from "classnames";
 import { FC, memo, useState } from "react";
 import { TreeExtNode } from "../../../types/tree";
-import s from "./FamilyNode.module.css";
-import { FamilyNodeYears } from "./FamilyNodeYears";
+import s from "./TreeNode.module.css";
+import { TreeNodeYears } from "./TreeNodeYears";
 import { getTreeNodeStyleTransform } from "./utils";
 
-interface FamilyNodeProps {
+interface TreeNodeProps {
   width: number;
   height: number;
   isSelected: boolean;
@@ -13,7 +13,7 @@ interface FamilyNodeProps {
   onClick: (id: string) => void;
 }
 
-const FamilyNode: FC<FamilyNodeProps> = ({
+const TreeNode: FC<TreeNodeProps> = ({
   isSelected,
   node,
   onClick,
@@ -51,11 +51,11 @@ const FamilyNode: FC<FamilyNodeProps> = ({
             <span className={s.firstName}>{firstName}</span>
             <span className={s.lastName}>{lastName}</span>
           </div>
-          <FamilyNodeYears birthDate={birthDate} deathDate={deathDate} />
+          <TreeNodeYears birthDate={birthDate} deathDate={deathDate} />
         </div>
       </div>
     </div>
   );
 };
 
-export default memo(FamilyNode);
+export default memo(TreeNode);
