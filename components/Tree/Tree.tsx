@@ -3,7 +3,7 @@ import { FC, memo } from "react";
 import { ExtNode } from "relatives-tree/lib/types";
 import { useTree } from "../../context/tree";
 import { getTreeNodes } from "../../data";
-import { TreeExtNode } from "../../types/tree";
+import { TreeExternalNode } from "../../types/tree";
 import s from "./Tree.module.css";
 import TreeNode from "./TreeNode/TreeNode";
 
@@ -32,7 +32,7 @@ const Tree: FC = () => {
         <TreeNode
           isSelected={selectedNodeId === node.id}
           key={node.id}
-          node={node as TreeExtNode}
+          node={node as TreeExternalNode}
           onClick={selectNode}
           width={WIDTH}
           height={HEIGHT}

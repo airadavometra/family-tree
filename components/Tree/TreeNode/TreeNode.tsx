@@ -1,6 +1,6 @@
 import classNames from "classnames";
 import { FC, memo, useState } from "react";
-import { TreeExtNode } from "../../../types/tree";
+import { TreeExternalNode } from "../../../types/tree";
 import s from "./TreeNode.module.css";
 import { TreeNodeYears } from "./TreeNodeYears";
 import { getTreeNodeStyleTransform } from "./utils";
@@ -9,7 +9,7 @@ interface TreeNodeProps {
   width: number;
   height: number;
   isSelected: boolean;
-  node: TreeExtNode;
+  node: TreeExternalNode;
   onClick: (id: string) => void;
 }
 

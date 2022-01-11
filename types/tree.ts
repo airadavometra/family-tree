@@ -1,6 +1,6 @@
 import { ExtNode, Node } from "relatives-tree/lib/types";
 
-export type TreeExtNode = ExtNode & TreeNode;
+export type TreeExternalNode = ExtNode & TreeNode;
 
 export type TreeNode = Node & {
   props: TreeNodeGeneratedProps;
