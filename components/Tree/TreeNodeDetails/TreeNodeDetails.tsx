@@ -7,17 +7,17 @@ import s from "./TreeNodeDetails.module.css";
 const nodesMap = getTreeNodesMap();
 
 const TreeNodeDetails: FC = () => {
-  const { nodeDetailsId, closeNodeDetails } = useTree();
+  const { selectedNodeId, unselectNode } = useTree();
 
-  if (!nodeDetailsId) return null;
+  if (!selectedNodeId) return null;
 
   const {
     props: { fullName },
-  } = nodesMap[nodeDetailsId];
+  } = nodesMap[selectedNodeId];
 
   return (
     <div className={s.root}>
-      <button className={s.closeButton} onClick={closeNodeDetails}>
+      <button className={s.closeButton} onClick={unselectNode}>
         <CloseIcon className={s.closeIcon} />
       </button>
       <h2 className={s.name}>{fullName}</h2>

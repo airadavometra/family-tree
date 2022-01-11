@@ -1,24 +1,24 @@
 import { createContext, FC, useCallback, useContext, useState } from "react";
 
-type NodeDetailsId = string | undefined;
+type NodeId = string;
 
 type TreeContextValue = {
-  nodeDetailsId: NodeDetailsId;
-  openNodeDetails: (id: string) => void;
-  closeNodeDetails: () => void;
+  selectedNodeId?: NodeId;
+  selectNode: (id: NodeId) => void;
+  unselectNode: () => void;
 };
 
 const TreeContext = createContext<TreeContextValue | undefined>(undefined);
 
 export const TreeContextWrapper: FC = ({ children }) => {
-  const { nodeDetailsId, openNodeDetails, closeNodeDetails } = useNodeDetails();
+  const { selectedNodeId, selectNode, unselectNode } = useNodeSelection();
 
   return (
     <TreeContext.Provider
       value={{
-        nodeDetailsId,
-        openNodeDetails,
-        closeNodeDetails,
+        selectedNodeId,
+        selectNode,
+        unselectNode,
       }}
     >
       {children}
@@ -26,20 +26,17 @@ export const TreeContextWrapper: FC = ({ children }) => {
   );
 };
 
-const useNodeDetails = () => {
-  const [nodeDetailsId, setNodeDetailsId] = useState<NodeDetailsId>();
+const useNodeSelection = () => {
+  const [selectedNodeId, setSelectedNodeId] = useState<NodeId>();
 
-  const openNodeDetails = useCallback(
-    (id: NodeDetailsId) => setNodeDetailsId(id),
-    []
-  );
+  const selectNode = useCallback((id: NodeId) => setSelectedNodeId(id), []);
 
-  const closeNodeDetails = useCallback(() => setNodeDetailsId(undefined), []);
+  const unselectNode = useCallback(() => setSelectedNodeId(undefined), []);
 
   return {
-    nodeDetailsId,
-    openNodeDetails,
-    closeNodeDetails,
+    selectedNodeId,
+    selectNode,
+    unselectNode,
   };
 };
 

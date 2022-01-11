@@ -19,7 +19,7 @@ const nodes = getTreeNodes();
 const rootId = nodes[0].id;
 
 const Tree: FC = () => {
-  const { openNodeDetails, nodeDetailsId } = useTree();
+  const { selectNode, selectedNodeId } = useTree();
 
   return (
     <ReactFamilyTree
@@ -30,10 +30,10 @@ const Tree: FC = () => {
       className={s.root}
       renderNode={(node: ExtNode) => (
         <FamilyNode
-          isSelected={nodeDetailsId === node.id}
+          isSelected={selectedNodeId === node.id}
           key={node.id}
           node={node as TreeExtNode}
-          onClick={openNodeDetails}
+          onClick={selectNode}
           style={{
             width: WIDTH,
             height: HEIGHT,
