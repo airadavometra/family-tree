@@ -28,12 +28,15 @@
 }
 .buttonsContainer {
   margin-top: 24px;
+  margin-bottom: 24px;
   display: flex;
+  flex-wrap: wrap;
 }
 .button {
-  width: fit-content;
+  width: 320px;
   padding: 2rem 6rem;
   font-size: 1.8rem;
+  white-space: nowrap;
   color: var(--main-font-color);
   background-color: #00239d;
   border: none;
@@ -69,7 +72,15 @@
   position: absolute;
   right: 60px;
   top: 60px;
+  z-index: -1;
 }
+
+@media (max-width: 1520px) {
+  .content {
+    height: fit-content;
+  }
+}
+
 @media (max-width: 700px) {
   .pageContainer {
     padding: 6rem 3rem;
@@ -84,7 +95,6 @@
     display: none;
   }
   .buttonsContainer {
-    margin-bottom: 24px;
     flex-direction: column;
   }
   .button {
@@ -92,7 +102,6 @@
     padding: 2rem 3rem;
     font-size: 2rem;
     text-align: center;
-    white-space: nowrap;
   }
   .button:not(:last-child) {
     margin-right: 0;
