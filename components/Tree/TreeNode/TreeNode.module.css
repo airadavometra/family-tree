@@ -25,7 +25,6 @@
   padding: 8px;
   font-size: 14px;
   line-height: 24px;
-  will-change: transform;
 }
 .inner.floating {
   animation: float 3s linear infinite alternate both;
@@ -52,7 +51,6 @@
 }
 .scalingWrapper {
   transition: all 0.8s ease-in-out;
-  will-change: transform;
   cursor: pointer;
 }
 .selected {
