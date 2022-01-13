@@ -3,7 +3,7 @@ const path = require("path");
 const { v4 } = require("uuid");
 
 const props = JSON.parse(
-  fs.readFileSync(path.join(__dirname, "../data/props.json"), "utf-8")
+  fs.readFileSync(path.join(__dirname, "../data/nodes.json"), "utf-8")
 );
 
 for (const person of props) {

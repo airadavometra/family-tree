@@ -1,6 +1,6 @@
 import { Gender } from "relatives-tree/lib/types";
 import { TreeNode, TreeNodeProps } from "../types/tree";
-import nodesData from "./props.json";
+import nodesData from "./nodes.json";
 import nodesRelations from "./relations.json";
 
 export const generateTreeNodes = (): TreeNode[] => {

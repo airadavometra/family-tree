@@ -1,7 +1,7 @@
-import props from "../../data/props.json";
+import nodes from "../../data/nodes.json";
 
 export const getNodesCount = (): number => {
-  const nodesCount = props.length;
+  const nodesCount = nodes.length;
 
   return nodesCount;
 };
