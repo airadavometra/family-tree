@@ -1,4 +1,3 @@
-import { Gender } from "relatives-tree/lib/types";
 import { TreeNode, TreeNodeData } from "../types/tree";
 import nodesData from "./nodes.json";
 import nodesRelations from "./relations.json";
@@ -13,7 +12,7 @@ export const generateTreeNodes = (): TreeNode[] => {
 
     return {
       ...node,
-      gender: getGender(data.gender),
+      gender: data.gender,
       data: {
         ...data,
         fullName: getFullName(data),
@@ -39,5 +38,3 @@ const getFullName = ({
 
   return full.join(" ");
 };
-
-const getGender = (str: string) => (str === "m" ? "male" : "female") as Gender;
