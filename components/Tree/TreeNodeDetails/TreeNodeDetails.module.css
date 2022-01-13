@@ -10,6 +10,7 @@
   position: fixed;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   background-color: var(--background-color);
 }
 
@@ -37,4 +38,22 @@
 
 .closeIcon:hover {
   fill: rgba(255, 255, 255, 1);
+}
+.link {
+  width: fit-content;
+  padding-bottom: 1rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  color: #a1a8c2;
+  border-bottom: 2px solid #e323ff;
+  pointer-events: all;
+}
+.link:hover,
+.link:focus {
+  color: var(--main-font-color);
+  border-bottom: 2px solid #7517f8;
+}
+.link:not(:last-child) {
+  margin-bottom: 12px;
 }
