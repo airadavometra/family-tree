@@ -20,8 +20,8 @@ const TreeNode: FC<TreeNodeProps> = ({
   width,
   height,
 }) => {
-  const { props, gender } = node;
-  const { firstName, lastName, birthDate, deathDate } = props;
+  const { data, gender } = node;
+  const { firstName, lastName, birthDate, deathDate } = data;
 
   const [isMouseOver, setMouseOver] = useState(false);
 

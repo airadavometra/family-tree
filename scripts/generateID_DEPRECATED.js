@@ -2,15 +2,15 @@ const fs = require("fs");
 const path = require("path");
 const { v4 } = require("uuid");
 
-const props = JSON.parse(
+const data = JSON.parse(
   fs.readFileSync(path.join(__dirname, "../data/nodes.json"), "utf-8")
 );
 
-for (const person of props) {
-  if (!person.id) {
+for (const node of data) {
+  if (!node.id) {
     const uuid = v4().split("-")[0];
     const { birthDate, firstName, lastName, maidenName, patronym, deathDate } =
-      person;
+      node;
     const birthYear = (birthDate && birthDate[0]) ?? "";
     const deathYear = (deathDate && deathDate[0]) ?? "";
 
@@ -23,11 +23,11 @@ for (const person of props) {
     if (deathYear) parts.push(`d:${deathYear}`);
     parts.push(uuid);
 
-    person.id = parts.join("_");
+    node.id = parts.join("_");
   }
 }
 
 fs.writeFileSync(
-  path.join(__dirname, "./output/propsWithId.json"),
-  JSON.stringify(props, null, 2)
+  path.join(__dirname, "./output/dataWithId.json"),
+  JSON.stringify(data, null, 2)
 );

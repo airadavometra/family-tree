@@ -6,7 +6,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "genID": "node ./scripts/generateID.js"
+    "genID": "node ./scripts/generateID_DEPRECATED.js"
   },
   "dependencies": {
     "classnames": "^2.3.1",

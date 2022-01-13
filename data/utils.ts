@@ -1,22 +1,22 @@
 import { Gender } from "relatives-tree/lib/types";
-import { TreeNode, TreeNodeProps } from "../types/tree";
+import { TreeNode, TreeNodeData } from "../types/tree";
 import nodesData from "./nodes.json";
 import nodesRelations from "./relations.json";
 
 export const generateTreeNodes = (): TreeNode[] => {
-  const personPropsMap = Object.fromEntries(
-    nodesData.map((prop) => [prop.id, prop])
+  const nodeDataMap = Object.fromEntries(
+    nodesData.map((nodeData) => [nodeData.id, nodeData])
   );
 
-  const treeNodes: TreeNode[] = nodesRelations.map((person) => {
-    const props = personPropsMap[person.id];
+  const treeNodes: TreeNode[] = nodesRelations.map((node) => {
+    const data = nodeDataMap[node.id];
 
     return {
-      ...person,
-      gender: getGender(props.gender),
-      props: {
-        ...props,
-        fullName: getFullName(props),
+      ...node,
+      gender: getGender(data.gender),
+      data: {
+        ...data,
+        fullName: getFullName(data),
       },
     } as TreeNode;
   });
@@ -29,7 +29,7 @@ const getFullName = ({
   lastName,
   maidenName,
   patronym,
-}: TreeNodeProps): string => {
+}: TreeNodeData): string => {
   const full = [];
 
   if (lastName) full.push(lastName);

@@ -3,10 +3,10 @@ import { ExtNode, Node } from "relatives-tree/lib/types";
 export type TreeExternalNode = ExtNode & TreeNode;
 
 export type TreeNode = Node & {
-  props: TreeNodeGeneratedProps;
+  data: TreeNodeDerivedData;
 };
 
-export type TreeNodeProps = Partial<{
+export type TreeNodeData = Partial<{
   gender: string;
   maidenName: string;
   lastName: string;
@@ -16,7 +16,7 @@ export type TreeNodeProps = Partial<{
   deathDate: TreeNodeDate;
 }>;
 
-export type TreeNodeGeneratedProps = TreeNodeProps & {
+export type TreeNodeDerivedData = TreeNodeData & {
   fullName: string;
 };
 

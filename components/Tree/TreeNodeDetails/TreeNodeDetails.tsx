@@ -12,7 +12,7 @@ const TreeNodeDetails: FC = () => {
   if (!selectedNodeId) return null;
 
   const {
-    props: { fullName },
+    data: { fullName },
   } = nodesMap[selectedNodeId];
 
   return (
