@@ -1,5 +1,6 @@
 import dynamic from "next/dynamic";
-import { FC, memo } from "react";
+import { useRouter } from "next/router";
+import { FC, memo, useEffect, useState } from "react";
 import { ExtNode } from "relatives-tree/lib/types";
 import { useTree } from "../../context/tree";
 import { getTreeNodes } from "../../data";
@@ -16,15 +17,18 @@ const WIDTH = 280;
 const HEIGHT = 280;
 
 const nodes = getTreeNodes();
-const rootId = nodes[0].id;
 
-const Tree: FC = () => {
+type treeProps = {
+  rootId?: string;
+};
+
+const Tree: FC<treeProps> = ({ rootId }) => {
   const { selectNode, selectedNodeId } = useTree();
 
   return (
     <ReactFamilyTree
       nodes={nodes}
-      rootId={rootId}
+      rootId={rootId ?? nodes[0].id}
       width={WIDTH}
       height={HEIGHT}
       className={s.root}
