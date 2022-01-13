@@ -6,18 +6,28 @@ export type TreeNode = Node & {
   data: TreeNodeDerivedData;
 };
 
-export type TreeNodeData = Partial<{
-  gender: string;
-  maidenName: string;
-  lastName: string;
+export type TreeNodeData = {
+  id: string;
   firstName: string;
+} & Partial<{
+  lastName: string;
   patronym: string;
-  birthDate: TreeNodeDate;
-  deathDate: TreeNodeDate;
+  gender: string;
+  birthYear: number;
+  birthMonth: number;
+  birthDay: number;
+  birthPlace: string;
+  deathYear: number;
+  deathMonth: number;
+  deathDay: number;
+  deathPlace: string;
+  nationality: string;
+  education: string;
+  occupation: string;
+  rewards: string[];
+  bio: string;
 }>;
 
 export type TreeNodeDerivedData = TreeNodeData & {
   fullName: string;
 };
-
-export type TreeNodeDate = number[];

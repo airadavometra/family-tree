@@ -26,13 +26,11 @@ export const generateTreeNodes = (): TreeNode[] => {
 const getFullName = ({
   firstName,
   lastName,
-  maidenName,
   patronym,
 }: TreeNodeData): string => {
   const full = [];
 
   if (lastName) full.push(lastName);
-  if (maidenName) full.push(`(${maidenName})`);
   if (firstName) full.push(firstName);
   if (patronym) full.push(patronym);
 

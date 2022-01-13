@@ -1,22 +1,18 @@
 import { FC } from "react";
-import { TreeNodeDate } from "../../../types/tree";
 import s from "./TreeNode.module.css";
 
 type TreeNodeYearsProps = {
-  birthDate?: TreeNodeDate;
-  deathDate?: TreeNodeDate;
+  birthYear?: number;
+  deathYear?: number;
 };
 
 export const TreeNodeYears: FC<TreeNodeYearsProps> = ({
-  birthDate,
-  deathDate,
+  birthYear,
+  deathYear,
 }) => {
-  if (!birthDate && !deathDate) {
+  if (!birthYear && !deathYear) {
     return null;
   }
-
-  const birthYear = birthDate && birthDate[0];
-  const deathYear = deathDate && deathDate[0];
 
   return (
     <div className={s.years}>

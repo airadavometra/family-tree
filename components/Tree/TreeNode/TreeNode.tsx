@@ -21,7 +21,7 @@ const TreeNode: FC<TreeNodeProps> = ({
   height,
 }) => {
   const { data, gender } = node;
-  const { firstName, lastName, birthDate, deathDate } = data;
+  const { firstName, lastName, birthYear, deathYear } = data;
 
   const [isMouseOver, setMouseOver] = useState(false);
 
@@ -51,7 +51,7 @@ const TreeNode: FC<TreeNodeProps> = ({
             <span className={s.firstName}>{firstName}</span>
             <span className={s.lastName}>{lastName}</span>
           </div>
-          <TreeNodeYears birthDate={birthDate} deathDate={deathDate} />
+          <TreeNodeYears birthYear={birthYear} deathYear={deathYear} />
         </div>
       </div>
     </div>
