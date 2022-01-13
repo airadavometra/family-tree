@@ -33,6 +33,7 @@ const TransformKeyMap = {
   пол: "gender",
   мать: "motherId",
   отец: "fatherId",
+  супруг: "spouseId",
   "Год рождения": "birthYear",
   "Месяц рождения": "birthMonth",
   "День рождения": "birthDay",
@@ -58,7 +59,7 @@ const getGender = (str) => (str === "м" ? "male" : "female");
 
 const getTransformedNodesFromInputCsv = async () => {
   const inputTreeNodes = await csvToJson().fromFile(
-    path.join(__dirname, "./input/treeFromSheet.csv")
+    path.join(__dirname, "./input/Узлы фамильного дерева - Люди.csv")
   );
 
   return inputTreeNodes
@@ -79,16 +80,24 @@ const getTransformedNodesFromInputCsv = async () => {
 
 const getNodesData = (transformedNodes) => {
   return transformedNodes.map((node) =>
-    omitKeys(node, ["motherId", "fatherId"])
+    omitKeys(node, ["motherId", "fatherId", "spouseId"])
   );
 };
 
 const getBloodRel = (id) => ({ type: "blood", id });
 const getSpouseRel = (id) => ({ type: "married", id });
 
+const addSpouse = (spouses = [], id) => {
+  if (!spouses.find((rel) => rel.id === id)) {
+    spouses.push(getSpouseRel(id));
+  }
+
+  return spouses;
+};
+
 const getRelations = (transformedNodes) => {
   const relNodes = transformedNodes.map((node) =>
-    pickKeys(node, ["id", "motherId", "fatherId"])
+    pickKeys(node, ["id", "motherId", "fatherId", "spouseId"])
   );
   const nodesMap = new Map(relNodes.map((node) => [node.id, { ...node }]));
 
@@ -100,7 +109,7 @@ const getRelations = (transformedNodes) => {
     const fatherChildren = father?.children ?? [];
     const fatherSpouses = father?.spouses ?? [];
 
-    // Spouses
+    // Parent Spouses
     if (father && mother) {
       if (!motherSpouses.find((rel) => rel.id === father.id)) {
         motherSpouses.push(getSpouseRel(father.id));
@@ -128,6 +137,15 @@ const getRelations = (transformedNodes) => {
     const currentNode = nodesMap.get(node.id);
     currentNode.parents = parents;
     currentNode.siblings = siblings;
+    // Own spouses
+    if (node.spouseId) {
+      currentNode.spouses = addSpouse(currentNode.spouses, node.spouseId);
+
+      const spouseNode = nodesMap.get(node.spouseId);
+      spouseNode.spouses = addSpouse(spouseNode.spouses, node.id);
+      nodesMap.set(spouseNode.id, spouseNode);
+    }
+
     nodesMap.set(node.id, currentNode);
 
     // Update parents

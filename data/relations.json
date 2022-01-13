@@ -12,7 +12,12 @@
       }
     ],
     "siblings": [],
-    "spouses": [],
+    "spouses": [
+      {
+        "type": "married",
+        "id": "68E076F0"
+      }
+    ],
     "children": []
   },
   {
@@ -27,7 +32,12 @@
         "id": "ABAC5641"
       }
     ],
-    "siblings": [],
+    "siblings": [
+      {
+        "type": "blood",
+        "id": "C109397F"
+      }
+    ],
     "spouses": [
       {
         "type": "married",
@@ -90,6 +100,10 @@
       {
         "type": "blood",
         "id": "95174AAB"
+      },
+      {
+        "type": "blood",
+        "id": "C109397F"
       }
     ]
   },
@@ -116,6 +130,10 @@
       {
         "type": "blood",
         "id": "95174AAB"
+      },
+      {
+        "type": "blood",
+        "id": "C109397F"
       }
     ]
   },
@@ -220,5 +238,38 @@
         "id": "9F7AC90E"
       }
     ]
+  },
+  {
+    "id": "C109397F",
+    "parents": [
+      {
+        "type": "blood",
+        "id": "9F7AC90E"
+      },
+      {
+        "type": "blood",
+        "id": "ABAC5641"
+      }
+    ],
+    "siblings": [
+      {
+        "type": "blood",
+        "id": "95174AAB"
+      }
+    ],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "68E076F0",
+    "parents": [],
+    "siblings": [],
+    "spouses": [
+      {
+        "type": "married",
+        "id": "49310E6D"
+      }
+    ],
+    "children": []
   }
 ]
