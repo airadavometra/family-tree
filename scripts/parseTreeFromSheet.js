@@ -25,6 +25,14 @@ const pickKeys = (inputObj, keys) =>
       return obj;
     }, {});
 
+const filterValues = (inputObj, value) =>
+  Object.keys(inputObj)
+    .filter((key) => inputObj[key] !== value)
+    .reduce((obj, key) => {
+      obj[key] = inputObj[key];
+      return obj;
+    }, {});
+
 const TransformKeyMap = {
   id: "id",
   фамилия: "lastName",
@@ -62,20 +70,35 @@ const getTransformedNodesFromInputCsv = async () => {
     path.join(__dirname, "./input/Узлы фамильного дерева - Люди.csv")
   );
 
-  return inputTreeNodes
+  const inputTreeNodesWithDefinedValues = inputTreeNodes.map((node) =>
+    filterValues(node, "")
+  );
+
+  return inputTreeNodesWithDefinedValues
     .map((node) => {
       return Object.fromEntries(
         Object.entries(node).map(([key, value]) => {
           const outKey = getOutKey(key);
           if (outKey === "gender") {
             value = getGender(value);
+          } else if (
+            [
+              "birthYear",
+              "birthMonth",
+              "birthDay",
+              "deathYear",
+              "deathMonth",
+              "deathDay",
+            ].includes(outKey)
+          ) {
+            value = Number(value);
           }
 
           return [outKey, value];
         })
       );
     })
-    .filter(({ firstName }) => firstName.length > 0);
+    .filter(({ firstName }) => firstName !== undefined);
 };
 
 const getNodesData = (transformedNodes) => {
