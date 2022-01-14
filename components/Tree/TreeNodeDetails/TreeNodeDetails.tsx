@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FC } from "react";
 import { useTree } from "../../../context/tree";
 import { getTreeNodesMap } from "../../../data";
@@ -21,6 +22,9 @@ const TreeNodeDetails: FC = () => {
         <CloseIcon className={s.closeIcon} />
       </button>
       <h2 className={s.name}>{fullName}</h2>
+      <Link href={`/tree?root=${selectedNodeId}`}>
+        <a className={s.link}>Дерево этого человека</a>
+      </Link>
     </div>
   );
 };

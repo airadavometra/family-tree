@@ -1,3 +1,4 @@
+import { useRouter } from "next/router";
 import { createContext, FC, useCallback, useContext, useState } from "react";
 
 type NodeId = string;
@@ -37,6 +38,16 @@ const useNodeSelection = () => {
     selectedNodeId,
     selectNode,
     unselectNode,
+  };
+};
+
+export const useTreeRootId = () => {
+  const router = useRouter();
+  const { root } = router.query;
+  const rootId = root ? (Array.isArray(root) ? root[0] : root) : undefined;
+
+  return {
+    rootId,
   };
 };
 

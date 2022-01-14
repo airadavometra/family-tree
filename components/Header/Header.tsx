@@ -11,7 +11,7 @@ const navigation = [
 ];
 
 const Header: FC = () => {
-  const { pathname } = useRouter();
+  const router = useRouter();
   return (
     <header className={s.navbar}>
       <div className={s.logoContainer}>
@@ -24,17 +24,29 @@ const Header: FC = () => {
         <span className={s.logoTitle}>ДРЕВО</span>
       </div>
       <nav>
-        {navigation.map(({ id, title, path }) => (
-          <Link key={id} href={path}>
-            <a
-              className={classNames(s.link, {
-                [s.selected]: path === pathname,
-              })}
-            >
-              {title}
-            </a>
-          </Link>
-        ))}
+        {navigation.map(({ id, title, path }) => {
+          const { root } = router.query;
+          const queryRootId = root
+            ? Array.isArray(root)
+              ? root[0]
+              : root
+            : undefined;
+          let fullPath = path;
+          if (queryRootId) {
+            fullPath = `${fullPath}?root=${queryRootId}`;
+          }
+          return (
+            <Link key={id} href={fullPath}>
+              <a
+                className={classNames(s.link, {
+                  [s.selected]: path === router.pathname,
+                })}
+              >
+                {title}
+              </a>
+            </Link>
+          );
+        })}
       </nav>
     </header>
   );
