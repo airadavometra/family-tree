@@ -34,9 +34,9 @@ const HomePage: NextPage = () => (
         </span>
         <div className={s.buttonsContainer}>
           <Link href="/tree">
-            <button className={classNames(s.button, s.descriptionItem)}>
+            <a className={classNames(s.button, s.descriptionItem)}>
               Посмотреть дерево
-            </button>
+            </a>
           </Link>
           <a
             className={classNames(
