@@ -2,7 +2,7 @@ import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
 import { FC, memo, useEffect, useState } from "react";
 import { ExtNode } from "relatives-tree/lib/types";
-import { useTree } from "../../context/tree";
+import { useTree, useTreeRootId } from "../../context/tree";
 import { getTreeNodes } from "../../data";
 import { TreeExternalNode } from "../../types/tree";
 import s from "./Tree.module.css";
@@ -18,12 +18,9 @@ const HEIGHT = 280;
 
 const nodes = getTreeNodes();
 
-type treeProps = {
-  rootId?: string;
-};
-
-const Tree: FC<treeProps> = ({ rootId }) => {
+const Tree: FC = () => {
   const { selectNode, selectedNodeId } = useTree();
+  const { rootId } = useTreeRootId();
 
   return (
     <ReactFamilyTree

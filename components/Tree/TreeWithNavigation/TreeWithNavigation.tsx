@@ -10,14 +10,10 @@ const PinchZoomPan = dynamic(
   }
 );
 
-type treeWithNavigationProps = {
-  rootId?: string;
-};
-
 const MIN_ZOOM = 0.15;
 const MAX_ZOOM = 1;
 
-const TreeWithNavigation: FC<treeWithNavigationProps> = ({ rootId }) => (
+const TreeWithNavigation: FC = () => (
   <div className={s.root}>
     <PinchZoomPan
       min={MIN_ZOOM}
@@ -25,7 +21,7 @@ const TreeWithNavigation: FC<treeWithNavigationProps> = ({ rootId }) => (
       captureWheel
       className={s.wrapper}
     >
-      <Tree rootId={rootId} />
+      <Tree />
     </PinchZoomPan>
   </div>
 );
