@@ -43,6 +43,7 @@
   border-radius: 100px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  text-align: center;
 }
 .button:hover,
 .button:focus {
@@ -101,7 +102,6 @@
     width: 240px;
     padding: 2rem 3rem;
     font-size: 2rem;
-    text-align: center;
   }
   .button:not(:last-child) {
     margin-right: 0;
