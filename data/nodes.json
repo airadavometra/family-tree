@@ -213,6 +213,46 @@
     "birthDay": 17
   },
   {
+    "id": "FED15A3E",
+    "lastName": "Артемов",
+    "firstName": "Стефан",
+    "patronym": "Михайлович",
+    "gender": "male",
+    "birthYear": 1911,
+    "birthMonth": 7,
+    "birthDay": 5,
+    "birthPlace": "д.Озерковка",
+    "deathYear": 1911,
+    "deathMonth": 7,
+    "deathDay": 12,
+    "deathPlace": "д.Озерковка",
+    "bio": "умер от младенческой слабости"
+  },
+  {
+    "id": "11F71E1A",
+    "lastName": "Артемова",
+    "firstName": "Александра",
+    "patronym": "Михайловна",
+    "gender": "female",
+    "birthYear": 1916,
+    "birthMonth": 5,
+    "birthDay": 12,
+    "birthPlace": "д.Озерковка",
+    "deathYear": 1916,
+    "deathMonth": 7,
+    "deathDay": 2,
+    "deathPlace": "д.Озерковка",
+    "bio": "умерла от скарлатины"
+  },
+  {
+    "id": "DBF33BAD",
+    "lastName": "Артемов",
+    "firstName": "Василий",
+    "patronym": "Михайлович",
+    "gender": "male",
+    "birthYear": 1918
+  },
+  {
     "id": "FE56C89E",
     "lastName": "Шестакова",
     "firstName": "Татьяна",
@@ -221,5 +261,128 @@
     "undefined": "8",
     "birthYear": 1902,
     "birthPlace": "д.Ново-Васильевка"
+  },
+  {
+    "id": "A262491A",
+    "lastName": "Дьяконова",
+    "firstName": "Нина",
+    "patronym": "Антоновна",
+    "gender": "female",
+    "birthYear": 1924,
+    "birthMonth": 9,
+    "birthDay": 10,
+    "deathYear": 1973,
+    "deathMonth": 7,
+    "deathDay": 24
+  },
+  {
+    "id": "A7E896A9",
+    "lastName": "Артемова",
+    "firstName": "Надежда",
+    "patronym": "Васильевна",
+    "gender": "female",
+    "birthYear": 1948
+  },
+  {
+    "id": "D3FC08F6",
+    "lastName": "Артемов",
+    "firstName": "Николай",
+    "patronym": "Васильевич",
+    "gender": "male",
+    "birthYear": 1950,
+    "birthMonth": 1,
+    "birthDay": 2,
+    "deathYear": 2003,
+    "deathMonth": 12,
+    "deathDay": 26
+  },
+  {
+    "id": "70FD6B16",
+    "lastName": "Артемова",
+    "firstName": "Лидия",
+    "patronym": "Васильевна",
+    "gender": "female",
+    "birthYear": 1952,
+    "birthMonth": 2,
+    "birthDay": 25
+  },
+  {
+    "id": "FD90D789",
+    "lastName": "Артемова",
+    "firstName": "Татьяна",
+    "patronym": "Васильевна",
+    "gender": "female",
+    "birthYear": 1954,
+    "birthMonth": 5,
+    "birthDay": 7
+  },
+  {
+    "id": "C1DA544A",
+    "lastName": "Артемов",
+    "firstName": "Сергей",
+    "patronym": "Васильевич",
+    "gender": "male",
+    "birthYear": 1958,
+    "birthMonth": 2,
+    "birthDay": 6
+  },
+  {
+    "id": "3F7CACE8",
+    "lastName": "Колодкин",
+    "firstName": "Юрий",
+    "patronym": "Яковлевич",
+    "gender": "male"
+  },
+  {
+    "id": "CE8EF453",
+    "lastName": "Колодкин",
+    "firstName": "Виталий",
+    "patronym": "Юрьевич",
+    "gender": "male"
+  },
+  {
+    "id": "A62F167E",
+    "lastName": "Колодкин",
+    "firstName": "Святослав",
+    "patronym": "Юрьевич",
+    "gender": "male"
+  },
+  {
+    "id": "F5FD4064",
+    "firstName": "Ирина",
+    "gender": "female"
+  },
+  {
+    "id": "FD587879",
+    "lastName": "Колодкин",
+    "firstName": "Владислав",
+    "patronym": "Витальевич",
+    "gender": "male"
+  },
+  {
+    "id": "5B88CD2E",
+    "lastName": "Колодкина",
+    "firstName": "Софья",
+    "patronym": "Витальевна",
+    "gender": "female"
+  },
+  {
+    "id": "753FF0D4",
+    "firstName": "Людмила",
+    "gender": "female"
+  },
+  {
+    "id": "419317FA",
+    "lastName": "Колодкина",
+    "firstName": "Мария",
+    "patronym": "Святославовна",
+    "gender": "female"
+  },
+  {
+    "id": "1626670A",
+    "lastName": "Колодкина",
+    "firstName": "Яна",
+    "patronym": "Святославовна",
+    "gender": "female"
   }
 ]
