@@ -1,7 +1,6 @@
 import dynamic from "next/dynamic";
 import { FC, memo } from "react";
 import { ExtNode } from "relatives-tree/lib/types";
-import { DEFAULT_ROOT_ID } from "../../constants/tree";
 import { useTree, useTreeRootId } from "../../context/tree";
 import { getTreeNodes } from "../../data";
 import { TreeExternalNode } from "../../types/tree";
@@ -25,7 +24,7 @@ const Tree: FC = () => {
   return (
     <ReactFamilyTree
       nodes={nodes}
-      rootId={rootId ?? DEFAULT_ROOT_ID}
+      rootId={rootId ?? nodes[0].id}
       width={WIDTH}
       height={HEIGHT}
       className={s.root}

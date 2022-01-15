@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const csvToJson = require("csvtojson");
+const uuid = require("uuid");
 
 const writeToJson = (data, name) => {
   fs.writeFileSync(
@@ -63,6 +64,13 @@ const getOutKey = (key) => {
   }
 };
 
+// const genIds = () => {
+//   return new Array(1000)
+//     .fill(0)
+//     .map(() => uuid.v4().replaceAll("-", "").toUpperCase().slice(0, 8));
+// };
+// const IDS = genIds();
+
 const getGender = (str) => (str === "м" ? "male" : "female");
 
 const getTransformedNodesFromInputCsv = async () => {
@@ -93,6 +101,15 @@ const getTransformedNodesFromInputCsv = async () => {
           ) {
             value = Number(value);
           }
+
+          // if (
+          //   outKey === "id" ||
+          //   outKey === "spouseId" ||
+          //   outKey === "motherId" ||
+          //   outKey === "fatherId"
+          // ) {
+          //   value = IDS[parseInt(value)];
+          // }
 
           return [outKey, value];
         })

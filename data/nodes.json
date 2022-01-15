@@ -1,6 +1,6 @@
 [
   {
-    "id": "089CAFBB",
+    "id": "1",
     "lastName": "Артемов",
     "firstName": "Максим",
     "patronym": "Васильевич",
@@ -13,7 +13,7 @@
     "nationality": "русский"
   },
   {
-    "id": "6706D3CD",
+    "id": "2",
     "lastName": "Докукина",
     "firstName": "Акилина",
     "patronym": "Федоровна",
@@ -28,7 +28,7 @@
     "nationality": "русская"
   },
   {
-    "id": "58FF92C4",
+    "id": "3",
     "lastName": "Артемов",
     "firstName": "Михаил",
     "patronym": "Максимович",
@@ -45,7 +45,7 @@
     "nationality": "русский"
   },
   {
-    "id": "5B32ABAC",
+    "id": "4",
     "lastName": "Чуйкова",
     "firstName": "Наталья",
     "patronym": "Афанасьевна",
@@ -58,7 +58,7 @@
     "nationality": "русская"
   },
   {
-    "id": "83114399",
+    "id": "5",
     "lastName": "Артемова",
     "firstName": "Прасковья",
     "patronym": "Максимовна",
@@ -69,7 +69,7 @@
     "birthPlace": "д.Локтионово, Курская губерния"
   },
   {
-    "id": "963628F4",
+    "id": "6",
     "lastName": "Артемов",
     "firstName": "Георгий",
     "patronym": "Максимович",
@@ -84,10 +84,10 @@
     "deathDay": 29,
     "deathPlace": "г.Ишимбай",
     "nationality": "русская",
-    "bio": "Егор"
+    "bio": "Егор 1895г - жена Наталья (это 2-я жена) , а  первая (Анпилогова Анна Ефимовна - умерла рано) Дети Егора :1.дочь Полина -1920-22г(т.Поля) Гурова  2. дочь Имя забыла(может Степанида), а фамилия Габурганова - ее муж Спиридон  Габурганов (за Тайруком жили, у них дочь Нелля 1954г/р.-со мной училась)  3. сын-Петр\""
   },
   {
-    "id": "8D0736FE",
+    "id": "7",
     "lastName": "Анпилогова",
     "firstName": "Анна",
     "patronym": "Ефимовна",
@@ -96,16 +96,28 @@
     "birthYear": 1894
   },
   {
-    "id": "A4A26EB0",
+    "id": "8",
+    "lastName": "Артемова",
+    "firstName": "Анастасия",
+    "patronym": "Георгиевна",
+    "gender": "female",
+    "birthYear": 1918,
+    "birthMonth": 10,
+    "birthDay": 29,
+    "birthPlace": "д.Озерковка"
+  },
+  {
+    "id": "9",
     "lastName": "Артемов",
     "firstName": "Иван",
     "patronym": "Максимович",
     "gender": "male",
     "undefined": "8",
-    "birthYear": 1898
+    "birthYear": 1898,
+    "birthPlace": "д.Локтионово, Курская губерния"
   },
   {
-    "id": "8EBFC452",
+    "id": "10",
     "lastName": "Артемова",
     "firstName": "Мария",
     "patronym": "Максимовна",
@@ -113,7 +125,7 @@
     "birthYear": 1902
   },
   {
-    "id": "C7E0C466",
+    "id": "11",
     "lastName": "Артемова",
     "firstName": "Татьяна",
     "patronym": "Максимовна",
@@ -123,7 +135,7 @@
     "birthDay": 17
   },
   {
-    "id": "5EB15262",
+    "id": "12",
     "lastName": "Артемова",
     "firstName": "Анна",
     "patronym": "Максимовна",
@@ -131,7 +143,7 @@
     "birthYear": 1908
   },
   {
-    "id": "5F85C17B",
+    "id": "13",
     "lastName": "Кузнецов",
     "firstName": "Яков",
     "patronym": "Иванович",
@@ -139,7 +151,7 @@
     "birthYear": 1906
   },
   {
-    "id": "94239223",
+    "id": "14",
     "lastName": "Артемова",
     "firstName": "Матрона",
     "patronym": "Михайловна",
@@ -149,7 +161,7 @@
     "birthDay": 30
   },
   {
-    "id": "EA9D3604",
+    "id": "15",
     "lastName": "Артемов",
     "firstName": "Михаил",
     "patronym": "Михайлович",
@@ -159,7 +171,7 @@
     "birthDay": 18
   },
   {
-    "id": "0DFC7D08",
+    "id": "16",
     "lastName": "Артемов",
     "firstName": "Иван",
     "patronym": "Михайлович",
@@ -169,7 +181,7 @@
     "birthDay": 17
   },
   {
-    "id": "6731ACD0",
+    "id": "17",
     "lastName": "Артемов",
     "firstName": "Александр",
     "patronym": "Михайлович",
@@ -181,7 +193,7 @@
     "bio": "пропал без вести на войне"
   },
   {
-    "id": "6BD20CB6",
+    "id": "18",
     "lastName": "Артемов",
     "firstName": "Василий",
     "patronym": "Михайлович",
@@ -195,7 +207,7 @@
     "deathPlace": "г.Ишимбай"
   },
   {
-    "id": "772B9181",
+    "id": "19",
     "lastName": "Артемов",
     "firstName": "Алексей",
     "patronym": "Михайлович",
@@ -203,7 +215,7 @@
     "birthYear": 1926
   },
   {
-    "id": "5C8CD99C",
+    "id": "20",
     "lastName": "Артемов",
     "firstName": "Андрей",
     "patronym": "Михайлович",
@@ -213,7 +225,7 @@
     "birthDay": 17
   },
   {
-    "id": "FED15A3E",
+    "id": "21",
     "lastName": "Артемов",
     "firstName": "Стефан",
     "patronym": "Михайлович",
@@ -229,7 +241,7 @@
     "bio": "умер от младенческой слабости"
   },
   {
-    "id": "11F71E1A",
+    "id": "22",
     "lastName": "Артемова",
     "firstName": "Александра",
     "patronym": "Михайловна",
@@ -245,7 +257,7 @@
     "bio": "умерла от скарлатины"
   },
   {
-    "id": "DBF33BAD",
+    "id": "23",
     "lastName": "Артемов",
     "firstName": "Василий",
     "patronym": "Михайлович",
@@ -253,17 +265,58 @@
     "birthYear": 1918
   },
   {
-    "id": "FE56C89E",
+    "id": "24",
     "lastName": "Шестакова",
     "firstName": "Татьяна",
     "patronym": "Федоровна",
     "gender": "female",
     "undefined": "8",
     "birthYear": 1902,
-    "birthPlace": "д.Ново-Васильевка"
+    "birthPlace": "д.Ново-Васильевка",
+    "bio": "в 1931г. приговорена к спецпоселению в Кемеровскую обл. Прокопьевск. Снята с учета 29.12.1951г."
   },
   {
-    "id": "A262491A",
+    "id": "25",
+    "lastName": "Артемов",
+    "firstName": "Андрей",
+    "patronym": "Иванович",
+    "gender": "male",
+    "birthYear": 1922,
+    "birthPlace": "д.Озерковка",
+    "bio": "в 1931г. приговорен к спецпоселению в Кемеровскую обл. Прокопьевск. Снят с учета 29.12.1951г."
+  },
+  {
+    "id": "26",
+    "lastName": "Артемова",
+    "firstName": "Мария",
+    "patronym": "Ивановна",
+    "gender": "female",
+    "birthYear": 1925,
+    "birthPlace": "д.Озерковка",
+    "bio": "в 1931г. приговорена к спецпоселению в Кемеровскую обл. Прокопьевск. Снята с учета 11.02.1942г."
+  },
+  {
+    "id": "27",
+    "lastName": "Артемов",
+    "firstName": "Василий",
+    "patronym": "Иванович",
+    "gender": "male",
+    "birthYear": 1926,
+    "birthPlace": "д.Озерковка",
+    "bio": "в 1931г. приговорен к спецпоселению в Кемеровскую обл. Прокопьевск. Снят с учета 20.10.1942г."
+  },
+  {
+    "id": "28",
+    "lastName": "Артемов",
+    "firstName": "Александр",
+    "patronym": "Иванович",
+    "gender": "male",
+    "birthYear": 1935,
+    "birthPlace": "Прокопьевск, Кемеровская обл.",
+    "bio": "в 1935г. приговорен к спецпоселению в Кемеровскую обл. Прокопьевск"
+  },
+  {
+    "id": "29",
     "lastName": "Дьяконова",
     "firstName": "Нина",
     "patronym": "Антоновна",
@@ -276,15 +329,17 @@
     "deathDay": 24
   },
   {
-    "id": "A7E896A9",
+    "id": "30",
     "lastName": "Артемова",
     "firstName": "Надежда",
     "patronym": "Васильевна",
     "gender": "female",
-    "birthYear": 1948
+    "birthYear": 1948,
+    "birthPlace": "г.Ишимбай",
+    "deathPlace": "г.Миасс"
   },
   {
-    "id": "D3FC08F6",
+    "id": "31",
     "lastName": "Артемов",
     "firstName": "Николай",
     "patronym": "Васильевич",
@@ -292,97 +347,293 @@
     "birthYear": 1950,
     "birthMonth": 1,
     "birthDay": 2,
+    "birthPlace": "г.Ишимбай",
     "deathYear": 2003,
     "deathMonth": 12,
-    "deathDay": 26
+    "deathDay": 26,
+    "deathPlace": "г.Ишимбай"
   },
   {
-    "id": "70FD6B16",
+    "id": "32",
     "lastName": "Артемова",
     "firstName": "Лидия",
     "patronym": "Васильевна",
     "gender": "female",
     "birthYear": 1952,
     "birthMonth": 2,
-    "birthDay": 25
+    "birthDay": 25,
+    "birthPlace": "г.Ишимбай"
   },
   {
-    "id": "FD90D789",
+    "id": "33",
     "lastName": "Артемова",
     "firstName": "Татьяна",
     "patronym": "Васильевна",
     "gender": "female",
     "birthYear": 1954,
     "birthMonth": 5,
-    "birthDay": 7
+    "birthDay": 7,
+    "birthPlace": "г.Ишимбай"
   },
   {
-    "id": "C1DA544A",
+    "id": "34",
     "lastName": "Артемов",
     "firstName": "Сергей",
     "patronym": "Васильевич",
     "gender": "male",
     "birthYear": 1958,
     "birthMonth": 2,
-    "birthDay": 6
+    "birthDay": 6,
+    "birthPlace": "г.Ишимбай"
   },
   {
-    "id": "3F7CACE8",
+    "id": "35",
     "lastName": "Колодкин",
     "firstName": "Юрий",
     "patronym": "Яковлевич",
     "gender": "male"
   },
   {
-    "id": "CE8EF453",
+    "id": "36",
     "lastName": "Колодкин",
     "firstName": "Виталий",
     "patronym": "Юрьевич",
-    "gender": "male"
+    "gender": "male",
+    "birthYear": 1969
   },
   {
-    "id": "A62F167E",
+    "id": "37",
     "lastName": "Колодкин",
     "firstName": "Святослав",
     "patronym": "Юрьевич",
-    "gender": "male"
+    "gender": "male",
+    "undefined": "1994",
+    "birthYear": 1972
   },
   {
-    "id": "F5FD4064",
+    "id": "38",
     "firstName": "Ирина",
     "gender": "female"
   },
   {
-    "id": "FD587879",
+    "id": "39",
     "lastName": "Колодкин",
     "firstName": "Владислав",
     "patronym": "Витальевич",
     "gender": "male"
   },
   {
-    "id": "5B88CD2E",
+    "id": "40",
     "lastName": "Колодкина",
     "firstName": "Софья",
     "patronym": "Витальевна",
     "gender": "female"
   },
   {
-    "id": "753FF0D4",
+    "id": "41",
     "firstName": "Людмила",
-    "gender": "female"
+    "gender": "female",
+    "undefined": "1994"
   },
   {
-    "id": "419317FA",
+    "id": "42",
     "lastName": "Колодкина",
     "firstName": "Мария",
     "patronym": "Святославовна",
     "gender": "female"
   },
   {
-    "id": "1626670A",
+    "id": "43",
     "lastName": "Колодкина",
     "firstName": "Яна",
     "patronym": "Святославовна",
+    "gender": "female"
+  },
+  {
+    "id": "44",
+    "lastName": "Заикина",
+    "firstName": "Людмила",
+    "patronym": "Андреевна",
+    "gender": "female",
+    "undefined": "12",
+    "birthYear": 1950,
+    "birthMonth": 12,
+    "birthDay": 18,
+    "birthPlace": "г.Ишимбай",
+    "deathYear": 2014,
+    "deathMonth": 12,
+    "deathDay": 30,
+    "deathPlace": "г.Ишимбай"
+  },
+  {
+    "id": "45",
+    "lastName": "Артемов",
+    "firstName": "Сергей",
+    "patronym": "Николаевич",
+    "gender": "male",
+    "undefined": "23",
+    "birthYear": 1971,
+    "birthMonth": 12,
+    "birthDay": 15,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "46",
+    "lastName": "Артемов",
+    "firstName": "Александр",
+    "patronym": "Николаевич",
+    "gender": "male",
+    "birthYear": 1976,
+    "birthMonth": 6,
+    "birthDay": 29,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "47",
+    "lastName": "Габбасова",
+    "firstName": "Наталья",
+    "patronym": "Рифовна",
+    "gender": "female",
+    "birthPlace": "г.Уфа"
+  },
+  {
+    "id": "48",
+    "lastName": "Артемова",
+    "firstName": "Дарья",
+    "patronym": "Сергеевна",
+    "gender": "female",
+    "birthYear": 1996,
+    "birthMonth": 4,
+    "birthDay": 24,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "49",
+    "lastName": "Иванов",
+    "firstName": "Владимир",
+    "patronym": "Андреевич",
+    "gender": "male",
+    "birthYear": 1997,
+    "birthMonth": 8,
+    "birthDay": 12,
+    "birthPlace": "г. Южно-Сахалинск"
+  },
+  {
+    "id": "50",
+    "lastName": "Тюрина",
+    "firstName": "Елена",
+    "patronym": "Николаевна",
+    "gender": "female",
+    "birthMonth": 1,
+    "birthDay": 31,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "51",
+    "lastName": "Артемов",
+    "firstName": "Сергей",
+    "patronym": "Александрович",
+    "gender": "male",
+    "birthMonth": 5,
+    "birthDay": 17,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "52",
+    "lastName": "Артемов",
+    "firstName": "Николай",
+    "patronym": "Александрович",
+    "gender": "male",
+    "birthMonth": 5,
+    "birthDay": 31,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "53",
+    "lastName": "Сушков",
+    "firstName": "Николай",
+    "gender": "male"
+  },
+  {
+    "id": "54",
+    "lastName": "Сушкова",
+    "firstName": "Мария",
+    "patronym": "Николаевна",
+    "gender": "female"
+  },
+  {
+    "id": "55",
+    "lastName": "Каршков",
+    "firstName": "Виктор",
+    "patronym": "Владимирович",
+    "gender": "male",
+    "birthYear": 1956,
+    "birthMonth": 1,
+    "birthDay": 2,
+    "birthPlace": "д.Васильевка, Ермекеевский р-н, БАССР"
+  },
+  {
+    "id": "56",
+    "lastName": "Каршков",
+    "firstName": "Максим",
+    "patronym": "Викторович",
+    "gender": "male",
+    "birthYear": 1980,
+    "birthMonth": 3,
+    "birthDay": 8,
+    "birthPlace": "г.Нефтекамск"
+  },
+  {
+    "id": "57",
+    "lastName": "Каршков",
+    "firstName": "Владимир",
+    "patronym": "Викторович",
+    "gender": "male",
+    "birthYear": 1983,
+    "birthMonth": 12,
+    "birthDay": 23,
+    "birthPlace": "г.Нефтекамск"
+  },
+  {
+    "id": "58",
+    "lastName": "Галямова",
+    "firstName": "Алсу",
+    "patronym": "Зинуровна",
+    "gender": "female"
+  },
+  {
+    "id": "59",
+    "lastName": "Карамов",
+    "firstName": "Самат",
+    "gender": "male",
+    "birthYear": 2003,
+    "birthMonth": 3,
+    "birthDay": 15,
+    "birthPlace": "г.Нефтекамск"
+  },
+  {
+    "id": "60",
+    "lastName": "Каршкова",
+    "firstName": "Юлия",
+    "patronym": "Максимовна",
+    "gender": "female",
+    "birthYear": 2007,
+    "birthMonth": 8,
+    "birthDay": 22,
+    "birthPlace": "г.Нефтекамск"
+  },
+  {
+    "id": "61",
+    "lastName": "Каршков",
+    "firstName": "Роман",
+    "patronym": "Максимович",
+    "gender": "male",
+    "birthYear": 2021,
+    "birthPlace": "г.Нефтекамск"
+  },
+  {
+    "id": "62",
+    "firstName": "Гульшат",
     "gender": "female"
   }
 ]
