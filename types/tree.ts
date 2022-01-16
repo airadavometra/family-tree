@@ -6,6 +6,10 @@ export type TreeNode = Node & {
   data: TreeNodeDerivedData;
 };
 
+export type TreeNodeDerivedData = TreeNodeData & {
+  fullName: string;
+};
+
 export type TreeNodeData = {
   id: string;
   firstName: string;
@@ -27,7 +31,3 @@ export type TreeNodeData = {
   rewards: string[];
   bio: string;
 }>;
-
-export type TreeNodeDerivedData = TreeNodeData & {
-  fullName: string;
-};

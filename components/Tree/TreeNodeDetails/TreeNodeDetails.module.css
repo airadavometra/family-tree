@@ -1,7 +1,7 @@
 .root {
   position: relative;
   pointer-events: none;
-  padding: 20px 32px 16px 32px;
+  padding: 2.4rem 3.2rem;
   width: clamp(30vw, 400px, 568px);
   border-radius: 10px;
   top: 100px;
@@ -10,8 +10,11 @@
   position: fixed;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   background-color: var(--background-color);
+  font-size: 1.4rem;
+}
+.rootItem:not(:last-child) {
+  margin-bottom: 24px;
 }
 
 .name {
@@ -39,21 +42,15 @@
 .closeIcon:hover {
   fill: rgba(255, 255, 255, 1);
 }
-.link {
-  width: fit-content;
-  padding-bottom: 1rem;
-  font-size: 1.4rem;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  color: #a1a8c2;
-  border-bottom: 2px solid #e323ff;
-  pointer-events: all;
+
+.bioGrid {
+  display: grid;
+  grid-template-columns: 122px 1fr;
+  gap: 12px 24px;
 }
-.link:hover,
-.link:focus {
+.gridItemTitle {
+  color: var(--font-color);
+}
+.gridItemValue {
   color: var(--main-font-color);
-  border-bottom: 2px solid #7517f8;
-}
-.link:not(:last-child) {
-  margin-bottom: 12px;
 }
