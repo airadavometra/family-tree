@@ -70,7 +70,8 @@ const getTransformedNodesFromInputCsv = async (pathToInputCsv) => {
         })
       );
     })
-    .filter(({ firstName }) => firstName !== undefined);
+    .filter(({ firstName }) => firstName !== undefined)
+    .sort((a, b) => a.birthYear - b.birthYear);
 };
 
 module.exports = {

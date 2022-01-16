@@ -1,20 +1,5 @@
 [
   {
-    "id": "1",
-    "lastName": "Артемов",
-    "firstName": "Максим",
-    "patronym": "Васильевич",
-    "gender": "male",
-    "weddingYear": "1887",
-    "weddingMonth": "1",
-    "weddingDay": "30",
-    "birthYear": 1868,
-    "birthPlace": "д.Локтионово, Курская губерния",
-    "deathYear": 1929,
-    "deathPlace": "д.Озерковка",
-    "nationality": "русский"
-  },
-  {
     "id": "2",
     "lastName": "Докукина",
     "firstName": "Акилина",
@@ -30,6 +15,21 @@
     "deathDay": 14,
     "deathPlace": "д.Озерковка",
     "nationality": "русская"
+  },
+  {
+    "id": "1",
+    "lastName": "Артемов",
+    "firstName": "Максим",
+    "patronym": "Васильевич",
+    "gender": "male",
+    "weddingYear": "1887",
+    "weddingMonth": "1",
+    "weddingDay": "30",
+    "birthYear": 1868,
+    "birthPlace": "д.Локтионово, Курская губерния",
+    "deathYear": 1929,
+    "deathPlace": "д.Озерковка",
+    "nationality": "русский"
   },
   {
     "id": "3",
@@ -77,6 +77,17 @@
     "birthPlace": "д.Локтионово, Курская губерния"
   },
   {
+    "id": "7",
+    "lastName": "Анпилогова",
+    "firstName": "Анна",
+    "patronym": "Ефимовна",
+    "gender": "female",
+    "weddingYear": "1914",
+    "weddingMonth": "2",
+    "weddingDay": "5",
+    "birthYear": 1894
+  },
+  {
     "id": "6",
     "lastName": "Артемов",
     "firstName": "Георгий",
@@ -95,28 +106,6 @@
     "deathPlace": "г.Ишимбай",
     "nationality": "русская",
     "bio": "Егор 1895г - жена Наталья (это 2-я жена) , а  первая (Анпилогова Анна Ефимовна - умерла рано) Дети Егора :1.дочь Полина -1920-22г(т.Поля) Гурова  2. дочь Имя забыла(может Степанида), а фамилия Габурганова - ее муж Спиридон  Габурганов (за Тайруком жили, у них дочь Нелля 1954г/р.-со мной училась)  3. сын-Петр\""
-  },
-  {
-    "id": "7",
-    "lastName": "Анпилогова",
-    "firstName": "Анна",
-    "patronym": "Ефимовна",
-    "gender": "female",
-    "weddingYear": "1914",
-    "weddingMonth": "2",
-    "weddingDay": "5",
-    "birthYear": 1894
-  },
-  {
-    "id": "8",
-    "lastName": "Артемова",
-    "firstName": "Анастасия",
-    "patronym": "Георгиевна",
-    "gender": "female",
-    "birthYear": 1918,
-    "birthMonth": 10,
-    "birthDay": 29,
-    "birthPlace": "д.Озерковка"
   },
   {
     "id": "9",
@@ -139,6 +128,19 @@
     "birthYear": 1902
   },
   {
+    "id": "24",
+    "lastName": "Шестакова",
+    "firstName": "Татьяна",
+    "patronym": "Федоровна",
+    "gender": "female",
+    "weddingYear": "1919",
+    "weddingMonth": "2",
+    "weddingDay": "8",
+    "birthYear": 1902,
+    "birthPlace": "д.Ново-Васильевка",
+    "bio": "в 1931г. приговорена к спецпоселению в Кемеровскую обл. Прокопьевск. Снята с учета 29.12.1951г."
+  },
+  {
     "id": "11",
     "lastName": "Артемова",
     "firstName": "Татьяна",
@@ -149,20 +151,20 @@
     "birthDay": 17
   },
   {
-    "id": "12",
-    "lastName": "Артемова",
-    "firstName": "Анна",
-    "patronym": "Максимовна",
-    "gender": "female",
-    "birthYear": 1908
-  },
-  {
     "id": "13",
     "lastName": "Кузнецов",
     "firstName": "Яков",
     "patronym": "Иванович",
     "gender": "male",
     "birthYear": 1906
+  },
+  {
+    "id": "12",
+    "lastName": "Артемова",
+    "firstName": "Анна",
+    "patronym": "Максимовна",
+    "gender": "female",
+    "birthYear": 1908
   },
   {
     "id": "14",
@@ -173,6 +175,22 @@
     "birthYear": 1909,
     "birthMonth": 10,
     "birthDay": 30
+  },
+  {
+    "id": "21",
+    "lastName": "Артемов",
+    "firstName": "Стефан",
+    "patronym": "Михайлович",
+    "gender": "male",
+    "birthYear": 1911,
+    "birthMonth": 7,
+    "birthDay": 5,
+    "birthPlace": "д.Озерковка",
+    "deathYear": 1911,
+    "deathMonth": 7,
+    "deathDay": 12,
+    "deathPlace": "д.Озерковка",
+    "bio": "умер от младенческой слабости"
   },
   {
     "id": "15",
@@ -195,66 +213,6 @@
     "birthDay": 17
   },
   {
-    "id": "17",
-    "lastName": "Артемов",
-    "firstName": "Александр",
-    "patronym": "Михайлович",
-    "gender": "male",
-    "birthYear": 1917,
-    "birthMonth": 7,
-    "birthDay": 1,
-    "deathYear": 1943,
-    "bio": "пропал без вести на войне"
-  },
-  {
-    "id": "18",
-    "lastName": "Артемов",
-    "firstName": "Василий",
-    "patronym": "Михайлович",
-    "gender": "male",
-    "birthYear": 1924,
-    "birthMonth": 5,
-    "birthDay": 20,
-    "deathYear": 1999,
-    "deathMonth": 2,
-    "deathDay": 14,
-    "deathPlace": "г.Ишимбай"
-  },
-  {
-    "id": "19",
-    "lastName": "Артемов",
-    "firstName": "Алексей",
-    "patronym": "Михайлович",
-    "gender": "male",
-    "birthYear": 1926
-  },
-  {
-    "id": "20",
-    "lastName": "Артемов",
-    "firstName": "Андрей",
-    "patronym": "Михайлович",
-    "gender": "male",
-    "birthYear": 1930,
-    "birthMonth": 4,
-    "birthDay": 17
-  },
-  {
-    "id": "21",
-    "lastName": "Артемов",
-    "firstName": "Стефан",
-    "patronym": "Михайлович",
-    "gender": "male",
-    "birthYear": 1911,
-    "birthMonth": 7,
-    "birthDay": 5,
-    "birthPlace": "д.Озерковка",
-    "deathYear": 1911,
-    "deathMonth": 7,
-    "deathDay": 12,
-    "deathPlace": "д.Озерковка",
-    "bio": "умер от младенческой слабости"
-  },
-  {
     "id": "22",
     "lastName": "Артемова",
     "firstName": "Александра",
@@ -271,25 +229,35 @@
     "bio": "умерла от скарлатины"
   },
   {
+    "id": "17",
+    "lastName": "Артемов",
+    "firstName": "Александр",
+    "patronym": "Михайлович",
+    "gender": "male",
+    "birthYear": 1917,
+    "birthMonth": 7,
+    "birthDay": 1,
+    "deathYear": 1943,
+    "bio": "пропал без вести на войне"
+  },
+  {
+    "id": "8",
+    "lastName": "Артемова",
+    "firstName": "Анастасия",
+    "patronym": "Георгиевна",
+    "gender": "female",
+    "birthYear": 1918,
+    "birthMonth": 10,
+    "birthDay": 29,
+    "birthPlace": "д.Озерковка"
+  },
+  {
     "id": "23",
     "lastName": "Артемов",
     "firstName": "Василий",
     "patronym": "Михайлович",
     "gender": "male",
     "birthYear": 1918
-  },
-  {
-    "id": "24",
-    "lastName": "Шестакова",
-    "firstName": "Татьяна",
-    "patronym": "Федоровна",
-    "gender": "female",
-    "weddingYear": "1919",
-    "weddingMonth": "2",
-    "weddingDay": "8",
-    "birthYear": 1902,
-    "birthPlace": "д.Ново-Васильевка",
-    "bio": "в 1931г. приговорена к спецпоселению в Кемеровскую обл. Прокопьевск. Снята с учета 29.12.1951г."
   },
   {
     "id": "25",
@@ -302,34 +270,18 @@
     "bio": "в 1931г. приговорен к спецпоселению в Кемеровскую обл. Прокопьевск. Снят с учета 29.12.1951г."
   },
   {
-    "id": "26",
-    "lastName": "Артемова",
-    "firstName": "Мария",
-    "patronym": "Ивановна",
-    "gender": "female",
-    "birthYear": 1925,
-    "birthPlace": "д.Озерковка",
-    "bio": "в 1931г. приговорена к спецпоселению в Кемеровскую обл. Прокопьевск. Снята с учета 11.02.1942г."
-  },
-  {
-    "id": "27",
+    "id": "18",
     "lastName": "Артемов",
     "firstName": "Василий",
-    "patronym": "Иванович",
+    "patronym": "Михайлович",
     "gender": "male",
-    "birthYear": 1926,
-    "birthPlace": "д.Озерковка",
-    "bio": "в 1931г. приговорен к спецпоселению в Кемеровскую обл. Прокопьевск. Снят с учета 20.10.1942г."
-  },
-  {
-    "id": "28",
-    "lastName": "Артемов",
-    "firstName": "Александр",
-    "patronym": "Иванович",
-    "gender": "male",
-    "birthYear": 1935,
-    "birthPlace": "Прокопьевск, Кемеровская обл.",
-    "bio": "в 1935г. приговорен к спецпоселению в Кемеровскую обл. Прокопьевск"
+    "birthYear": 1924,
+    "birthMonth": 5,
+    "birthDay": 20,
+    "deathYear": 1999,
+    "deathMonth": 2,
+    "deathDay": 14,
+    "deathPlace": "г.Ишимбай"
   },
   {
     "id": "29",
@@ -343,6 +295,54 @@
     "deathYear": 1973,
     "deathMonth": 7,
     "deathDay": 24
+  },
+  {
+    "id": "26",
+    "lastName": "Артемова",
+    "firstName": "Мария",
+    "patronym": "Ивановна",
+    "gender": "female",
+    "birthYear": 1925,
+    "birthPlace": "д.Озерковка",
+    "bio": "в 1931г. приговорена к спецпоселению в Кемеровскую обл. Прокопьевск. Снята с учета 11.02.1942г."
+  },
+  {
+    "id": "19",
+    "lastName": "Артемов",
+    "firstName": "Алексей",
+    "patronym": "Михайлович",
+    "gender": "male",
+    "birthYear": 1926
+  },
+  {
+    "id": "27",
+    "lastName": "Артемов",
+    "firstName": "Василий",
+    "patronym": "Иванович",
+    "gender": "male",
+    "birthYear": 1926,
+    "birthPlace": "д.Озерковка",
+    "bio": "в 1931г. приговорен к спецпоселению в Кемеровскую обл. Прокопьевск. Снят с учета 20.10.1942г."
+  },
+  {
+    "id": "20",
+    "lastName": "Артемов",
+    "firstName": "Андрей",
+    "patronym": "Михайлович",
+    "gender": "male",
+    "birthYear": 1930,
+    "birthMonth": 4,
+    "birthDay": 17
+  },
+  {
+    "id": "28",
+    "lastName": "Артемов",
+    "firstName": "Александр",
+    "patronym": "Иванович",
+    "gender": "male",
+    "birthYear": 1935,
+    "birthPlace": "Прокопьевск, Кемеровская обл.",
+    "bio": "в 1935г. приговорен к спецпоселению в Кемеровскую обл. Прокопьевск"
   },
   {
     "id": "30",
@@ -367,6 +367,24 @@
     "deathYear": 2003,
     "deathMonth": 12,
     "deathDay": 26,
+    "deathPlace": "г.Ишимбай"
+  },
+  {
+    "id": "44",
+    "lastName": "Заикина",
+    "firstName": "Людмила",
+    "patronym": "Андреевна",
+    "gender": "female",
+    "weddingYear": "1971",
+    "weddingMonth": "6",
+    "weddingDay": "12",
+    "birthYear": 1950,
+    "birthMonth": 12,
+    "birthDay": 18,
+    "birthPlace": "г.Ишимбай",
+    "deathYear": 2014,
+    "deathMonth": 12,
+    "deathDay": 30,
     "deathPlace": "г.Ишимбай"
   },
   {
@@ -466,22 +484,15 @@
     "gender": "female"
   },
   {
-    "id": "44",
-    "lastName": "Заикина",
-    "firstName": "Людмила",
-    "patronym": "Андреевна",
-    "gender": "female",
-    "weddingYear": "1971",
-    "weddingMonth": "6",
-    "weddingDay": "12",
-    "birthYear": 1950,
-    "birthMonth": 12,
-    "birthDay": 18,
-    "birthPlace": "г.Ишимбай",
-    "deathYear": 2014,
-    "deathMonth": 12,
-    "deathDay": 30,
-    "deathPlace": "г.Ишимбай"
+    "id": "55",
+    "lastName": "Каршков",
+    "firstName": "Виктор",
+    "patronym": "Владимирович",
+    "gender": "male",
+    "birthYear": 1956,
+    "birthMonth": 1,
+    "birthDay": 2,
+    "birthPlace": "д.Васильевка, Ермекеевский р-н, БАССР"
   },
   {
     "id": "45",
@@ -515,6 +526,28 @@
     "patronym": "Рифовна",
     "gender": "female",
     "birthPlace": "г.Уфа"
+  },
+  {
+    "id": "56",
+    "lastName": "Каршков",
+    "firstName": "Максим",
+    "patronym": "Викторович",
+    "gender": "male",
+    "birthYear": 1980,
+    "birthMonth": 3,
+    "birthDay": 8,
+    "birthPlace": "г.Нефтекамск"
+  },
+  {
+    "id": "57",
+    "lastName": "Каршков",
+    "firstName": "Владимир",
+    "patronym": "Викторович",
+    "gender": "male",
+    "birthYear": 1983,
+    "birthMonth": 12,
+    "birthDay": 23,
+    "birthPlace": "г.Нефтекамск"
   },
   {
     "id": "48",
@@ -580,39 +613,6 @@
     "firstName": "Мария",
     "patronym": "Николаевна",
     "gender": "female"
-  },
-  {
-    "id": "55",
-    "lastName": "Каршков",
-    "firstName": "Виктор",
-    "patronym": "Владимирович",
-    "gender": "male",
-    "birthYear": 1956,
-    "birthMonth": 1,
-    "birthDay": 2,
-    "birthPlace": "д.Васильевка, Ермекеевский р-н, БАССР"
-  },
-  {
-    "id": "56",
-    "lastName": "Каршков",
-    "firstName": "Максим",
-    "patronym": "Викторович",
-    "gender": "male",
-    "birthYear": 1980,
-    "birthMonth": 3,
-    "birthDay": 8,
-    "birthPlace": "г.Нефтекамск"
-  },
-  {
-    "id": "57",
-    "lastName": "Каршков",
-    "firstName": "Владимир",
-    "patronym": "Викторович",
-    "gender": "male",
-    "birthYear": 1983,
-    "birthMonth": 12,
-    "birthDay": 23,
-    "birthPlace": "г.Нефтекамск"
   },
   {
     "id": "58",
