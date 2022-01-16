@@ -3,6 +3,7 @@ import type { NextPage } from "next";
 import Link from "next/link";
 import ballS from "../styles/Ball.module.css";
 import s from "../styles/404.module.css";
+import Button from "../components/Button/Button";
 
 const ErrorPage: NextPage = () => (
   <div className={s.pageContainer}>
@@ -11,22 +12,17 @@ const ErrorPage: NextPage = () => (
         Упс! Такая страница не найдена
       </span>
       <div className={s.buttonsContainer}>
-        <Link href="/tree">
-          <a className={classNames(s.button, s.descriptionItem)}>
-            Посмотреть дерево
-          </a>
-        </Link>
-        <Link href="/">
-          <a
-            className={classNames(
-              s.button,
-              s.secondaryButton,
-              s.descriptionItem
-            )}
-          >
-            Почитать о проекте
-          </a>
-        </Link>
+        <Button
+          href="/tree"
+          text="Посмотреть дерево"
+          className={s.descriptionItem}
+        />
+        <Button
+          href="/"
+          text="Почитать о проекте"
+          className={s.descriptionItem}
+          isSecondary={true}
+        />
       </div>
     </div>
     <div className={s.imageContainer}>

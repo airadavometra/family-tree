@@ -2,6 +2,7 @@ import classNames from "classnames";
 import type { NextPage } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import Button from "../components/Button/Button";
 import NodesCounter from "../components/NodesCounter/NodesCounter";
 import ballS from "../styles/Ball.module.css";
 import s from "../styles/HomePage.module.css";
@@ -33,23 +34,18 @@ const HomePage: NextPage = () => (
           пожалуйста, свяжитесь с нами в телеграме.
         </span>
         <div className={s.buttonsContainer}>
-          <Link href="/tree">
-            <a className={classNames(s.button, s.descriptionItem)}>
-              Посмотреть дерево
-            </a>
-          </Link>
-          <a
-            className={classNames(
-              s.button,
-              s.secondaryButton,
-              s.descriptionItem
-            )}
+          <Button
+            href="/tree"
+            text="Посмотреть дерево"
+            className={s.descriptionItem}
+          />
+          <Button
             href="https://t.me/airadavometra"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Написать в телеграме
-          </a>
+            text="Написать в телеграме"
+            className={s.descriptionItem}
+            isSecondary={true}
+            newTab={true}
+          />
         </div>
       </div>
       <NodesCounter />

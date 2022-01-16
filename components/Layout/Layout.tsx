@@ -4,11 +4,11 @@ import { PageHead } from "../Head/Head";
 import Header from "../Header/Header";
 import s from "./Layout.module.css";
 
-type layoutProps = {
+type LayoutProps = {
   children: ReactNode;
 };
 
-const Layout: FC<layoutProps> = ({ children }) => (
+const Layout: FC<LayoutProps> = ({ children }) => (
   <>
     <PageHead />
     <div className={s.layout}>
