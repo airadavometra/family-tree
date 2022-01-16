@@ -1,6 +1,6 @@
 const { pickKeys } = require("./common.js");
 
-const getBloodRel = (id) => ({ type: "blood", id });
+const getBloodRel = (id, type = "blood") => ({ type, id });
 const getSpouseRel = (id) => ({ type: "married", id });
 
 const addSpouse = (spouses = [], id) => {
@@ -11,29 +11,35 @@ const addSpouse = (spouses = [], id) => {
   return spouses;
 };
 
+const updateChildren = ({ nodesMap, node, parent, isStepParent = false }) => {
+  if (parent) {
+    const relType = isStepParent ? "adopted" : "blood";
+    const newChild = getBloodRel(node.id, relType);
+    const parentChildren = parent.children ?? [];
+    parent.children = [...parentChildren, newChild];
+    nodesMap.set(parent.id, parent);
+  }
+};
+
 const getRelations = (transformedNodes) => {
   const relNodes = transformedNodes.map((node) =>
-    pickKeys(node, ["id", "motherId", "fatherId", "spouseId"])
+    pickKeys(node, [
+      "id",
+      "motherId",
+      "fatherId",
+      "stepMotherId",
+      "stepFatherId",
+      "spouseId",
+    ])
   );
   const nodesMap = new Map(relNodes.map((node) => [node.id, { ...node }]));
 
   [...nodesMap.values()].forEach((node) => {
     const mother = nodesMap.get(node.motherId);
     const father = nodesMap.get(node.fatherId);
+    const stepMother = nodesMap.get(node.stepMotherId);
+    const stepFather = nodesMap.get(node.stepFatherId);
     const motherChildren = mother?.children ?? [];
-    const motherSpouses = mother?.spouses ?? [];
-    const fatherChildren = father?.children ?? [];
-    const fatherSpouses = father?.spouses ?? [];
-
-    // Parent Spouses
-    if (father && mother) {
-      if (!motherSpouses.find((rel) => rel.id === father.id)) {
-        motherSpouses.push(getSpouseRel(father.id));
-      }
-      if (!fatherSpouses.find((rel) => rel.id === mother.id)) {
-        fatherSpouses.push(getSpouseRel(mother.id));
-      }
-    }
 
     // Parents
     const parents = [];
@@ -65,17 +71,10 @@ const getRelations = (transformedNodes) => {
     nodesMap.set(node.id, currentNode);
 
     // Update parents
-    const newChild = getBloodRel(node.id);
-    if (mother) {
-      mother.children = [...motherChildren, newChild];
-      mother.spouses = motherSpouses;
-      nodesMap.set(mother.id, mother);
-    }
-    if (father) {
-      father.children = [...fatherChildren, newChild];
-      father.spouses = fatherSpouses;
-      nodesMap.set(father.id, father);
-    }
+    updateChildren({ nodesMap, node, parent: mother });
+    updateChildren({ nodesMap, node, parent: father });
+    updateChildren({ nodesMap, node, parent: stepMother, isStepParent: true });
+    updateChildren({ nodesMap, node, parent: stepFather, isStepParent: true });
   });
 
   return [...nodesMap.values()].map((node) => {

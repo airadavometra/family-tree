@@ -1868,7 +1868,7 @@
     ],
     "children": [
       {
-        "type": "blood",
+        "type": "adopted",
         "id": "59"
       },
       {
@@ -2067,10 +2067,6 @@
       {
         "type": "blood",
         "id": "58"
-      },
-      {
-        "type": "blood",
-        "id": "56"
       }
     ],
     "siblings": [

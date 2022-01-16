@@ -10,6 +10,8 @@ const TransformKeyMap = {
   пол: "gender",
   мать: "motherId",
   отец: "fatherId",
+  мачеха: "stepMotherId",
+  отчим: "stepFatherId",
   супруг: "spouseId",
   "Год свадьбы": "weddingYear",
   "Месяц свадьбы": "weddingMonth",
