@@ -10,6 +10,7 @@
   background-color: var(--background-color);
   font-size: 1.4rem;
   border-radius: 10px;
+  z-index: 20;
 }
 .rootItem:not(:last-child) {
   margin-bottom: 24px;
@@ -46,5 +47,6 @@
     top: 70px;
     bottom: 50px;
     left: 2vw;
+    font-size: 1.8rem;
   }
 }
