@@ -6,7 +6,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "genID": "node ./scripts/generateID_DEPRECATED.js",
     "parseTree": "node ./scripts/parseTreeFromSheet.js"
   },
   "dependencies": {
