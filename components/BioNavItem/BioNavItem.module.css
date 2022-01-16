@@ -1,0 +1,29 @@
+.navItem {
+  width: fit-content;
+  padding-bottom: 1.6rem;
+  font-size: 1.6rem;
+  color: var(--font-color);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  pointer-events: all;
+}
+.navItem:hover,
+.navItem:focus {
+  color: var(--main-font-color);
+}
+.navItem:not(:last-child) {
+  margin-right: 60px;
+}
+.selected {
+  color: var(--main-font-color);
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(
+      270deg,
+      var(--gradient-from-color) 0%,
+      var(--gradient-to-color) 96.35%
+    )
+    100% 1;
+}

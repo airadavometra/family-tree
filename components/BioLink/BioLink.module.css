@@ -1,0 +1,13 @@
+.link {
+  width: fit-content;
+  font-size: 1.4rem;
+  color: #4da1ff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  pointer-events: all;
+}
+.link:hover,
+.link:focus {
+  color: #4dffdf;
+  border-bottom: 1px solid #4dffdf;
+}
