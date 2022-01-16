@@ -42,7 +42,12 @@ const TreeNode: FC<TreeNodeProps> = ({
         onMouseLeave={() => setMouseOver(false)}
       >
         <div
-          onClick={() => onClick(node.id)}
+          onClick={() => {
+            onClick(node.id);
+          }}
+          onTouchStart={() => {
+            onClick(node.id);
+          }}
           className={classNames(s.inner, s[gender], {
             [s.floating]: isSelected || isMouseOver,
           })}
