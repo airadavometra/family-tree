@@ -1,0 +1,13 @@
+.button {
+  width: fit-content;
+  font-size: 1.4rem;
+  color: #4da1ff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-align: start;
+}
+.button:hover,
+.button:focus {
+  color: #4dffdf;
+  text-decoration: underline;
+}

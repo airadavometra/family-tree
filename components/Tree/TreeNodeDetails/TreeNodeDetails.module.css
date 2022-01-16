@@ -1,6 +1,5 @@
 .root {
   position: relative;
-  pointer-events: none;
   padding: 2.4rem 3.2rem;
   width: clamp(30vw, 400px, 568px);
   border-radius: 10px;
@@ -29,7 +28,6 @@
   top: 6px;
   right: 6px;
   cursor: pointer;
-  pointer-events: all;
 }
 
 .closeIcon {
@@ -41,16 +39,4 @@
 
 .closeIcon:hover {
   fill: rgba(255, 255, 255, 1);
-}
-
-.bioGrid {
-  display: grid;
-  grid-template-columns: 122px 1fr;
-  gap: 12px 24px;
-}
-.gridItemTitle {
-  color: var(--font-color);
-}
-.gridItemValue {
-  color: var(--main-font-color);
 }

@@ -12,7 +12,6 @@
   color: #a1a8c2;
   background-color: var(--main-background-color);
   border: 2px solid #7517f8;
-  pointer-events: all;
   z-index: 10;
 }
 .homeTreeLink:hover,

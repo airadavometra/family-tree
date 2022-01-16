@@ -1,4 +1,4 @@
-import { ExtNode, Node } from "relatives-tree/lib/types";
+import { ExtNode, Node, RelType } from "relatives-tree/lib/types";
 
 export type TreeExternalNode = ExtNode & TreeNode;
 
@@ -31,3 +31,19 @@ export type TreeNodeData = {
   rewards: string[];
   bio: string;
 }>;
+export type TreeNodeRelation = Readonly<{
+  id: string;
+  type: RelType;
+}>;
+
+export type RelationShortInfo = {
+  id: string;
+  fullName: string;
+};
+
+export type TreeNodeDetailsWithRelations = TreeNodeDerivedData & {
+  parents: RelationShortInfo[];
+  children: RelationShortInfo[];
+  siblings: RelationShortInfo[];
+  spouses: RelationShortInfo[];
+};

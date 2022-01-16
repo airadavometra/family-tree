@@ -5,7 +5,6 @@
   color: var(--font-color);
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-  pointer-events: all;
 }
 .navItem:hover,
 .navItem:focus {

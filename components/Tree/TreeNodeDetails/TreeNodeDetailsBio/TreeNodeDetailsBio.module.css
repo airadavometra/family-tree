@@ -1,0 +1,15 @@
+.bioGrid {
+  margin-bottom: 24px;
+  display: grid;
+  grid-template-columns: 122px 1fr;
+  gap: 12px 24px;
+}
+.gridItemTitle {
+  color: var(--font-color);
+}
+.gridItemValue {
+  color: var(--main-font-color);
+}
+.bioContainer {
+  overflow-y: auto;
+}
