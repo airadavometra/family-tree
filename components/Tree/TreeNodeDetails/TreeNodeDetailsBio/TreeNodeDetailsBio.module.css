@@ -1,7 +1,7 @@
 .bioGrid {
   margin-bottom: 24px;
   display: grid;
-  grid-template-columns: 122px 1fr;
+  grid-template-columns: max-content 1fr;
   gap: 12px 24px;
 }
 .gridItemTitle {

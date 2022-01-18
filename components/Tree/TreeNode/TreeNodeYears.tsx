@@ -17,8 +17,12 @@ export const TreeNodeYears: FC<TreeNodeYearsProps> = ({
   return (
     <div className={s.years}>
       {birthYear && <span className={s.birthYear}>{birthYear}</span>}
-      <span className={s.yearsDelimiter}>&nbsp;–&nbsp;</span>
-      {deathYear && <span className={s.deathYear}>{deathYear}</span>}
+      {deathYear && (
+        <>
+          <span className={s.yearsDelimiter}>&nbsp;–&nbsp;</span>
+          <span className={s.deathYear}>{deathYear}</span>
+        </>
+      )}
     </div>
   );
 };

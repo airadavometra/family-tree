@@ -9,8 +9,8 @@ const nodesMap = getTreeNodesMap();
 
 export const getMonthString = (month: number, day?: number) => {
   return day === undefined
-    ? nominativeCaseMonths[month]
-    : genitiveCaseMonths[month];
+    ? genitiveCaseMonths[month]
+    : nominativeCaseMonths[month];
 };
 const nominativeCaseMonths: Record<number, string> = {
   1: "январь",
