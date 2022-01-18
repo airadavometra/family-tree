@@ -350,10 +350,31 @@
     "firstName": "Надежда",
     "patronym": "Васильевна",
     "gender": "female",
-    "weddingYear": "57",
+    "weddingYear": "1968",
+    "weddingMonth": "12",
+    "weddingDay": "31",
     "birthYear": 1948,
+    "birthMonth": 10,
+    "birthDay": 2,
     "birthPlace": "г.Ишимбай",
+    "deathYear": 2019,
+    "deathMonth": 11,
+    "deathDay": 15,
     "deathPlace": "г.Миасс"
+  },
+  {
+    "id": "35",
+    "lastName": "Колодкин",
+    "firstName": "Юрий",
+    "patronym": "Яковлевич",
+    "gender": "male",
+    "weddingYear": "1968",
+    "weddingMonth": "12",
+    "weddingDay": "31",
+    "birthYear": 1949,
+    "birthMonth": 2,
+    "birthDay": 12,
+    "birthPlace": "г.Миасс"
   },
   {
     "id": "31",
@@ -422,78 +443,30 @@
     "birthPlace": "г.Ишимбай"
   },
   {
-    "id": "35",
-    "lastName": "Колодкин",
-    "firstName": "Юрий",
-    "patronym": "Яковлевич",
-    "gender": "male"
-  },
-  {
     "id": "36",
     "lastName": "Колодкин",
     "firstName": "Виталий",
     "patronym": "Юрьевич",
     "gender": "male",
-    "birthYear": 1969
-  },
-  {
-    "id": "37",
-    "lastName": "Колодкин",
-    "firstName": "Святослав",
-    "patronym": "Юрьевич",
-    "gender": "male",
-    "weddingYear": "1994",
-    "birthYear": 1972
+    "birthYear": 1969,
+    "birthMonth": 7,
+    "birthDay": 9,
+    "birthPlace": "г.Ишимбай",
+    "deathYear": 2013,
+    "deathMonth": 3,
+    "deathDay": 31,
+    "deathPlace": "г.Миасс"
   },
   {
     "id": "38",
+    "lastName": "Трофимова",
     "firstName": "Ирина",
-    "gender": "female"
-  },
-  {
-    "id": "39",
-    "lastName": "Колодкин",
-    "firstName": "Владислав",
-    "patronym": "Витальевич",
-    "gender": "male"
-  },
-  {
-    "id": "40",
-    "lastName": "Колодкина",
-    "firstName": "Софья",
-    "patronym": "Витальевна",
-    "gender": "female"
-  },
-  {
-    "id": "41",
-    "firstName": "Людмила",
+    "patronym": "Николаевна",
     "gender": "female",
-    "weddingYear": "1994"
-  },
-  {
-    "id": "42",
-    "lastName": "Колодкина",
-    "firstName": "Мария",
-    "patronym": "Святославовна",
-    "gender": "female"
-  },
-  {
-    "id": "43",
-    "lastName": "Колодкина",
-    "firstName": "Яна",
-    "patronym": "Святославовна",
-    "gender": "female"
-  },
-  {
-    "id": "55",
-    "lastName": "Каршков",
-    "firstName": "Виктор",
-    "patronym": "Владимирович",
-    "gender": "male",
-    "birthYear": 1956,
-    "birthMonth": 1,
-    "birthDay": 2,
-    "birthPlace": "д.Васильевка, Ермекеевский р-н, БАССР"
+    "birthYear": 1970,
+    "birthMonth": 6,
+    "birthDay": 8,
+    "birthPlace": "г.Учалы"
   },
   {
     "id": "45",
@@ -510,6 +483,32 @@
     "birthPlace": "г.Ишимбай"
   },
   {
+    "id": "37",
+    "lastName": "Колодкин",
+    "firstName": "Святослав",
+    "patronym": "Юрьевич",
+    "gender": "male",
+    "weddingYear": "1994",
+    "birthYear": 1972,
+    "birthMonth": 9,
+    "birthDay": 14,
+    "birthPlace": "г.Миасс"
+  },
+  {
+    "id": "47",
+    "lastName": "Габбасова",
+    "firstName": "Наталья",
+    "patronym": "Рифовна",
+    "gender": "female",
+    "weddingYear": "1994",
+    "weddingMonth": "7",
+    "weddingDay": "23",
+    "birthYear": 1973,
+    "birthMonth": 6,
+    "birthDay": 25,
+    "birthPlace": "г.Уфа"
+  },
+  {
     "id": "46",
     "lastName": "Артемов",
     "firstName": "Александр",
@@ -521,12 +520,146 @@
     "birthPlace": "г.Ишимбай"
   },
   {
-    "id": "47",
-    "lastName": "Габбасова",
-    "firstName": "Наталья",
-    "patronym": "Рифовна",
+    "id": "39",
+    "lastName": "Колодкин",
+    "firstName": "Владислав",
+    "patronym": "Витальевич",
+    "gender": "male",
+    "birthYear": 1992,
+    "birthMonth": 3,
+    "birthDay": 24,
+    "birthPlace": "г.Миасс"
+  },
+  {
+    "id": "48",
+    "lastName": "Артемова",
+    "firstName": "Дарья",
+    "patronym": "Сергеевна",
     "gender": "female",
-    "birthPlace": "г.Уфа"
+    "weddingYear": "2018",
+    "weddingMonth": "11",
+    "weddingDay": "21",
+    "birthYear": 1996,
+    "birthMonth": 4,
+    "birthDay": 24,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "49",
+    "lastName": "Иванов",
+    "firstName": "Владимир",
+    "patronym": "Андреевич",
+    "gender": "male",
+    "weddingYear": "2018",
+    "weddingMonth": "11",
+    "weddingDay": "21",
+    "birthYear": 1997,
+    "birthMonth": 8,
+    "birthDay": 16,
+    "birthPlace": "г. Южно-Сахалинск"
+  },
+  {
+    "id": "42",
+    "lastName": "Колодкина",
+    "firstName": "Мария",
+    "patronym": "Святославовна",
+    "gender": "female",
+    "weddingYear": "2021",
+    "weddingMonth": "8",
+    "weddingDay": "28",
+    "birthYear": 1999,
+    "birthMonth": 7,
+    "birthDay": 15,
+    "birthPlace": "г.Челябинск"
+  },
+  {
+    "id": "51",
+    "lastName": "Артемов",
+    "firstName": "Сергей",
+    "patronym": "Александрович",
+    "gender": "male",
+    "birthYear": 1999,
+    "birthMonth": 5,
+    "birthDay": 31,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "43",
+    "lastName": "Колодкина",
+    "firstName": "Яна",
+    "patronym": "Святославовна",
+    "gender": "female",
+    "birthYear": 2006,
+    "birthMonth": 12,
+    "birthDay": 15,
+    "birthPlace": "г.Челябинск"
+  },
+  {
+    "id": "40",
+    "lastName": "Колодкина",
+    "firstName": "Софья",
+    "patronym": "Витальевна",
+    "gender": "female",
+    "birthYear": 2007,
+    "birthMonth": 6,
+    "birthDay": 11,
+    "birthPlace": "г.Миасс"
+  },
+  {
+    "id": "41",
+    "lastName": "Коломеец",
+    "firstName": "Людмила",
+    "patronym": "Юрьевна",
+    "gender": "female",
+    "weddingYear": "1994",
+    "birthMonth": 7,
+    "birthDay": 8,
+    "birthPlace": "с.Теченский, Челябинская обл."
+  },
+  {
+    "id": "50",
+    "lastName": "Тюрина",
+    "firstName": "Елена",
+    "patronym": "Николаевна",
+    "gender": "female",
+    "birthMonth": 1,
+    "birthDay": 31,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "52",
+    "lastName": "Артемов",
+    "firstName": "Николай",
+    "patronym": "Александрович",
+    "gender": "male",
+    "birthYear": 2008,
+    "birthMonth": 5,
+    "birthDay": 17,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "53",
+    "lastName": "Сушков",
+    "firstName": "Николай",
+    "gender": "male"
+  },
+  {
+    "id": "54",
+    "lastName": "Сушкова",
+    "firstName": "Мария",
+    "patronym": "Николаевна",
+    "gender": "female"
+  },
+  {
+    "id": "55",
+    "lastName": "Каршков",
+    "firstName": "Виктор",
+    "patronym": "Владимирович",
+    "gender": "male",
+    "birthYear": 1956,
+    "birthMonth": 1,
+    "birthDay": 2,
+    "birthPlace": "д.Васильевка, Ермекеевский р-н, БАССР"
   },
   {
     "id": "56",
@@ -549,71 +682,6 @@
     "birthMonth": 12,
     "birthDay": 23,
     "birthPlace": "г.Нефтекамск"
-  },
-  {
-    "id": "48",
-    "lastName": "Артемова",
-    "firstName": "Дарья",
-    "patronym": "Сергеевна",
-    "gender": "female",
-    "birthYear": 1996,
-    "birthMonth": 4,
-    "birthDay": 24,
-    "birthPlace": "г.Ишимбай"
-  },
-  {
-    "id": "49",
-    "lastName": "Иванов",
-    "firstName": "Владимир",
-    "patronym": "Андреевич",
-    "gender": "male",
-    "birthYear": 1997,
-    "birthMonth": 8,
-    "birthDay": 12,
-    "birthPlace": "г. Южно-Сахалинск"
-  },
-  {
-    "id": "50",
-    "lastName": "Тюрина",
-    "firstName": "Елена",
-    "patronym": "Николаевна",
-    "gender": "female",
-    "birthMonth": 1,
-    "birthDay": 31,
-    "birthPlace": "г.Ишимбай"
-  },
-  {
-    "id": "51",
-    "lastName": "Артемов",
-    "firstName": "Сергей",
-    "patronym": "Александрович",
-    "gender": "male",
-    "birthMonth": 5,
-    "birthDay": 17,
-    "birthPlace": "г.Ишимбай"
-  },
-  {
-    "id": "52",
-    "lastName": "Артемов",
-    "firstName": "Николай",
-    "patronym": "Александрович",
-    "gender": "male",
-    "birthMonth": 5,
-    "birthDay": 31,
-    "birthPlace": "г.Ишимбай"
-  },
-  {
-    "id": "53",
-    "lastName": "Сушков",
-    "firstName": "Николай",
-    "gender": "male"
-  },
-  {
-    "id": "54",
-    "lastName": "Сушкова",
-    "firstName": "Мария",
-    "patronym": "Николаевна",
-    "gender": "female"
   },
   {
     "id": "58",
@@ -656,5 +724,348 @@
     "id": "62",
     "firstName": "Гульшат",
     "gender": "female"
+  },
+  {
+    "id": "63",
+    "lastName": "Новиков",
+    "firstName": "Илья",
+    "gender": "male",
+    "weddingYear": "2021",
+    "weddingMonth": "8",
+    "weddingDay": "28"
+  },
+  {
+    "id": "64",
+    "lastName": "Колодкин",
+    "firstName": "Герасим",
+    "gender": "male",
+    "nationality": "русский",
+    "bio": "Казак, погиб на границе с китаем\""
+  },
+  {
+    "id": "65",
+    "firstName": "Пелагея",
+    "patronym": "Матвеевна",
+    "gender": "female",
+    "birthYear": 1892,
+    "birthMonth": 3,
+    "birthDay": 23,
+    "birthPlace": "с.Болотово, Чебаркульский р-н, Челябинская обл.",
+    "deathYear": 1963,
+    "deathMonth": 4,
+    "deathDay": 21,
+    "deathPlace": "с.Болотово",
+    "nationality": "русская",
+    "bio": "Казачка"
+  },
+  {
+    "id": "66",
+    "lastName": "Обухов",
+    "firstName": "Иван",
+    "gender": "male",
+    "nationality": "русский"
+  },
+  {
+    "id": "75",
+    "lastName": "Заикин",
+    "firstName": "Сергей",
+    "patronym": "Федорович",
+    "gender": "male",
+    "birthYear": 1895
+  },
+  {
+    "id": "76",
+    "lastName": "Жижакина",
+    "firstName": "Татьяна",
+    "patronym": "Михайловна",
+    "gender": "female",
+    "birthYear": 1895
+  },
+  {
+    "id": "67",
+    "lastName": "Ярославцева",
+    "firstName": "Наталья",
+    "patronym": "Федоровна",
+    "gender": "female",
+    "birthYear": 1907,
+    "birthMonth": 9,
+    "birthDay": 8,
+    "birthPlace": "с.Филимоново, Чебаркульский р-н, Челябинская обл.",
+    "deathYear": 1983,
+    "deathMonth": 2,
+    "deathDay": 8,
+    "deathPlace": "с.Филимоново",
+    "nationality": "русская"
+  },
+  {
+    "id": "68",
+    "lastName": "Колодкин",
+    "firstName": "Яков",
+    "patronym": "Герасимович",
+    "gender": "male",
+    "weddingYear": "1945",
+    "weddingMonth": "5",
+    "weddingDay": "1",
+    "birthYear": 1918,
+    "birthMonth": 10,
+    "birthDay": 17,
+    "birthPlace": "с.Болотово, Чебаркульский р-н, Челябинская обл.",
+    "deathYear": 1995,
+    "deathMonth": 2,
+    "deathDay": 6,
+    "deathPlace": "г.Миасс",
+    "nationality": "русский"
+  },
+  {
+    "id": "69",
+    "lastName": "Обухова",
+    "firstName": "Анфиса",
+    "patronym": "Ивановна",
+    "gender": "female",
+    "weddingYear": "1945",
+    "weddingMonth": "5",
+    "weddingDay": "1",
+    "birthYear": 1926,
+    "birthMonth": 4,
+    "birthDay": 4,
+    "birthPlace": "с.Филимоново, Чебаркульский р-н, Челябинская обл.",
+    "deathYear": 2003,
+    "deathMonth": 6,
+    "deathDay": 1,
+    "deathPlace": "г.Миасс",
+    "nationality": "русская"
+  },
+  {
+    "id": "70",
+    "lastName": "Колодкин",
+    "firstName": "Владимир",
+    "patronym": "Яковлевич",
+    "gender": "male",
+    "birthYear": 1946,
+    "birthMonth": 2,
+    "birthDay": 19,
+    "birthPlace": "г.Миасс",
+    "deathYear": 2003,
+    "deathMonth": 5,
+    "deathDay": 25,
+    "deathPlace": "г.Миасс"
+  },
+  {
+    "id": "71",
+    "firstName": "Тамара",
+    "patronym": "Анисимовна",
+    "gender": "female",
+    "birthYear": 1947
+  },
+  {
+    "id": "72",
+    "lastName": "Колодкин",
+    "firstName": "Алексей",
+    "patronym": "Владимирович",
+    "gender": "male",
+    "birthYear": 1964,
+    "birthMonth": 3,
+    "birthDay": 23,
+    "birthPlace": "г.Миасс",
+    "deathYear": 2007,
+    "deathMonth": 2,
+    "deathDay": 11,
+    "deathPlace": "г.Миасс"
+  },
+  {
+    "id": "73",
+    "lastName": "Кожевникова",
+    "firstName": "Елена",
+    "gender": "female"
+  },
+  {
+    "id": "74",
+    "lastName": "Колодкин",
+    "firstName": "Виталий",
+    "patronym": "Алексеевич",
+    "gender": "male",
+    "birthYear": 1983,
+    "birthMonth": 6,
+    "birthDay": 28,
+    "birthPlace": "г.Миасс",
+    "deathYear": 2021,
+    "deathMonth": 2,
+    "deathDay": 26,
+    "deathPlace": "г.Миасс"
+  },
+  {
+    "id": "77",
+    "lastName": "Заикин",
+    "firstName": "Иван",
+    "patronym": "Сергеевич",
+    "gender": "male"
+  },
+  {
+    "id": "78",
+    "lastName": "Заикин",
+    "firstName": "Андрей",
+    "patronym": "Сергеевич",
+    "gender": "male"
+  },
+  {
+    "id": "79",
+    "lastName": "Заикин",
+    "firstName": "Дмитрий",
+    "patronym": "Сергеевич",
+    "gender": "male"
+  },
+  {
+    "id": "80",
+    "lastName": "Заикина",
+    "firstName": "Анна",
+    "patronym": "Сергеевна",
+    "gender": "female"
+  },
+  {
+    "id": "81",
+    "lastName": "Заикина",
+    "firstName": "Мария",
+    "patronym": "Сергеевна",
+    "gender": "female"
+  },
+  {
+    "id": "82",
+    "lastName": "Заикина",
+    "firstName": "Любовь",
+    "patronym": "Сергеевна",
+    "gender": "female"
+  },
+  {
+    "id": "83",
+    "lastName": "Сметанина",
+    "firstName": "Лилия",
+    "patronym": "Назаровна",
+    "gender": "female"
+  },
+  {
+    "id": "84",
+    "lastName": "Заикин",
+    "firstName": "Иван",
+    "patronym": "Андреевич",
+    "gender": "male"
+  },
+  {
+    "id": "85",
+    "lastName": "Девяткина",
+    "firstName": "Прасковья",
+    "patronym": "Федоровна",
+    "gender": "female"
+  },
+  {
+    "id": "86",
+    "lastName": "Заикин",
+    "firstName": "Михаил",
+    "patronym": "Иванович",
+    "gender": "male"
+  },
+  {
+    "id": "87",
+    "lastName": "Заикин",
+    "firstName": "Александр",
+    "patronym": "Иванович",
+    "gender": "male"
+  },
+  {
+    "id": "88",
+    "lastName": "Козлицкая",
+    "firstName": "Зоя",
+    "patronym": "Гавриловна",
+    "gender": "female"
+  },
+  {
+    "id": "89",
+    "lastName": "Заикина",
+    "firstName": "Ирина",
+    "patronym": "Александровна",
+    "gender": "female"
+  },
+  {
+    "id": "90",
+    "lastName": "Заикина",
+    "firstName": "Наталья",
+    "patronym": "Александровна",
+    "gender": "female"
+  },
+  {
+    "id": "91",
+    "lastName": "Заикина",
+    "firstName": "Ольга",
+    "patronym": "Александровна",
+    "gender": "female"
+  },
+  {
+    "id": "92",
+    "lastName": "Куданов",
+    "firstName": "Иван",
+    "patronym": "Александрович",
+    "gender": "male"
+  },
+  {
+    "id": "93",
+    "lastName": "Куданова",
+    "firstName": "Светлана",
+    "patronym": "Ивановна",
+    "gender": "female"
+  },
+  {
+    "id": "94",
+    "lastName": "Куданов",
+    "firstName": "Сергей",
+    "patronym": "Иванович",
+    "gender": "male"
+  },
+  {
+    "id": "95",
+    "lastName": "Куданова",
+    "firstName": "Ирина",
+    "patronym": "Ивановна",
+    "gender": "female"
+  },
+  {
+    "id": "96",
+    "lastName": "Рожков",
+    "firstName": "Игорь",
+    "patronym": "Станиславович",
+    "gender": "male"
+  },
+  {
+    "id": "97",
+    "lastName": "Рожков",
+    "firstName": "Александр",
+    "patronym": "Игоревич",
+    "gender": "male"
+  },
+  {
+    "id": "98",
+    "lastName": "Рожкова",
+    "firstName": "Анастасия",
+    "patronym": "Игоревна",
+    "gender": "female"
+  },
+  {
+    "id": "99",
+    "lastName": "Смолин",
+    "firstName": "Александр",
+    "patronym": "Николаевич",
+    "gender": "male"
+  },
+  {
+    "id": "100",
+    "lastName": "Смолин",
+    "firstName": "Сергей",
+    "patronym": "Александрович",
+    "gender": "male"
+  },
+  {
+    "id": "101",
+    "lastName": "Смолин",
+    "firstName": "Никита",
+    "patronym": "Александрович",
+    "gender": "male"
   }
 ]
