@@ -22,7 +22,7 @@ const TreePage: NextPage = () => {
     <TreeContextWrapper>
       {rootId && (
         <Link href="/tree">
-          <a className={s.homeTreeLink}>Исходное дерево</a>
+          <a className={s.homeTreeLink}>К основному дереву</a>
         </Link>
       )}
       <TreeWithNavigation />
