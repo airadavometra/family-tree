@@ -26,7 +26,38 @@
   font-size: 14px;
   line-height: 24px;
 }
-.inner.floating {
+
+.inner.hasSubtree::before {
+  content: "";
+  display: block;
+  min-width: 180px;
+  min-height: 180px;
+  position: absolute;
+
+  border-radius: 50%;
+  padding: 3px;
+  background: linear-gradient(
+    180deg,
+    #ffd422 0%,
+    #ff7d05 40%,
+    rgba(0, 0, 0, 0) 90%
+  );
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+.inner.animated::before {
+  animation: rotation 5s infinite linear;
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.inner.animated {
   animation: float 3s linear infinite alternate both;
 }
 @keyframes float {

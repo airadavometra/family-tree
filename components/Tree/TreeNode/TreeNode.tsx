@@ -49,7 +49,8 @@ const TreeNode: FC<TreeNodeProps> = ({
             onClick(node.id);
           }}
           className={classNames(s.inner, s[gender], {
-            [s.floating]: isSelected || isMouseOver,
+            [s.animated]: isSelected || isMouseOver,
+            [s.hasSubtree]: node.hasSubTree,
           })}
         >
           <div className={s.fullName}>
