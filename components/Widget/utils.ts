@@ -11,8 +11,6 @@ export const getNodesCount = (): number => {
 export const getTreeDepth = (): number => {
   const nodes = getTreeNodesMap();
 
-  console.log(nodes);
-
   return maxDepth(nodes[1], nodes);
 };
 const maxDepth = (
