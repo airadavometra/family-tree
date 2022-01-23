@@ -11,6 +11,7 @@
 }
 .widgetTitle {
   font-size: 1.6rem;
+  white-space: nowrap;
 }
 .widgetValue {
   font-size: 3.4rem;

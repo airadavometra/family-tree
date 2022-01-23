@@ -46,6 +46,7 @@
 }
 .widgets {
   display: flex;
+  overflow-x: auto;
 }
 
 @media (max-width: 1520px) {
