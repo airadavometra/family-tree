@@ -111,3 +111,9 @@
 .years {
   letter-spacing: 0.44px;
 }
+
+@media (max-width: 700px) {
+  .inner.hasSubtree::before {
+    animation: rotation 5s infinite linear;
+  }
+}
