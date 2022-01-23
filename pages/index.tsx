@@ -57,10 +57,7 @@ const HomePage: NextPage = () => {
             title="Всего человек в дереве"
             value={nodesCount.toString()}
           />
-          <Widget
-            title="Максимальная глубина дерева"
-            value={treeDepth.toString()}
-          />
+          <Widget title="Поколений в дереве" value={treeDepth.toString()} />
         </div>
       </div>
       <div className={s.imageContainer}>
