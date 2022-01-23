@@ -1,4 +1,4 @@
-.nodesCountCard {
+.widgetContainer {
   width: fit-content;
   padding: 2rem 3rem;
   display: flex;
@@ -6,10 +6,13 @@
   background-color: var(--background-color);
   border-radius: 1rem;
 }
-.nodesCountTitle {
+.widgetContainer:not(:last-child) {
+  margin-right: 24px;
+}
+.widgetTitle {
   font-size: 1.6rem;
 }
-.nodesCount {
+.widgetValue {
   font-size: 3.4rem;
   font-weight: 800;
 }

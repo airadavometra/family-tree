@@ -44,6 +44,9 @@
   top: 60px;
   z-index: -1;
 }
+.widgets {
+  display: flex;
+}
 
 @media (max-width: 1520px) {
   .content {
