@@ -48,7 +48,21 @@ const TreeNodeDetails: FC = () => {
           onRelationNodeClick={(id) => selectNode(id)}
         />
       ) : (
-        <></>
+        <>
+          <span className={s.rootItem}>
+            К сожалению, у нас пока нет фотографий этого человека.
+          </span>
+          <span className={s.rootItem}>
+            Если вы хотите помочь и у вас есть фото, которые вы хотите добавить
+            в галерею, пожалуйста,{" "}
+            <BioLink
+              href="https://t.me/airadavometra"
+              text="напишите нам"
+              newTab={true}
+            />
+            .
+          </span>
+        </>
       )}
     </div>
   );
