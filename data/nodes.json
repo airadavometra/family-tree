@@ -312,7 +312,14 @@
     "firstName": "Алексей",
     "patronym": "Михайлович",
     "gender": "male",
-    "birthYear": 1926
+    "birthYear": 1926,
+    "birthMonth": 6,
+    "birthDay": 17,
+    "birthPlace": "д.Озерковка",
+    "deathYear": 1999,
+    "deathMonth": 10,
+    "deathDay": 31,
+    "deathPlace": "г.Ишимбай"
   },
   {
     "id": "27",
@@ -333,6 +340,21 @@
     "birthYear": 1930,
     "birthMonth": 4,
     "birthDay": 17
+  },
+  {
+    "id": "53",
+    "lastName": "Сушков",
+    "firstName": "Николай",
+    "patronym": "Григорьевич",
+    "gender": "male",
+    "birthYear": 1933,
+    "birthMonth": 11,
+    "birthDay": 6,
+    "birthPlace": "г.Льгов, Курская обл.",
+    "deathYear": 2001,
+    "deathMonth": 12,
+    "deathDay": 20,
+    "deathPlace": "г.Владивосток"
   },
   {
     "id": "28",
@@ -432,6 +454,17 @@
     "birthPlace": "г.Ишимбай"
   },
   {
+    "id": "55",
+    "lastName": "Каршков",
+    "firstName": "Виктор",
+    "patronym": "Владимирович",
+    "gender": "male",
+    "birthYear": 1956,
+    "birthMonth": 1,
+    "birthDay": 2,
+    "birthPlace": "д.Васильевка, Ермекеевский р-н, БАССР"
+  },
+  {
     "id": "34",
     "lastName": "Артемов",
     "firstName": "Сергей",
@@ -520,6 +553,17 @@
     "birthPlace": "г.Ишимбай"
   },
   {
+    "id": "54",
+    "lastName": "Сушкова",
+    "firstName": "Мария",
+    "patronym": "Николаевна",
+    "gender": "female",
+    "birthYear": 1977,
+    "birthMonth": 6,
+    "birthDay": 14,
+    "birthPlace": "г.Владивосток"
+  },
+  {
     "id": "50",
     "lastName": "Тюрина",
     "firstName": "Елена",
@@ -529,6 +573,28 @@
     "birthMonth": 1,
     "birthDay": 31,
     "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "56",
+    "lastName": "Каршков",
+    "firstName": "Максим",
+    "patronym": "Викторович",
+    "gender": "male",
+    "birthYear": 1980,
+    "birthMonth": 3,
+    "birthDay": 8,
+    "birthPlace": "г.Нефтекамск"
+  },
+  {
+    "id": "57",
+    "lastName": "Каршков",
+    "firstName": "Владимир",
+    "patronym": "Викторович",
+    "gender": "male",
+    "birthYear": 1983,
+    "birthMonth": 12,
+    "birthDay": 23,
+    "birthPlace": "г.Нефтекамск"
   },
   {
     "id": "39",
@@ -639,109 +705,11 @@
     "birthPlace": "г.Ишимбай"
   },
   {
-    "id": "53",
-    "lastName": "Сушков",
-    "firstName": "Николай",
-    "gender": "male"
-  },
-  {
-    "id": "54",
-    "lastName": "Сушкова",
-    "firstName": "Мария",
-    "patronym": "Николаевна",
-    "gender": "female"
-  },
-  {
-    "id": "55",
-    "lastName": "Каршков",
-    "firstName": "Виктор",
-    "patronym": "Владимирович",
-    "gender": "male",
-    "birthYear": 1956,
-    "birthMonth": 1,
-    "birthDay": 2,
-    "birthPlace": "д.Васильевка, Ермекеевский р-н, БАССР"
-  },
-  {
-    "id": "56",
-    "lastName": "Каршков",
-    "firstName": "Максим",
-    "patronym": "Викторович",
-    "gender": "male",
-    "birthYear": 1980,
-    "birthMonth": 3,
-    "birthDay": 8,
-    "birthPlace": "г.Нефтекамск"
-  },
-  {
-    "id": "57",
-    "lastName": "Каршков",
-    "firstName": "Владимир",
-    "patronym": "Викторович",
-    "gender": "male",
-    "birthYear": 1983,
-    "birthMonth": 12,
-    "birthDay": 23,
-    "birthPlace": "г.Нефтекамск"
-  },
-  {
     "id": "58",
     "lastName": "Галямова",
     "firstName": "Алсу",
     "patronym": "Зинуровна",
     "gender": "female"
-  },
-  {
-    "id": "59",
-    "lastName": "Карамов",
-    "firstName": "Самат",
-    "gender": "male",
-    "birthYear": 2003,
-    "birthMonth": 3,
-    "birthDay": 15,
-    "birthPlace": "г.Нефтекамск"
-  },
-  {
-    "id": "60",
-    "lastName": "Каршкова",
-    "firstName": "Юлия",
-    "patronym": "Максимовна",
-    "gender": "female",
-    "birthYear": 2007,
-    "birthMonth": 8,
-    "birthDay": 22,
-    "birthPlace": "г.Нефтекамск"
-  },
-  {
-    "id": "61",
-    "lastName": "Каршков",
-    "firstName": "Роман",
-    "patronym": "Максимович",
-    "gender": "male",
-    "birthYear": 2021,
-    "birthPlace": "г.Нефтекамск"
-  },
-  {
-    "id": "62",
-    "firstName": "Гульшат",
-    "gender": "female"
-  },
-  {
-    "id": "63",
-    "lastName": "Новиков",
-    "firstName": "Илья",
-    "gender": "male",
-    "weddingYear": "2021",
-    "weddingMonth": "8",
-    "weddingDay": "28"
-  },
-  {
-    "id": "64",
-    "lastName": "Колодкин",
-    "firstName": "Герасим",
-    "gender": "male",
-    "nationality": "русский",
-    "bio": "Казак, погиб на границе с китаем\""
   },
   {
     "id": "65",
@@ -758,13 +726,6 @@
     "deathPlace": "с.Болотово",
     "nationality": "русская",
     "bio": "Казачка"
-  },
-  {
-    "id": "66",
-    "lastName": "Обухов",
-    "firstName": "Иван",
-    "gender": "male",
-    "nationality": "русский"
   },
   {
     "id": "75",
@@ -972,6 +933,20 @@
     "deathPlace": "г.Ишимбай"
   },
   {
+    "id": "114",
+    "lastName": "Новикова",
+    "firstName": "Нина",
+    "patronym": "Сергеевна",
+    "gender": "female",
+    "birthYear": 1939,
+    "birthMonth": 8,
+    "birthDay": 3,
+    "deathYear": 1992,
+    "deathMonth": 10,
+    "deathDay": 23,
+    "deathPlace": "г.Ишимбай"
+  },
+  {
     "id": "87",
     "lastName": "Заикин",
     "firstName": "Александр",
@@ -1050,6 +1025,18 @@
     "birthPlace": "г.Ишимбай"
   },
   {
+    "id": "115",
+    "lastName": "Заикин",
+    "firstName": "Анатолий",
+    "patronym": "Михайлович",
+    "gender": "male",
+    "birthYear": 1961,
+    "birthPlace": "г.Ишимбай",
+    "deathYear": 2002,
+    "deathMonth": 1,
+    "deathDay": 12
+  },
+  {
     "id": "96",
     "lastName": "Рожков",
     "firstName": "Игорь",
@@ -1072,6 +1059,16 @@
     "birthPlace": "г.Ишимбай"
   },
   {
+    "id": "116",
+    "firstName": "Любовь",
+    "patronym": "Ивановна",
+    "gender": "female",
+    "birthYear": 1963,
+    "birthMonth": 5,
+    "birthDay": 19,
+    "deathYear": 2002
+  },
+  {
     "id": "72",
     "lastName": "Колодкин",
     "firstName": "Алексей",
@@ -1087,12 +1084,6 @@
     "deathPlace": "г.Миасс"
   },
   {
-    "id": "73",
-    "lastName": "Кожевникова",
-    "firstName": "Елена",
-    "gender": "female"
-  },
-  {
     "id": "90",
     "lastName": "Заикина",
     "firstName": "Наталья",
@@ -1101,6 +1092,15 @@
     "birthYear": 1965,
     "birthMonth": 8,
     "birthDay": 16,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "99",
+    "lastName": "Смолин",
+    "firstName": "Александр",
+    "patronym": "Николаевич",
+    "gender": "male",
+    "birthYear": 1973,
     "birthPlace": "г.Ишимбай"
   },
   {
@@ -1113,6 +1113,16 @@
     "birthMonth": 2,
     "birthDay": 7,
     "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "119",
+    "lastName": "Галимов",
+    "firstName": "Рустем",
+    "patronym": "Ахтямович",
+    "gender": "male",
+    "birthYear": 1976,
+    "birthMonth": 11,
+    "birthDay": 19
   },
   {
     "id": "93",
@@ -1141,22 +1151,6 @@
     "deathPlace": "г.Миасс"
   },
   {
-    "id": "85",
-    "lastName": "Девяткина",
-    "firstName": "Прасковья",
-    "patronym": "Федоровна",
-    "gender": "female"
-  },
-  {
-    "id": "99",
-    "lastName": "Смолин",
-    "firstName": "Александр",
-    "patronym": "Николаевич",
-    "gender": "male",
-    "birthYear": 1973,
-    "birthPlace": "г.Ишимбай"
-  },
-  {
     "id": "94",
     "lastName": "Куданов",
     "firstName": "Сергей",
@@ -1166,6 +1160,17 @@
     "birthMonth": 8,
     "birthDay": 24,
     "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "62",
+    "lastName": "Ягфарова",
+    "firstName": "Гульшат",
+    "patronym": "Равиловна",
+    "gender": "female",
+    "birthYear": 1986,
+    "birthMonth": 8,
+    "birthDay": 19,
+    "birthPlace": "г.Нефтекамск"
   },
   {
     "id": "105",
@@ -1179,17 +1184,6 @@
     "birthPlace": "г.Ишимбай"
   },
   {
-    "id": "97",
-    "lastName": "Рожков",
-    "firstName": "Александр",
-    "patronym": "Игоревич",
-    "gender": "male",
-    "birthYear": 1988,
-    "birthMonth": 5,
-    "birthDay": 8,
-    "birthPlace": "г.Нягань"
-  },
-  {
     "id": "98",
     "lastName": "Рожкова",
     "firstName": "Анастасия",
@@ -1199,17 +1193,6 @@
     "birthMonth": 2,
     "birthDay": 28,
     "birthPlace": "г.Нягань"
-  },
-  {
-    "id": "95",
-    "lastName": "Куданова",
-    "firstName": "Ирина",
-    "patronym": "Ивановна",
-    "gender": "female",
-    "birthYear": 1991,
-    "birthMonth": 1,
-    "birthDay": 25,
-    "birthPlace": "г.Ишимбай"
   },
   {
     "id": "102",
@@ -1223,14 +1206,14 @@
     "birthPlace": "г.Ишимбай"
   },
   {
-    "id": "100",
-    "lastName": "Смолин",
-    "firstName": "Сергей",
-    "patronym": "Александрович",
-    "gender": "male",
-    "birthYear": 1994,
-    "birthMonth": 1,
-    "birthDay": 27,
+    "id": "122",
+    "lastName": "Макшанова",
+    "firstName": "Анна",
+    "patronym": "Андреевна",
+    "gender": "female",
+    "birthYear": 1997,
+    "birthMonth": 8,
+    "birthDay": 1,
     "birthPlace": "г.Ишимбай"
   },
   {
@@ -1245,15 +1228,25 @@
     "birthPlace": "г.Ишимбай"
   },
   {
-    "id": "103",
-    "lastName": "Горячева",
-    "firstName": "Виктория",
-    "patronym": "Игоревна",
+    "id": "120",
+    "lastName": "Галимов",
+    "firstName": "Артур",
+    "patronym": "Рустемович",
+    "gender": "male",
+    "birthYear": 2001,
+    "birthMonth": 11,
+    "birthDay": 3
+  },
+  {
+    "id": "60",
+    "lastName": "Каршкова",
+    "firstName": "Юлия",
+    "patronym": "Максимовна",
     "gender": "female",
-    "birthYear": 2002,
-    "birthMonth": 10,
-    "birthDay": 23,
-    "birthPlace": "г.Ишимбай"
+    "birthYear": 2007,
+    "birthMonth": 8,
+    "birthDay": 22,
+    "birthPlace": "г.Нефтекамск"
   },
   {
     "id": "106",
@@ -1265,6 +1258,159 @@
     "birthMonth": 1,
     "birthDay": 13,
     "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "121",
+    "lastName": "Галимова",
+    "firstName": "Виктория",
+    "patronym": "Рустемовна",
+    "gender": "female",
+    "birthYear": 2008,
+    "birthMonth": 5,
+    "birthDay": 13
+  },
+  {
+    "id": "61",
+    "lastName": "Каршков",
+    "firstName": "Роман",
+    "patronym": "Максимович",
+    "gender": "male",
+    "birthYear": 2021,
+    "birthPlace": "г.Нефтекамск"
+  },
+  {
+    "id": "63",
+    "lastName": "Новиков",
+    "firstName": "Илья",
+    "gender": "male",
+    "weddingYear": "2021",
+    "weddingMonth": "8",
+    "weddingDay": "28"
+  },
+  {
+    "id": "64",
+    "lastName": "Колодкин",
+    "firstName": "Герасим",
+    "gender": "male",
+    "nationality": "русский",
+    "bio": "Казак, погиб на границе с китаем\""
+  },
+  {
+    "id": "66",
+    "lastName": "Обухов",
+    "firstName": "Иван",
+    "gender": "male",
+    "nationality": "русский"
+  },
+  {
+    "id": "73",
+    "lastName": "Кожевникова",
+    "firstName": "Елена",
+    "gender": "female"
+  },
+  {
+    "id": "85",
+    "lastName": "Девяткина",
+    "firstName": "Прасковья",
+    "patronym": "Федоровна",
+    "gender": "female"
+  },
+  {
+    "id": "117",
+    "lastName": "Заикина",
+    "firstName": "Анастасия",
+    "patronym": "Анатольевна",
+    "gender": "female",
+    "birthYear": 1983,
+    "birthMonth": 5,
+    "birthDay": 26,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "112",
+    "lastName": "Харченко",
+    "firstName": "Евгений",
+    "patronym": "Александрович",
+    "gender": "male",
+    "birthYear": 1986,
+    "birthMonth": 11,
+    "birthDay": 8
+  },
+  {
+    "id": "97",
+    "lastName": "Рожков",
+    "firstName": "Александр",
+    "patronym": "Игоревич",
+    "gender": "male",
+    "birthYear": 1988,
+    "birthMonth": 5,
+    "birthDay": 8,
+    "birthPlace": "г.Нягань"
+  },
+  {
+    "id": "95",
+    "lastName": "Куданова",
+    "firstName": "Ирина",
+    "patronym": "Ивановна",
+    "gender": "female",
+    "birthYear": 1991,
+    "birthMonth": 1,
+    "birthDay": 25,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "118",
+    "lastName": "Заикин",
+    "firstName": "Евгений",
+    "patronym": "Анатольевич",
+    "gender": "male",
+    "birthYear": 1991,
+    "birthMonth": 7,
+    "birthDay": 5,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "100",
+    "lastName": "Смолин",
+    "firstName": "Сергей",
+    "patronym": "Александрович",
+    "gender": "male",
+    "birthYear": 1994,
+    "birthMonth": 1,
+    "birthDay": 27,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "110",
+    "lastName": "Ямщикова",
+    "firstName": "Татьяна",
+    "patronym": "Геннадьевна",
+    "gender": "female",
+    "birthYear": 1994,
+    "birthMonth": 1,
+    "birthDay": 8,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "103",
+    "lastName": "Горячева",
+    "firstName": "Виктория",
+    "patronym": "Игоревна",
+    "gender": "female",
+    "birthYear": 2002,
+    "birthMonth": 10,
+    "birthDay": 23,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "59",
+    "lastName": "Карамов",
+    "firstName": "Самат",
+    "gender": "male",
+    "birthYear": 2003,
+    "birthMonth": 3,
+    "birthDay": 15,
+    "birthPlace": "г.Нефтекамск"
   },
   {
     "id": "104",
@@ -1294,325 +1440,6 @@
     "firstName": "Павел",
     "patronym": "Андреевич",
     "gender": "male"
-  },
-  {
-    "id": "142",
-    "lastName": "Сорокина",
-    "firstName": "Анастасия",
-    "gender": "female",
-    "birthYear": 1925
-  },
-  {
-    "id": "146",
-    "lastName": "Шаруев",
-    "firstName": "Николай",
-    "patronym": "Петрович",
-    "gender": "female",
-    "birthYear": 1928,
-    "birthMonth": 10,
-    "birthDay": 13,
-    "deathYear": 1994,
-    "deathMonth": 5,
-    "deathDay": 13,
-    "deathPlace": "г.Ишимбай"
-  },
-  {
-    "id": "157",
-    "lastName": "Крученков",
-    "firstName": "Павел",
-    "patronym": "Никитович",
-    "gender": "male",
-    "birthYear": 1928,
-    "birthMonth": 5,
-    "birthDay": 18,
-    "deathYear": 1992,
-    "deathMonth": 1,
-    "deathDay": 18,
-    "deathPlace": "г.Ишимбай"
-  },
-  {
-    "id": "114",
-    "lastName": "Новикова",
-    "firstName": "Нина",
-    "patronym": "Сергеевна",
-    "gender": "female",
-    "birthYear": 1939,
-    "birthMonth": 8,
-    "birthDay": 3,
-    "deathYear": 1992,
-    "deathMonth": 10,
-    "deathDay": 23,
-    "deathPlace": "г.Ишимбай"
-  },
-  {
-    "id": "149",
-    "lastName": "Плотников",
-    "firstName": "Вячеслав",
-    "patronym": "Иосифович",
-    "gender": "male",
-    "birthYear": 1948,
-    "birthMonth": 1,
-    "birthDay": 31,
-    "deathYear": 2009,
-    "deathMonth": 9,
-    "deathDay": 10,
-    "deathPlace": "г.Ишимбай"
-  },
-  {
-    "id": "147",
-    "lastName": "Шаруева",
-    "firstName": "Любовь",
-    "patronym": "Николаевна",
-    "gender": "female",
-    "birthYear": 1950,
-    "birthMonth": 10,
-    "birthDay": 27,
-    "birthPlace": "г.Ишимбай"
-  },
-  {
-    "id": "138",
-    "lastName": "Котова",
-    "firstName": "Лидия",
-    "patronym": "Александровна",
-    "gender": "female",
-    "birthYear": 1952,
-    "birthPlace": "г.Ишимбай"
-  },
-  {
-    "id": "144",
-    "lastName": "Заикин",
-    "firstName": "Евгений",
-    "patronym": "Дмитриевич",
-    "gender": "male",
-    "birthYear": 1953
-  },
-  {
-    "id": "158",
-    "lastName": "Крученков",
-    "firstName": "Виктор",
-    "patronym": "Павлович",
-    "gender": "male",
-    "birthYear": 1953,
-    "birthMonth": 12,
-    "birthDay": 20,
-    "birthPlace": "г.Ишимбай"
-  },
-  {
-    "id": "148",
-    "lastName": "Шаруева",
-    "firstName": "Таисья",
-    "patronym": "Николаевна",
-    "gender": "female",
-    "birthYear": 1954,
-    "birthMonth": 7,
-    "birthDay": 31,
-    "birthPlace": "г.Ишимбай"
-  },
-  {
-    "id": "160",
-    "lastName": "Шахмуратова",
-    "firstName": "Райхана",
-    "patronym": "Хажеевна",
-    "gender": "female",
-    "birthYear": 1954,
-    "birthMonth": 5,
-    "birthDay": 29,
-    "birthPlace": "г.Сибай",
-    "deathYear": 2001,
-    "deathMonth": 3,
-    "deathDay": 12,
-    "deathPlace": "г.Ишимбай"
-  },
-  {
-    "id": "152",
-    "lastName": "Юдахин",
-    "firstName": "Василий",
-    "patronym": "Николаевич",
-    "gender": "male",
-    "birthYear": 1955,
-    "birthMonth": 3,
-    "birthDay": 8
-  },
-  {
-    "id": "159",
-    "lastName": "Крученков",
-    "firstName": "Владимир",
-    "patronym": "Павлович",
-    "gender": "male",
-    "birthYear": 1958,
-    "birthMonth": 3,
-    "birthDay": 1,
-    "birthPlace": "г.Ишимбай"
-  },
-  {
-    "id": "115",
-    "lastName": "Заикин",
-    "firstName": "Анатолий",
-    "patronym": "Михайлович",
-    "gender": "male",
-    "birthYear": 1961,
-    "birthPlace": "г.Ишимбай",
-    "deathYear": 2002,
-    "deathMonth": 1,
-    "deathDay": 12
-  },
-  {
-    "id": "116",
-    "firstName": "Любовь",
-    "patronym": "Ивановна",
-    "gender": "female",
-    "birthYear": 1963,
-    "birthMonth": 5,
-    "birthDay": 19,
-    "deathYear": 2002
-  },
-  {
-    "id": "145",
-    "lastName": "Заикин",
-    "firstName": "Сергей",
-    "patronym": "Дмитриевич",
-    "gender": "male",
-    "birthYear": 1968,
-    "birthPlace": "г.Ишимбай",
-    "deathYear": 2005,
-    "deathPlace": "г.Ишимбай"
-  },
-  {
-    "id": "150",
-    "lastName": "Плотникова",
-    "firstName": "Марина",
-    "patronym": "Вячеславовна",
-    "gender": "female",
-    "birthYear": 1972,
-    "birthMonth": 11,
-    "birthDay": 7,
-    "birthPlace": "г.Ишимбай"
-  },
-  {
-    "id": "119",
-    "lastName": "Галимов",
-    "firstName": "Рустем",
-    "patronym": "Ахтямович",
-    "gender": "male",
-    "birthYear": 1976,
-    "birthMonth": 11,
-    "birthDay": 19
-  },
-  {
-    "id": "151",
-    "lastName": "Плотникова",
-    "firstName": "Наталья",
-    "patronym": "Вячеславовна",
-    "gender": "female",
-    "birthYear": 1977,
-    "birthPlace": "г.Ишимбай"
-  },
-  {
-    "id": "153",
-    "lastName": "Шацкий",
-    "firstName": "Александр",
-    "patronym": "Александрович",
-    "gender": "male",
-    "birthYear": 1980,
-    "birthMonth": 12,
-    "birthDay": 19,
-    "birthPlace": "г.Ишимбай"
-  },
-  {
-    "id": "117",
-    "lastName": "Заикина",
-    "firstName": "Анастасия",
-    "patronym": "Анатольевна",
-    "gender": "female",
-    "birthYear": 1983,
-    "birthMonth": 5,
-    "birthDay": 26,
-    "birthPlace": "г.Ишимбай"
-  },
-  {
-    "id": "112",
-    "lastName": "Харченко",
-    "firstName": "Евгений",
-    "patronym": "Александрович",
-    "gender": "male",
-    "birthYear": 1986,
-    "birthMonth": 11,
-    "birthDay": 8
-  },
-  {
-    "id": "139",
-    "lastName": "Заикин",
-    "firstName": "Сергей",
-    "patronym": "Иванович",
-    "gender": "male",
-    "birthYear": 1986,
-    "birthMonth": 11,
-    "birthDay": 22,
-    "birthPlace": "г.Ишимбай"
-  },
-  {
-    "id": "118",
-    "lastName": "Заикин",
-    "firstName": "Евгений",
-    "patronym": "Анатольевич",
-    "gender": "male",
-    "birthYear": 1991,
-    "birthMonth": 7,
-    "birthDay": 5,
-    "birthPlace": "г.Ишимбай"
-  },
-  {
-    "id": "110",
-    "lastName": "Ямщикова",
-    "firstName": "Татьяна",
-    "patronym": "Геннадьевна",
-    "gender": "female",
-    "birthYear": 1994,
-    "birthMonth": 1,
-    "birthDay": 8,
-    "birthPlace": "г.Ишимбай"
-  },
-  {
-    "id": "154",
-    "lastName": "Юдахина",
-    "firstName": "Анна",
-    "patronym": "Васильевна",
-    "gender": "female",
-    "birthYear": 1995,
-    "birthMonth": 10,
-    "birthDay": 19,
-    "birthPlace": "г.Ишимбай"
-  },
-  {
-    "id": "122",
-    "lastName": "Макшанова",
-    "firstName": "Анна",
-    "patronym": "Андреевна",
-    "gender": "female",
-    "birthYear": 1997,
-    "birthMonth": 8,
-    "birthDay": 1,
-    "birthPlace": "г.Ишимбай"
-  },
-  {
-    "id": "120",
-    "lastName": "Галимов",
-    "firstName": "Артур",
-    "patronym": "Рустемович",
-    "gender": "male",
-    "birthYear": 2001,
-    "birthMonth": 11,
-    "birthDay": 3
-  },
-  {
-    "id": "121",
-    "lastName": "Галимова",
-    "firstName": "Виктория",
-    "patronym": "Рустемовна",
-    "gender": "female",
-    "birthYear": 2008,
-    "birthMonth": 5,
-    "birthDay": 13
   },
   {
     "id": "109",
@@ -1745,19 +1572,325 @@
     "bio": "Вторая жена Заикина Дмитрия Сергеевича, и мать Сергея Дмитриевича? \""
   },
   {
+    "id": "171",
+    "lastName": "Ларичев",
+    "firstName": "Семен",
+    "patronym": "Васильевич",
+    "gender": "male",
+    "birthYear": 1906,
+    "birthMonth": 5,
+    "birthDay": 25,
+    "bio": "Заслуженный нефтяник Башкирии, награжден Орденом Трудового Красного Знамени. Третий сын в семье, старший Владимир (умер в 66лет) и средний Сергей (не вернулся с Беломорканала). Владимир Васильевич и Сергей Васильевич были раскулачены и сосланы на строительство Беломорканала, Сергей там умер. Владимир отбывал вместе с Сергеем Федоровичем Заикиным, были при лошадях, потому и выжили. Так же у Семена была младшая сестра Мария, проживала в Адлере\""
+  },
+  {
+    "id": "172",
+    "lastName": "Лазарева",
+    "firstName": "Евдокия",
+    "patronym": "Александровна",
+    "gender": "female",
+    "birthYear": 1906,
+    "birthMonth": 4,
+    "birthDay": 14
+  },
+  {
+    "id": "146",
+    "lastName": "Шаруев",
+    "firstName": "Николай",
+    "patronym": "Петрович",
+    "gender": "female",
+    "birthYear": 1928,
+    "birthMonth": 10,
+    "birthDay": 13,
+    "deathYear": 1994,
+    "deathMonth": 5,
+    "deathDay": 13,
+    "deathPlace": "г.Ишимбай"
+  },
+  {
+    "id": "173",
+    "lastName": "Ларичев",
+    "firstName": "Иван",
+    "patronym": "Семенович",
+    "gender": "male",
+    "birthYear": 1929,
+    "birthMonth": 9,
+    "birthDay": 25,
+    "birthPlace": "г.Ишимбай",
+    "deathYear": 2002,
+    "deathMonth": 1,
+    "deathDay": 9,
+    "deathPlace": "г.Ишимбай"
+  },
+  {
+    "id": "149",
+    "lastName": "Плотников",
+    "firstName": "Вячеслав",
+    "patronym": "Иосифович",
+    "gender": "male",
+    "birthYear": 1948,
+    "birthMonth": 1,
+    "birthDay": 31,
+    "deathYear": 2009,
+    "deathMonth": 9,
+    "deathDay": 10,
+    "deathPlace": "г.Ишимбай"
+  },
+  {
+    "id": "147",
+    "lastName": "Шаруева",
+    "firstName": "Любовь",
+    "patronym": "Николаевна",
+    "gender": "female",
+    "birthYear": 1950,
+    "birthMonth": 10,
+    "birthDay": 27,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "138",
+    "lastName": "Котова",
+    "firstName": "Лидия",
+    "patronym": "Александровна",
+    "gender": "female",
+    "birthYear": 1952,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "148",
+    "lastName": "Шаруева",
+    "firstName": "Таисья",
+    "patronym": "Николаевна",
+    "gender": "female",
+    "birthYear": 1954,
+    "birthMonth": 7,
+    "birthDay": 31,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "160",
+    "lastName": "Шахмуратова",
+    "firstName": "Райхана",
+    "patronym": "Хажеевна",
+    "gender": "female",
+    "birthYear": 1954,
+    "birthMonth": 5,
+    "birthDay": 29,
+    "birthPlace": "г.Сибай",
+    "deathYear": 2001,
+    "deathMonth": 3,
+    "deathDay": 12,
+    "deathPlace": "г.Ишимбай"
+  },
+  {
+    "id": "152",
+    "lastName": "Юдахин",
+    "firstName": "Василий",
+    "patronym": "Николаевич",
+    "gender": "male",
+    "birthYear": 1955,
+    "birthMonth": 3,
+    "birthDay": 8
+  },
+  {
+    "id": "176",
+    "lastName": "Акшенцева",
+    "firstName": "Татьяна",
+    "patronym": "Николаевна",
+    "gender": "female",
+    "birthYear": 1956,
+    "birthMonth": 2,
+    "birthDay": 12,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "145",
+    "lastName": "Заикин",
+    "firstName": "Сергей",
+    "patronym": "Дмитриевич",
+    "gender": "male",
+    "birthYear": 1968,
+    "birthPlace": "г.Ишимбай",
+    "deathYear": 2005,
+    "deathPlace": "г.Ишимбай"
+  },
+  {
+    "id": "163",
+    "lastName": "Сергеева",
+    "firstName": "Роза",
+    "patronym": "Михайловна",
+    "gender": "female",
+    "birthYear": 1978,
+    "birthMonth": 3,
+    "birthDay": 30
+  },
+  {
+    "id": "153",
+    "lastName": "Шацкий",
+    "firstName": "Александр",
+    "patronym": "Александрович",
+    "gender": "male",
+    "birthYear": 1980,
+    "birthMonth": 12,
+    "birthDay": 19,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "139",
+    "lastName": "Заикин",
+    "firstName": "Сергей",
+    "patronym": "Иванович",
+    "gender": "male",
+    "birthYear": 1986,
+    "birthMonth": 11,
+    "birthDay": 22,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
     "id": "140",
     "firstName": "Татьяна",
     "gender": "female"
   },
   {
-    "id": "156",
-    "lastName": "Сарычев",
-    "firstName": "Владимир",
-    "patronym": "Артемович",
+    "id": "142",
+    "lastName": "Сорокина",
+    "firstName": "Анастасия",
+    "gender": "female",
+    "birthYear": 1925
+  },
+  {
+    "id": "157",
+    "lastName": "Крученков",
+    "firstName": "Павел",
+    "patronym": "Никитович",
     "gender": "male",
-    "birthYear": 2019,
-    "birthMonth": 2,
-    "birthDay": 1
+    "birthYear": 1928,
+    "birthMonth": 5,
+    "birthDay": 18,
+    "deathYear": 1992,
+    "deathMonth": 1,
+    "deathDay": 18,
+    "deathPlace": "г.Ишимбай"
+  },
+  {
+    "id": "174",
+    "lastName": "Ларичев",
+    "firstName": "Михаил",
+    "patronym": "Иванович",
+    "gender": "male",
+    "birthYear": 1956,
+    "birthMonth": 11,
+    "birthDay": 18,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "175",
+    "lastName": "Ларичев",
+    "firstName": "Александр",
+    "patronym": "Иванович",
+    "gender": "male",
+    "birthYear": 1960,
+    "birthMonth": 11,
+    "birthDay": 3,
+    "birthPlace": "г.Ишимбай",
+    "deathYear": 2015,
+    "deathMonth": 12,
+    "deathDay": 7,
+    "deathPlace": "г.Ишимбай"
+  },
+  {
+    "id": "166",
+    "lastName": "Кузнецова",
+    "firstName": "Ирина",
+    "patronym": "Николаевна",
+    "gender": "female",
+    "birthYear": 1966,
+    "birthMonth": 5,
+    "birthDay": 18
+  },
+  {
+    "id": "150",
+    "lastName": "Плотникова",
+    "firstName": "Марина",
+    "patronym": "Вячеславовна",
+    "gender": "female",
+    "birthYear": 1972,
+    "birthMonth": 11,
+    "birthDay": 7,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "177",
+    "lastName": "Ларичева",
+    "firstName": "Ирина",
+    "patronym": "Михайловна",
+    "gender": "female",
+    "birthYear": 1980,
+    "birthMonth": 5,
+    "birthDay": 4,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "168",
+    "lastName": "Самойликов",
+    "firstName": "Андрей",
+    "patronym": "Александрович",
+    "gender": "male",
+    "birthYear": 1982,
+    "birthMonth": 12,
+    "birthDay": 27
+  },
+  {
+    "id": "167",
+    "lastName": "Крученкова",
+    "firstName": "Евгения",
+    "patronym": "Владимировна",
+    "gender": "female",
+    "birthYear": 1985,
+    "birthMonth": 8,
+    "birthDay": 13
+  },
+  {
+    "id": "178",
+    "lastName": "Ларичев",
+    "firstName": "Иван",
+    "patronym": "Михайлович",
+    "gender": "male",
+    "birthYear": 1985,
+    "birthMonth": 1,
+    "birthDay": 21,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "165",
+    "lastName": "Зубков",
+    "firstName": "Николай",
+    "patronym": "Геннадьевич",
+    "gender": "male",
+    "birthYear": 1987,
+    "birthMonth": 4,
+    "birthDay": 16
+  },
+  {
+    "id": "162",
+    "lastName": "Крученкова",
+    "firstName": "Юлия",
+    "patronym": "Викторовна",
+    "gender": "female",
+    "birthYear": 1989,
+    "birthMonth": 12,
+    "birthDay": 4,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "154",
+    "lastName": "Юдахина",
+    "firstName": "Анна",
+    "patronym": "Васильевна",
+    "gender": "female",
+    "birthYear": 1995,
+    "birthMonth": 10,
+    "birthDay": 19,
+    "birthPlace": "г.Ишимбай"
   },
   {
     "id": "141",
@@ -1776,10 +1909,62 @@
     "gender": "female"
   },
   {
+    "id": "144",
+    "lastName": "Заикин",
+    "firstName": "Евгений",
+    "patronym": "Дмитриевич",
+    "gender": "male",
+    "birthYear": 1953
+  },
+  {
+    "id": "151",
+    "lastName": "Плотникова",
+    "firstName": "Наталья",
+    "patronym": "Вячеславовна",
+    "gender": "female",
+    "birthYear": 1977,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
     "id": "155",
     "lastName": "Сарычев",
     "firstName": "Артем",
     "gender": "male"
+  },
+  {
+    "id": "179",
+    "lastName": "Шаталов",
+    "firstName": "Виктор",
+    "patronym": "Михайлович",
+    "gender": "male",
+    "birthYear": 1976
+  },
+  {
+    "id": "180",
+    "lastName": "Шаталова",
+    "firstName": "Софья",
+    "patronym": "Викторовна",
+    "gender": "female",
+    "birthYear": 2010,
+    "birthMonth": 3,
+    "birthDay": 30
+  },
+  {
+    "id": "181",
+    "lastName": "Шаталов",
+    "firstName": "Михаил",
+    "patronym": "Викторович",
+    "gender": "male",
+    "birthYear": 2013,
+    "birthMonth": 8,
+    "birthDay": 30
+  },
+  {
+    "id": "182",
+    "lastName": "Голубкова",
+    "firstName": "Светлана",
+    "patronym": "Вадимовна",
+    "gender": "female"
   },
   {
     "id": "185",
@@ -1808,27 +1993,6 @@
     "deathPlace": "г.Ишимбай"
   },
   {
-    "id": "171",
-    "lastName": "Ларичев",
-    "firstName": "Семен",
-    "patronym": "Васильевич",
-    "gender": "male",
-    "birthYear": 1906,
-    "birthMonth": 5,
-    "birthDay": 25,
-    "bio": "Заслуженный нефтяник Башкирии, награжден Орденом Трудового Красного Знамени. Третий сын в семье, старший Владимир (умер в 66лет) и средний Сергей (не вернулся с Беломорканала). Владимир Васильевич и Сергей Васильевич были раскулачены и сосланы на строительство Беломорканала, Сергей там умер. Владимир отбывал вместе с Сергеем Федоровичем Заикиным, были при лошадях, потому и выжили. Так же у Семена была младшая сестра Мария, проживала в Адлере\""
-  },
-  {
-    "id": "172",
-    "lastName": "Лазарева",
-    "firstName": "Евдокия",
-    "patronym": "Александровна",
-    "gender": "female",
-    "birthYear": 1906,
-    "birthMonth": 4,
-    "birthDay": 14
-  },
-  {
     "id": "193",
     "lastName": "Шагивалеев",
     "firstName": "Матыгулла",
@@ -1837,7 +2001,7 @@
     "birthYear": 1912,
     "birthMonth": 5,
     "birthDay": 9,
-    "birthPlace": "г.Казань",
+    "birthPlace": "д.Курманаевка, Чистопольский р-н, Татария",
     "deathYear": 2008,
     "deathMonth": 10,
     "deathDay": 16,
@@ -1868,21 +2032,6 @@
     "birthMonth": 11,
     "birthDay": 3,
     "bio": "т.Соня"
-  },
-  {
-    "id": "173",
-    "lastName": "Ларичев",
-    "firstName": "Иван",
-    "patronym": "Семенович",
-    "gender": "male",
-    "birthYear": 1929,
-    "birthMonth": 9,
-    "birthDay": 25,
-    "birthPlace": "г.Ишимбай",
-    "deathYear": 2002,
-    "deathMonth": 1,
-    "deathDay": 9,
-    "deathPlace": "г.Ишимбай"
   },
   {
     "id": "190",
@@ -1957,82 +2106,26 @@
     "deathPlace": "г.Ишимбай"
   },
   {
-    "id": "174",
-    "lastName": "Ларичев",
-    "firstName": "Михаил",
-    "patronym": "Иванович",
-    "gender": "male",
-    "birthYear": 1956,
-    "birthMonth": 11,
-    "birthDay": 18,
-    "birthPlace": "г.Ишимбай"
-  },
-  {
-    "id": "176",
-    "lastName": "Акшенцева",
-    "firstName": "Татьяна",
-    "patronym": "Николаевна",
-    "gender": "female",
-    "birthYear": 1956,
-    "birthMonth": 2,
-    "birthDay": 12,
-    "birthPlace": "г.Ишимбай"
-  },
-  {
-    "id": "198",
-    "lastName": "Дубанова",
-    "firstName": "Татьяна",
-    "patronym": "Васильевна",
-    "gender": "female",
-    "birthYear": 1957,
-    "birthMonth": 7,
-    "birthDay": 3,
-    "birthPlace": "г.Ишимбай",
-    "deathYear": 2015,
-    "deathMonth": 11,
-    "deathDay": 5,
-    "deathPlace": "г.Ишимбай"
-  },
-  {
-    "id": "175",
-    "lastName": "Ларичев",
-    "firstName": "Александр",
-    "patronym": "Иванович",
-    "gender": "male",
-    "birthYear": 1960,
-    "birthMonth": 11,
-    "birthDay": 3,
-    "birthPlace": "г.Ишимбай",
-    "deathYear": 2015,
-    "deathMonth": 12,
-    "deathDay": 7,
-    "deathPlace": "г.Ишимбай"
-  },
-  {
-    "id": "205",
-    "lastName": "Чараева",
-    "firstName": "Ольга",
-    "gender": "female",
-    "birthYear": 1960,
-    "birthPlace": "г.Стерлитамак"
-  },
-  {
-    "id": "166",
-    "lastName": "Кузнецова",
-    "firstName": "Ирина",
-    "patronym": "Николаевна",
-    "gender": "female",
-    "birthYear": 1966,
-    "birthMonth": 5,
-    "birthDay": 18
-  },
-  {
-    "id": "179",
-    "lastName": "Шаталов",
+    "id": "158",
+    "lastName": "Крученков",
     "firstName": "Виктор",
-    "patronym": "Михайлович",
+    "patronym": "Павлович",
     "gender": "male",
-    "birthYear": 1976
+    "birthYear": 1953,
+    "birthMonth": 12,
+    "birthDay": 20,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "159",
+    "lastName": "Крученков",
+    "firstName": "Владимир",
+    "patronym": "Павлович",
+    "gender": "male",
+    "birthYear": 1958,
+    "birthMonth": 3,
+    "birthDay": 1,
+    "birthPlace": "г.Ишимбай"
   },
   {
     "id": "161",
@@ -2046,128 +2139,15 @@
     "birthPlace": "г.Ишимбай"
   },
   {
-    "id": "163",
-    "lastName": "Сергеева",
-    "firstName": "Роза",
-    "patronym": "Михайловна",
-    "gender": "female",
-    "birthYear": 1978,
-    "birthMonth": 3,
-    "birthDay": 30
-  },
-  {
-    "id": "177",
-    "lastName": "Ларичева",
-    "firstName": "Ирина",
-    "patronym": "Михайловна",
-    "gender": "female",
-    "birthYear": 1980,
-    "birthMonth": 5,
-    "birthDay": 4,
-    "birthPlace": "г.Ишимбай"
-  },
-  {
     "id": "199",
     "lastName": "Шагивалеев",
     "firstName": "Роман",
     "patronym": "Маратович",
     "gender": "male",
     "birthYear": 1980,
-    "birthMonth": 10
-  },
-  {
-    "id": "168",
-    "lastName": "Самойликов",
-    "firstName": "Андрей",
-    "patronym": "Александрович",
-    "gender": "male",
-    "birthYear": 1982,
-    "birthMonth": 12,
-    "birthDay": 27
-  },
-  {
-    "id": "210",
-    "lastName": "Кривоконев",
-    "firstName": "Виталий",
-    "patronym": "Васильевич",
-    "gender": "male",
-    "birthYear": 1983,
-    "birthMonth": 7,
-    "birthDay": 1
-  },
-  {
-    "id": "206",
-    "lastName": "Ларичева",
-    "firstName": "Екатерина",
-    "patronym": "Александровна",
-    "gender": "female",
-    "birthYear": 1984,
-    "birthMonth": 11,
-    "birthDay": 9,
+    "birthMonth": 9,
+    "birthDay": 26,
     "birthPlace": "г.Ишимбай"
-  },
-  {
-    "id": "167",
-    "lastName": "Крученкова",
-    "firstName": "Евгения",
-    "patronym": "Владимировна",
-    "gender": "female",
-    "birthYear": 1985,
-    "birthMonth": 8,
-    "birthDay": 13
-  },
-  {
-    "id": "178",
-    "lastName": "Ларичев",
-    "firstName": "Иван",
-    "patronym": "Михайлович",
-    "gender": "male",
-    "birthYear": 1985,
-    "birthMonth": 1,
-    "birthDay": 21,
-    "birthPlace": "г.Ишимбай"
-  },
-  {
-    "id": "165",
-    "lastName": "Зубков",
-    "firstName": "Николай",
-    "patronym": "Геннадьевич",
-    "gender": "male",
-    "birthYear": 1987,
-    "birthMonth": 4,
-    "birthDay": 16
-  },
-  {
-    "id": "162",
-    "lastName": "Крученкова",
-    "firstName": "Юлия",
-    "patronym": "Викторовна",
-    "gender": "female",
-    "birthYear": 1989,
-    "birthMonth": 12,
-    "birthDay": 4,
-    "birthPlace": "г.Ишимбай"
-  },
-  {
-    "id": "207",
-    "lastName": "Ларичева",
-    "firstName": "Светлана",
-    "patronym": "Александровна",
-    "gender": "female",
-    "birthYear": 1989,
-    "birthMonth": 5,
-    "birthDay": 11,
-    "birthPlace": "г.Ишимбай"
-  },
-  {
-    "id": "180",
-    "lastName": "Шаталова",
-    "firstName": "Софья",
-    "patronym": "Викторовна",
-    "gender": "female",
-    "birthYear": 2010,
-    "birthMonth": 3,
-    "birthDay": 30
   },
   {
     "id": "183",
@@ -2178,28 +2158,6 @@
     "birthYear": 2010,
     "birthMonth": 3,
     "birthDay": 15,
-    "birthPlace": "г.Ишимбай"
-  },
-  {
-    "id": "209",
-    "lastName": "Куприянова",
-    "firstName": "Ксения",
-    "patronym": "Алексеевна",
-    "gender": "female",
-    "birthYear": 2010,
-    "birthMonth": 10,
-    "birthDay": 18,
-    "birthPlace": "г.Ишимбай"
-  },
-  {
-    "id": "211",
-    "lastName": "Кривоконев",
-    "firstName": "Артем",
-    "patronym": "Витальевич",
-    "gender": "male",
-    "birthYear": 2010,
-    "birthMonth": 8,
-    "birthDay": 20,
     "birthPlace": "г.Ишимбай"
   },
   {
@@ -2233,23 +2191,6 @@
     "birthDay": 24
   },
   {
-    "id": "181",
-    "lastName": "Шаталов",
-    "firstName": "Михаил",
-    "patronym": "Викторович",
-    "gender": "male",
-    "birthYear": 2013,
-    "birthMonth": 8,
-    "birthDay": 30
-  },
-  {
-    "id": "182",
-    "lastName": "Голубкова",
-    "firstName": "Светлана",
-    "patronym": "Вадимовна",
-    "gender": "female"
-  },
-  {
     "id": "184",
     "lastName": "Ларичев",
     "firstName": "Семен",
@@ -2259,6 +2200,16 @@
     "birthMonth": 8,
     "birthDay": 20,
     "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "156",
+    "lastName": "Сарычев",
+    "firstName": "Владимир",
+    "patronym": "Артемович",
+    "gender": "male",
+    "birthYear": 2019,
+    "birthMonth": 2,
+    "birthDay": 1
   },
   {
     "id": "188",
@@ -2276,11 +2227,27 @@
     "gender": "male"
   },
   {
+    "id": "198",
+    "lastName": "Дубанова",
+    "firstName": "Татьяна",
+    "patronym": "Васильевна",
+    "gender": "female",
+    "birthYear": 1957,
+    "birthMonth": 7,
+    "birthDay": 3,
+    "birthPlace": "г.Ишимбай",
+    "deathYear": 2015,
+    "deathMonth": 11,
+    "deathDay": 5,
+    "deathPlace": "г.Ишимбай"
+  },
+  {
     "id": "200",
     "lastName": "Шагивалеева",
     "firstName": "Светлана",
     "patronym": "Маратовна",
-    "gender": "female"
+    "gender": "female",
+    "birthPlace": "г.Ишимбай"
   },
   {
     "id": "201",
@@ -2309,10 +2276,148 @@
     "gender": "male"
   },
   {
+    "id": "216",
+    "lastName": "Артемов",
+    "firstName": "Владимир",
+    "patronym": "Алексеевич",
+    "gender": "male",
+    "birthYear": 1952,
+    "birthMonth": 5,
+    "birthDay": 24,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "218",
+    "lastName": "Артемов",
+    "firstName": "Алексей",
+    "patronym": "Алексеевич",
+    "gender": "male",
+    "birthYear": 1957,
+    "birthMonth": 3,
+    "birthDay": 19,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "205",
+    "lastName": "Чараева",
+    "firstName": "Ольга",
+    "gender": "female",
+    "birthYear": 1960,
+    "birthPlace": "г.Стерлитамак"
+  },
+  {
+    "id": "219",
+    "lastName": "Артемов",
+    "firstName": "Александр",
+    "patronym": "Алексеевич",
+    "gender": "male",
+    "birthYear": 1960,
+    "birthMonth": 7,
+    "birthDay": 30,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "226",
+    "firstName": "Ольга",
+    "patronym": "Шмильевна",
+    "gender": "female",
+    "birthYear": 1963,
+    "birthMonth": 6,
+    "birthDay": 7,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "232",
+    "lastName": "Столяров",
+    "firstName": "Сергей",
+    "patronym": "Александрович",
+    "gender": "male",
+    "birthYear": 1982,
+    "birthMonth": 11,
+    "birthDay": 15,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "210",
+    "lastName": "Кривоконев",
+    "firstName": "Виталий",
+    "patronym": "Васильевич",
+    "gender": "male",
+    "birthYear": 1983,
+    "birthMonth": 7,
+    "birthDay": 1
+  },
+  {
+    "id": "206",
+    "lastName": "Ларичева",
+    "firstName": "Екатерина",
+    "patronym": "Александровна",
+    "gender": "female",
+    "birthYear": 1984,
+    "birthMonth": 11,
+    "birthDay": 9,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "207",
+    "lastName": "Ларичева",
+    "firstName": "Светлана",
+    "patronym": "Александровна",
+    "gender": "female",
+    "birthYear": 1989,
+    "birthMonth": 5,
+    "birthDay": 11,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
     "id": "208",
     "lastName": "Куприянов",
     "firstName": "Алексей",
     "gender": "male"
+  },
+  {
+    "id": "224",
+    "lastName": "Артемов",
+    "firstName": "Илья",
+    "patronym": "Алексеевич",
+    "gender": "male",
+    "birthYear": 1989,
+    "birthMonth": 8,
+    "birthDay": 3,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "225",
+    "lastName": "Артемов",
+    "firstName": "Антон",
+    "patronym": "Алексеевич",
+    "gender": "male",
+    "birthYear": 1992,
+    "birthMonth": 8,
+    "birthDay": 16,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "209",
+    "lastName": "Куприянова",
+    "firstName": "Ксения",
+    "patronym": "Алексеевна",
+    "gender": "female",
+    "birthYear": 2010,
+    "birthMonth": 10,
+    "birthDay": 18,
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "211",
+    "lastName": "Кривоконев",
+    "firstName": "Артем",
+    "patronym": "Витальевич",
+    "gender": "male",
+    "birthYear": 2010,
+    "birthMonth": 8,
+    "birthDay": 20,
+    "birthPlace": "г.Ишимбай"
   },
   {
     "id": "212",
@@ -2324,5 +2429,121 @@
     "birthMonth": 12,
     "birthDay": 11,
     "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "213",
+    "lastName": "Сушков",
+    "firstName": "Григорий",
+    "patronym": "Александрович",
+    "gender": "male",
+    "birthPlace": "г.Льгов, Курская обл."
+  },
+  {
+    "id": "214",
+    "lastName": "Тимошенко",
+    "firstName": "Мария",
+    "patronym": "Григорьевна",
+    "gender": "female",
+    "birthPlace": "г.Льгов, Курская обл."
+  },
+  {
+    "id": "215",
+    "firstName": "Римма",
+    "gender": "female"
+  },
+  {
+    "id": "217",
+    "lastName": "Артемов",
+    "firstName": "Василий",
+    "patronym": "Алексеевич",
+    "gender": "male",
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "220",
+    "firstName": "Галина",
+    "gender": "female"
+  },
+  {
+    "id": "221",
+    "firstName": "Любовь",
+    "gender": "female"
+  },
+  {
+    "id": "222",
+    "lastName": "Артемова",
+    "firstName": "Алена",
+    "patronym": "Васильевна",
+    "gender": "female"
+  },
+  {
+    "id": "223",
+    "firstName": "Мария",
+    "patronym": "Михайловна",
+    "gender": "female",
+    "birthYear": 1954,
+    "birthMonth": 12,
+    "birthDay": 24,
+    "birthPlace": "г.Стерлитамак"
+  },
+  {
+    "id": "229",
+    "firstName": "Нина",
+    "patronym": "Лаврентьевна",
+    "gender": "female",
+    "birthPlace": "д.Аси-Ялань"
+  },
+  {
+    "id": "230",
+    "lastName": "Артемова",
+    "firstName": "Марина",
+    "patronym": "Сергеевна",
+    "gender": "female",
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "231",
+    "lastName": "Артемова",
+    "firstName": "Оксана",
+    "patronym": "Сергеевна",
+    "gender": "female",
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "233",
+    "lastName": "Столяров",
+    "firstName": "Кирилл",
+    "patronym": "Сергеевич",
+    "gender": "male",
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "234",
+    "lastName": "Столярова",
+    "firstName": "Екатерина",
+    "patronym": "Сергеевна",
+    "gender": "female",
+    "birthPlace": "г.Ишимбай"
+  },
+  {
+    "id": "235",
+    "lastName": "Сунцов",
+    "firstName": "Антон",
+    "patronym": "Сергеевич",
+    "gender": "male"
+  },
+  {
+    "id": "236",
+    "lastName": "Сунцова",
+    "firstName": "Анна",
+    "patronym": "Антоновна",
+    "gender": "female"
+  },
+  {
+    "id": "237",
+    "lastName": "Сунцова",
+    "firstName": "Варвара",
+    "patronym": "Антоновна",
+    "gender": "female"
   }
 ]
