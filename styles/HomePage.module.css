@@ -49,7 +49,7 @@
   overflow-x: auto;
 }
 
-@media (max-width: 1520px) {
+@media (max-width: 1540px) {
   .content {
     height: fit-content;
   }
