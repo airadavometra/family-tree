@@ -18,20 +18,19 @@ const credits = [
 ];
 
 const CreditsPage: NextPage = () => {
-  const nodesCount = getNodesCount();
-  const treeDepth = getTreeDepth();
-
   return (
     <div className={s.pageContainer}>
       <div className={s.content}>
         <div className={s.descriptionContainer}>
-          <div className={classNames(s.logoContainer, s.descriptionItem)}>
-            <Image
-              src="/LogoBig.png"
-              width={120}
-              height={110}
-              alt="Логотип проекта древо"
-            />
+          <div className={classNames(s.titleContainer, s.descriptionItem)}>
+            <div className={s.logoContainer}>
+              <Image
+                src="/LogoBig.png"
+                width={120}
+                height={110}
+                alt="Логотип проекта древо"
+              />
+            </div>
             <span className={s.logoTitle}>БЛАГОДАРНОСТИ</span>
           </div>
           {credits.map((item, index) => (

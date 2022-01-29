@@ -15,7 +15,7 @@
   display: flex;
   flex-direction: column;
 }
-.logoContainer {
+.titleContainer {
   display: flex;
   align-items: center;
 }
@@ -65,7 +65,14 @@
   .imageContainer {
     display: none;
   }
+  .logoContainer {
+    display: none;
+  }
   .buttonsContainer {
     flex-direction: column;
+  }
+  .logoTitle {
+    margin-left: 0px;
+    font-size: 4rem;
   }
 }
