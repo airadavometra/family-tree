@@ -1,11 +1,10 @@
-import { getTreeNodesMap } from "../../data";
-import nodes from "../../data/nodes.json";
+import { getTreeNodesArray, getTreeNodesMap } from "../../data";
 import { TreeNode } from "../../types/tree";
 
 export const getNodesCount = (): number => {
-  const nodesCount = nodes.length;
+  const nodes = getTreeNodesArray();
 
-  return nodesCount;
+  return nodes.length;
 };
 
 export const getTreeDepth = (): number => {
@@ -13,6 +12,7 @@ export const getTreeDepth = (): number => {
 
   return maxDepth(nodes[1], nodes);
 };
+
 const maxDepth = (
   rootNode: TreeNode,
   nodes: { [k: string]: TreeNode }

@@ -1,5 +1,5 @@
 import { FC, useState } from "react";
-import { useTree } from "../../../context/tree";
+import { useNodeSelectionContext } from "../../../context/tree";
 import { CloseIcon } from "../../../icons/CloseIcon";
 import BioLink from "./BioLink/BioLink";
 import BioNavItem from "./BioNavItem/BioNavItem";
@@ -13,7 +13,7 @@ const navigation = [
 ];
 
 const TreeNodeDetails: FC = () => {
-  const { selectedNodeId, unselectNode, selectNode } = useTree();
+  const { hasSubTree, selectedNodeId, unselectNode, selectNode } = useNodeSelectionContext();
   const [selectedNavId, setSelectedNavId] = useState<number>(1);
   const nodeDetails = getTreeNodeDetails(selectedNodeId);
 
@@ -26,10 +26,15 @@ const TreeNodeDetails: FC = () => {
       </button>
       <div className={s.rootItem}>
         <h2 className={s.name}>{nodeDetails.fullName}</h2>
-        <BioLink
-          href={`/tree?root=${nodeDetails.id}`}
-          text="Перейти к дереву"
-        />
+        {hasSubTree ? (
+          <BioLink
+            className={s.hasSubTreeLink}
+            href={`/tree?root=${nodeDetails.id}`}
+            text="Есть скрытая ветка. Перейти к дереву"
+          />
+        ) : (
+          <BioLink href={`/tree?root=${nodeDetails.id}`} text="Перейти к дереву" />
+        )}
       </div>
       <nav className={s.rootItem}>
         {navigation.map((item, index) => (
@@ -43,24 +48,13 @@ const TreeNodeDetails: FC = () => {
         ))}
       </nav>
       {selectedNavId === 1 ? (
-        <TreeNodeDetailsBio
-          {...nodeDetails}
-          onRelationNodeClick={(id) => selectNode(id)}
-        />
+        <TreeNodeDetailsBio {...nodeDetails} onRelationNodeClick={(id) => selectNode(id)} />
       ) : (
         <>
+          <span className={s.rootItem}>К сожалению, у нас пока нет фотографий этого человека.</span>
           <span className={s.rootItem}>
-            К сожалению, у нас пока нет фотографий этого человека.
-          </span>
-          <span className={s.rootItem}>
-            Если вы хотите помочь и у вас есть фото, которые вы хотите добавить
-            в галерею, пожалуйста,{" "}
-            <BioLink
-              href="https://t.me/airadavometra"
-              text="напишите нам"
-              newTab={true}
-            />
-            .
+            Если вы хотите помочь и у вас есть фото, которые вы хотите добавить в галерею, пожалуйста,{" "}
+            <BioLink href="https://t.me/airadavometra" text="напишите нам" newTab={true} />.
           </span>
         </>
       )}

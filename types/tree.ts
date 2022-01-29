@@ -1,16 +1,12 @@
 import { ExtNode, Node, RelType } from "relatives-tree/lib/types";
 
+export type TreeNode = Node & {
+  data: TreeNodeData;
+};
+
 export type TreeExternalNode = ExtNode & TreeNode;
 
-export type TreeNode = Node & {
-  data: TreeNodeDerivedData;
-};
-
-export type TreeNodeDerivedData = TreeNodeData & {
-  fullName: string;
-};
-
-export type TreeNodeData = {
+export type TreeNodeDataFromJson = {
   id: string;
   firstName: string;
 } & Partial<{
@@ -31,6 +27,9 @@ export type TreeNodeData = {
   rewards: string[];
   bio: string;
 }>;
+export type TreeNodeData = TreeNodeDataFromJson & {
+  fullName: string;
+};
 export type TreeNodeRelation = Readonly<{
   id: string;
   type: RelType;
@@ -41,7 +40,7 @@ export type RelationShortInfo = {
   fullName: string;
 };
 
-export type TreeNodeDetailsWithRelations = TreeNodeDerivedData & {
+export type TreeNodeDataWithRelations = TreeNodeData & {
   parents: RelationShortInfo[];
   children: RelationShortInfo[];
   siblings: RelationShortInfo[];
