@@ -1,26 +1,36 @@
-.navbar {
+.menuContainer {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.2rem 6rem;
   background-color: var(--background-color);
+  z-index: 10;
 }
-.logoContainer {
+.closedMenu {
+  display: none;
+}
+.menu {
+  margin: auto;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
 }
-.logoTitle {
-  margin-left: 12px;
-  font-size: 2rem;
+.closeIcon {
+  width: 36px;
+  position: absolute;
+  top: 1.2rem;
+  right: 3rem;
+  fill: rgba(255, 255, 255, 0.8);
+  transition: fill 0.2s;
 }
 .link {
+  width: fit-content;
   display: inline-block;
   position: relative;
   color: var(--font-color);
-  font-size: 1.6rem;
-}
-.link:not(:last-child) {
-  margin-right: 60px;
+  font-size: 2.5rem;
 }
 .link:hover,
 .link:focus {
@@ -47,27 +57,4 @@
   border-left: 0px;
   border-right: 0px;
   border-top: 0px;
-}
-.menuButton {
-  display: none;
-}
-.menuIcon {
-  width: 36px;
-  fill: var(--main-font-color);
-  padding: 0.25em;
-  transition: fill 0.2s;
-}
-@media (max-width: 700px) {
-  .navbar {
-    padding: 1.2rem 3rem;
-  }
-  .link {
-    font-size: 2rem;
-  }
-  .menuButton {
-    display: block;
-  }
-  .navigation {
-    display: none;
-  }
 }
