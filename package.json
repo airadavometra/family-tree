@@ -1,6 +1,9 @@
 {
   "name": "family-tree",
   "private": true,
+  "prettier": {
+    "printWidth": 120
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

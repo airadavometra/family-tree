@@ -1,16 +1,10 @@
 import { getTreeNodesMap } from "../../../data";
-import {
-  RelationShortInfo,
-  TreeNodeDetailsWithRelations,
-  TreeNodeRelation,
-} from "../../../types/tree";
+import { RelationShortInfo, TreeNodeDataWithRelations, TreeNodeRelation } from "../../../types/tree";
 
 const nodesMap = getTreeNodesMap();
 
 export const getMonthString = (month: number, day?: number) => {
-  return day === undefined
-    ? genitiveCaseMonths[month]
-    : nominativeCaseMonths[month];
+  return day === undefined ? genitiveCaseMonths[month] : nominativeCaseMonths[month];
 };
 const nominativeCaseMonths: Record<number, string> = {
   1: "январь",
@@ -51,32 +45,20 @@ export const getDate = (year?: number, month?: number, day?: number) => {
     : undefined;
 };
 
-const getTreeNodeRelationDetails = (
-  relations: TreeNodeRelation[]
-): RelationShortInfo[] => {
+const getTreeNodeRelationDetails = (relations: TreeNodeRelation[]): RelationShortInfo[] => {
   return relations.map((relation) => {
     return { id: relation.id, fullName: nodesMap[relation.id].data.fullName };
   });
 };
-export const getTreeNodeDetails = (
-  selectedNodeId?: string
-): TreeNodeDetailsWithRelations | undefined => {
+export const getTreeNodeDetails = (selectedNodeId?: string): TreeNodeDataWithRelations | undefined => {
   if (selectedNodeId === undefined) {
     return;
   }
   const selectedNode = nodesMap[selectedNodeId];
-  const parents = getTreeNodeRelationDetails(
-    selectedNode.parents as TreeNodeRelation[]
-  );
-  const children = getTreeNodeRelationDetails(
-    selectedNode.children as TreeNodeRelation[]
-  );
-  const spouses = getTreeNodeRelationDetails(
-    selectedNode.spouses as TreeNodeRelation[]
-  );
-  const siblings = getTreeNodeRelationDetails(
-    selectedNode.siblings as TreeNodeRelation[]
-  );
+  const parents = getTreeNodeRelationDetails(selectedNode.parents as TreeNodeRelation[]);
+  const children = getTreeNodeRelationDetails(selectedNode.children as TreeNodeRelation[]);
+  const spouses = getTreeNodeRelationDetails(selectedNode.spouses as TreeNodeRelation[]);
+  const siblings = getTreeNodeRelationDetails(selectedNode.siblings as TreeNodeRelation[]);
   return {
     ...selectedNode.data,
     parents,

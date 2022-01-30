@@ -10,16 +10,10 @@ interface TreeNodeProps {
   height: number;
   isSelected: boolean;
   node: TreeExternalNode;
-  onClick: (id: string) => void;
+  onClick: (id: string, hasSubTree?: boolean) => void;
 }
 
-const TreeNode: FC<TreeNodeProps> = ({
-  isSelected,
-  node,
-  onClick,
-  width,
-  height,
-}) => {
+const TreeNode: FC<TreeNodeProps> = ({ isSelected, node, onClick, width, height }) => {
   const { data, gender } = node;
   const { firstName, lastName, birthYear, deathYear } = data;
 
@@ -43,10 +37,10 @@ const TreeNode: FC<TreeNodeProps> = ({
       >
         <div
           onClick={() => {
-            onClick(node.id);
+            onClick(node.id, node.hasSubTree);
           }}
           onTouchStart={() => {
-            onClick(node.id);
+            onClick(node.id, node.hasSubTree);
           }}
           className={classNames(s.inner, s[gender], {
             [s.animated]: isSelected || isMouseOver,

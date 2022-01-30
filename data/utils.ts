@@ -1,11 +1,9 @@
-import { TreeNode, TreeNodeData } from "../types/tree";
+import { TreeNode, TreeNodeDataFromJson } from "../types/tree";
 import nodesData from "./nodes.json";
 import nodesRelations from "./relations.json";
 
-export const generateTreeNodes = (): TreeNode[] => {
-  const nodeDataMap = Object.fromEntries(
-    nodesData.map((nodeData) => [nodeData.id, nodeData])
-  );
+export const readNodesFromJson = (): TreeNode[] => {
+  const nodeDataMap = Object.fromEntries(nodesData.map((nodeData) => [nodeData.id, nodeData]));
 
   const treeNodes: TreeNode[] = nodesRelations.map((node) => {
     const data = nodeDataMap[node.id];
@@ -23,11 +21,7 @@ export const generateTreeNodes = (): TreeNode[] => {
   return treeNodes;
 };
 
-const getFullName = ({
-  firstName,
-  lastName,
-  patronym,
-}: TreeNodeData): string => {
+const getFullName = ({ firstName, lastName, patronym }: TreeNodeDataFromJson): string => {
   const full = [];
 
   if (lastName) full.push(lastName);

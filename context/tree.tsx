@@ -1,47 +1,35 @@
 import { useRouter } from "next/router";
 import { createContext, FC, useCallback, useContext, useState } from "react";
 
-type NodeId = string;
-
-type TreeContextValue = {
-  selectedNodeId?: NodeId;
-  selectNode: (id: NodeId) => void;
+type NodeSelectionContextValue = {
+  hasSubTree?: boolean;
+  selectedNodeId?: string;
+  selectNode: (id: string, hasSubTree?: boolean) => void;
   unselectNode: () => void;
 };
 
-const TreeContext = createContext<TreeContextValue | undefined>(undefined);
+const NodeSelectionContext = createContext<NodeSelectionContextValue | undefined>(undefined);
 
-export const TreeContextWrapper: FC = ({ children }) => {
-  const { selectedNodeId, selectNode, unselectNode } = useNodeSelection();
+export const NodeSelectionContextProvider: FC = ({ children }) => {
+  const [selectedNodeId, setSelectedNodeId] = useState<string>();
+  const [hasSubTree, setHasSubTree] = useState<boolean>();
+  const selectNode = useCallback((id: string, hasSubTree?: boolean) => {
+    setHasSubTree(hasSubTree);
+    setSelectedNodeId(id);
+  }, []);
+  const unselectNode = useCallback(() => {
+    setHasSubTree(undefined);
+    setSelectedNodeId(undefined);
+  }, []);
 
   return (
-    <TreeContext.Provider
-      value={{
-        selectedNodeId,
-        selectNode,
-        unselectNode,
-      }}
-    >
+    <NodeSelectionContext.Provider value={{ hasSubTree, selectedNodeId, selectNode, unselectNode }}>
       {children}
-    </TreeContext.Provider>
+    </NodeSelectionContext.Provider>
   );
 };
 
-const useNodeSelection = () => {
-  const [selectedNodeId, setSelectedNodeId] = useState<NodeId>();
-
-  const selectNode = useCallback((id: NodeId) => setSelectedNodeId(id), []);
-
-  const unselectNode = useCallback(() => setSelectedNodeId(undefined), []);
-
-  return {
-    selectedNodeId,
-    selectNode,
-    unselectNode,
-  };
-};
-
-export const useTreeRootId = () => {
+export const useUrlTreeRootId = () => {
   const router = useRouter();
   const { root } = router.query;
   const rootId = root ? (Array.isArray(root) ? root[0] : root) : undefined;
@@ -51,12 +39,12 @@ export const useTreeRootId = () => {
   };
 };
 
-export const useTree = (): TreeContextValue => {
-  const treeContextValue = useContext(TreeContext);
+export const useNodeSelectionContext = (): NodeSelectionContextValue => {
+  const nodeSelectionContextValue = useContext(NodeSelectionContext);
 
-  if (!treeContextValue) {
-    throw Error("useTree hook must be used inside TreeContext provider");
+  if (!nodeSelectionContextValue) {
+    throw Error("useNodeSelectionContext hook must be used inside NodeSelectionContext provider");
   }
 
-  return treeContextValue;
+  return nodeSelectionContextValue;
 };

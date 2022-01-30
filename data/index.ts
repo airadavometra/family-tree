@@ -1,8 +1,8 @@
 import { TreeNode } from "../types/tree";
-import { generateTreeNodes } from "./utils";
+import { readNodesFromJson } from "./utils";
 
-export const TREE_NODES: TreeNode[] = generateTreeNodes();
-export const getTreeNodes = () => TREE_NODES;
+const TREE_NODES: TreeNode[] = readNodesFromJson();
+export const getTreeNodesArray = () => TREE_NODES;
 
 const TREE_NODES_MAP = Object.fromEntries(
   TREE_NODES.map((node) => [node.id, node])
