@@ -1,7 +1,15 @@
-.homeTreeLink {
+.absoluteContainer {
   position: absolute;
   top: 100px;
   right: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  align-items: flex-end;
+  z-index: 10;
+}
+
+.homeTreeLink {
   width: fit-content;
   padding: 1rem 3rem;
   font-size: 1.4rem;
@@ -10,16 +18,29 @@
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   color: #a1a8c2;
-  background-color: var(--main-background-color);
+  background-color: #05050fca;
   border: 2px solid #7517f8;
-  z-index: 10;
 }
 .homeTreeLink:hover,
 .homeTreeLink:focus {
   color: var(--main-font-color);
   border: 2px solid #e323ff;
 }
-
+.treeRootNameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: #05050fca;
+  box-shadow: 0px 0px 100px 100px #05050fca;
+}
+.treeRootName {
+  color: #ffffffc4;
+  font-size: 2rem;
+}
+.treeRootTitle {
+  color: #a1a8c2;
+  font-size: 1.4rem;
+}
 @media (max-width: 700px) {
   .homeTreeLink {
     top: 70px;
