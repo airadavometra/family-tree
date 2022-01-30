@@ -37,16 +37,16 @@
   bottom: 0;
   display: inline-block;
   width: 100%;
-  border-bottom: 3px solid;
-  border-image: linear-gradient(
-    270deg,
-    var(--gradient-from-color) 0%,
-    var(--gradient-to-color) 96.35%
-  );
-  border-image-slice: 1;
   border-left: 0px;
   border-right: 0px;
   border-top: 0px;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(
+      270deg,
+      var(--gradient-from-color) 0%,
+      var(--gradient-to-color) 96.35%
+    )
+    1;
 }
 .menuButton {
   display: none;
