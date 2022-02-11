@@ -9797,76 +9797,6 @@
     ]
   },
   {
-    "id": "328",
-    "parents": [
-      {
-        "type": "blood",
-        "id": "325"
-      },
-      {
-        "type": "blood",
-        "id": "327"
-      }
-    ],
-    "siblings": [],
-    "spouses": [],
-    "children": []
-  },
-  {
-    "id": "329",
-    "parents": [],
-    "siblings": [],
-    "spouses": [
-      {
-        "type": "married",
-        "id": "326"
-      }
-    ],
-    "children": [
-      {
-        "type": "blood",
-        "id": "330"
-      }
-    ]
-  },
-  {
-    "id": "330",
-    "parents": [
-      {
-        "type": "blood",
-        "id": "329"
-      },
-      {
-        "type": "blood",
-        "id": "326"
-      }
-    ],
-    "siblings": [],
-    "spouses": [],
-    "children": []
-  },
-  {
-    "id": "331",
-    "parents": [],
-    "siblings": [],
-    "spouses": [
-      {
-        "type": "married",
-        "id": "326"
-      }
-    ],
-    "children": [
-      {
-        "type": "blood",
-        "id": "332"
-      },
-      {
-        "type": "blood",
-        "id": "333"
-      }
-    ]
-  },
-  {
     "id": "341",
     "parents": [
       {
@@ -10001,6 +9931,23 @@
     ]
   },
   {
+    "id": "329",
+    "parents": [],
+    "siblings": [],
+    "spouses": [
+      {
+        "type": "married",
+        "id": "326"
+      }
+    ],
+    "children": [
+      {
+        "type": "blood",
+        "id": "330"
+      }
+    ]
+  },
+  {
     "id": "349",
     "parents": [],
     "siblings": [],
@@ -10014,6 +9961,27 @@
       {
         "type": "blood",
         "id": "350"
+      }
+    ]
+  },
+  {
+    "id": "331",
+    "parents": [],
+    "siblings": [],
+    "spouses": [
+      {
+        "type": "married",
+        "id": "326"
+      }
+    ],
+    "children": [
+      {
+        "type": "blood",
+        "id": "332"
+      },
+      {
+        "type": "blood",
+        "id": "333"
       }
     ]
   },
@@ -10056,6 +10024,22 @@
     "children": []
   },
   {
+    "id": "330",
+    "parents": [
+      {
+        "type": "blood",
+        "id": "329"
+      },
+      {
+        "type": "blood",
+        "id": "326"
+      }
+    ],
+    "siblings": [],
+    "spouses": [],
+    "children": []
+  },
+  {
     "id": "350",
     "parents": [
       {
@@ -10089,6 +10073,22 @@
         "id": "346"
       }
     ],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "328",
+    "parents": [
+      {
+        "type": "blood",
+        "id": "325"
+      },
+      {
+        "type": "blood",
+        "id": "327"
+      }
+    ],
+    "siblings": [],
     "spouses": [],
     "children": []
   },

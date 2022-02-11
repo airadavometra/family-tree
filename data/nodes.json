@@ -496,6 +496,8 @@
     "patronym": "Галимович",
     "gender": "male",
     "birthYear": 1949,
+    "birthMonth": 9,
+    "birthDay": 6,
     "deathYear": 1984,
     "deathMonth": 1,
     "deathDay": 26,
@@ -3399,7 +3401,7 @@
     "firstName": "Лариса",
     "patronym": "Максимовна",
     "gender": "female",
-    "birthYear": 1948,
+    "birthYear": 1947,
     "birthMonth": 3,
     "birthDay": 25,
     "birthPlace": "г.Белебей"
@@ -3442,7 +3444,7 @@
     "firstName": "Дмитрий",
     "patronym": "Юрьевич",
     "gender": "male",
-    "birthYear": 1977,
+    "birthYear": 1978,
     "birthMonth": 5,
     "birthDay": 19
   },
@@ -3451,36 +3453,6 @@
     "lastName": "Кувардин",
     "firstName": "Вячеслав",
     "gender": "male"
-  },
-  {
-    "id": "328",
-    "lastName": "Кувардина",
-    "firstName": "Ксения",
-    "patronym": "Вячеславовна",
-    "gender": "female",
-    "birthYear": 2007,
-    "birthMonth": 12,
-    "birthDay": 28
-  },
-  {
-    "id": "329",
-    "firstName": "Оксана",
-    "gender": "female"
-  },
-  {
-    "id": "330",
-    "lastName": "Артемов",
-    "firstName": "Леонид",
-    "patronym": "Дмитриевич",
-    "gender": "male",
-    "birthYear": 2001,
-    "birthMonth": 3,
-    "birthDay": 22
-  },
-  {
-    "id": "331",
-    "firstName": "Ирина",
-    "gender": "female"
   },
   {
     "id": "341",
@@ -3525,6 +3497,13 @@
     "birthDay": 23
   },
   {
+    "id": "329",
+    "lastName": "Покуль",
+    "firstName": "Оксана",
+    "gender": "female",
+    "birthYear": 1978
+  },
+  {
     "id": "349",
     "lastName": "Ветвитская",
     "firstName": "Олеся",
@@ -3533,6 +3512,13 @@
     "birthYear": 1980,
     "birthMonth": 6,
     "birthDay": 11
+  },
+  {
+    "id": "331",
+    "lastName": "Черемшанцева",
+    "firstName": "Ирина",
+    "gender": "female",
+    "birthYear": 1983
   },
   {
     "id": "348",
@@ -3554,6 +3540,16 @@
     "birthPlace": "г.Салават"
   },
   {
+    "id": "330",
+    "lastName": "Артемов",
+    "firstName": "Леонид",
+    "patronym": "Дмитриевич",
+    "gender": "male",
+    "birthYear": 2001,
+    "birthMonth": 3,
+    "birthDay": 22
+  },
+  {
     "id": "350",
     "lastName": "Дягилев",
     "firstName": "Дмитрий",
@@ -3573,6 +3569,16 @@
     "birthMonth": 7,
     "birthDay": 13,
     "birthPlace": "г.Салават"
+  },
+  {
+    "id": "328",
+    "lastName": "Кувардина",
+    "firstName": "Ксения",
+    "patronym": "Вячеславовна",
+    "gender": "female",
+    "birthYear": 2007,
+    "birthMonth": 12,
+    "birthDay": 28
   },
   {
     "id": "338",
@@ -3601,7 +3607,7 @@
   {
     "id": "332",
     "lastName": "Артемова",
-    "firstName": "Татьяна",
+    "firstName": "Анна",
     "patronym": "Дмитриевна",
     "gender": "female",
     "birthYear": 2016
@@ -3609,7 +3615,7 @@
   {
     "id": "333",
     "lastName": "Артемова",
-    "firstName": "Анна",
+    "firstName": "Екатерина",
     "patronym": "Дмитриевна",
     "gender": "female",
     "birthYear": 2020
