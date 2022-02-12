@@ -1,13 +1,13 @@
 import dynamic from "next/dynamic";
 import { FC, memo } from "react";
-import { ExtNode } from "relatives-tree/lib/types";
 import { useNodeSelectionContext, useUrlTreeRootId } from "../../context/tree";
 import { getTreeNodesArray } from "../../data";
+import { ExtNode } from "../../lib/relatives-tree/types";
 import { TreeExternalNode } from "../../types/tree";
 import s from "./Tree.module.css";
 import TreeNode from "./TreeNode/TreeNode";
 
-const ReactFamilyTree = dynamic(() => import("react-family-tree"), {
+const ReactFamilyTree = dynamic(() => import("../../lib/react-family-tree"), {
   ssr: false,
   loading: () => <p>Загружаем дерево...</p>,
 });
