@@ -19,8 +19,6 @@ const TreeNodeDetails: FC = () => {
 
   if (!nodeDetails) return null;
 
-  console.log(nodeDetails);
-
   return (
     <div className={s.root}>
       <button className={s.closeButton} onClick={unselectNode}>

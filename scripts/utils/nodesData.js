@@ -1,5 +1,5 @@
 const { omitKeys } = require("./common.js");
-const { getNodesWithFamilies } = require("./getFamilies.js");
+const { getNodesWithFamilies } = require("./families.js");
 
 const getNodesData = (transformedNodes, relationsMap) => {
   const nodes = transformedNodes.map((node) =>
