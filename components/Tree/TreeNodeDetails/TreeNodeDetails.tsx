@@ -1,6 +1,6 @@
+import { useNodeSelectionContext } from "@/context/tree";
+import { CloseIcon } from "@/icons/CloseIcon";
 import { FC, useState } from "react";
-import { useNodeSelectionContext } from "../../../context/tree";
-import { CloseIcon } from "../../../icons/CloseIcon";
 import BioLink from "./BioLink/BioLink";
 import BioNavItem from "./BioNavItem/BioNavItem";
 import s from "./TreeNodeDetails.module.css";

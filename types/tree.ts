@@ -1,4 +1,4 @@
-import { ExtNode, Node, RelType } from "../lib/relatives-tree/types";
+import { ExtNode, Node, RelType } from "@/lib/relatives-tree/types";
 
 export type TreeNode = Node & {
   data: TreeNodeData;

@@ -1,10 +1,9 @@
-import { FC } from "react";
-import Link from "next/link";
-import { useRouter } from "next/router";
-import s from "./FullScreenMenu.module.css";
+import { CloseIcon } from "@/icons/CloseIcon";
 import classNames from "classnames";
-import { CloseIcon } from "../../icons/CloseIcon";
+import { useRouter } from "next/router";
+import { FC } from "react";
 import { Navigation } from "../Header/Header";
+import s from "./FullScreenMenu.module.css";
 
 type FullScreenMenuProps = {
   isOpen: boolean;

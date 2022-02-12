@@ -1,6 +1,6 @@
+import { TreeExternalNode } from "@/types/tree";
 import classNames from "classnames";
 import { FC, memo, useState } from "react";
-import { TreeExternalNode } from "../../../types/tree";
 import s from "./TreeNode.module.css";
 import { TreeNodeYears } from "./TreeNodeYears";
 import { getTreeNodeStyleTransform } from "./utils";

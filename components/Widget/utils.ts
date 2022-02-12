@@ -1,5 +1,5 @@
-import { getTreeNodesArray, getTreeNodesMap } from "../../data";
-import { TreeNode } from "../../types/tree";
+import { getTreeNodesArray, getTreeNodesMap } from "@/data";
+import { TreeNode } from "@/types/tree";
 
 export const getNodesCount = (): number => {
   const nodes = getTreeNodesArray();
@@ -13,10 +13,7 @@ export const getTreeDepth = (): number => {
   return maxDepth(nodes[1], nodes);
 };
 
-const maxDepth = (
-  rootNode: TreeNode,
-  nodes: { [k: string]: TreeNode }
-): number => {
+const maxDepth = (rootNode: TreeNode, nodes: { [k: string]: TreeNode }): number => {
   if (rootNode == null) return 0;
   else {
     const depths: number[] = [];

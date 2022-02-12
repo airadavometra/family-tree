@@ -1,4 +1,4 @@
-import { TreeNode, TreeNodeDataFromJson } from "../types/tree";
+import { TreeNode, TreeNodeDataFromJson } from "@/types/tree";
 import nodesData from "./nodes.json";
 import nodesRelations from "./relations.json";
 

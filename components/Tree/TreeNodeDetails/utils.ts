@@ -1,5 +1,5 @@
-import { getTreeNodesMap } from "../../../data";
-import { RelationShortInfo, TreeNodeDataWithRelations, TreeNodeRelation } from "../../../types/tree";
+import { getTreeNodesMap } from "@/data";
+import { RelationShortInfo, TreeNodeDataWithRelations, TreeNodeRelation } from "@/types/tree";
 
 const nodesMap = getTreeNodesMap();
 

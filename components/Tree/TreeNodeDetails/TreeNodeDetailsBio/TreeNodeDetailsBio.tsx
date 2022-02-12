@@ -1,6 +1,6 @@
+import { TreeNodeDataWithRelations } from "@/types/tree";
 import classNames from "classnames";
 import { FC } from "react";
-import { TreeNodeDataWithRelations } from "../../../../types/tree";
 import BioRelationButtons from "../BioRelationButtons/BioRelationButtons";
 import { getDate } from "../utils";
 import s from "./TreeNodeDetailsBio.module.css";

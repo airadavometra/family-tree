@@ -1,6 +1,6 @@
+import calcTree from "@/lib/relatives-tree";
+import { ExtNode, Node } from "@/lib/relatives-tree/types";
 import React from "react";
-import calcTree from "../relatives-tree";
-import { ExtNode, Node } from "../relatives-tree/types";
 import Connector from "./connector";
 
 interface Props {

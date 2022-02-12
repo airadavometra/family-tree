@@ -1,12 +1,12 @@
+import TreeNodeDetails from "@/components/Tree/TreeNodeDetails/TreeNodeDetails";
+import TreeWithNavigation from "@/components/Tree/TreeWithNavigation/TreeWithNavigation";
+import { NodeSelectionContextProvider, useUrlTreeRootId } from "@/context/tree";
+import { getTreeNodesMap } from "@/data";
+import s from "@/styles/TreePage.module.css";
 import type { NextPage } from "next";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import TreeNodeDetails from "../components/Tree/TreeNodeDetails/TreeNodeDetails";
-import TreeWithNavigation from "../components/Tree/TreeWithNavigation/TreeWithNavigation";
-import { NodeSelectionContextProvider, useUrlTreeRootId } from "../context/tree";
-import { getTreeNodesMap } from "../data";
-import s from "../styles/TreePage.module.css";
 
 const TreePage: NextPage = () => {
   const [rootName, setRootName] = useState<string>();

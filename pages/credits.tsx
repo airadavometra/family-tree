@@ -1,10 +1,9 @@
+import Credit from "@/components/Credit/Credit";
+import ballS from "@/styles/Ball.module.css";
+import s from "@/styles/CreditsPage.module.css";
 import classNames from "classnames";
 import type { NextPage } from "next";
 import Image from "next/image";
-import Credit from "../components/Credit/Credit";
-import { getNodesCount, getTreeDepth } from "../components/Widget/utils";
-import ballS from "../styles/Ball.module.css";
-import s from "../styles/CreditsPage.module.css";
 
 const credits = [
   { name: "Каршкову Максиму", description: "за кропотливый сбор информации" },
@@ -24,21 +23,12 @@ const CreditsPage: NextPage = () => {
         <div className={s.descriptionContainer}>
           <div className={classNames(s.titleContainer, s.descriptionItem)}>
             <div className={s.logoContainer}>
-              <Image
-                src="/LogoBig.png"
-                width={120}
-                height={110}
-                alt="Логотип проекта древо"
-              />
+              <Image src="/LogoBig.png" width={120} height={110} alt="Логотип проекта древо" />
             </div>
             <span className={s.logoTitle}>БЛАГОДАРНОСТИ</span>
           </div>
           {credits.map((item, index) => (
-            <Credit
-              key={index}
-              name={item.name}
-              description={item.description}
-            />
+            <Credit key={index} name={item.name} description={item.description} />
           ))}
         </div>
       </div>

@@ -1,12 +1,11 @@
-import { FC, useEffect, useState } from "react";
-import Link from "next/link";
-import Image from "next/image";
-import { useRouter } from "next/router";
-import s from "./Header.module.css";
+import { MenuIcon } from "@/icons/MenuIcon";
 import classNames from "classnames";
-import { MenuIcon } from "../../icons/MenuIcon";
-import { CloseIcon } from "../../icons/CloseIcon";
+import Image from "next/image";
+import Link from "next/link";
+import { useRouter } from "next/router";
+import { FC, useEffect, useState } from "react";
 import FullScreenMenu from "../FullScreenMenu/FullScreenMenu";
+import s from "./Header.module.css";
 
 export type Navigation = {
   id: number;
@@ -27,9 +26,7 @@ const Header: FC = () => {
   const [selectedMenuItemId, setSelectedMenuItemId] = useState<number>(1);
 
   useEffect(() => {
-    const selectedMenuItem = navigation.find(
-      (nav) => nav.path === router.pathname
-    );
+    const selectedMenuItem = navigation.find((nav) => nav.path === router.pathname);
     if (selectedMenuItem) {
       setSelectedMenuItemId(selectedMenuItem.id);
     }
@@ -47,12 +44,7 @@ const Header: FC = () => {
   return (
     <header className={s.navbar}>
       <div className={s.logoContainer}>
-        <Image
-          src="/favicon.ico"
-          width={40}
-          height={34}
-          alt="Логотип проекта древо"
-        />
+        <Image src="/favicon.ico" width={40} height={34} alt="Логотип проекта древо" />
         <span className={s.logoTitle}>ДРЕВО</span>
       </div>
       <nav className={s.navigation}>

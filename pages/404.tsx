@@ -1,28 +1,16 @@
+import Button from "@/components/Button/Button";
+import s from "@/styles/404.module.css";
+import ballS from "@/styles/Ball.module.css";
 import classNames from "classnames";
 import type { NextPage } from "next";
-import Link from "next/link";
-import ballS from "../styles/Ball.module.css";
-import s from "../styles/404.module.css";
-import Button from "../components/Button/Button";
 
 const ErrorPage: NextPage = () => (
   <div className={s.pageContainer}>
     <div className={s.content}>
-      <span className={classNames(s.descriptionItem, s.title)}>
-        Упс! Такая страница не найдена
-      </span>
+      <span className={classNames(s.descriptionItem, s.title)}>Упс! Такая страница не найдена</span>
       <div className={s.buttonsContainer}>
-        <Button
-          href="/tree"
-          text="Посмотреть дерево"
-          className={s.descriptionItem}
-        />
-        <Button
-          href="/"
-          text="Почитать о проекте"
-          className={s.descriptionItem}
-          isSecondary={true}
-        />
+        <Button href="/tree" text="Посмотреть дерево" className={s.descriptionItem} />
+        <Button href="/" text="Почитать о проекте" className={s.descriptionItem} isSecondary={true} />
       </div>
     </div>
     <div className={s.imageContainer}>
