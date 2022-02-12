@@ -29,13 +29,13 @@ const HomePage: NextPage = () => {
           </span>
           <span className={classNames(s.description, s.descriptionItem)}>
             Если вы обладаете информацией или материалами и желаете дополнить проект, пожалуйста, свяжитесь с нами в
-            телеграме.
+            WhatsApp.
           </span>
           <div className={s.buttonsContainer}>
             <Button href="/tree" text="Посмотреть дерево" className={s.descriptionItem} />
             <Button
-              href="https://t.me/airadavometra"
-              text="Написать в телеграме"
+              href="https://wa.me/+79853522893?text=Пишу%20насчет%20проетка%20ДРЕВО"
+              text="Написать в WhatsApp"
               className={s.descriptionItem}
               isSecondary={true}
               newTab={true}

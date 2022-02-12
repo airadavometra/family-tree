@@ -54,7 +54,12 @@ const TreeNodeDetails: FC = () => {
           <span className={s.rootItem}>К сожалению, у нас пока нет фотографий этого человека.</span>
           <span className={s.rootItem}>
             Если вы хотите помочь и у вас есть фото, которые вы хотите добавить в галерею, пожалуйста,{" "}
-            <BioLink href="https://t.me/airadavometra" text="напишите нам" newTab={true} />.
+            <BioLink
+              href="https://wa.me/+79853522893?text=Пишу%20насчет%20проетка%20ДРЕВО"
+              text="напишите нам"
+              newTab={true}
+            />
+            .
           </span>
         </>
       )}

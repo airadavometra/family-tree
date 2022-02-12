@@ -5,13 +5,13 @@
   overflow: auto;
 }
 .content {
-  max-width: 50%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .descriptionContainer {
+  max-width: 50%;
   display: flex;
   flex-direction: column;
 }
@@ -49,7 +49,7 @@
   overflow-x: auto;
 }
 
-@media (max-width: 1540px) {
+@media (max-height: 860px) {
   .content {
     height: fit-content;
   }
