@@ -1,9 +1,7 @@
-const { pickKeys } = require("./common.js");
-
 const getBloodRel = (id, type = "blood") => ({ type, id });
 const getSpouseRel = (id) => ({ type: "married", id });
 
-const addSpouse = (spouses = [], id) => {
+const addSpouse = (spouses = [], id = "") => {
   if (!spouses.find((rel) => rel.id === id)) {
     spouses.push(getSpouseRel(id));
   }
@@ -22,17 +20,7 @@ const updateChildren = ({ nodesMap, node, parent, isStepParent = false }) => {
 };
 
 const getRelations = (transformedNodes) => {
-  const relNodes = transformedNodes.map((node) =>
-    pickKeys(node, [
-      "id",
-      "motherId",
-      "fatherId",
-      "stepMotherId",
-      "stepFatherId",
-      "spouseId",
-    ])
-  );
-  const nodesMap = new Map(relNodes.map((node) => [node.id, { ...node }]));
+  const nodesMap = new Map(transformedNodes.map((node) => [node.id, { ...node }]));
 
   [...nodesMap.values()].forEach((node) => {
     const mother = nodesMap.get(node.motherId);
@@ -77,7 +65,7 @@ const getRelations = (transformedNodes) => {
     updateChildren({ nodesMap, node, parent: stepFather, isStepParent: true });
   });
 
-  return [...nodesMap.values()].map((node) => {
+  const relations = [...nodesMap.values()].map((node) => {
     return {
       id: node.id,
       parents: node.parents ?? [],
@@ -86,6 +74,11 @@ const getRelations = (transformedNodes) => {
       children: node.children ?? [],
     };
   });
+
+  return {
+    relations,
+    relationsMap: nodesMap,
+  };
 };
 
 module.exports = {

@@ -14,7 +14,9 @@
     "deathMonth": 2,
     "deathDay": 14,
     "deathPlace": "д.Озерковка",
-    "nationality": "русская"
+    "nationality": "русская",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "1",
@@ -29,7 +31,9 @@
     "birthPlace": "д.Локтионово, Курская губерния",
     "deathYear": 1929,
     "deathPlace": "д.Озерковка",
-    "nationality": "русский"
+    "nationality": "русский",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "3",
@@ -48,7 +52,18 @@
     "deathMonth": 2,
     "deathDay": 14,
     "deathPlace": "г.Ишимбай",
-    "nationality": "русский"
+    "nationality": "русский",
+    "families": [
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "4",
@@ -63,7 +78,9 @@
     "deathYear": 1947,
     "deathMonth": 10,
     "deathPlace": "г.Ишимбай",
-    "nationality": "русская"
+    "nationality": "русская",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "5",
@@ -74,7 +91,18 @@
     "birthYear": 1893,
     "birthMonth": 10,
     "birthDay": 13,
-    "birthPlace": "д.Локтионово, Курская губерния"
+    "birthPlace": "д.Локтионово, Курская губерния",
+    "families": [
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "7",
@@ -85,7 +113,9 @@
     "weddingYear": "1914",
     "weddingMonth": "2",
     "weddingDay": "5",
-    "birthYear": 1894
+    "birthYear": 1894,
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "6",
@@ -105,7 +135,18 @@
     "deathDay": 29,
     "deathPlace": "г.Ишимбай",
     "nationality": "русская",
-    "bio": "Егор 1895г - жена Наталья (это 2-я жена) , а  первая (Анпилогова Анна Ефимовна - умерла рано) Дети Егора :1.дочь Полина -1920-22г(т.Поля) Гурова  2. дочь Имя забыла(может Степанида), а фамилия Габурганова - ее муж Спиридон  Габурганов (за Тайруком жили, у них дочь Нелля 1954г/р.-со мной училась)  3. сын-Петр"
+    "bio": "Егор 1895г - жена Наталья (это 2-я жена) , а  первая (Анпилогова Анна Ефимовна - умерла рано) Дети Егора :1.дочь Полина -1920-22г(т.Поля) Гурова  2. дочь Имя забыла(может Степанида), а фамилия Габурганова - ее муж Спиридон  Габурганов (за Тайруком жили, у них дочь Нелля 1954г/р.-со мной училась)  3. сын-Петр",
+    "families": [
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "9",
@@ -117,7 +158,18 @@
     "weddingMonth": "2",
     "weddingDay": "8",
     "birthYear": 1898,
-    "birthPlace": "д.Локтионово, Курская губерния"
+    "birthPlace": "д.Локтионово, Курская губерния",
+    "families": [
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "185",
@@ -130,7 +182,9 @@
     "deathMonth": 11,
     "deathDay": 27,
     "deathPlace": "д.Гриневка,Сычевский р-н, Смоленская обл.",
-    "bio": "Служил в Башкирской кавалерийской дивизии, погиб на войне."
+    "bio": "Служил в Башкирской кавалерийской дивизии, погиб на войне.",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "186",
@@ -143,7 +197,9 @@
     "deathYear": 1984,
     "deathMonth": 5,
     "deathDay": 5,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "10",
@@ -151,7 +207,18 @@
     "firstName": "Мария",
     "patronym": "Максимовна",
     "gender": "female",
-    "birthYear": 1902
+    "birthYear": 1902,
+    "families": [
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "24",
@@ -164,7 +231,9 @@
     "weddingDay": "8",
     "birthYear": 1902,
     "birthPlace": "д.Ново-Васильевка",
-    "bio": "в 1931г. приговорена к спецпоселению в Кемеровскую обл. Прокопьевск. Снята с учета 29.12.1951г."
+    "bio": "в 1931г. приговорена к спецпоселению в Кемеровскую обл. Прокопьевск. Снята с учета 29.12.1951г.",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "11",
@@ -174,7 +243,18 @@
     "gender": "female",
     "birthYear": 1904,
     "birthMonth": 1,
-    "birthDay": 17
+    "birthDay": 17,
+    "families": [
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "13",
@@ -182,7 +262,9 @@
     "firstName": "Яков",
     "patronym": "Иванович",
     "gender": "male",
-    "birthYear": 1906
+    "birthYear": 1906,
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "12",
@@ -190,7 +272,18 @@
     "firstName": "Анна",
     "patronym": "Максимовна",
     "gender": "female",
-    "birthYear": 1908
+    "birthYear": 1908,
+    "families": [
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "14",
@@ -200,7 +293,22 @@
     "gender": "female",
     "birthYear": 1909,
     "birthMonth": 10,
-    "birthDay": 30
+    "birthDay": 30,
+    "families": [
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "21",
@@ -216,7 +324,22 @@
     "deathMonth": 7,
     "deathDay": 12,
     "deathPlace": "д.Озерковка",
-    "bio": "умер от младенческой слабости"
+    "bio": "умер от младенческой слабости",
+    "families": [
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "15",
@@ -226,7 +349,22 @@
     "gender": "male",
     "birthYear": 1912,
     "birthMonth": 6,
-    "birthDay": 18
+    "birthDay": 18,
+    "families": [
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "193",
@@ -242,7 +380,9 @@
     "deathMonth": 10,
     "deathDay": 16,
     "deathPlace": "г.Ишимбай",
-    "bio": "заслуженный нефтяник БАССР, награжден орденами и медалями"
+    "bio": "заслуженный нефтяник БАССР, награжден орденами и медалями",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "16",
@@ -257,7 +397,22 @@
     "deathYear": 1979,
     "deathMonth": 9,
     "deathDay": 22,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "22",
@@ -273,7 +428,22 @@
     "deathMonth": 7,
     "deathDay": 2,
     "deathPlace": "д.Озерковка",
-    "bio": "умерла от скарлатины"
+    "bio": "умерла от скарлатины",
+    "families": [
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "17",
@@ -285,7 +455,22 @@
     "birthMonth": 7,
     "birthDay": 1,
     "deathYear": 1943,
-    "bio": "пропал без вести на войне"
+    "bio": "пропал без вести на войне",
+    "families": [
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "8",
@@ -296,7 +481,22 @@
     "birthYear": 1918,
     "birthMonth": 10,
     "birthDay": 29,
-    "birthPlace": "д.Озерковка"
+    "birthPlace": "д.Озерковка",
+    "families": [
+      {
+        "id": "7",
+        "lastName": "Анпилогова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "23",
@@ -304,7 +504,22 @@
     "firstName": "Василий",
     "patronym": "Михайлович",
     "gender": "male",
-    "birthYear": 1918
+    "birthYear": 1918,
+    "families": [
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "25",
@@ -314,7 +529,22 @@
     "gender": "male",
     "birthYear": 1922,
     "birthPlace": "д.Озерковка",
-    "bio": "в 1931г. приговорен к спецпоселению в Кемеровскую обл. Прокопьевск. Снят с учета 29.12.1951г."
+    "bio": "в 1931г. приговорен к спецпоселению в Кемеровскую обл. Прокопьевск. Снят с учета 29.12.1951г.",
+    "families": [
+      {
+        "id": "24",
+        "lastName": "Шестакова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "18",
@@ -328,7 +558,22 @@
     "deathYear": 1999,
     "deathMonth": 2,
     "deathDay": 14,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "29",
@@ -341,7 +586,22 @@
     "birthDay": 10,
     "deathYear": 1973,
     "deathMonth": 7,
-    "deathDay": 24
+    "deathDay": 24,
+    "families": [
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "187",
@@ -355,7 +615,18 @@
     "deathYear": 1994,
     "deathMonth": 12,
     "deathDay": 26,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "186",
+        "lastName": "от (Камиля Ахмадеевна)"
+      },
+      {
+        "id": "185",
+        "lastName": "Бикташев"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "26",
@@ -365,7 +636,22 @@
     "gender": "female",
     "birthYear": 1925,
     "birthPlace": "д.Озерковка",
-    "bio": "в 1931г. приговорена к спецпоселению в Кемеровскую обл. Прокопьевск. Снята с учета 11.02.1942г."
+    "bio": "в 1931г. приговорена к спецпоселению в Кемеровскую обл. Прокопьевск. Снята с учета 11.02.1942г.",
+    "families": [
+      {
+        "id": "24",
+        "lastName": "Шестакова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "189",
@@ -376,7 +662,18 @@
     "birthYear": 1925,
     "birthMonth": 11,
     "birthDay": 3,
-    "bio": "т.Соня"
+    "bio": "т.Соня",
+    "families": [
+      {
+        "id": "186",
+        "lastName": "от (Камиля Ахмадеевна)"
+      },
+      {
+        "id": "185",
+        "lastName": "Бикташев"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "19",
@@ -391,7 +688,22 @@
     "deathYear": 1999,
     "deathMonth": 10,
     "deathDay": 31,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "27",
@@ -401,7 +713,22 @@
     "gender": "male",
     "birthYear": 1926,
     "birthPlace": "д.Озерковка",
-    "bio": "в 1931г. приговорен к спецпоселению в Кемеровскую обл. Прокопьевск. Снят с учета 20.10.1942г."
+    "bio": "в 1931г. приговорен к спецпоселению в Кемеровскую обл. Прокопьевск. Снят с учета 20.10.1942г.",
+    "families": [
+      {
+        "id": "24",
+        "lastName": "Шестакова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "190",
@@ -410,7 +737,18 @@
     "patronym": "Мингалеевна",
     "gender": "female",
     "birthYear": 1929,
-    "bio": "мать д.Фарита, жила в Стерлитамаке"
+    "bio": "мать д.Фарита, жила в Стерлитамаке",
+    "families": [
+      {
+        "id": "186",
+        "lastName": "от (Камиля Ахмадеевна)"
+      },
+      {
+        "id": "185",
+        "lastName": "Бикташев"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "20",
@@ -420,7 +758,22 @@
     "gender": "male",
     "birthYear": 1930,
     "birthMonth": 4,
-    "birthDay": 17
+    "birthDay": 17,
+    "families": [
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "28",
@@ -430,7 +783,22 @@
     "gender": "male",
     "birthYear": 1935,
     "birthPlace": "Прокопьевск, Кемеровская обл.",
-    "bio": "в 1935г. приговорен к спецпоселению в Кемеровскую обл. Прокопьевск"
+    "bio": "в 1935г. приговорен к спецпоселению в Кемеровскую обл. Прокопьевск",
+    "families": [
+      {
+        "id": "24",
+        "lastName": "Шестакова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "192",
@@ -445,7 +813,18 @@
     "deathMonth": 10,
     "deathDay": 20,
     "deathPlace": "г..Ишимбай",
-    "bio": "Малышко, работала на Севере, был сын (умер), на пенсии уехали на Украину (родина мужа), когда муж умер, вернулась в Россию. Татьяна Васильевна Шагивалеева и Наталья Рифовна Артемова хлопотали за восстановление гражданства и получение северной пенсии"
+    "bio": "Малышко, работала на Севере, был сын (умер), на пенсии уехали на Украину (родина мужа), когда муж умер, вернулась в Россию. Татьяна Васильевна Шагивалеева и Наталья Рифовна Артемова хлопотали за восстановление гражданства и получение северной пенсии",
+    "families": [
+      {
+        "id": "186",
+        "lastName": "от (Камиля Ахмадеевна)"
+      },
+      {
+        "id": "185",
+        "lastName": "Бикташев"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "194",
@@ -455,7 +834,18 @@
     "gender": "male",
     "birthYear": 1945,
     "birthMonth": 10,
-    "birthDay": 31
+    "birthDay": 31,
+    "families": [
+      {
+        "id": "186",
+        "lastName": "от (Камиля Ахмадеевна)"
+      },
+      {
+        "id": "185",
+        "lastName": "Бикташев"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "30",
@@ -473,7 +863,34 @@
     "deathYear": 2019,
     "deathMonth": 11,
     "deathDay": 15,
-    "deathPlace": "г.Миасс"
+    "deathPlace": "г.Миасс",
+    "families": [
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "35",
@@ -487,7 +904,26 @@
     "birthYear": 1949,
     "birthMonth": 2,
     "birthDay": 12,
-    "birthPlace": "г.Миасс"
+    "birthPlace": "г.Миасс",
+    "families": [
+      {
+        "id": "67",
+        "lastName": "Ярославцева"
+      },
+      {
+        "id": "66",
+        "lastName": "Обухов"
+      },
+      {
+        "id": "65",
+        "lastName": "от (Пелагея Матвеевна)"
+      },
+      {
+        "id": "64",
+        "lastName": "Колодкин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "197",
@@ -501,7 +937,9 @@
     "deathYear": 1984,
     "deathMonth": 1,
     "deathDay": 26,
-    "bio": "погиб на севере. Мать Сафонова Мария Яковлевна (приняла ислам)"
+    "bio": "погиб на севере. Мать Сафонова Мария Яковлевна (приняла ислам)",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "31",
@@ -516,7 +954,34 @@
     "deathYear": 2003,
     "deathMonth": 12,
     "deathDay": 26,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "44",
@@ -534,7 +999,34 @@
     "deathYear": 2014,
     "deathMonth": 12,
     "deathDay": 30,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      },
+      {
+        "id": "128",
+        "lastName": "от (Евдокия)"
+      },
+      {
+        "id": "127",
+        "lastName": "Хахалкин"
+      },
+      {
+        "id": "124",
+        "lastName": "от (Устинья)"
+      },
+      {
+        "id": "123",
+        "lastName": "Сметанин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "195",
@@ -545,7 +1037,22 @@
     "birthYear": 1950,
     "birthMonth": 4,
     "birthDay": 28,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "193",
+        "lastName": "Шагивалеев"
+      },
+      {
+        "id": "186",
+        "lastName": "от (Камиля Ахмадеевна)"
+      },
+      {
+        "id": "185",
+        "lastName": "Бикташев"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "32",
@@ -556,7 +1063,34 @@
     "birthYear": 1952,
     "birthMonth": 2,
     "birthDay": 25,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "196",
@@ -571,7 +1105,22 @@
     "deathYear": 2016,
     "deathMonth": 12,
     "deathDay": 9,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "193",
+        "lastName": "Шагивалеев"
+      },
+      {
+        "id": "186",
+        "lastName": "от (Камиля Ахмадеевна)"
+      },
+      {
+        "id": "185",
+        "lastName": "Бикташев"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "33",
@@ -582,7 +1131,34 @@
     "birthYear": 1954,
     "birthMonth": 5,
     "birthDay": 7,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "218",
@@ -593,7 +1169,26 @@
     "birthYear": 1957,
     "birthMonth": 3,
     "birthDay": 19,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "215",
+        "lastName": "от (Римма)"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "34",
@@ -604,7 +1199,34 @@
     "birthYear": 1958,
     "birthMonth": 2,
     "birthDay": 6,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "220",
@@ -615,7 +1237,9 @@
     "birthYear": 1958,
     "birthMonth": 3,
     "birthDay": 23,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "205",
@@ -623,7 +1247,9 @@
     "firstName": "Ольга",
     "gender": "female",
     "birthYear": 1960,
-    "birthPlace": "г.Стерлитамак"
+    "birthPlace": "г.Стерлитамак",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "36",
@@ -638,7 +1264,50 @@
     "deathYear": 2013,
     "deathMonth": 3,
     "deathDay": 31,
-    "deathPlace": "г.Миасс"
+    "deathPlace": "г.Миасс",
+    "families": [
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "67",
+        "lastName": "Ярославцева"
+      },
+      {
+        "id": "66",
+        "lastName": "Обухов"
+      },
+      {
+        "id": "65",
+        "lastName": "от (Пелагея Матвеевна)"
+      },
+      {
+        "id": "64",
+        "lastName": "Колодкин"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "38",
@@ -649,7 +1318,9 @@
     "birthYear": 1970,
     "birthMonth": 6,
     "birthDay": 8,
-    "birthPlace": "г.Учалы"
+    "birthPlace": "г.Учалы",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "37",
@@ -661,7 +1332,50 @@
     "birthYear": 1972,
     "birthMonth": 9,
     "birthDay": 14,
-    "birthPlace": "г.Миасс"
+    "birthPlace": "г.Миасс",
+    "families": [
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "67",
+        "lastName": "Ярославцева"
+      },
+      {
+        "id": "66",
+        "lastName": "Обухов"
+      },
+      {
+        "id": "65",
+        "lastName": "от (Пелагея Матвеевна)"
+      },
+      {
+        "id": "64",
+        "lastName": "Колодкин"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "179",
@@ -669,7 +1383,9 @@
     "firstName": "Виктор",
     "patronym": "Михайлович",
     "gender": "male",
-    "birthYear": 1976
+    "birthYear": 1976,
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "199",
@@ -680,7 +1396,26 @@
     "birthYear": 1980,
     "birthMonth": 9,
     "birthDay": 26,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "198",
+        "lastName": "Дубанова"
+      },
+      {
+        "id": "193",
+        "lastName": "Шагивалеев"
+      },
+      {
+        "id": "186",
+        "lastName": "от (Камиля Ахмадеевна)"
+      },
+      {
+        "id": "185",
+        "lastName": "Бикташев"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "210",
@@ -690,7 +1425,9 @@
     "gender": "male",
     "birthYear": 1983,
     "birthMonth": 7,
-    "birthDay": 1
+    "birthDay": 1,
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "206",
@@ -701,7 +1438,30 @@
     "birthYear": 1984,
     "birthMonth": 11,
     "birthDay": 9,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "205",
+        "lastName": "Чараева"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      },
+      {
+        "id": "172",
+        "lastName": "Лазарева"
+      },
+      {
+        "id": "171",
+        "lastName": "Ларичев"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "178",
@@ -712,7 +1472,30 @@
     "birthYear": 1985,
     "birthMonth": 1,
     "birthDay": 21,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "176",
+        "lastName": "Акшенцева"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      },
+      {
+        "id": "172",
+        "lastName": "Лазарева"
+      },
+      {
+        "id": "171",
+        "lastName": "Ларичев"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "39",
@@ -723,7 +1506,54 @@
     "birthYear": 1992,
     "birthMonth": 3,
     "birthDay": 24,
-    "birthPlace": "г.Миасс"
+    "birthPlace": "г.Миасс",
+    "families": [
+      {
+        "id": "38",
+        "lastName": "Трофимова"
+      },
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "67",
+        "lastName": "Ярославцева"
+      },
+      {
+        "id": "66",
+        "lastName": "Обухов"
+      },
+      {
+        "id": "65",
+        "lastName": "от (Пелагея Матвеевна)"
+      },
+      {
+        "id": "64",
+        "lastName": "Колодкин"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "42",
@@ -737,7 +1567,54 @@
     "birthYear": 1999,
     "birthMonth": 7,
     "birthDay": 15,
-    "birthPlace": "г.Челябинск"
+    "birthPlace": "г.Челябинск",
+    "families": [
+      {
+        "id": "41",
+        "lastName": "Коломеец"
+      },
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "67",
+        "lastName": "Ярославцева"
+      },
+      {
+        "id": "66",
+        "lastName": "Обухов"
+      },
+      {
+        "id": "65",
+        "lastName": "от (Пелагея Матвеевна)"
+      },
+      {
+        "id": "64",
+        "lastName": "Колодкин"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "43",
@@ -748,7 +1625,54 @@
     "birthYear": 2006,
     "birthMonth": 12,
     "birthDay": 15,
-    "birthPlace": "г.Челябинск"
+    "birthPlace": "г.Челябинск",
+    "families": [
+      {
+        "id": "41",
+        "lastName": "Коломеец"
+      },
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "67",
+        "lastName": "Ярославцева"
+      },
+      {
+        "id": "66",
+        "lastName": "Обухов"
+      },
+      {
+        "id": "65",
+        "lastName": "от (Пелагея Матвеевна)"
+      },
+      {
+        "id": "64",
+        "lastName": "Колодкин"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "40",
@@ -759,7 +1683,54 @@
     "birthYear": 2007,
     "birthMonth": 6,
     "birthDay": 11,
-    "birthPlace": "г.Миасс"
+    "birthPlace": "г.Миасс",
+    "families": [
+      {
+        "id": "38",
+        "lastName": "Трофимова"
+      },
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "67",
+        "lastName": "Ярославцева"
+      },
+      {
+        "id": "66",
+        "lastName": "Обухов"
+      },
+      {
+        "id": "65",
+        "lastName": "от (Пелагея Матвеевна)"
+      },
+      {
+        "id": "64",
+        "lastName": "Колодкин"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "41",
@@ -770,7 +1741,9 @@
     "weddingYear": "1994",
     "birthMonth": 7,
     "birthDay": 8,
-    "birthPlace": "с.Теченский, Челябинская обл."
+    "birthPlace": "с.Теченский, Челябинская обл.",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "65",
@@ -786,7 +1759,9 @@
     "deathDay": 21,
     "deathPlace": "с.Болотово",
     "nationality": "русская",
-    "bio": "Казачка"
+    "bio": "Казачка",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "75",
@@ -801,7 +1776,9 @@
     "deathYear": 1972,
     "deathMonth": 12,
     "deathDay": 25,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "76",
@@ -816,7 +1793,9 @@
     "deathYear": 1979,
     "deathMonth": 8,
     "deathDay": 5,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "67",
@@ -832,7 +1811,9 @@
     "deathMonth": 2,
     "deathDay": 8,
     "deathPlace": "с.Филимоново",
-    "nationality": "русская"
+    "nationality": "русская",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "68",
@@ -851,7 +1832,18 @@
     "deathMonth": 2,
     "deathDay": 6,
     "deathPlace": "г.Миасс",
-    "nationality": "русский"
+    "nationality": "русский",
+    "families": [
+      {
+        "id": "65",
+        "lastName": "от (Пелагея Матвеевна)"
+      },
+      {
+        "id": "64",
+        "lastName": "Колодкин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "77",
@@ -866,7 +1858,18 @@
     "deathYear": 1942,
     "deathMonth": 8,
     "deathDay": 28,
-    "bio": "до 2021г. считался без вести пропавшим на полях сражений ВОВ, Место захоронения нашел Владимир Павлович Крученков"
+    "bio": "до 2021г. считался без вести пропавшим на полях сражений ВОВ, Место захоронения нашел Владимир Павлович Крученков",
+    "families": [
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "78",
@@ -881,7 +1884,18 @@
     "deathYear": 2003,
     "deathMonth": 12,
     "deathDay": 11,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "79",
@@ -896,7 +1910,18 @@
     "deathYear": 1978,
     "deathMonth": 2,
     "deathDay": 3,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "69",
@@ -915,7 +1940,18 @@
     "deathMonth": 6,
     "deathDay": 1,
     "deathPlace": "г.Миасс",
-    "nationality": "русская"
+    "nationality": "русская",
+    "families": [
+      {
+        "id": "67",
+        "lastName": "Ярославцева"
+      },
+      {
+        "id": "66",
+        "lastName": "Обухов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "80",
@@ -930,7 +1966,18 @@
     "deathYear": 1996,
     "deathMonth": 5,
     "deathDay": 3,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "81",
@@ -945,7 +1992,18 @@
     "deathYear": 2016,
     "deathMonth": 12,
     "deathDay": 11,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "83",
@@ -960,7 +2018,26 @@
     "deathYear": 2010,
     "deathMonth": 7,
     "deathDay": 10,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "128",
+        "lastName": "от (Евдокия)"
+      },
+      {
+        "id": "127",
+        "lastName": "Хахалкин"
+      },
+      {
+        "id": "124",
+        "lastName": "от (Устинья)"
+      },
+      {
+        "id": "123",
+        "lastName": "Сметанин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "82",
@@ -976,7 +2053,18 @@
     "deathMonth": 9,
     "deathDay": 15,
     "deathPlace": "г.Ишимбай",
-    "bio": "Заслуженный связист БАССР, Заслуженный связист РСФСР, награждена Орденом Трудового Красного Знамени"
+    "bio": "Заслуженный связист БАССР, Заслуженный связист РСФСР, награждена Орденом Трудового Красного Знамени",
+    "families": [
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "53",
@@ -991,7 +2079,18 @@
     "deathYear": 2001,
     "deathMonth": 12,
     "deathDay": 20,
-    "deathPlace": "г.Владивосток"
+    "deathPlace": "г.Владивосток",
+    "families": [
+      {
+        "id": "214",
+        "lastName": "Тимошенко"
+      },
+      {
+        "id": "213",
+        "lastName": "Сушков"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "86",
@@ -1006,7 +2105,22 @@
     "deathYear": 2001,
     "deathMonth": 12,
     "deathDay": 15,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "85",
+        "lastName": "Девяткина"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "87",
@@ -1021,7 +2135,22 @@
     "deathYear": 2019,
     "deathMonth": 12,
     "deathDay": 11,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "85",
+        "lastName": "Девяткина"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "88",
@@ -1036,7 +2165,9 @@
     "deathYear": 2002,
     "deathMonth": 1,
     "deathDay": 12,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "70",
@@ -1051,14 +2182,35 @@
     "deathYear": 2003,
     "deathMonth": 5,
     "deathDay": 25,
-    "deathPlace": "г.Миасс"
+    "deathPlace": "г.Миасс",
+    "families": [
+      {
+        "id": "67",
+        "lastName": "Ярославцева"
+      },
+      {
+        "id": "66",
+        "lastName": "Обухов"
+      },
+      {
+        "id": "65",
+        "lastName": "от (Пелагея Матвеевна)"
+      },
+      {
+        "id": "64",
+        "lastName": "Колодкин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "71",
     "firstName": "Тамара",
     "patronym": "Анисимовна",
     "gender": "female",
-    "birthYear": 1947
+    "birthYear": 1947,
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "84",
@@ -1073,7 +2225,34 @@
     "deathYear": 2019,
     "deathMonth": 2,
     "deathDay": 7,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      },
+      {
+        "id": "128",
+        "lastName": "от (Евдокия)"
+      },
+      {
+        "id": "127",
+        "lastName": "Хахалкин"
+      },
+      {
+        "id": "124",
+        "lastName": "от (Устинья)"
+      },
+      {
+        "id": "123",
+        "lastName": "Сметанин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "55",
@@ -1084,7 +2263,26 @@
     "birthYear": 1956,
     "birthMonth": 1,
     "birthDay": 2,
-    "birthPlace": "д.Васильевка, Ермекеевский р-н, БАССР"
+    "birthPlace": "д.Васильевка, Ермекеевский р-н, БАССР",
+    "families": [
+      {
+        "id": "249",
+        "lastName": "Федячкина"
+      },
+      {
+        "id": "248",
+        "lastName": "Ларкин"
+      },
+      {
+        "id": "241",
+        "lastName": "от (Ефросинья Тихоновна)"
+      },
+      {
+        "id": "240",
+        "lastName": "Каршков"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "72",
@@ -1099,7 +2297,30 @@
     "deathYear": 2007,
     "deathMonth": 2,
     "deathDay": 11,
-    "deathPlace": "г.Миасс"
+    "deathPlace": "г.Миасс",
+    "families": [
+      {
+        "id": "71",
+        "lastName": "от (Тамара Анисимовна)"
+      },
+      {
+        "id": "67",
+        "lastName": "Ярославцева"
+      },
+      {
+        "id": "66",
+        "lastName": "Обухов"
+      },
+      {
+        "id": "65",
+        "lastName": "от (Пелагея Матвеевна)"
+      },
+      {
+        "id": "64",
+        "lastName": "Колодкин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "45",
@@ -1113,7 +2334,58 @@
     "birthYear": 1971,
     "birthMonth": 12,
     "birthDay": 15,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      },
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "128",
+        "lastName": "от (Евдокия)"
+      },
+      {
+        "id": "127",
+        "lastName": "Хахалкин"
+      },
+      {
+        "id": "124",
+        "lastName": "от (Устинья)"
+      },
+      {
+        "id": "123",
+        "lastName": "Сметанин"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "47",
@@ -1127,7 +2399,26 @@
     "birthYear": 1973,
     "birthMonth": 6,
     "birthDay": 25,
-    "birthPlace": "г.Уфа"
+    "birthPlace": "г.Уфа",
+    "families": [
+      {
+        "id": "197",
+        "lastName": "Габбасов"
+      },
+      {
+        "id": "193",
+        "lastName": "Шагивалеев"
+      },
+      {
+        "id": "186",
+        "lastName": "от (Камиля Ахмадеевна)"
+      },
+      {
+        "id": "185",
+        "lastName": "Бикташев"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "46",
@@ -1138,7 +2429,58 @@
     "birthYear": 1976,
     "birthMonth": 6,
     "birthDay": 29,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      },
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "128",
+        "lastName": "от (Евдокия)"
+      },
+      {
+        "id": "127",
+        "lastName": "Хахалкин"
+      },
+      {
+        "id": "124",
+        "lastName": "от (Устинья)"
+      },
+      {
+        "id": "123",
+        "lastName": "Сметанин"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "54",
@@ -1149,7 +2491,42 @@
     "birthYear": 1977,
     "birthMonth": 6,
     "birthDay": 14,
-    "birthPlace": "г.Владивосток"
+    "birthPlace": "г.Владивосток",
+    "families": [
+      {
+        "id": "214",
+        "lastName": "Тимошенко"
+      },
+      {
+        "id": "213",
+        "lastName": "Сушков"
+      },
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "50",
@@ -1160,7 +2537,9 @@
     "birthYear": 1978,
     "birthMonth": 1,
     "birthDay": 31,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "56",
@@ -1171,7 +2550,50 @@
     "birthYear": 1980,
     "birthMonth": 3,
     "birthDay": 8,
-    "birthPlace": "г.Нефтекамск"
+    "birthPlace": "г.Нефтекамск",
+    "families": [
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "249",
+        "lastName": "Федячкина"
+      },
+      {
+        "id": "248",
+        "lastName": "Ларкин"
+      },
+      {
+        "id": "241",
+        "lastName": "от (Ефросинья Тихоновна)"
+      },
+      {
+        "id": "240",
+        "lastName": "Каршков"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "57",
@@ -1182,7 +2604,50 @@
     "birthYear": 1983,
     "birthMonth": 12,
     "birthDay": 23,
-    "birthPlace": "г.Нефтекамск"
+    "birthPlace": "г.Нефтекамск",
+    "families": [
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "249",
+        "lastName": "Федячкина"
+      },
+      {
+        "id": "248",
+        "lastName": "Ларкин"
+      },
+      {
+        "id": "241",
+        "lastName": "от (Ефросинья Тихоновна)"
+      },
+      {
+        "id": "240",
+        "lastName": "Каршков"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "48",
@@ -1196,7 +2661,74 @@
     "birthYear": 1996,
     "birthMonth": 4,
     "birthDay": 24,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "197",
+        "lastName": "Габбасов"
+      },
+      {
+        "id": "193",
+        "lastName": "Шагивалеев"
+      },
+      {
+        "id": "186",
+        "lastName": "от (Камиля Ахмадеевна)"
+      },
+      {
+        "id": "185",
+        "lastName": "Бикташев"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      },
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "128",
+        "lastName": "от (Евдокия)"
+      },
+      {
+        "id": "127",
+        "lastName": "Хахалкин"
+      },
+      {
+        "id": "124",
+        "lastName": "от (Устинья)"
+      },
+      {
+        "id": "123",
+        "lastName": "Сметанин"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "49",
@@ -1210,7 +2742,9 @@
     "birthYear": 1997,
     "birthMonth": 8,
     "birthDay": 16,
-    "birthPlace": "г. Южно-Сахалинск"
+    "birthPlace": "г. Южно-Сахалинск",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "51",
@@ -1219,7 +2753,62 @@
     "patronym": "Александрович",
     "gender": "male",
     "birthPlace": "г.Ишимбай",
-    "undefined": "31.05.1999"
+    "undefined": "31.05.1999",
+    "families": [
+      {
+        "id": "50",
+        "lastName": "Тюрина"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      },
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "128",
+        "lastName": "от (Евдокия)"
+      },
+      {
+        "id": "127",
+        "lastName": "Хахалкин"
+      },
+      {
+        "id": "124",
+        "lastName": "от (Устинья)"
+      },
+      {
+        "id": "123",
+        "lastName": "Сметанин"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "52",
@@ -1230,14 +2819,71 @@
     "birthYear": 2008,
     "birthMonth": 5,
     "birthDay": 17,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "50",
+        "lastName": "Тюрина"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      },
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "128",
+        "lastName": "от (Евдокия)"
+      },
+      {
+        "id": "127",
+        "lastName": "Хахалкин"
+      },
+      {
+        "id": "124",
+        "lastName": "от (Устинья)"
+      },
+      {
+        "id": "123",
+        "lastName": "Сметанин"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "58",
     "lastName": "Галямова",
     "firstName": "Алсу",
     "patronym": "Зинуровна",
-    "gender": "female"
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "74",
@@ -1252,7 +2898,34 @@
     "deathYear": 2021,
     "deathMonth": 2,
     "deathDay": 26,
-    "deathPlace": "г.Миасс"
+    "deathPlace": "г.Миасс",
+    "families": [
+      {
+        "id": "73",
+        "lastName": "Кожевникова"
+      },
+      {
+        "id": "71",
+        "lastName": "от (Тамара Анисимовна)"
+      },
+      {
+        "id": "67",
+        "lastName": "Ярославцева"
+      },
+      {
+        "id": "66",
+        "lastName": "Обухов"
+      },
+      {
+        "id": "65",
+        "lastName": "от (Пелагея Матвеевна)"
+      },
+      {
+        "id": "64",
+        "lastName": "Колодкин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "62",
@@ -1263,7 +2936,9 @@
     "birthYear": 1986,
     "birthMonth": 8,
     "birthDay": 19,
-    "birthPlace": "г.Нефтекамск"
+    "birthPlace": "г.Нефтекамск",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "59",
@@ -1274,7 +2949,14 @@
     "birthYear": 2003,
     "birthMonth": 3,
     "birthDay": 15,
-    "birthPlace": "г.Нефтекамск"
+    "birthPlace": "г.Нефтекамск",
+    "families": [
+      {
+        "id": "58",
+        "lastName": "Галямова"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "60",
@@ -1285,7 +2967,54 @@
     "birthYear": 2007,
     "birthMonth": 8,
     "birthDay": 22,
-    "birthPlace": "г.Нефтекамск"
+    "birthPlace": "г.Нефтекамск",
+    "families": [
+      {
+        "id": "58",
+        "lastName": "Галямова"
+      },
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "249",
+        "lastName": "Федячкина"
+      },
+      {
+        "id": "248",
+        "lastName": "Ларкин"
+      },
+      {
+        "id": "241",
+        "lastName": "от (Ефросинья Тихоновна)"
+      },
+      {
+        "id": "240",
+        "lastName": "Каршков"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "61",
@@ -1294,7 +3023,54 @@
     "patronym": "Максимович",
     "gender": "male",
     "birthYear": 2021,
-    "birthPlace": "г.Нефтекамск"
+    "birthPlace": "г.Нефтекамск",
+    "families": [
+      {
+        "id": "58",
+        "lastName": "Галямова"
+      },
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "249",
+        "lastName": "Федячкина"
+      },
+      {
+        "id": "248",
+        "lastName": "Ларкин"
+      },
+      {
+        "id": "241",
+        "lastName": "от (Ефросинья Тихоновна)"
+      },
+      {
+        "id": "240",
+        "lastName": "Каршков"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "63",
@@ -1303,7 +3079,9 @@
     "gender": "male",
     "weddingYear": "2021",
     "weddingMonth": "8",
-    "weddingDay": "28"
+    "weddingDay": "28",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "64",
@@ -1311,27 +3089,35 @@
     "firstName": "Герасим",
     "gender": "male",
     "nationality": "русский",
-    "bio": "Казак, погиб на границе с китаем"
+    "bio": "Казак, погиб на границе с китаем",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "66",
     "lastName": "Обухов",
     "firstName": "Иван",
     "gender": "male",
-    "nationality": "русский"
+    "nationality": "русский",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "73",
     "lastName": "Кожевникова",
     "firstName": "Елена",
-    "gender": "female"
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "85",
     "lastName": "Девяткина",
     "firstName": "Прасковья",
     "patronym": "Федоровна",
-    "gender": "female"
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "114",
@@ -1345,7 +3131,9 @@
     "deathYear": 1992,
     "deathMonth": 10,
     "deathDay": 23,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "92",
@@ -1356,7 +3144,9 @@
     "birthYear": 1959,
     "birthMonth": 8,
     "birthDay": 13,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "115",
@@ -1368,7 +3158,26 @@
     "birthPlace": "г.Ишимбай",
     "deathYear": 2002,
     "deathMonth": 1,
-    "deathDay": 12
+    "deathDay": 12,
+    "families": [
+      {
+        "id": "114",
+        "lastName": "Новикова"
+      },
+      {
+        "id": "85",
+        "lastName": "Девяткина"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "96",
@@ -1379,7 +3188,9 @@
     "birthYear": 1962,
     "birthMonth": 4,
     "birthDay": 11,
-    "birthPlace": "г.Чимкент"
+    "birthPlace": "г.Чимкент",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "89",
@@ -1390,7 +3201,26 @@
     "birthYear": 1963,
     "birthMonth": 9,
     "birthDay": 30,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "88",
+        "lastName": "Козлицкая"
+      },
+      {
+        "id": "85",
+        "lastName": "Девяткина"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "116",
@@ -1400,7 +3230,9 @@
     "birthYear": 1963,
     "birthMonth": 5,
     "birthDay": 19,
-    "deathYear": 2002
+    "deathYear": 2002,
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "90",
@@ -1411,7 +3243,26 @@
     "birthYear": 1965,
     "birthMonth": 8,
     "birthDay": 16,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "88",
+        "lastName": "Козлицкая"
+      },
+      {
+        "id": "85",
+        "lastName": "Девяткина"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "99",
@@ -1420,7 +3271,9 @@
     "patronym": "Николаевич",
     "gender": "male",
     "birthYear": 1973,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "91",
@@ -1431,7 +3284,26 @@
     "birthYear": 1974,
     "birthMonth": 2,
     "birthDay": 7,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "88",
+        "lastName": "Козлицкая"
+      },
+      {
+        "id": "85",
+        "lastName": "Девяткина"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "119",
@@ -1441,7 +3313,9 @@
     "gender": "male",
     "birthYear": 1976,
     "birthMonth": 11,
-    "birthDay": 19
+    "birthDay": 19,
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "93",
@@ -1452,7 +3326,30 @@
     "birthYear": 1982,
     "birthMonth": 4,
     "birthDay": 9,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "92",
+        "lastName": "Куданов"
+      },
+      {
+        "id": "88",
+        "lastName": "Козлицкая"
+      },
+      {
+        "id": "85",
+        "lastName": "Девяткина"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "94",
@@ -1463,7 +3360,30 @@
     "birthYear": 1983,
     "birthMonth": 8,
     "birthDay": 24,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "92",
+        "lastName": "Куданов"
+      },
+      {
+        "id": "88",
+        "lastName": "Козлицкая"
+      },
+      {
+        "id": "85",
+        "lastName": "Девяткина"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "117",
@@ -1474,7 +3394,30 @@
     "birthYear": 1983,
     "birthMonth": 5,
     "birthDay": 26,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "116",
+        "lastName": "от (Любовь Ивановна)"
+      },
+      {
+        "id": "114",
+        "lastName": "Новикова"
+      },
+      {
+        "id": "85",
+        "lastName": "Девяткина"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "105",
@@ -1485,7 +3428,9 @@
     "birthYear": 1986,
     "birthMonth": 5,
     "birthDay": 7,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "112",
@@ -1495,7 +3440,9 @@
     "gender": "male",
     "birthYear": 1986,
     "birthMonth": 11,
-    "birthDay": 8
+    "birthDay": 8,
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "97",
@@ -1506,7 +3453,30 @@
     "birthYear": 1988,
     "birthMonth": 5,
     "birthDay": 8,
-    "birthPlace": "г.Нягань"
+    "birthPlace": "г.Нягань",
+    "families": [
+      {
+        "id": "96",
+        "lastName": "Рожков"
+      },
+      {
+        "id": "88",
+        "lastName": "Козлицкая"
+      },
+      {
+        "id": "85",
+        "lastName": "Девяткина"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "98",
@@ -1517,7 +3487,30 @@
     "birthYear": 1990,
     "birthMonth": 2,
     "birthDay": 28,
-    "birthPlace": "г.Нягань"
+    "birthPlace": "г.Нягань",
+    "families": [
+      {
+        "id": "96",
+        "lastName": "Рожков"
+      },
+      {
+        "id": "88",
+        "lastName": "Козлицкая"
+      },
+      {
+        "id": "85",
+        "lastName": "Девяткина"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "95",
@@ -1528,7 +3521,30 @@
     "birthYear": 1991,
     "birthMonth": 1,
     "birthDay": 25,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "92",
+        "lastName": "Куданов"
+      },
+      {
+        "id": "88",
+        "lastName": "Козлицкая"
+      },
+      {
+        "id": "85",
+        "lastName": "Девяткина"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "118",
@@ -1539,7 +3555,30 @@
     "birthYear": 1991,
     "birthMonth": 7,
     "birthDay": 5,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "116",
+        "lastName": "от (Любовь Ивановна)"
+      },
+      {
+        "id": "114",
+        "lastName": "Новикова"
+      },
+      {
+        "id": "85",
+        "lastName": "Девяткина"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "102",
@@ -1550,7 +3589,9 @@
     "birthYear": 1992,
     "birthMonth": 7,
     "birthDay": 7,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "100",
@@ -1561,7 +3602,30 @@
     "birthYear": 1994,
     "birthMonth": 1,
     "birthDay": 27,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "99",
+        "lastName": "Смолин"
+      },
+      {
+        "id": "88",
+        "lastName": "Козлицкая"
+      },
+      {
+        "id": "85",
+        "lastName": "Девяткина"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "110",
@@ -1572,7 +3636,9 @@
     "birthYear": 1994,
     "birthMonth": 1,
     "birthDay": 8,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "122",
@@ -1583,7 +3649,9 @@
     "birthYear": 1997,
     "birthMonth": 8,
     "birthDay": 1,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "101",
@@ -1594,7 +3662,30 @@
     "birthYear": 2001,
     "birthMonth": 8,
     "birthDay": 21,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "99",
+        "lastName": "Смолин"
+      },
+      {
+        "id": "88",
+        "lastName": "Козлицкая"
+      },
+      {
+        "id": "85",
+        "lastName": "Девяткина"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "120",
@@ -1604,7 +3695,34 @@
     "gender": "male",
     "birthYear": 2001,
     "birthMonth": 11,
-    "birthDay": 3
+    "birthDay": 3,
+    "families": [
+      {
+        "id": "119",
+        "lastName": "Галимов"
+      },
+      {
+        "id": "116",
+        "lastName": "от (Любовь Ивановна)"
+      },
+      {
+        "id": "114",
+        "lastName": "Новикова"
+      },
+      {
+        "id": "85",
+        "lastName": "Девяткина"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "103",
@@ -1615,7 +3733,30 @@
     "birthYear": 2002,
     "birthMonth": 10,
     "birthDay": 23,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "92",
+        "lastName": "Куданов"
+      },
+      {
+        "id": "88",
+        "lastName": "Козлицкая"
+      },
+      {
+        "id": "85",
+        "lastName": "Девяткина"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "106",
@@ -1626,7 +3767,34 @@
     "birthYear": 2007,
     "birthMonth": 1,
     "birthDay": 13,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "105",
+        "lastName": "Грошева"
+      },
+      {
+        "id": "92",
+        "lastName": "Куданов"
+      },
+      {
+        "id": "88",
+        "lastName": "Козлицкая"
+      },
+      {
+        "id": "85",
+        "lastName": "Девяткина"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "104",
@@ -1637,7 +3805,34 @@
     "birthYear": 2010,
     "birthMonth": 3,
     "birthDay": 10,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "102",
+        "lastName": "Дронов"
+      },
+      {
+        "id": "92",
+        "lastName": "Куданов"
+      },
+      {
+        "id": "88",
+        "lastName": "Козлицкая"
+      },
+      {
+        "id": "85",
+        "lastName": "Девяткина"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "107",
@@ -1648,14 +3843,43 @@
     "birthYear": 2014,
     "birthMonth": 10,
     "birthDay": 24,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "105",
+        "lastName": "Грошева"
+      },
+      {
+        "id": "92",
+        "lastName": "Куданов"
+      },
+      {
+        "id": "88",
+        "lastName": "Козлицкая"
+      },
+      {
+        "id": "85",
+        "lastName": "Девяткина"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "108",
     "lastName": "Черепнин",
     "firstName": "Павел",
     "patronym": "Андреевич",
-    "gender": "male"
+    "gender": "male",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "121",
@@ -1665,7 +3889,34 @@
     "gender": "female",
     "birthYear": 2008,
     "birthMonth": 5,
-    "birthDay": 13
+    "birthDay": 13,
+    "families": [
+      {
+        "id": "119",
+        "lastName": "Галимов"
+      },
+      {
+        "id": "116",
+        "lastName": "от (Любовь Ивановна)"
+      },
+      {
+        "id": "114",
+        "lastName": "Новикова"
+      },
+      {
+        "id": "85",
+        "lastName": "Девяткина"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "109",
@@ -1676,7 +3927,34 @@
     "birthYear": 2017,
     "birthMonth": 8,
     "birthDay": 25,
-    "birthPlace": "г.Санкт-Петербург"
+    "birthPlace": "г.Санкт-Петербург",
+    "families": [
+      {
+        "id": "108",
+        "lastName": "Черепнин"
+      },
+      {
+        "id": "92",
+        "lastName": "Куданов"
+      },
+      {
+        "id": "88",
+        "lastName": "Козлицкая"
+      },
+      {
+        "id": "85",
+        "lastName": "Девяткина"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "113",
@@ -1686,7 +3964,34 @@
     "gender": "male",
     "birthYear": 2017,
     "birthMonth": 11,
-    "birthDay": 27
+    "birthDay": 27,
+    "families": [
+      {
+        "id": "112",
+        "lastName": "Харченко"
+      },
+      {
+        "id": "96",
+        "lastName": "Рожков"
+      },
+      {
+        "id": "88",
+        "lastName": "Козлицкая"
+      },
+      {
+        "id": "85",
+        "lastName": "Девяткина"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "111",
@@ -1697,20 +4002,51 @@
     "birthYear": 2018,
     "birthMonth": 8,
     "birthDay": 4,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "110",
+        "lastName": "Ямщикова"
+      },
+      {
+        "id": "96",
+        "lastName": "Рожков"
+      },
+      {
+        "id": "88",
+        "lastName": "Козлицкая"
+      },
+      {
+        "id": "85",
+        "lastName": "Девяткина"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "123",
     "lastName": "Сметанин",
     "firstName": "Степан",
     "gender": "male",
-    "birthPlace": "д.Пономаревка (Бирск)"
+    "birthPlace": "д.Пономаревка (Бирск)",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "124",
     "firstName": "Устинья",
     "gender": "female",
-    "birthPlace": "д.Пономаревка (Бирск)"
+    "birthPlace": "д.Пономаревка (Бирск)",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "125",
@@ -1718,7 +4054,18 @@
     "firstName": "Назар",
     "patronym": "Степанович",
     "gender": "male",
-    "birthPlace": "д.Пономаревка (Бирск)"
+    "birthPlace": "д.Пономаревка (Бирск)",
+    "families": [
+      {
+        "id": "124",
+        "lastName": "от (Устинья)"
+      },
+      {
+        "id": "123",
+        "lastName": "Сметанин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "126",
@@ -1727,75 +4074,201 @@
     "patronym": "Степанович",
     "gender": "male",
     "birthPlace": "д.Пономаревка (Бирск)",
-    "bio": "Погиб в гражданскую"
+    "bio": "Погиб в гражданскую",
+    "families": [
+      {
+        "id": "124",
+        "lastName": "от (Устинья)"
+      },
+      {
+        "id": "123",
+        "lastName": "Сметанин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "127",
     "lastName": "Хахалкин",
     "firstName": "Федор",
     "gender": "male",
-    "birthPlace": "д.Пономаревка (Бирск)"
+    "birthPlace": "д.Пономаревка (Бирск)",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "128",
     "firstName": "Евдокия",
     "gender": "female",
-    "birthPlace": "д.Пономаревка (Бирск)"
+    "birthPlace": "д.Пономаревка (Бирск)",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "130",
     "lastName": "Хахалкина",
     "firstName": "Прасковья",
     "patronym": "Федоровна",
-    "gender": "female"
+    "gender": "female",
+    "families": [
+      {
+        "id": "128",
+        "lastName": "от (Евдокия)"
+      },
+      {
+        "id": "127",
+        "lastName": "Хахалкин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "131",
     "lastName": "Хахалкина",
     "firstName": "Евдокия",
     "patronym": "Федоровна",
-    "gender": "female"
+    "gender": "female",
+    "families": [
+      {
+        "id": "128",
+        "lastName": "от (Евдокия)"
+      },
+      {
+        "id": "127",
+        "lastName": "Хахалкин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "132",
     "lastName": "Хахалкина",
     "firstName": "Ирина",
     "patronym": "Федоровна",
-    "gender": "female"
+    "gender": "female",
+    "families": [
+      {
+        "id": "128",
+        "lastName": "от (Евдокия)"
+      },
+      {
+        "id": "127",
+        "lastName": "Хахалкин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "133",
     "lastName": "Сметанин",
     "firstName": "Николай",
     "patronym": "Назарович",
-    "gender": "male"
+    "gender": "male",
+    "families": [
+      {
+        "id": "128",
+        "lastName": "от (Евдокия)"
+      },
+      {
+        "id": "127",
+        "lastName": "Хахалкин"
+      },
+      {
+        "id": "124",
+        "lastName": "от (Устинья)"
+      },
+      {
+        "id": "123",
+        "lastName": "Сметанин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "134",
     "lastName": "Сметанин",
     "firstName": "Константин",
     "patronym": "Назарович",
-    "gender": "male"
+    "gender": "male",
+    "families": [
+      {
+        "id": "128",
+        "lastName": "от (Евдокия)"
+      },
+      {
+        "id": "127",
+        "lastName": "Хахалкин"
+      },
+      {
+        "id": "124",
+        "lastName": "от (Устинья)"
+      },
+      {
+        "id": "123",
+        "lastName": "Сметанин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "135",
     "lastName": "Сметанин",
     "firstName": "Михаил",
     "patronym": "Назарович",
-    "gender": "male"
+    "gender": "male",
+    "families": [
+      {
+        "id": "128",
+        "lastName": "от (Евдокия)"
+      },
+      {
+        "id": "127",
+        "lastName": "Хахалкин"
+      },
+      {
+        "id": "124",
+        "lastName": "от (Устинья)"
+      },
+      {
+        "id": "123",
+        "lastName": "Сметанин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "136",
     "lastName": "Сметанин",
     "firstName": "Александр",
     "patronym": "Назарович",
-    "gender": "male"
+    "gender": "male",
+    "families": [
+      {
+        "id": "128",
+        "lastName": "от (Евдокия)"
+      },
+      {
+        "id": "127",
+        "lastName": "Хахалкин"
+      },
+      {
+        "id": "124",
+        "lastName": "от (Устинья)"
+      },
+      {
+        "id": "123",
+        "lastName": "Сметанин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "137",
     "firstName": "Евдокия",
     "gender": "female",
-    "bio": "Вторая жена Заикина Дмитрия Сергеевича, и мать Сергея Дмитриевича?"
+    "bio": "Вторая жена Заикина Дмитрия Сергеевича, и мать Сергея Дмитриевича?",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "171",
@@ -1806,7 +4279,9 @@
     "birthYear": 1906,
     "birthMonth": 5,
     "birthDay": 25,
-    "bio": "Заслуженный нефтяник Башкирии, награжден Орденом Трудового Красного Знамени. Третий сын в семье, старший Владимир (умер в 66лет) и средний Сергей (не вернулся с Беломорканала). Владимир Васильевич и Сергей Васильевич были раскулачены и сосланы на строительство Беломорканала, Сергей там умер. Владимир отбывал вместе с Сергеем Федоровичем Заикиным, были при лошадях, потому и выжили. Так же у Семена была младшая сестра Мария, проживала в Адлере"
+    "bio": "Заслуженный нефтяник Башкирии, награжден Орденом Трудового Красного Знамени. Третий сын в семье, старший Владимир (умер в 66лет) и средний Сергей (не вернулся с Беломорканала). Владимир Васильевич и Сергей Васильевич были раскулачены и сосланы на строительство Беломорканала, Сергей там умер. Владимир отбывал вместе с Сергеем Федоровичем Заикиным, были при лошадях, потому и выжили. Так же у Семена была младшая сестра Мария, проживала в Адлере",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "172",
@@ -1816,14 +4291,18 @@
     "gender": "female",
     "birthYear": 1906,
     "birthMonth": 4,
-    "birthDay": 14
+    "birthDay": 14,
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "142",
     "lastName": "Сорокина",
     "firstName": "Анастасия",
     "gender": "female",
-    "birthYear": 1925
+    "birthYear": 1925,
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "146",
@@ -1837,7 +4316,9 @@
     "deathYear": 1994,
     "deathMonth": 5,
     "deathDay": 13,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "173",
@@ -1852,7 +4333,18 @@
     "deathYear": 2002,
     "deathMonth": 1,
     "deathDay": 9,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "172",
+        "lastName": "Лазарева"
+      },
+      {
+        "id": "171",
+        "lastName": "Ларичев"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "149",
@@ -1866,7 +4358,9 @@
     "deathYear": 2009,
     "deathMonth": 9,
     "deathDay": 10,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "147",
@@ -1877,7 +4371,22 @@
     "birthYear": 1950,
     "birthMonth": 10,
     "birthDay": 27,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "146",
+        "lastName": "Шаруев"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "138",
@@ -1886,7 +4395,9 @@
     "patronym": "Александровна",
     "gender": "female",
     "birthYear": 1952,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "152",
@@ -1896,7 +4407,9 @@
     "gender": "male",
     "birthYear": 1955,
     "birthMonth": 3,
-    "birthDay": 8
+    "birthDay": 8,
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "139",
@@ -1907,12 +4420,45 @@
     "birthYear": 1986,
     "birthMonth": 11,
     "birthDay": 22,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "138",
+        "lastName": "Котова"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      },
+      {
+        "id": "128",
+        "lastName": "от (Евдокия)"
+      },
+      {
+        "id": "127",
+        "lastName": "Хахалкин"
+      },
+      {
+        "id": "124",
+        "lastName": "от (Устинья)"
+      },
+      {
+        "id": "123",
+        "lastName": "Сметанин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "140",
     "firstName": "Татьяна",
-    "gender": "female"
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "144",
@@ -1920,7 +4466,22 @@
     "firstName": "Евгений",
     "patronym": "Дмитриевич",
     "gender": "male",
-    "birthYear": 1953
+    "birthYear": 1953,
+    "families": [
+      {
+        "id": "142",
+        "lastName": "Сорокина"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "148",
@@ -1931,7 +4492,22 @@
     "birthYear": 1954,
     "birthMonth": 7,
     "birthDay": 31,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "146",
+        "lastName": "Шаруев"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "174",
@@ -1942,7 +4518,26 @@
     "birthYear": 1956,
     "birthMonth": 11,
     "birthDay": 18,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      },
+      {
+        "id": "172",
+        "lastName": "Лазарева"
+      },
+      {
+        "id": "171",
+        "lastName": "Ларичев"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "176",
@@ -1953,7 +4548,9 @@
     "birthYear": 1956,
     "birthMonth": 2,
     "birthDay": 12,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "175",
@@ -1968,7 +4565,26 @@
     "deathYear": 2015,
     "deathMonth": 12,
     "deathDay": 7,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      },
+      {
+        "id": "172",
+        "lastName": "Лазарева"
+      },
+      {
+        "id": "171",
+        "lastName": "Ларичев"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "166",
@@ -1978,7 +4594,9 @@
     "gender": "female",
     "birthYear": 1966,
     "birthMonth": 5,
-    "birthDay": 18
+    "birthDay": 18,
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "151",
@@ -1987,7 +4605,26 @@
     "patronym": "Вячеславовна",
     "gender": "female",
     "birthYear": 1977,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "149",
+        "lastName": "Плотников"
+      },
+      {
+        "id": "146",
+        "lastName": "Шаруев"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "168",
@@ -1997,7 +4634,9 @@
     "gender": "male",
     "birthYear": 1982,
     "birthMonth": 12,
-    "birthDay": 27
+    "birthDay": 27,
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "167",
@@ -2007,7 +4646,26 @@
     "gender": "female",
     "birthYear": 1985,
     "birthMonth": 8,
-    "birthDay": 13
+    "birthDay": 13,
+    "families": [
+      {
+        "id": "166",
+        "lastName": "Кузнецова"
+      },
+      {
+        "id": "157",
+        "lastName": "Крученков"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "165",
@@ -2017,7 +4675,9 @@
     "gender": "male",
     "birthYear": 1987,
     "birthMonth": 4,
-    "birthDay": 16
+    "birthDay": 16,
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "154",
@@ -2028,7 +4688,26 @@
     "birthYear": 1995,
     "birthMonth": 10,
     "birthDay": 19,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "152",
+        "lastName": "Юдахин"
+      },
+      {
+        "id": "146",
+        "lastName": "Шаруев"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "180",
@@ -2038,7 +4717,34 @@
     "gender": "female",
     "birthYear": 2010,
     "birthMonth": 3,
-    "birthDay": 30
+    "birthDay": 30,
+    "families": [
+      {
+        "id": "179",
+        "lastName": "Шаталов"
+      },
+      {
+        "id": "176",
+        "lastName": "Акшенцева"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      },
+      {
+        "id": "172",
+        "lastName": "Лазарева"
+      },
+      {
+        "id": "171",
+        "lastName": "Ларичев"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "181",
@@ -2048,7 +4754,34 @@
     "gender": "male",
     "birthYear": 2013,
     "birthMonth": 8,
-    "birthDay": 30
+    "birthDay": 30,
+    "families": [
+      {
+        "id": "179",
+        "lastName": "Шаталов"
+      },
+      {
+        "id": "176",
+        "lastName": "Акшенцева"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      },
+      {
+        "id": "172",
+        "lastName": "Лазарева"
+      },
+      {
+        "id": "171",
+        "lastName": "Ларичев"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "141",
@@ -2057,14 +4790,64 @@
     "patronym": "Сергеевич",
     "gender": "male",
     "birthYear": 2021,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "140",
+        "lastName": "от (Татьяна)"
+      },
+      {
+        "id": "138",
+        "lastName": "Котова"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      },
+      {
+        "id": "128",
+        "lastName": "от (Евдокия)"
+      },
+      {
+        "id": "127",
+        "lastName": "Хахалкин"
+      },
+      {
+        "id": "124",
+        "lastName": "от (Устинья)"
+      },
+      {
+        "id": "123",
+        "lastName": "Сметанин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "143",
     "lastName": "Заикина",
     "firstName": "Нина",
     "patronym": "Дмитриевна",
-    "gender": "female"
+    "gender": "female",
+    "families": [
+      {
+        "id": "142",
+        "lastName": "Сорокина"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "157",
@@ -2078,7 +4861,9 @@
     "deathYear": 1992,
     "deathMonth": 1,
     "deathDay": 18,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "158",
@@ -2089,7 +4874,22 @@
     "birthYear": 1953,
     "birthMonth": 12,
     "birthDay": 20,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "157",
+        "lastName": "Крученков"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "160",
@@ -2104,7 +4904,9 @@
     "deathYear": 2001,
     "deathMonth": 3,
     "deathDay": 12,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "159",
@@ -2115,7 +4917,22 @@
     "birthYear": 1958,
     "birthMonth": 3,
     "birthDay": 1,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "157",
+        "lastName": "Крученков"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "145",
@@ -2126,7 +4943,22 @@
     "birthYear": 1968,
     "birthPlace": "г.Ишимбай",
     "deathYear": 2005,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "137",
+        "lastName": "от (Евдокия)"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "150",
@@ -2137,7 +4969,26 @@
     "birthYear": 1972,
     "birthMonth": 11,
     "birthDay": 7,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "149",
+        "lastName": "Плотников"
+      },
+      {
+        "id": "146",
+        "lastName": "Шаруев"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "161",
@@ -2148,7 +4999,26 @@
     "birthYear": 1978,
     "birthMonth": 8,
     "birthDay": 20,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "160",
+        "lastName": "Шахмуратова"
+      },
+      {
+        "id": "157",
+        "lastName": "Крученков"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "153",
@@ -2159,13 +5029,30 @@
     "birthYear": 1980,
     "birthMonth": 12,
     "birthDay": 19,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "146",
+        "lastName": "Шаруев"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "155",
     "lastName": "Сарычев",
     "firstName": "Артем",
-    "gender": "male"
+    "gender": "male",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "163",
@@ -2175,7 +5062,9 @@
     "gender": "female",
     "birthYear": 1978,
     "birthMonth": 3,
-    "birthDay": 30
+    "birthDay": 30,
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "177",
@@ -2186,7 +5075,30 @@
     "birthYear": 1980,
     "birthMonth": 5,
     "birthDay": 4,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "176",
+        "lastName": "Акшенцева"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      },
+      {
+        "id": "172",
+        "lastName": "Лазарева"
+      },
+      {
+        "id": "171",
+        "lastName": "Ларичев"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "162",
@@ -2197,7 +5109,26 @@
     "birthYear": 1989,
     "birthMonth": 12,
     "birthDay": 4,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "160",
+        "lastName": "Шахмуратова"
+      },
+      {
+        "id": "157",
+        "lastName": "Крученков"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "169",
@@ -2207,7 +5138,30 @@
     "gender": "female",
     "birthYear": 2011,
     "birthMonth": 4,
-    "birthDay": 28
+    "birthDay": 28,
+    "families": [
+      {
+        "id": "168",
+        "lastName": "Самойликов"
+      },
+      {
+        "id": "166",
+        "lastName": "Кузнецова"
+      },
+      {
+        "id": "157",
+        "lastName": "Крученков"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "164",
@@ -2217,7 +5171,30 @@
     "gender": "male",
     "birthYear": 2013,
     "birthMonth": 1,
-    "birthDay": 28
+    "birthDay": 28,
+    "families": [
+      {
+        "id": "163",
+        "lastName": "Сергеева"
+      },
+      {
+        "id": "160",
+        "lastName": "Шахмуратова"
+      },
+      {
+        "id": "157",
+        "lastName": "Крученков"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "170",
@@ -2227,7 +5204,30 @@
     "gender": "female",
     "birthYear": 2013,
     "birthMonth": 6,
-    "birthDay": 24
+    "birthDay": 24,
+    "families": [
+      {
+        "id": "168",
+        "lastName": "Самойликов"
+      },
+      {
+        "id": "166",
+        "lastName": "Кузнецова"
+      },
+      {
+        "id": "157",
+        "lastName": "Крученков"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "156",
@@ -2237,14 +5237,39 @@
     "gender": "male",
     "birthYear": 2019,
     "birthMonth": 2,
-    "birthDay": 1
+    "birthDay": 1,
+    "families": [
+      {
+        "id": "155",
+        "lastName": "Сарычев"
+      },
+      {
+        "id": "152",
+        "lastName": "Юдахин"
+      },
+      {
+        "id": "146",
+        "lastName": "Шаруев"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "182",
     "lastName": "Голубкова",
     "firstName": "Светлана",
     "patronym": "Вадимовна",
-    "gender": "female"
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "183",
@@ -2255,7 +5280,34 @@
     "birthYear": 2010,
     "birthMonth": 3,
     "birthDay": 15,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "182",
+        "lastName": "Голубкова"
+      },
+      {
+        "id": "176",
+        "lastName": "Акшенцева"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      },
+      {
+        "id": "172",
+        "lastName": "Лазарева"
+      },
+      {
+        "id": "171",
+        "lastName": "Ларичев"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "184",
@@ -2266,7 +5318,34 @@
     "birthYear": 2016,
     "birthMonth": 8,
     "birthDay": 20,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "182",
+        "lastName": "Голубкова"
+      },
+      {
+        "id": "176",
+        "lastName": "Акшенцева"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      },
+      {
+        "id": "172",
+        "lastName": "Лазарева"
+      },
+      {
+        "id": "171",
+        "lastName": "Ларичев"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "188",
@@ -2274,14 +5353,36 @@
     "firstName": "Мингарей",
     "patronym": "Мингалеевич",
     "gender": "male",
-    "bio": "д.Гриша"
+    "bio": "д.Гриша",
+    "families": [
+      {
+        "id": "186",
+        "lastName": "от (Камиля Ахмадеевна)"
+      },
+      {
+        "id": "185",
+        "lastName": "Бикташев"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "191",
     "lastName": "Бикташев",
     "firstName": "Минхаир",
     "patronym": "Мингалеевич",
-    "gender": "male"
+    "gender": "male",
+    "families": [
+      {
+        "id": "186",
+        "lastName": "от (Камиля Ахмадеевна)"
+      },
+      {
+        "id": "185",
+        "lastName": "Бикташев"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "198",
@@ -2296,7 +5397,9 @@
     "deathYear": 2015,
     "deathMonth": 11,
     "deathDay": 5,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "200",
@@ -2304,34 +5407,87 @@
     "firstName": "Светлана",
     "patronym": "Маратовна",
     "gender": "female",
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "198",
+        "lastName": "Дубанова"
+      },
+      {
+        "id": "193",
+        "lastName": "Шагивалеев"
+      },
+      {
+        "id": "186",
+        "lastName": "от (Камиля Ахмадеевна)"
+      },
+      {
+        "id": "185",
+        "lastName": "Бикташев"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "201",
     "lastName": "Кудрина",
     "firstName": "Елена",
     "patronym": "Владимировна",
-    "gender": "female"
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "202",
     "firstName": "Владимир",
     "patronym": "Витальевич",
-    "gender": "male"
+    "gender": "male",
+    "families": [
+      {
+        "id": "201",
+        "lastName": "Кудрина"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "203",
     "lastName": "Шагивалеева",
     "firstName": "Алиса",
     "patronym": "Романовна",
-    "gender": "female"
+    "gender": "female",
+    "families": [
+      {
+        "id": "201",
+        "lastName": "Кудрина"
+      },
+      {
+        "id": "198",
+        "lastName": "Дубанова"
+      },
+      {
+        "id": "193",
+        "lastName": "Шагивалеев"
+      },
+      {
+        "id": "186",
+        "lastName": "от (Камиля Ахмадеевна)"
+      },
+      {
+        "id": "185",
+        "lastName": "Бикташев"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "204",
     "lastName": "Ланин",
     "firstName": "Валентин",
     "gender": "male",
-    "birthPlace": "г.Москва"
+    "birthPlace": "г.Москва",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "219",
@@ -2342,7 +5498,26 @@
     "birthYear": 1960,
     "birthMonth": 7,
     "birthDay": 30,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "215",
+        "lastName": "от (Римма)"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "207",
@@ -2353,13 +5528,38 @@
     "birthYear": 1989,
     "birthMonth": 5,
     "birthDay": 11,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "205",
+        "lastName": "Чараева"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      },
+      {
+        "id": "172",
+        "lastName": "Лазарева"
+      },
+      {
+        "id": "171",
+        "lastName": "Ларичев"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "208",
     "lastName": "Куприянов",
     "firstName": "Алексей",
-    "gender": "male"
+    "gender": "male",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "216",
@@ -2370,7 +5570,26 @@
     "birthYear": 1952,
     "birthMonth": 5,
     "birthDay": 24,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "215",
+        "lastName": "от (Римма)"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "217",
@@ -2381,7 +5600,26 @@
     "birthYear": 1954,
     "birthMonth": 4,
     "birthDay": 8,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "215",
+        "lastName": "от (Римма)"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "221",
@@ -2392,7 +5630,9 @@
     "birthYear": 1962,
     "birthMonth": 5,
     "birthDay": 20,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "209",
@@ -2403,7 +5643,34 @@
     "birthYear": 2010,
     "birthMonth": 10,
     "birthDay": 18,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "208",
+        "lastName": "Куприянов"
+      },
+      {
+        "id": "205",
+        "lastName": "Чараева"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      },
+      {
+        "id": "172",
+        "lastName": "Лазарева"
+      },
+      {
+        "id": "171",
+        "lastName": "Ларичев"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "211",
@@ -2414,7 +5681,34 @@
     "birthYear": 2010,
     "birthMonth": 8,
     "birthDay": 20,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "210",
+        "lastName": "Кривоконев"
+      },
+      {
+        "id": "205",
+        "lastName": "Чараева"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      },
+      {
+        "id": "172",
+        "lastName": "Лазарева"
+      },
+      {
+        "id": "171",
+        "lastName": "Ларичев"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "212",
@@ -2425,7 +5719,34 @@
     "birthYear": 2015,
     "birthMonth": 12,
     "birthDay": 11,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "210",
+        "lastName": "Кривоконев"
+      },
+      {
+        "id": "205",
+        "lastName": "Чараева"
+      },
+      {
+        "id": "76",
+        "lastName": "Жижакина"
+      },
+      {
+        "id": "75",
+        "lastName": "Заикин"
+      },
+      {
+        "id": "172",
+        "lastName": "Лазарева"
+      },
+      {
+        "id": "171",
+        "lastName": "Ларичев"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "213",
@@ -2433,7 +5754,9 @@
     "firstName": "Григорий",
     "patronym": "Александрович",
     "gender": "male",
-    "birthPlace": "г.Льгов, Курская обл."
+    "birthPlace": "г.Льгов, Курская обл.",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "214",
@@ -2441,12 +5764,16 @@
     "firstName": "Мария",
     "patronym": "Григорьевна",
     "gender": "female",
-    "birthPlace": "г.Льгов, Курская обл."
+    "birthPlace": "г.Льгов, Курская обл.",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "215",
     "firstName": "Римма",
-    "gender": "female"
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "258",
@@ -2457,7 +5784,18 @@
     "birthYear": 1880,
     "birthMonth": 12,
     "birthDay": 19,
-    "birthPlace": "с.Молотычи, Фатежский уезд, Курская губерния"
+    "birthPlace": "с.Молотычи, Фатежский уезд, Курская губерния",
+    "families": [
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "259",
@@ -2466,7 +5804,18 @@
     "patronym": "Ивановна",
     "gender": "female",
     "birthYear": 1887,
-    "birthPlace": "с.Молотычи, Фатежский уезд, Курская губерния"
+    "birthPlace": "с.Молотычи, Фатежский уезд, Курская губерния",
+    "families": [
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "240",
@@ -2475,7 +5824,9 @@
     "patronym": "Григорьевич",
     "gender": "male",
     "birthYear": 1888,
-    "deathYear": 1947
+    "deathYear": 1947,
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "260",
@@ -2490,7 +5841,18 @@
     "deathYear": 1888,
     "deathMonth": 9,
     "deathDay": 3,
-    "deathPlace": "с.Молотычи, Фатежский уезд, Курская губерния"
+    "deathPlace": "с.Молотычи, Фатежский уезд, Курская губерния",
+    "families": [
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "265",
@@ -2505,7 +5867,18 @@
     "birthMonth": 8,
     "birthDay": 6,
     "birthPlace": "с.Молотычи, Фатежский уезд, Курская губерния",
-    "bio": "В 1907 году уехал с женой из с.Молотычи Курской губернии в Башкирию, хутор Ново-Веденский. Участвовал в 1-ой мировой войне, служил в 50-ом Сибирском стрелковом полку, 03.03.1915г. был комиссован по ранению/контузии, полученному в Болимовском лесу"
+    "bio": "В 1907 году уехал с женой из с.Молотычи Курской губернии в Башкирию, хутор Ново-Веденский. Участвовал в 1-ой мировой войне, служил в 50-ом Сибирском стрелковом полку, 03.03.1915г. был комиссован по ранению/контузии, полученному в Болимовском лесу",
+    "families": [
+      {
+        "id": "264",
+        "lastName": "от (Прасковья Ильинична)"
+      },
+      {
+        "id": "263",
+        "lastName": "Кретов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "261",
@@ -2516,7 +5889,18 @@
     "birthYear": 1889,
     "birthMonth": 7,
     "birthDay": 3,
-    "birthPlace": "с.Молотычи, Фатежский уезд, Курская губерния"
+    "birthPlace": "с.Молотычи, Фатежский уезд, Курская губерния",
+    "families": [
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "262",
@@ -2527,7 +5911,18 @@
     "birthYear": 1895,
     "birthMonth": 9,
     "birthDay": 24,
-    "birthPlace": "с.Молотычи, Фатежский уезд, Курская губерния"
+    "birthPlace": "с.Молотычи, Фатежский уезд, Курская губерния",
+    "families": [
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "249",
@@ -2536,7 +5931,9 @@
     "patronym": "Михайловна",
     "gender": "female",
     "birthYear": 1903,
-    "deathYear": 1976
+    "deathYear": 1976,
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "238",
@@ -2551,7 +5948,9 @@
     "deathYear": 2006,
     "deathMonth": 10,
     "deathDay": 17,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "239",
@@ -2566,7 +5965,9 @@
     "deathYear": 2016,
     "deathMonth": 2,
     "deathDay": 20,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "247",
@@ -2581,7 +5982,18 @@
     "deathYear": 1994,
     "deathMonth": 6,
     "deathDay": 6,
-    "deathPlace": "г.Нефтекамск"
+    "deathPlace": "г.Нефтекамск",
+    "families": [
+      {
+        "id": "241",
+        "lastName": "от (Ефросинья Тихоновна)"
+      },
+      {
+        "id": "240",
+        "lastName": "Каршков"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "252",
@@ -2596,7 +6008,18 @@
     "deathYear": 2007,
     "deathMonth": 3,
     "deathDay": 17,
-    "deathPlace": "г.Нефтекамск"
+    "deathPlace": "г.Нефтекамск",
+    "families": [
+      {
+        "id": "249",
+        "lastName": "Федячкина"
+      },
+      {
+        "id": "248",
+        "lastName": "Ларкин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "223",
@@ -2607,7 +6030,9 @@
     "birthYear": 1954,
     "birthMonth": 12,
     "birthDay": 24,
-    "birthPlace": "г.Стерлитамак"
+    "birthPlace": "г.Стерлитамак",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "255",
@@ -2618,7 +6043,26 @@
     "birthYear": 1960,
     "birthMonth": 8,
     "birthDay": 31,
-    "birthPlace": "с.Мияки, Миякинский р-н"
+    "birthPlace": "с.Мияки, Миякинский р-н",
+    "families": [
+      {
+        "id": "249",
+        "lastName": "Федячкина"
+      },
+      {
+        "id": "248",
+        "lastName": "Ларкин"
+      },
+      {
+        "id": "241",
+        "lastName": "от (Ефросинья Тихоновна)"
+      },
+      {
+        "id": "240",
+        "lastName": "Каршков"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "229",
@@ -2629,7 +6073,18 @@
     "birthYear": 1962,
     "birthMonth": 8,
     "birthDay": 19,
-    "birthPlace": "д.Аси-Ялань"
+    "birthPlace": "д.Аси-Ялань",
+    "families": [
+      {
+        "id": "239",
+        "lastName": "Рубан"
+      },
+      {
+        "id": "238",
+        "lastName": "Зимин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "226",
@@ -2640,7 +6095,9 @@
     "birthYear": 1963,
     "birthMonth": 6,
     "birthDay": 7,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "230",
@@ -2651,7 +6108,42 @@
     "birthYear": 1981,
     "birthMonth": 11,
     "birthDay": 18,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "239",
+        "lastName": "Рубан"
+      },
+      {
+        "id": "238",
+        "lastName": "Зимин"
+      },
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "232",
@@ -2662,7 +6154,9 @@
     "birthYear": 1982,
     "birthMonth": 11,
     "birthDay": 15,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "227",
@@ -2673,7 +6167,30 @@
     "birthYear": 1983,
     "birthMonth": 11,
     "birthDay": 11,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "226",
+        "lastName": "Розенблат"
+      },
+      {
+        "id": "215",
+        "lastName": "от (Римма)"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "231",
@@ -2684,7 +6201,42 @@
     "birthYear": 1984,
     "birthMonth": 9,
     "birthDay": 24,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "239",
+        "lastName": "Рубан"
+      },
+      {
+        "id": "238",
+        "lastName": "Зимин"
+      },
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "235",
@@ -2694,7 +6246,9 @@
     "gender": "male",
     "birthYear": 1984,
     "birthMonth": 9,
-    "birthDay": 10
+    "birthDay": 10,
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "222",
@@ -2705,7 +6259,30 @@
     "birthYear": 1985,
     "birthMonth": 7,
     "birthDay": 3,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "221",
+        "lastName": "Шатова"
+      },
+      {
+        "id": "215",
+        "lastName": "от (Римма)"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "228",
@@ -2716,7 +6293,30 @@
     "birthYear": 1986,
     "birthMonth": 11,
     "birthDay": 16,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "226",
+        "lastName": "Розенблат"
+      },
+      {
+        "id": "215",
+        "lastName": "от (Римма)"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "224",
@@ -2727,7 +6327,30 @@
     "birthYear": 1989,
     "birthMonth": 8,
     "birthDay": 3,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "223",
+        "lastName": "Кононова"
+      },
+      {
+        "id": "215",
+        "lastName": "от (Римма)"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "225",
@@ -2738,7 +6361,30 @@
     "birthYear": 1992,
     "birthMonth": 8,
     "birthDay": 16,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "223",
+        "lastName": "Кононова"
+      },
+      {
+        "id": "215",
+        "lastName": "от (Римма)"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "233",
@@ -2749,7 +6395,46 @@
     "birthYear": 2006,
     "birthMonth": 2,
     "birthDay": 21,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "232",
+        "lastName": "Столяров"
+      },
+      {
+        "id": "239",
+        "lastName": "Рубан"
+      },
+      {
+        "id": "238",
+        "lastName": "Зимин"
+      },
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "236",
@@ -2760,7 +6445,46 @@
     "birthYear": 2010,
     "birthMonth": 7,
     "birthDay": 13,
-    "birthPlace": "г.Ижевск"
+    "birthPlace": "г.Ижевск",
+    "families": [
+      {
+        "id": "235",
+        "lastName": "Сунцов"
+      },
+      {
+        "id": "239",
+        "lastName": "Рубан"
+      },
+      {
+        "id": "238",
+        "lastName": "Зимин"
+      },
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "234",
@@ -2771,7 +6495,46 @@
     "birthYear": 2013,
     "birthMonth": 2,
     "birthDay": 9,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "232",
+        "lastName": "Столяров"
+      },
+      {
+        "id": "239",
+        "lastName": "Рубан"
+      },
+      {
+        "id": "238",
+        "lastName": "Зимин"
+      },
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "237",
@@ -2782,48 +6545,144 @@
     "birthYear": 2016,
     "birthMonth": 3,
     "birthDay": 1,
-    "birthPlace": "г.Пермь"
+    "birthPlace": "г.Пермь",
+    "families": [
+      {
+        "id": "235",
+        "lastName": "Сунцов"
+      },
+      {
+        "id": "239",
+        "lastName": "Рубан"
+      },
+      {
+        "id": "238",
+        "lastName": "Зимин"
+      },
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "241",
     "firstName": "Ефросинья",
     "patronym": "Тихоновна",
-    "gender": "female"
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "242",
     "lastName": "Каршкова",
     "firstName": "Варвара",
     "patronym": "Наумовна",
-    "gender": "female"
+    "gender": "female",
+    "families": [
+      {
+        "id": "241",
+        "lastName": "от (Ефросинья Тихоновна)"
+      },
+      {
+        "id": "240",
+        "lastName": "Каршков"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "243",
     "lastName": "Каршков",
     "firstName": "Антон",
     "patronym": "Наумович",
-    "gender": "male"
+    "gender": "male",
+    "families": [
+      {
+        "id": "241",
+        "lastName": "от (Ефросинья Тихоновна)"
+      },
+      {
+        "id": "240",
+        "lastName": "Каршков"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "244",
     "lastName": "Каршкова",
     "firstName": "Мария",
     "patronym": "Наумовна",
-    "gender": "female"
+    "gender": "female",
+    "families": [
+      {
+        "id": "241",
+        "lastName": "от (Ефросинья Тихоновна)"
+      },
+      {
+        "id": "240",
+        "lastName": "Каршков"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "245",
     "lastName": "Каршков",
     "firstName": "Павел",
     "patronym": "Наумович",
-    "gender": "male"
+    "gender": "male",
+    "families": [
+      {
+        "id": "241",
+        "lastName": "от (Ефросинья Тихоновна)"
+      },
+      {
+        "id": "240",
+        "lastName": "Каршков"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "246",
     "lastName": "Каршков",
     "firstName": "Михаил",
     "patronym": "Наумович",
-    "gender": "male"
+    "gender": "male",
+    "families": [
+      {
+        "id": "241",
+        "lastName": "от (Ефросинья Тихоновна)"
+      },
+      {
+        "id": "240",
+        "lastName": "Каршков"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "248",
@@ -2831,7 +6690,9 @@
     "firstName": "Павел",
     "patronym": "Алексеевич",
     "gender": "male",
-    "deathYear": 1942
+    "deathYear": 1942,
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "250",
@@ -2839,7 +6700,18 @@
     "firstName": "Михаил",
     "patronym": "Павлович",
     "gender": "male",
-    "bio": "дети: Александр, Иван, Любовь, Павел, Виктор, Ольга"
+    "bio": "дети: Александр, Иван, Любовь, Павел, Виктор, Ольга",
+    "families": [
+      {
+        "id": "249",
+        "lastName": "Федячкина"
+      },
+      {
+        "id": "248",
+        "lastName": "Ларкин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "251",
@@ -2847,7 +6719,18 @@
     "firstName": "Евдокия",
     "patronym": "Павловна",
     "gender": "female",
-    "bio": "дети: Надежда, Сергей, Татьяна, Алексей, Василий"
+    "bio": "дети: Надежда, Сергей, Татьяна, Алексей, Василий",
+    "families": [
+      {
+        "id": "249",
+        "lastName": "Федячкина"
+      },
+      {
+        "id": "248",
+        "lastName": "Ларкин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "253",
@@ -2855,7 +6738,18 @@
     "firstName": "Мария",
     "patronym": "Павловна",
     "gender": "female",
-    "bio": "дочь Елена"
+    "bio": "дочь Елена",
+    "families": [
+      {
+        "id": "249",
+        "lastName": "Федячкина"
+      },
+      {
+        "id": "248",
+        "lastName": "Ларкин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "254",
@@ -2863,7 +6757,18 @@
     "firstName": "Иван",
     "patronym": "Павлович",
     "gender": "male",
-    "bio": "дети: Владимир, Наталья, Антонина, Сергей, Анатолий"
+    "bio": "дети: Владимир, Наталья, Антонина, Сергей, Анатолий",
+    "families": [
+      {
+        "id": "249",
+        "lastName": "Федячкина"
+      },
+      {
+        "id": "248",
+        "lastName": "Ларкин"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "256",
@@ -2871,26 +6776,34 @@
     "firstName": "Иван",
     "patronym": "Захарович",
     "gender": "male",
-    "bio": "Солдат, с.Молотычи, Фатежский уезд, рядом с Локтионово"
+    "bio": "Солдат, с.Молотычи, Фатежский уезд, рядом с Локтионово",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "257",
     "firstName": "Мария",
     "patronym": "Никитична",
-    "gender": "female"
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "263",
     "lastName": "Кретов",
     "firstName": "Дмитрий",
     "patronym": "Андреевич",
-    "gender": "male"
+    "gender": "male",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "264",
     "firstName": "Прасковья",
     "patronym": "Ильинична",
-    "gender": "female"
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "266",
@@ -2900,14 +6813,27 @@
     "gender": "male",
     "birthYear": 1892,
     "birthPlace": "с.Молотычи, Фатежский уезд, Курская губерния",
-    "bio": "Проживал в с.Веденовка, Мелеузовского р-на, в 1937 году репрессирован,по ст.58 п.10-11 УК РСФСР, вину не признал, дело рассматривала \"тройка\""
+    "bio": "Проживал в с.Веденовка, Мелеузовского р-на, в 1937 году репрессирован,по ст.58 п.10-11 УК РСФСР, вину не признал, дело рассматривала \"тройка\"",
+    "families": [
+      {
+        "id": "264",
+        "lastName": "от (Прасковья Ильинична)"
+      },
+      {
+        "id": "263",
+        "lastName": "Кретов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "273",
     "firstName": "Ефросинья",
     "patronym": "Степановна",
     "gender": "female",
-    "birthYear": 1893
+    "birthYear": 1893,
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "267",
@@ -2918,7 +6844,18 @@
     "birthYear": 1894,
     "birthMonth": 10,
     "birthDay": 17,
-    "birthPlace": "с.Молотычи, Фатежский уезд, Курская губерния"
+    "birthPlace": "с.Молотычи, Фатежский уезд, Курская губерния",
+    "families": [
+      {
+        "id": "264",
+        "lastName": "от (Прасковья Ильинична)"
+      },
+      {
+        "id": "263",
+        "lastName": "Кретов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "268",
@@ -2929,7 +6866,18 @@
     "birthYear": 1903,
     "birthMonth": 9,
     "birthDay": 24,
-    "birthPlace": "с.Молотычи, Фатежский уезд, Курская губерния"
+    "birthPlace": "с.Молотычи, Фатежский уезд, Курская губерния",
+    "families": [
+      {
+        "id": "264",
+        "lastName": "от (Прасковья Ильинична)"
+      },
+      {
+        "id": "263",
+        "lastName": "Кретов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "269",
@@ -2944,7 +6892,26 @@
     "deathYear": 1908,
     "deathMonth": 11,
     "deathDay": 13,
-    "deathPlace": "хутор Ново-Веденский, с.Варварино, Уфимская губерния"
+    "deathPlace": "хутор Ново-Веденский, с.Варварино, Уфимская губерния",
+    "families": [
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "264",
+        "lastName": "от (Прасковья Ильинична)"
+      },
+      {
+        "id": "263",
+        "lastName": "Кретов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "270",
@@ -2956,7 +6923,26 @@
     "birthMonth": 8,
     "birthDay": 20,
     "birthPlace": "хутор Ново-Веденский, с.Варварино, Уфимская губерния",
-    "bio": "умерла при родах в 20-е годы"
+    "bio": "умерла при родах в 20-е годы",
+    "families": [
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "264",
+        "lastName": "от (Прасковья Ильинична)"
+      },
+      {
+        "id": "263",
+        "lastName": "Кретов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "271",
@@ -2967,7 +6953,26 @@
     "birthYear": 1911,
     "birthMonth": 10,
     "birthDay": 2,
-    "birthPlace": "хутор Ново-Веденский, с.Варварино, Уфимская губерния"
+    "birthPlace": "хутор Ново-Веденский, с.Варварино, Уфимская губерния",
+    "families": [
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "264",
+        "lastName": "от (Прасковья Ильинична)"
+      },
+      {
+        "id": "263",
+        "lastName": "Кретов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "274",
@@ -2976,7 +6981,22 @@
     "patronym": "Тихоновна",
     "gender": "female",
     "birthYear": 1913,
-    "birthPlace": "с.Веденовка, Мелеузовский р-н"
+    "birthPlace": "с.Веденовка, Мелеузовский р-н",
+    "families": [
+      {
+        "id": "273",
+        "lastName": "от (Ефросинья Степановна)"
+      },
+      {
+        "id": "264",
+        "lastName": "от (Прасковья Ильинична)"
+      },
+      {
+        "id": "263",
+        "lastName": "Кретов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "275",
@@ -2985,7 +7005,22 @@
     "patronym": "Тихонович",
     "gender": "male",
     "birthYear": 1915,
-    "birthPlace": "с.Веденовка, Мелеузовский р-н"
+    "birthPlace": "с.Веденовка, Мелеузовский р-н",
+    "families": [
+      {
+        "id": "273",
+        "lastName": "от (Ефросинья Степановна)"
+      },
+      {
+        "id": "264",
+        "lastName": "от (Прасковья Ильинична)"
+      },
+      {
+        "id": "263",
+        "lastName": "Кретов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "272",
@@ -2996,7 +7031,26 @@
     "birthYear": 1917,
     "birthMonth": 11,
     "birthDay": 5,
-    "birthPlace": "хутор Ново-Веденский, с.Варварино, Уфимская губерния"
+    "birthPlace": "хутор Ново-Веденский, с.Варварино, Уфимская губерния",
+    "families": [
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "264",
+        "lastName": "от (Прасковья Ильинична)"
+      },
+      {
+        "id": "263",
+        "lastName": "Кретов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "276",
@@ -3005,7 +7059,22 @@
     "patronym": "Тихонович",
     "gender": "male",
     "birthYear": 1918,
-    "birthPlace": "с.Веденовка, Мелеузовский р-н"
+    "birthPlace": "с.Веденовка, Мелеузовский р-н",
+    "families": [
+      {
+        "id": "273",
+        "lastName": "от (Ефросинья Степановна)"
+      },
+      {
+        "id": "264",
+        "lastName": "от (Прасковья Ильинична)"
+      },
+      {
+        "id": "263",
+        "lastName": "Кретов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "277",
@@ -3014,7 +7083,22 @@
     "patronym": "Тихонович",
     "gender": "male",
     "birthYear": 1923,
-    "birthPlace": "с.Веденовка, Мелеузовский р-н"
+    "birthPlace": "с.Веденовка, Мелеузовский р-н",
+    "families": [
+      {
+        "id": "273",
+        "lastName": "от (Ефросинья Степановна)"
+      },
+      {
+        "id": "264",
+        "lastName": "от (Прасковья Ильинична)"
+      },
+      {
+        "id": "263",
+        "lastName": "Кретов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "278",
@@ -3023,7 +7107,22 @@
     "patronym": "Тихоновна",
     "gender": "male",
     "birthYear": 1926,
-    "birthPlace": "с.Веденовка, Мелеузовский р-н"
+    "birthPlace": "с.Веденовка, Мелеузовский р-н",
+    "families": [
+      {
+        "id": "273",
+        "lastName": "от (Ефросинья Степановна)"
+      },
+      {
+        "id": "264",
+        "lastName": "от (Прасковья Ильинична)"
+      },
+      {
+        "id": "263",
+        "lastName": "Кретов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "279",
@@ -3032,7 +7131,22 @@
     "patronym": "Тихоновна",
     "gender": "female",
     "birthYear": 1931,
-    "birthPlace": "с.Веденовка, Мелеузовский р-н"
+    "birthPlace": "с.Веденовка, Мелеузовский р-н",
+    "families": [
+      {
+        "id": "273",
+        "lastName": "от (Ефросинья Степановна)"
+      },
+      {
+        "id": "264",
+        "lastName": "от (Прасковья Ильинична)"
+      },
+      {
+        "id": "263",
+        "lastName": "Кретов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "280",
@@ -3041,13 +7155,30 @@
     "patronym": "Тихонович",
     "gender": "male",
     "birthYear": 1937,
-    "birthPlace": "с.Веденовка, Мелеузовский р-н"
+    "birthPlace": "с.Веденовка, Мелеузовский р-н",
+    "families": [
+      {
+        "id": "273",
+        "lastName": "от (Ефросинья Степановна)"
+      },
+      {
+        "id": "264",
+        "lastName": "от (Прасковья Ильинична)"
+      },
+      {
+        "id": "263",
+        "lastName": "Кретов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "281",
     "lastName": "Фенин",
     "firstName": "Тимофей",
-    "gender": "male"
+    "gender": "male",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "282",
@@ -3055,21 +7186,90 @@
     "firstName": "Анна",
     "patronym": "Тимофеевна",
     "gender": "female",
-    "birthYear": 1938
+    "birthYear": 1938,
+    "families": [
+      {
+        "id": "281",
+        "lastName": "Фенин"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "264",
+        "lastName": "от (Прасковья Ильинична)"
+      },
+      {
+        "id": "263",
+        "lastName": "Кретов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "283",
     "lastName": "Фенин",
     "firstName": "Леонид",
     "patronym": "Тимфеевич",
-    "gender": "male"
+    "gender": "male",
+    "families": [
+      {
+        "id": "281",
+        "lastName": "Фенин"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "264",
+        "lastName": "от (Прасковья Ильинична)"
+      },
+      {
+        "id": "263",
+        "lastName": "Кретов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "284",
     "lastName": "Фенин",
     "firstName": "Евгений",
     "patronym": "Тимфеевич",
-    "gender": "male"
+    "gender": "male",
+    "families": [
+      {
+        "id": "281",
+        "lastName": "Фенин"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "264",
+        "lastName": "от (Прасковья Ильинична)"
+      },
+      {
+        "id": "263",
+        "lastName": "Кретов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "285",
@@ -3077,13 +7277,38 @@
     "firstName": "Михаил",
     "patronym": "Тимфеевич",
     "gender": "male",
-    "birthYear": 1950
+    "birthYear": 1950,
+    "families": [
+      {
+        "id": "281",
+        "lastName": "Фенин"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      },
+      {
+        "id": "264",
+        "lastName": "от (Прасковья Ильинична)"
+      },
+      {
+        "id": "263",
+        "lastName": "Кретов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "286",
     "lastName": "Дьяконов",
     "firstName": "Антон",
-    "gender": "male"
+    "gender": "male",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "287",
@@ -3091,34 +7316,108 @@
     "firstName": "Валентина",
     "patronym": "Антоновна",
     "gender": "female",
-    "bio": "Пан"
+    "bio": "Пан",
+    "families": [
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "288",
     "lastName": "Панов",
     "firstName": "Григорий",
-    "gender": "male"
+    "gender": "male",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "289",
     "lastName": "Панова",
     "firstName": "Любовь",
     "patronym": "Григорьевна",
-    "gender": "female"
+    "gender": "female",
+    "families": [
+      {
+        "id": "288",
+        "lastName": "Панов"
+      },
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "290",
     "lastName": "Панов",
     "firstName": "Владимир",
     "patronym": "Григорьевич",
-    "gender": "male"
+    "gender": "male",
+    "families": [
+      {
+        "id": "288",
+        "lastName": "Панов"
+      },
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "291",
     "lastName": "Панов",
     "firstName": "Василий",
     "patronym": "Григорьевич",
-    "gender": "male"
+    "gender": "male",
+    "families": [
+      {
+        "id": "288",
+        "lastName": "Панов"
+      },
+      {
+        "id": "286",
+        "lastName": "Дьяконов"
+      },
+      {
+        "id": "257",
+        "lastName": "от (Мария Никитична)"
+      },
+      {
+        "id": "256",
+        "lastName": "Поляков"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "301",
@@ -3133,7 +7432,9 @@
     "deathYear": 1979,
     "deathMonth": 7,
     "deathDay": 18,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "302",
@@ -3148,7 +7449,26 @@
     "deathYear": 2020,
     "deathMonth": 11,
     "deathDay": 7,
-    "deathPlace": "г.Ишимбай"
+    "deathPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "301",
+        "lastName": "Мокшанова"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "292",
@@ -3159,14 +7479,39 @@
     "birthYear": 1986,
     "birthMonth": 11,
     "birthDay": 16,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "226",
+        "lastName": "Розенблат"
+      },
+      {
+        "id": "215",
+        "lastName": "от (Римма)"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "293",
     "lastName": "Фамилия",
     "firstName": "Имя",
     "patronym": "женаЕвгения",
-    "gender": "female"
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "294",
@@ -3174,7 +7519,34 @@
     "firstName": "Ангелина",
     "patronym": "Евгеньевна",
     "gender": "female",
-    "birthYear": 2011
+    "birthYear": 2011,
+    "families": [
+      {
+        "id": "293",
+        "lastName": "Фамилия"
+      },
+      {
+        "id": "226",
+        "lastName": "Розенблат"
+      },
+      {
+        "id": "215",
+        "lastName": "от (Римма)"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "295",
@@ -3185,14 +7557,43 @@
     "birthYear": 2014,
     "birthMonth": 7,
     "birthDay": 18,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "293",
+        "lastName": "Фамилия"
+      },
+      {
+        "id": "226",
+        "lastName": "Розенблат"
+      },
+      {
+        "id": "215",
+        "lastName": "от (Римма)"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "296",
     "lastName": "Фамилия",
     "firstName": "Имя",
     "patronym": "женаМаксима",
-    "gender": "female"
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "299",
@@ -3202,7 +7603,34 @@
     "birthYear": 2014,
     "birthMonth": 4,
     "birthDay": 16,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "298",
+        "lastName": "Фамилия"
+      },
+      {
+        "id": "226",
+        "lastName": "Розенблат"
+      },
+      {
+        "id": "215",
+        "lastName": "от (Римма)"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "297",
@@ -3213,14 +7641,43 @@
     "birthYear": 2016,
     "birthMonth": 10,
     "birthDay": 2,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "296",
+        "lastName": "Фамилия"
+      },
+      {
+        "id": "226",
+        "lastName": "Розенблат"
+      },
+      {
+        "id": "215",
+        "lastName": "от (Римма)"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "298",
     "lastName": "Фамилия",
     "firstName": "Имя",
     "patronym": "мужИрины",
-    "gender": "male"
+    "gender": "male",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "300",
@@ -3230,60 +7687,205 @@
     "birthYear": 2016,
     "birthMonth": 7,
     "birthDay": 20,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "298",
+        "lastName": "Фамилия"
+      },
+      {
+        "id": "226",
+        "lastName": "Розенблат"
+      },
+      {
+        "id": "215",
+        "lastName": "от (Римма)"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "303",
     "lastName": "Скоробогатов",
     "firstName": "Василий",
-    "gender": "male"
+    "gender": "male",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "304",
     "lastName": "Скоробогатова",
     "firstName": "Наталья",
     "patronym": "Васильевна",
-    "gender": "female"
+    "gender": "female",
+    "families": [
+      {
+        "id": "303",
+        "lastName": "Скоробогатов"
+      },
+      {
+        "id": "301",
+        "lastName": "Мокшанова"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "305",
     "firstName": "Олег",
-    "gender": "male"
+    "gender": "male",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "306",
     "firstName": "Игорь",
     "patronym": "Олегович",
-    "gender": "male"
+    "gender": "male",
+    "families": [
+      {
+        "id": "305",
+        "lastName": "от (Олег)"
+      },
+      {
+        "id": "303",
+        "lastName": "Скоробогатов"
+      },
+      {
+        "id": "301",
+        "lastName": "Мокшанова"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "307",
     "lastName": "Фахретдинов",
     "firstName": "Ринат",
-    "gender": "male"
+    "gender": "male",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "308",
     "lastName": "Фахретдинова",
     "firstName": "Нелля",
     "patronym": "Ринатовна",
-    "gender": "female"
+    "gender": "female",
+    "families": [
+      {
+        "id": "307",
+        "lastName": "Фахретдинов"
+      },
+      {
+        "id": "303",
+        "lastName": "Скоробогатов"
+      },
+      {
+        "id": "301",
+        "lastName": "Мокшанова"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "309",
     "firstName": "Диана",
-    "gender": "female"
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "310",
     "firstName": "Александр",
-    "gender": "male"
+    "gender": "male",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "311",
     "firstName": "Василиса",
     "patronym": "Александровна",
-    "gender": "female"
+    "gender": "female",
+    "families": [
+      {
+        "id": "310",
+        "lastName": "от (Александр)"
+      },
+      {
+        "id": "307",
+        "lastName": "Фахретдинов"
+      },
+      {
+        "id": "303",
+        "lastName": "Скоробогатов"
+      },
+      {
+        "id": "301",
+        "lastName": "Мокшанова"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "312",
@@ -3294,14 +7896,35 @@
     "birthYear": 1939,
     "birthMonth": 5,
     "birthDay": 3,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "301",
+        "lastName": "Мокшанова"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "313",
     "lastName": "Волков",
     "firstName": "Василий",
     "gender": "male",
-    "bio": "проживает в Алтайском крае"
+    "bio": "проживает в Алтайском крае",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "314",
@@ -3313,7 +7936,30 @@
     "birthMonth": 10,
     "birthDay": 3,
     "birthPlace": "г.Салават",
-    "bio": "проживает в Санкт-Петербурге"
+    "bio": "проживает в Санкт-Петербурге",
+    "families": [
+      {
+        "id": "313",
+        "lastName": "Волков"
+      },
+      {
+        "id": "301",
+        "lastName": "Мокшанова"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "315",
@@ -3324,33 +7970,114 @@
     "birthYear": 1969,
     "birthMonth": 6,
     "birthDay": 11,
-    "birthPlace": "г.Салават"
+    "birthPlace": "г.Салават",
+    "families": [
+      {
+        "id": "313",
+        "lastName": "Волков"
+      },
+      {
+        "id": "301",
+        "lastName": "Мокшанова"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "316",
     "lastName": "Прокофьев",
     "firstName": "имя",
-    "gender": "male"
+    "gender": "male",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "317",
     "lastName": "Прокофьев",
     "firstName": "Роман",
     "gender": "male",
-    "bio": "утонул в 28 лет"
+    "bio": "утонул в 28 лет",
+    "families": [
+      {
+        "id": "316",
+        "lastName": "Прокофьев"
+      },
+      {
+        "id": "313",
+        "lastName": "Волков"
+      },
+      {
+        "id": "301",
+        "lastName": "Мокшанова"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "318",
     "lastName": "Прокофьев",
     "firstName": "Кирилл",
     "gender": "male",
-    "bio": "проживает в Санкт-Петербурге"
+    "bio": "проживает в Санкт-Петербурге",
+    "families": [
+      {
+        "id": "316",
+        "lastName": "Прокофьев"
+      },
+      {
+        "id": "313",
+        "lastName": "Волков"
+      },
+      {
+        "id": "301",
+        "lastName": "Мокшанова"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "319",
     "lastName": "Сидоров",
     "firstName": "Владимир",
-    "gender": "male"
+    "gender": "male",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "320",
@@ -3358,19 +8085,79 @@
     "firstName": "Алексей",
     "patronym": "Владимирович",
     "gender": "male",
-    "bio": "проживает в Санкт-Петербурге"
+    "bio": "проживает в Санкт-Петербурге",
+    "families": [
+      {
+        "id": "319",
+        "lastName": "Сидоров"
+      },
+      {
+        "id": "313",
+        "lastName": "Волков"
+      },
+      {
+        "id": "301",
+        "lastName": "Мокшанова"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "321",
     "firstName": "Дина",
-    "gender": "female"
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "322",
     "lastName": "Сидорова",
     "firstName": "Софья",
     "patronym": "Алексеевна",
-    "gender": "female"
+    "gender": "female",
+    "families": [
+      {
+        "id": "321",
+        "lastName": "от (Дина)"
+      },
+      {
+        "id": "319",
+        "lastName": "Сидоров"
+      },
+      {
+        "id": "313",
+        "lastName": "Волков"
+      },
+      {
+        "id": "301",
+        "lastName": "Мокшанова"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "342",
@@ -3381,7 +8168,9 @@
     "birthYear": 1944,
     "birthMonth": 4,
     "birthDay": 1,
-    "birthPlace": "д.Михайловка"
+    "birthPlace": "д.Михайловка",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "323",
@@ -3393,7 +8182,26 @@
     "birthMonth": 9,
     "birthDay": 15,
     "birthPlace": "г.Ишимбай",
-    "bio": "проживает в Ставрополе"
+    "bio": "проживает в Ставрополе",
+    "families": [
+      {
+        "id": "301",
+        "lastName": "Мокшанова"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "324",
@@ -3404,7 +8212,9 @@
     "birthYear": 1947,
     "birthMonth": 3,
     "birthDay": 25,
-    "birthPlace": "г.Белебей"
+    "birthPlace": "г.Белебей",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "334",
@@ -3416,7 +8226,26 @@
     "birthMonth": 7,
     "birthDay": 3,
     "deathYear": 2014,
-    "bio": "погиб в Абхазии"
+    "bio": "погиб в Абхазии",
+    "families": [
+      {
+        "id": "301",
+        "lastName": "Мокшанова"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "335",
@@ -3425,7 +8254,9 @@
     "gender": "female",
     "birthYear": 1954,
     "birthMonth": 9,
-    "birthDay": 9
+    "birthDay": 9,
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "325",
@@ -3436,7 +8267,30 @@
     "birthYear": 1969,
     "birthMonth": 5,
     "birthDay": 13,
-    "birthPlace": "г.Уфа"
+    "birthPlace": "г.Уфа",
+    "families": [
+      {
+        "id": "324",
+        "lastName": "Дробышева"
+      },
+      {
+        "id": "301",
+        "lastName": "Мокшанова"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "326",
@@ -3446,13 +8300,38 @@
     "gender": "male",
     "birthYear": 1978,
     "birthMonth": 5,
-    "birthDay": 19
+    "birthDay": 19,
+    "families": [
+      {
+        "id": "324",
+        "lastName": "Дробышева"
+      },
+      {
+        "id": "301",
+        "lastName": "Мокшанова"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "327",
     "lastName": "Кувардин",
     "firstName": "Вячеслав",
-    "gender": "male"
+    "gender": "male",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "341",
@@ -3463,7 +8342,26 @@
     "birthYear": 1951,
     "birthMonth": 7,
     "birthDay": 21,
-    "birthPlace": "г.Ишимбай"
+    "birthPlace": "г.Ишимбай",
+    "families": [
+      {
+        "id": "301",
+        "lastName": "Мокшанова"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "345",
@@ -3474,7 +8372,9 @@
     "birthYear": 1968,
     "birthMonth": 7,
     "birthDay": 29,
-    "birthPlace": "г.Салават"
+    "birthPlace": "г.Салават",
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "343",
@@ -3484,7 +8384,30 @@
     "gender": "female",
     "birthYear": 1972,
     "birthMonth": 10,
-    "birthDay": 13
+    "birthDay": 13,
+    "families": [
+      {
+        "id": "342",
+        "lastName": "Дягилев"
+      },
+      {
+        "id": "301",
+        "lastName": "Мокшанова"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "344",
@@ -3494,14 +8417,39 @@
     "gender": "male",
     "birthYear": 1974,
     "birthMonth": 4,
-    "birthDay": 23
+    "birthDay": 23,
+    "families": [
+      {
+        "id": "342",
+        "lastName": "Дягилев"
+      },
+      {
+        "id": "301",
+        "lastName": "Мокшанова"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "329",
     "lastName": "Покуль",
     "firstName": "Оксана",
     "gender": "female",
-    "birthYear": 1978
+    "birthYear": 1978,
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "349",
@@ -3511,14 +8459,18 @@
     "gender": "female",
     "birthYear": 1980,
     "birthMonth": 6,
-    "birthDay": 11
+    "birthDay": 11,
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "331",
     "lastName": "Черемшанцева",
     "firstName": "Ирина",
     "gender": "female",
-    "birthYear": 1983
+    "birthYear": 1983,
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "348",
@@ -3526,7 +8478,9 @@
     "firstName": "Дмитрий",
     "patronym": "Владиславович",
     "gender": "male",
-    "birthYear": 1992
+    "birthYear": 1992,
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "346",
@@ -3537,7 +8491,34 @@
     "birthYear": 1995,
     "birthMonth": 1,
     "birthDay": 3,
-    "birthPlace": "г.Салават"
+    "birthPlace": "г.Салават",
+    "families": [
+      {
+        "id": "345",
+        "lastName": "Прокофьев"
+      },
+      {
+        "id": "342",
+        "lastName": "Дягилев"
+      },
+      {
+        "id": "301",
+        "lastName": "Мокшанова"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "330",
@@ -3547,7 +8528,34 @@
     "gender": "male",
     "birthYear": 2001,
     "birthMonth": 3,
-    "birthDay": 22
+    "birthDay": 22,
+    "families": [
+      {
+        "id": "329",
+        "lastName": "Покуль"
+      },
+      {
+        "id": "324",
+        "lastName": "Дробышева"
+      },
+      {
+        "id": "301",
+        "lastName": "Мокшанова"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "350",
@@ -3557,7 +8565,34 @@
     "gender": "male",
     "birthYear": 2001,
     "birthMonth": 10,
-    "birthDay": 31
+    "birthDay": 31,
+    "families": [
+      {
+        "id": "349",
+        "lastName": "Ветвитская"
+      },
+      {
+        "id": "342",
+        "lastName": "Дягилев"
+      },
+      {
+        "id": "301",
+        "lastName": "Мокшанова"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "347",
@@ -3568,7 +8603,34 @@
     "birthYear": 2005,
     "birthMonth": 7,
     "birthDay": 13,
-    "birthPlace": "г.Салават"
+    "birthPlace": "г.Салават",
+    "families": [
+      {
+        "id": "345",
+        "lastName": "Прокофьев"
+      },
+      {
+        "id": "342",
+        "lastName": "Дягилев"
+      },
+      {
+        "id": "301",
+        "lastName": "Мокшанова"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "328",
@@ -3578,7 +8640,34 @@
     "gender": "female",
     "birthYear": 2007,
     "birthMonth": 12,
-    "birthDay": 28
+    "birthDay": 28,
+    "families": [
+      {
+        "id": "327",
+        "lastName": "Кувардин"
+      },
+      {
+        "id": "324",
+        "lastName": "Дробышева"
+      },
+      {
+        "id": "301",
+        "lastName": "Мокшанова"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "338",
@@ -3586,7 +8675,18 @@
     "firstName": "Кирилл",
     "patronym": "Вячеславович",
     "gender": "male",
-    "birthYear": 2007
+    "birthYear": 2007,
+    "families": [
+      {
+        "id": "337",
+        "lastName": "Наумова"
+      },
+      {
+        "id": "336",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "339",
@@ -3594,7 +8694,18 @@
     "firstName": "Валерия",
     "patronym": "Вячеславовна",
     "gender": "female",
-    "birthYear": 2009
+    "birthYear": 2009,
+    "families": [
+      {
+        "id": "337",
+        "lastName": "Наумова"
+      },
+      {
+        "id": "336",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "340",
@@ -3602,7 +8713,18 @@
     "firstName": "Виктория",
     "patronym": "Вячеславовна",
     "gender": "female",
-    "birthYear": 2009
+    "birthYear": 2009,
+    "families": [
+      {
+        "id": "337",
+        "lastName": "Наумова"
+      },
+      {
+        "id": "336",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "332",
@@ -3610,7 +8732,34 @@
     "firstName": "Анна",
     "patronym": "Дмитриевна",
     "gender": "female",
-    "birthYear": 2016
+    "birthYear": 2016,
+    "families": [
+      {
+        "id": "331",
+        "lastName": "Черемшанцева"
+      },
+      {
+        "id": "324",
+        "lastName": "Дробышева"
+      },
+      {
+        "id": "301",
+        "lastName": "Мокшанова"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "333",
@@ -3618,7 +8767,34 @@
     "firstName": "Екатерина",
     "patronym": "Дмитриевна",
     "gender": "female",
-    "birthYear": 2020
+    "birthYear": 2020,
+    "families": [
+      {
+        "id": "331",
+        "lastName": "Черемшанцева"
+      },
+      {
+        "id": "324",
+        "lastName": "Дробышева"
+      },
+      {
+        "id": "301",
+        "lastName": "Мокшанова"
+      },
+      {
+        "id": "4",
+        "lastName": "Чуйкова"
+      },
+      {
+        "id": "2",
+        "lastName": "Докукина"
+      },
+      {
+        "id": "1",
+        "lastName": "Артемов"
+      }
+    ],
+    "isFamilyRoot": false
   },
   {
     "id": "336",
@@ -3628,12 +8804,16 @@
     "gender": "male",
     "birthMonth": 4,
     "birthDay": 23,
-    "deathYear": 2015
+    "deathYear": 2015,
+    "families": [],
+    "isFamilyRoot": true
   },
   {
     "id": "337",
     "lastName": "Наумова",
     "firstName": "Ольга",
-    "gender": "female"
+    "gender": "female",
+    "families": [],
+    "isFamilyRoot": true
   }
 ]
