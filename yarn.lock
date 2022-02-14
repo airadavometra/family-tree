@@ -2260,11 +2260,6 @@ picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.3:
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
 
-pinch-zoom-pan@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/pinch-zoom-pan/-/pinch-zoom-pan-3.0.0.tgz#a444d45d15ccbe2eb5aa1e0b063c69ec4e2181c5"
-  integrity sha512-VU/8a+Ke5utGgw1wvF+n67WHO+FW2Wu3m/oNsRErcUeLrDOOp0nhHhLTbXwyRiXwKgXb+7UW791KANcD/APRPg==
-
 pkg-dir@^4.1.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/pkg-dir/-/pkg-dir-4.2.0.tgz#f099133df7ede422e81d1d8448270eeb3e4261f3"

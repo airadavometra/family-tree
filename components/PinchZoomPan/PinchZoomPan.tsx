@@ -1,5 +1,5 @@
+import { create } from "@/lib/pinch-zoom-pan";
 import classNames from "classnames";
-import { create } from "pinch-zoom-pan";
 import React, { useEffect, useRef } from "react";
 import s from "./PinchZoomPan.module.css";
 
@@ -12,14 +12,7 @@ interface Props {
   children: React.ReactNode;
 }
 
-export default React.memo<Props>(function PinchZoomPan({
-  min,
-  max,
-  captureWheel,
-  className,
-  style,
-  children,
-}) {
+export default React.memo<Props>(function PinchZoomPan({ min, max, captureWheel, className, style, children }) {
   const root = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
