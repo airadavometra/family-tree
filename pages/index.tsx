@@ -34,7 +34,7 @@ const HomePage: NextPage = () => {
           <div className={s.buttonsContainer}>
             <Button href="/tree" text="Посмотреть дерево" className={s.descriptionItem} />
             <Button
-              href="https://wa.me/+79853522893?text=Пишу%20насчет%20проетка%20ДРЕВО"
+              href="https://wa.me/+79853522893?text=Здравствуйте!%20 Пишу%20насчет%20проекта%20ДРЕВО"
               text="Написать в WhatsApp"
               className={s.descriptionItem}
               isSecondary={true}
