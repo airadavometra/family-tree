@@ -1,5 +1,6 @@
 import { useNodeSelectionContext, useUrlTreeRootId } from "@/context/tree";
 import { getTreeNodesArray } from "@/data";
+import { TREE_NODE_SIZE } from "@/lib/react-family-tree/constants";
 import { ExtNode } from "@/lib/relatives-tree/types";
 import { TreeExternalNode } from "@/types/tree";
 import dynamic from "next/dynamic";
@@ -12,9 +13,6 @@ const ReactFamilyTree = dynamic(() => import("@/lib/react-family-tree"), {
   loading: () => <p>Загружаем дерево...</p>,
 });
 
-const WIDTH = 280;
-const HEIGHT = 280;
-
 const nodes = getTreeNodesArray();
 
 const Tree: FC = () => {
@@ -25,8 +23,8 @@ const Tree: FC = () => {
     <ReactFamilyTree
       nodes={nodes}
       rootId={rootId ?? nodes[0].id}
-      width={WIDTH}
-      height={HEIGHT}
+      width={TREE_NODE_SIZE}
+      height={TREE_NODE_SIZE}
       className={s.root}
       renderNode={(node: ExtNode) => (
         <TreeNode
@@ -34,8 +32,8 @@ const Tree: FC = () => {
           key={node.id}
           node={node as TreeExternalNode}
           onClick={selectNode}
-          width={WIDTH}
-          height={HEIGHT}
+          width={TREE_NODE_SIZE}
+          height={TREE_NODE_SIZE}
         />
       )}
     />

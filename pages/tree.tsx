@@ -1,5 +1,6 @@
 import TreeNodeDetails from "@/components/Tree/TreeNodeDetails/TreeNodeDetails";
 import TreeWithNavigation from "@/components/Tree/TreeWithNavigation/TreeWithNavigation";
+import { NavigationContextProvider } from "@/context/navigation";
 import { NodeSelectionContextProvider, useUrlTreeRootId } from "@/context/tree";
 import { getTreeNodesMap } from "@/data";
 import s from "@/styles/TreePage.module.css";
@@ -30,20 +31,22 @@ const TreePage: NextPage = () => {
 
   return (
     <NodeSelectionContextProvider>
-      <div className={s.absoluteContainer}>
-        <div className={s.treeRootNameContainer}>
-          <span className={s.treeRootTitle}>Корень дерева</span>
-          <span className={s.treeRootName}>{rootName}</span>
+      <NavigationContextProvider>
+        <div className={s.absoluteContainer}>
+          <div className={s.treeRootNameContainer}>
+            <span className={s.treeRootTitle}>Корень дерева</span>
+            <span className={s.treeRootName}>{rootName}</span>
+          </div>
+          {rootId && (
+            <Link href="/tree">
+              <a className={s.homeTreeLink}>К основному дереву</a>
+            </Link>
+          )}
         </div>
-        {rootId && (
-          <Link href="/tree">
-            <a className={s.homeTreeLink}>К основному дереву</a>
-          </Link>
-        )}
-      </div>
 
-      <TreeWithNavigation />
-      <TreeNodeDetails />
+        <TreeWithNavigation />
+        <TreeNodeDetails />
+      </NavigationContextProvider>
     </NodeSelectionContextProvider>
   );
 };

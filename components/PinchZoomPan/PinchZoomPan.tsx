@@ -1,32 +1,49 @@
-import { create } from "@/lib/pinch-zoom-pan";
-import classNames from "classnames";
-import React, { useEffect, useRef } from "react";
+import { useNavigationContext } from "@/context/navigation";
+import { TREE_NODE_SIZE } from "@/lib/react-family-tree/constants";
+import React, { FC, memo, useEffect, useRef } from "react";
+import { ReactZoomPanPinchRef, TransformComponent, TransformWrapper } from "react-zoom-pan-pinch";
 import s from "./PinchZoomPan.module.css";
 
-interface Props {
-  min?: number;
-  max?: number;
-  captureWheel?: boolean;
-  className?: string;
-  style?: React.CSSProperties;
-  children: React.ReactNode;
-}
+const MIN_ZOOM = 0.15;
+const MAX_ZOOM = 1;
 
-export default React.memo<Props>(function PinchZoomPan({ min, max, captureWheel, className, style, children }) {
-  const root = useRef<HTMLDivElement>(null);
+interface PinchZoomPanProps {}
+
+const PinchZoomPan: FC<PinchZoomPanProps> = ({ children }) => {
+  const { rootCoords } = useNavigationContext();
+
+  const ref = useRef<ReactZoomPanPinchRef | null>(null);
+
+  const xInit = innerWidth / 2 - TREE_NODE_SIZE;
+  const yInit = innerHeight / 2 - TREE_NODE_SIZE;
+
+  const x = xInit - rootCoords.x;
+  const y = yInit - rootCoords.y;
+
+  console.log(rootCoords);
 
   useEffect(() => {
-    const element = root.current;
-    if (!element) return;
-
-    return create({ element, minZoom: min, maxZoom: max, captureWheel });
-  }, [min, max, captureWheel]);
+    if (ref.current) {
+      ref.current.setTransform(x, y, 1, 0);
+    }
+  }, [x, y]);
 
   return (
-    <div ref={root} className={classNames(className, s.root)} style={style}>
-      <div className={s.point}>
-        <div className={s.canvas}>{children}</div>
-      </div>
-    </div>
+    <TransformWrapper
+      limitToBounds={false}
+      minScale={MIN_ZOOM}
+      maxScale={MAX_ZOOM}
+      initialScale={1}
+      initialPositionX={x}
+      initialPositionY={y}
+      doubleClick={{
+        disabled: true,
+      }}
+      ref={ref}
+    >
+      <TransformComponent wrapperClass={s.wrapper}>{children}</TransformComponent>
+    </TransformWrapper>
   );
-});
+};
+
+export default memo(PinchZoomPan);

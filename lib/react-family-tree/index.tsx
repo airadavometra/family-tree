@@ -1,6 +1,7 @@
+import { useNavigationContext } from "@/context/navigation";
 import calcTree from "@/lib/relatives-tree";
 import { ExtNode, Node } from "@/lib/relatives-tree/types";
-import React from "react";
+import React, { useEffect } from "react";
 import Connector from "./connector";
 
 interface Props {
@@ -14,6 +15,8 @@ interface Props {
 }
 
 export default React.memo<Props>(function ReactFamilyTree(props) {
+  const { setRootCoords } = useNavigationContext();
+
   // @ts-ignore
   const data = calcTree(props.nodes, {
     rootId: props.rootId,
@@ -22,6 +25,12 @@ export default React.memo<Props>(function ReactFamilyTree(props) {
 
   const width = props.width / 2;
   const height = props.height / 2;
+
+  useEffect(() => {
+    const x = (data.families[0].X ?? 0) * width;
+    const y = (data.families[0].Y ?? 0) * height;
+    setRootCoords({ x, y });
+  }, [data]);
 
   return (
     <div
