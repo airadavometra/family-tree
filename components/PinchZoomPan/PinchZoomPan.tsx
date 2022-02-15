@@ -20,8 +20,6 @@ const PinchZoomPan: FC<PinchZoomPanProps> = ({ children }) => {
   const x = xInit - rootCoords.x;
   const y = yInit - rootCoords.y;
 
-  console.log(rootCoords);
-
   useEffect(() => {
     if (ref.current) {
       ref.current.setTransform(x, y, 1, 0);
