@@ -11,30 +11,30 @@ interface PinchZoomPanProps {}
 
 const PinchZoomPan: FC<PinchZoomPanProps> = ({ children }) => {
   const { rootCoords } = useNavigationContext();
-
   const ref = useRef<ReactZoomPanPinchRef | null>(null);
-
-  const xInit = innerWidth / 2 - TREE_NODE_SIZE;
-  const yInit = innerHeight / 2 - TREE_NODE_SIZE;
-
-  const x = xInit - rootCoords.x;
-  const y = yInit - rootCoords.y;
 
   useEffect(() => {
     if (ref.current) {
+      const xInit = innerWidth / 2 - TREE_NODE_SIZE;
+      const yInit = innerHeight / 2 - TREE_NODE_SIZE;
+      const x = xInit - rootCoords.x;
+      const y = yInit - rootCoords.y;
       ref.current.setTransform(x, y, 1, 0);
     }
-  }, [x, y]);
+  }, [rootCoords.x, rootCoords.y]);
 
   return (
     <TransformWrapper
-      limitToBounds={false}
+      limitToBounds={true}
       minScale={MIN_ZOOM}
       maxScale={MAX_ZOOM}
-      initialScale={1}
-      initialPositionX={x}
-      initialPositionY={y}
       doubleClick={{
+        disabled: true,
+      }}
+      panning={{
+        velocityDisabled: true,
+      }}
+      zoomAnimation={{
         disabled: true,
       }}
       ref={ref}
