@@ -15,12 +15,9 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: radial-gradient(
-      96% 96% at 70.4% 31.2%,
-      #3244e8 0%,
-      rgba(0, 2, 16, 0) 100%
-    ),
+  background: radial-gradient(96% 96% at 70.4% 31.2%, #3244e8 0%, rgba(0, 2, 16, 0) 100%),
     linear-gradient(0deg, #030092, #030092);
+  color: var(--main-font-color);
   border-radius: 50%;
   padding: 8px;
   font-size: 14px;
@@ -36,12 +33,7 @@
 
   border-radius: 50%;
   padding: 3px;
-  background: linear-gradient(
-    180deg,
-    #ffd422 0%,
-    #ff7d05 40%,
-    rgba(0, 0, 0, 0) 90%
-  );
+  background: linear-gradient(180deg, #ffd422 0%, #ff7d05 40%, rgba(0, 0, 0, 0) 90%);
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
@@ -90,14 +82,12 @@
 }
 
 .male {
-  box-shadow: 0px 10.4918px 209.836px #2300f8,
-    inset 0px 5.2459px 26.2295px rgba(255, 255, 255, 0.58),
+  box-shadow: 0px 10.4918px 209.836px #2300f8, inset 0px 5.2459px 26.2295px rgba(255, 255, 255, 0.58),
     inset 26.2295px 41.9672px 52.459px rgba(130, 5, 255, 0.95);
 }
 
 .female {
-  box-shadow: 0px 3.65714px 73.1429px rgba(248, 0, 119, 0.48),
-    inset 0px 1.82857px 9.14286px rgba(255, 255, 255, 0.58),
+  box-shadow: 0px 3.65714px 73.1429px rgba(248, 0, 119, 0.48), inset 0px 1.82857px 9.14286px rgba(255, 255, 255, 0.58),
     inset 9.14286px 18.2857px 91.4286px #ff0505;
 }
 

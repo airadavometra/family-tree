@@ -35,11 +35,8 @@ const TreeNode: FC<TreeNodeProps> = ({ isSelected, node, onClick, width, height 
         onMouseEnter={() => setMouseOver(true)}
         onMouseLeave={() => setMouseOver(false)}
       >
-        <div
+        <button
           onClick={() => {
-            onClick(node.id, node.hasSubTree);
-          }}
-          onTouchStart={() => {
             onClick(node.id, node.hasSubTree);
           }}
           className={classNames(s.inner, s[gender], {
@@ -52,7 +49,7 @@ const TreeNode: FC<TreeNodeProps> = ({ isSelected, node, onClick, width, height 
             <span className={s.lastName}>{lastName}</span>
           </div>
           <TreeNodeYears birthYear={birthYear} deathYear={deathYear} />
-        </div>
+        </button>
       </div>
     </div>
   );
