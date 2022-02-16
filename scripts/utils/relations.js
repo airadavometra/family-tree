@@ -33,6 +33,8 @@ const getRelations = (transformedNodes) => {
     const parents = [];
     if (mother) parents.push(getBloodRel(mother.id));
     if (father) parents.push(getBloodRel(father.id));
+    if (stepMother) parents.push(getBloodRel(stepMother.id, "adopted"));
+    if (stepFather) parents.push(getBloodRel(stepFather.id, "adopted"));
 
     // Siblings
     const siblings = [...motherChildren];

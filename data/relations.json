@@ -1632,6 +1632,10 @@
       {
         "type": "blood",
         "id": "187"
+      },
+      {
+        "type": "adopted",
+        "id": "193"
       }
     ],
     "siblings": [
@@ -3577,6 +3581,10 @@
       {
         "type": "blood",
         "id": "58"
+      },
+      {
+        "type": "adopted",
+        "id": "56"
       }
     ],
     "siblings": [
@@ -4396,6 +4404,10 @@
       {
         "type": "blood",
         "id": "93"
+      },
+      {
+        "type": "adopted",
+        "id": "102"
       }
     ],
     "siblings": [
@@ -5749,6 +5761,10 @@
       {
         "type": "blood",
         "id": "148"
+      },
+      {
+        "type": "adopted",
+        "id": "152"
       }
     ],
     "siblings": [
@@ -6140,6 +6156,10 @@
       {
         "type": "blood",
         "id": "201"
+      },
+      {
+        "type": "adopted",
+        "id": "199"
       }
     ],
     "siblings": [
@@ -10211,7 +10231,16 @@
   },
   {
     "id": "336",
-    "parents": [],
+    "parents": [
+      {
+        "type": "adopted",
+        "id": "335"
+      },
+      {
+        "type": "adopted",
+        "id": "334"
+      }
+    ],
     "siblings": [],
     "spouses": [
       {
