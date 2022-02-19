@@ -1,0 +1,27 @@
+.familyLinksContainer {
+  display: flex;
+  flex-direction: column;
+}
+.familyLink {
+  width: fit-content;
+  color: #4da1ff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-align: start;
+}
+.familyLink:hover,
+.familyLink:focus {
+  color: #4dffdf;
+  text-decoration: underline;
+}
+.familyItem:not(:last-child) {
+  margin-bottom: 12px;
+}
+.familyLinksTitle {
+  margin-bottom: 12px;
+  color: var(--font-color);
+  font-size: 1.6rem;
+}
+.selectedFamily {
+  color: #4dffdf;
+}

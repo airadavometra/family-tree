@@ -2,7 +2,7 @@ import TreeNodeDetails from "@/components/Tree/TreeNodeDetails/TreeNodeDetails";
 import TreeWithNavigation from "@/components/Tree/TreeWithNavigation/TreeWithNavigation";
 import { NavigationContextProvider } from "@/context/navigation";
 import { NodeSelectionContextProvider, useUrlTreeRootId } from "@/context/tree";
-import { getTreeNodesMap } from "@/data";
+import { getFamiliesMap, getTreeNodesMap } from "@/data";
 import s from "@/styles/TreePage.module.css";
 import type { NextPage } from "next";
 import Link from "next/link";
@@ -15,6 +15,7 @@ const TreePage: NextPage = () => {
   const { rootId } = useUrlTreeRootId();
 
   const treeNodesMap = getTreeNodesMap();
+  const familiesMap = getFamiliesMap();
 
   useEffect(() => {
     if (rootId && treeNodesMap[rootId] !== undefined) {
@@ -24,7 +25,7 @@ const TreePage: NextPage = () => {
     }
   }, [rootId]);
 
-  if (rootId && treeNodesMap[rootId] === undefined) {
+  if (rootId && (familiesMap[rootId] === undefined || treeNodesMap[rootId] === undefined)) {
     router.push("/404");
     return null;
   }
