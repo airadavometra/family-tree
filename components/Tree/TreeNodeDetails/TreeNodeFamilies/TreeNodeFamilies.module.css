@@ -1,6 +1,7 @@
 .familyLinksContainer {
   display: flex;
   flex-direction: column;
+  overflow: auto;
 }
 .familyLink {
   width: fit-content;
