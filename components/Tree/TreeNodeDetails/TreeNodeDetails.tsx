@@ -50,7 +50,7 @@ const TreeNodeDetails: FC = () => {
         <h2 className={s.name}>{nodeDetails.fullName}</h2>
         {hasSubTree && (
           <span className={s.hasSubTreeNote}>
-            В дереве видны не все предки. <br /> На вкладке "Семьи" можно посмотреть,
+            В дереве видны не все предки. <br /> На вкладке Семьи можно посмотреть,
             <wbr /> от кого происходит {nodeDetails.firstName}.
           </span>
         )}
