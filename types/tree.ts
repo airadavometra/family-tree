@@ -1,4 +1,5 @@
 import { ExtNode, Node, RelType } from "@/lib/relatives-tree/types";
+import { Family } from "./family";
 
 export type TreeNode = Node & {
   data: TreeNodeData;
@@ -29,6 +30,7 @@ export type TreeNodeDataFromJson = {
 }>;
 export type TreeNodeData = TreeNodeDataFromJson & {
   fullName: string;
+  families: Family[];
 };
 export type TreeNodeRelation = Readonly<{
   id: string;
@@ -39,6 +41,7 @@ export type RelationInfo = {
   id: string;
   type: RelType;
   fullName: string;
+  firstName: string;
 };
 
 export type TreeNodeDataWithRelations = TreeNodeData & {

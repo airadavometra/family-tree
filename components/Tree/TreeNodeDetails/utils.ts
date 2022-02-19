@@ -51,6 +51,7 @@ const getTreeNodeRelationDetails = (relations: TreeNodeRelation[]): RelationInfo
       id: relation.id,
       fullName: nodesMap[relation.id].data.fullName,
       type: relation.type,
+      firstName: nodesMap[relation.id].data.firstName,
     };
   });
 };

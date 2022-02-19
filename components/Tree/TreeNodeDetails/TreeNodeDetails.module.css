@@ -41,11 +41,9 @@
   fill: rgba(255, 255, 255, 1);
 }
 
-.hasSubTreeLink {
+.hasSubTreeNote {
+  white-space: nowrap;
   color: #ffd422;
-}
-.hasSubTreeLink:hover {
-  color: #ff7d05;
 }
 
 @media (max-width: 700px) {

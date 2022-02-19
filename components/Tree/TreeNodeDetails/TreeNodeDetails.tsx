@@ -5,11 +5,13 @@ import BioLink from "./BioLink/BioLink";
 import BioNavItem from "./BioNavItem/BioNavItem";
 import s from "./TreeNodeDetails.module.css";
 import { TreeNodeDetailsBio } from "./TreeNodeDetailsBio/TreeNodeDetailsBio";
+import { TreeNodeFamilies } from "./TreeNodeFamilies/TreeNodeFamilies";
 import { getTreeNodeDetails } from "./utils";
 
 const navigation = [
   { id: 1, title: "Биография" },
   { id: 2, title: "Галерея" },
+  { id: 3, title: "Семьи" },
 ];
 
 const TreeNodeDetails: FC = () => {
@@ -19,6 +21,26 @@ const TreeNodeDetails: FC = () => {
 
   if (!nodeDetails) return null;
 
+  const tabContent =
+    selectedNavId === 1 ? (
+      <TreeNodeDetailsBio {...nodeDetails} onRelationNodeClick={(id) => selectNode(id)} />
+    ) : selectedNavId === 2 ? (
+      <>
+        <span className={s.rootItem}>К сожалению, у нас пока нет фотографий этого человека.</span>
+        <span className={s.rootItem}>
+          Если вы хотите помочь и у вас есть фото, которые вы хотите добавить в галерею, пожалуйста,{" "}
+          <BioLink
+            href="https://wa.me/+79853522893?text=Здравствуйте!%20 Пишу%20насчет%20проекта%20ДРЕВО"
+            text="напишите нам"
+            newTab={true}
+          />
+          .
+        </span>
+      </>
+    ) : (
+      <TreeNodeFamilies {...nodeDetails} />
+    );
+
   return (
     <div className={s.root}>
       <button className={s.closeButton} onClick={unselectNode}>
@@ -26,14 +48,11 @@ const TreeNodeDetails: FC = () => {
       </button>
       <div className={s.rootItem}>
         <h2 className={s.name}>{nodeDetails.fullName}</h2>
-        {hasSubTree ? (
-          <BioLink
-            className={s.hasSubTreeLink}
-            href={`/tree?root=${nodeDetails.id}`}
-            text="Есть скрытая ветка. Перейти к дереву"
-          />
-        ) : (
-          <BioLink href={`/tree?root=${nodeDetails.id}`} text="Перейти к дереву" />
+        {hasSubTree && (
+          <span className={s.hasSubTreeNote}>
+            В дереве видны не все предки. <br /> На вкладке "Семьи" можно посмотреть,
+            <wbr /> от кого происходит {nodeDetails.firstName}.
+          </span>
         )}
       </div>
       <nav className={s.rootItem}>
@@ -47,22 +66,7 @@ const TreeNodeDetails: FC = () => {
           />
         ))}
       </nav>
-      {selectedNavId === 1 ? (
-        <TreeNodeDetailsBio {...nodeDetails} onRelationNodeClick={(id) => selectNode(id)} />
-      ) : (
-        <>
-          <span className={s.rootItem}>К сожалению, у нас пока нет фотографий этого человека.</span>
-          <span className={s.rootItem}>
-            Если вы хотите помочь и у вас есть фото, которые вы хотите добавить в галерею, пожалуйста,{" "}
-            <BioLink
-              href="https://wa.me/+79853522893?text=Здравствуйте!%20 Пишу%20насчет%20проекта%20ДРЕВО"
-              text="напишите нам"
-              newTab={true}
-            />
-            .
-          </span>
-        </>
-      )}
+      {tabContent}
     </div>
   );
 };

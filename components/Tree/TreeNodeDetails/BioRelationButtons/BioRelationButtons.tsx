@@ -29,19 +29,21 @@ const getName = (relationType: RelationType, relationInfo: RelationInfo, isLast:
     }
     case RelationType.Children: {
       if (relationInfo.type === RelType.adopted) {
-        return isLast ? `${relationInfo.fullName} (приемный ребенок)` : `${relationInfo.fullName} (приемный ребенок), `;
+        return isLast
+          ? `${relationInfo.firstName} (приемный ребенок)`
+          : `${relationInfo.firstName} (приемный ребенок),`;
       } else {
-        return isLast ? relationInfo.fullName : `${relationInfo.fullName}, `;
+        return isLast ? relationInfo.firstName : `${relationInfo.firstName},`;
       }
     }
     case RelationType.Siblings: {
-      return isLast ? relationInfo.fullName : `${relationInfo.fullName}, `;
+      return isLast ? relationInfo.firstName : `${relationInfo.firstName},`;
     }
     case RelationType.Spouses: {
       if (relationInfo.type === RelType.divorced) {
-        return isLast ? `${relationInfo.fullName} (разведены)` : `${relationInfo.fullName} (разведены), `;
+        return isLast ? `${relationInfo.fullName} (разведены)` : `${relationInfo.fullName} (разведены),`;
       } else {
-        return isLast ? relationInfo.fullName : `${relationInfo.fullName}, `;
+        return isLast ? relationInfo.fullName : `${relationInfo.fullName},`;
       }
     }
   }

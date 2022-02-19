@@ -10,7 +10,6 @@ type TreeNodeDetailsBioProps = TreeNodeDataWithRelations & {
 };
 
 export const TreeNodeDetailsBio: FC<TreeNodeDetailsBioProps> = ({
-  id,
   birthYear,
   birthMonth,
   birthDay,
@@ -30,7 +29,6 @@ export const TreeNodeDetailsBio: FC<TreeNodeDetailsBioProps> = ({
   bio,
   onRelationNodeClick,
 }) => {
-  console.log(parents);
   const birthDate = getDate(birthYear, birthMonth, birthDay);
   const deathDate = getDate(deathYear, deathMonth, deathDay);
   return (

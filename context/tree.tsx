@@ -32,7 +32,7 @@ export const NodeSelectionContextProvider: FC = ({ children }) => {
 export const useUrlTreeRootId = () => {
   const router = useRouter();
   const { root } = router.query;
-  const rootId = root ? (Array.isArray(root) ? root[0] : root) : undefined;
+  const rootId = root ? (Array.isArray(root) ? root[0] : root) : "1";
 
   return {
     rootId,
