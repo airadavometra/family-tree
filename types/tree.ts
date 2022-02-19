@@ -35,14 +35,15 @@ export type TreeNodeRelation = Readonly<{
   type: RelType;
 }>;
 
-export type RelationShortInfo = {
+export type RelationInfo = {
   id: string;
+  type: RelType;
   fullName: string;
 };
 
 export type TreeNodeDataWithRelations = TreeNodeData & {
-  parents: RelationShortInfo[];
-  children: RelationShortInfo[];
-  siblings: RelationShortInfo[];
-  spouses: RelationShortInfo[];
+  parents: RelationInfo[];
+  children: RelationInfo[];
+  siblings: RelationInfo[];
+  spouses: RelationInfo[];
 };
