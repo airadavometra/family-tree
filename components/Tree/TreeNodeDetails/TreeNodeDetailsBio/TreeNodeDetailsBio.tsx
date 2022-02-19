@@ -1,7 +1,7 @@
 import { TreeNodeDataWithRelations } from "@/types/tree";
 import classNames from "classnames";
 import { FC } from "react";
-import BioRelationButtons from "../BioRelationButtons/BioRelationButtons";
+import BioRelationButtons, { RelationType } from "../BioRelationButtons/BioRelationButtons";
 import { getDate } from "../utils";
 import s from "./TreeNodeDetailsBio.module.css";
 
@@ -30,6 +30,7 @@ export const TreeNodeDetailsBio: FC<TreeNodeDetailsBioProps> = ({
   bio,
   onRelationNodeClick,
 }) => {
+  console.log(parents);
   const birthDate = getDate(birthYear, birthMonth, birthDay);
   const deathDate = getDate(deathYear, deathMonth, deathDay);
   return (
@@ -63,7 +64,7 @@ export const TreeNodeDetailsBio: FC<TreeNodeDetailsBioProps> = ({
           <>
             <span className={s.gridItemTitle}>Родители</span>
             <div className={classNames(s.gridItemValue)}>
-              <BioRelationButtons onClick={onRelationNodeClick} items={parents} />
+              <BioRelationButtons onClick={onRelationNodeClick} items={parents} relationType={RelationType.Parents} />
             </div>
           </>
         )}
@@ -71,7 +72,7 @@ export const TreeNodeDetailsBio: FC<TreeNodeDetailsBioProps> = ({
           <>
             <span className={s.gridItemTitle}>Братья и сестры</span>
             <div className={classNames(s.gridItemValue)}>
-              <BioRelationButtons onClick={onRelationNodeClick} items={siblings} />
+              <BioRelationButtons onClick={onRelationNodeClick} items={siblings} relationType={RelationType.Siblings} />
             </div>
           </>
         )}
@@ -79,7 +80,7 @@ export const TreeNodeDetailsBio: FC<TreeNodeDetailsBioProps> = ({
           <>
             <span className={s.gridItemTitle}>{spouses.length > 1 ? "Супруги" : "Супруг(а)"}</span>
             <div className={classNames(s.gridItemValue)}>
-              <BioRelationButtons onClick={onRelationNodeClick} items={spouses} />
+              <BioRelationButtons onClick={onRelationNodeClick} items={spouses} relationType={RelationType.Spouses} />
             </div>
           </>
         )}
@@ -87,7 +88,7 @@ export const TreeNodeDetailsBio: FC<TreeNodeDetailsBioProps> = ({
           <>
             <span className={s.gridItemTitle}>Дети</span>
             <div className={classNames(s.gridItemValue)}>
-              <BioRelationButtons onClick={onRelationNodeClick} items={children} />
+              <BioRelationButtons onClick={onRelationNodeClick} items={children} relationType={RelationType.Children} />
             </div>
           </>
         )}

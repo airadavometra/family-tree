@@ -1,5 +1,5 @@
 import { getTreeNodesMap } from "@/data";
-import { RelationShortInfo, TreeNodeDataWithRelations, TreeNodeRelation } from "@/types/tree";
+import { RelationInfo, TreeNodeDataWithRelations, TreeNodeRelation } from "@/types/tree";
 
 const nodesMap = getTreeNodesMap();
 
@@ -45,9 +45,13 @@ export const getDate = (year?: number, month?: number, day?: number) => {
     : undefined;
 };
 
-const getTreeNodeRelationDetails = (relations: TreeNodeRelation[]): RelationShortInfo[] => {
+const getTreeNodeRelationDetails = (relations: TreeNodeRelation[]): RelationInfo[] => {
   return relations.map((relation) => {
-    return { id: relation.id, fullName: nodesMap[relation.id].data.fullName };
+    return {
+      id: relation.id,
+      fullName: nodesMap[relation.id].data.fullName,
+      type: relation.type,
+    };
   });
 };
 export const getTreeNodeDetails = (selectedNodeId?: string): TreeNodeDataWithRelations | undefined => {

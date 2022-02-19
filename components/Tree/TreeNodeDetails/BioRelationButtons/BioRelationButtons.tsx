@@ -1,18 +1,58 @@
-import { RelationShortInfo } from "@/types/tree";
+import { RelType } from "@/lib/relatives-tree/types";
+import { RelationInfo } from "@/types/tree";
 import { FC } from "react";
 import s from "./BioRelationButtons.module.css";
 
+export enum RelationType {
+  Parents,
+  Spouses,
+  Children,
+  Siblings,
+}
+
 type BioRelationButtonsProps = {
-  items: RelationShortInfo[];
+  relationType: RelationType;
+  items: RelationInfo[];
   onClick: (id: string) => void;
 };
 
-const BioRelationButtons: FC<BioRelationButtonsProps> = ({ items, onClick }) => {
+const getName = (relationType: RelationType, relationInfo: RelationInfo, isLast: boolean) => {
+  switch (relationType) {
+    case RelationType.Parents: {
+      if (relationInfo.type === RelType.adopted) {
+        return isLast
+          ? `${relationInfo.fullName} (приемный родитель)`
+          : `${relationInfo.fullName} (приемный родитель), `;
+      } else {
+        return isLast ? relationInfo.fullName : `${relationInfo.fullName}, `;
+      }
+    }
+    case RelationType.Children: {
+      if (relationInfo.type === RelType.adopted) {
+        return isLast ? `${relationInfo.fullName} (приемный ребенок)` : `${relationInfo.fullName} (приемный ребенок), `;
+      } else {
+        return isLast ? relationInfo.fullName : `${relationInfo.fullName}, `;
+      }
+    }
+    case RelationType.Siblings: {
+      return isLast ? relationInfo.fullName : `${relationInfo.fullName}, `;
+    }
+    case RelationType.Spouses: {
+      if (relationInfo.type === RelType.divorced) {
+        return isLast ? `${relationInfo.fullName} (разведены)` : `${relationInfo.fullName} (разведены), `;
+      } else {
+        return isLast ? relationInfo.fullName : `${relationInfo.fullName}, `;
+      }
+    }
+  }
+};
+
+const BioRelationButtons: FC<BioRelationButtonsProps> = ({ relationType, items, onClick }) => {
   return (
     <>
       {items.map((item, index) => (
         <button className={s.button} key={index} onClick={() => onClick(item.id)}>
-          {index === items.length - 1 ? item.fullName : `${item.fullName}, `}
+          {getName(relationType, item, index === items.length - 1)}
         </button>
       ))}
     </>
