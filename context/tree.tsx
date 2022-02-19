@@ -1,3 +1,4 @@
+import { DEFAULT_ROOT_ID } from "@/constants/tree";
 import { useRouter } from "next/router";
 import { createContext, FC, useCallback, useContext, useState } from "react";
 
@@ -32,7 +33,7 @@ export const NodeSelectionContextProvider: FC = ({ children }) => {
 export const useUrlTreeRootId = () => {
   const router = useRouter();
   const { root } = router.query;
-  const rootId = root ? (Array.isArray(root) ? root[0] : root) : "1";
+  const rootId = root ? (Array.isArray(root) ? root[0] : root) : DEFAULT_ROOT_ID;
 
   return {
     rootId,

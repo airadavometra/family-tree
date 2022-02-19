@@ -1,5 +1,6 @@
 import TreeNodeDetails from "@/components/Tree/TreeNodeDetails/TreeNodeDetails";
 import TreeWithNavigation from "@/components/Tree/TreeWithNavigation/TreeWithNavigation";
+import { DEFAULT_ROOT_ID } from "@/constants/tree";
 import { NavigationContextProvider } from "@/context/navigation";
 import { NodeSelectionContextProvider, useUrlTreeRootId } from "@/context/tree";
 import { getFamiliesMap, getTreeNodesMap } from "@/data";
@@ -38,7 +39,7 @@ const TreePage: NextPage = () => {
             <span className={s.treeRootTitle}>Корень дерева</span>
             <span className={s.treeRootName}>{rootName}</span>
           </div>
-          {rootId && (
+          {rootId !== DEFAULT_ROOT_ID && (
             <Link href="/tree">
               <a className={s.homeTreeLink}>К основному дереву</a>
             </Link>
