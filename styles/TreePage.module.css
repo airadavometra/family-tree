@@ -46,4 +46,8 @@
     top: 70px;
     right: 5vw;
   }
+  .absoluteContainer {
+    top: 80px;
+    right: 24px;
+  }
 }
