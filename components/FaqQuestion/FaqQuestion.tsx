@@ -20,10 +20,10 @@ const FaqQuestion: FC<FaqQuestionProps> = ({ question, answer, pictures, isColla
 
   return (
     <div className={s.questionContainer}>
-      <div className={s.questionHeader}>
+      <div className={s.questionHeader} onClick={toggleIsCollapsed}>
         <div className={s.ball} />
         <span className={s.questionText}>{question}</span>
-        <button onClick={toggleIsCollapsed}>
+        <button>
           <ExpandIcon
             className={classNames(s.expandBtn, {
               [s.isExpanded]: !isCollapsed,
@@ -38,8 +38,8 @@ const FaqQuestion: FC<FaqQuestionProps> = ({ question, answer, pictures, isColla
       >
         {answer}
         <div className={s.picturesContainer}>
-          {pictures.map((picture) => (
-            <Image src={picture} width={120} height={110} />
+          {pictures.map((picture, index) => (
+            <Image key={index} src={picture} width={120} height={110} />
           ))}
         </div>
       </div>
