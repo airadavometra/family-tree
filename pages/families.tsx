@@ -1,4 +1,3 @@
-import Credit from "@/components/Credit/Credit";
 import FamilyLink from "@/components/FamilyLink/FamilyLink";
 import { getFamiliesArray } from "@/data";
 import ballS from "@/styles/Ball.module.css";
