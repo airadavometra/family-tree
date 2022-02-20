@@ -1,10 +1,16 @@
-import { getTreeNodesArray, getTreeNodesMap } from "@/data";
+import { getFamiliesArray, getTreeNodesArray, getTreeNodesMap } from "@/data";
 import { TreeNode } from "@/types/tree";
 
 export const getNodesCount = (): number => {
   const nodes = getTreeNodesArray();
 
   return nodes.length;
+};
+
+export const getFamiliesCount = (): number => {
+  const families = getFamiliesArray();
+
+  return families.filter((family) => !family.lastName.startsWith("от (")).length;
 };
 
 export const getTreeDepth = (): number => {

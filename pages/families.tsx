@@ -23,7 +23,7 @@ const FamiliesPage: NextPage = () => {
         </div>
         <div className={s.familiesContainer}>
           {familiesMap
-            .filter((family) => !family.lastName.includes("от ("))
+            .filter((family) => !family.lastName.startsWith("от ("))
             .map((family, index) => (
               <FamilyLink key={index} href={`/tree?root=${family.id}`} familyName={family.lastName} />
             ))}

@@ -1,5 +1,5 @@
 import Button from "@/components/Button/Button";
-import { getNodesCount, getTreeDepth } from "@/components/Widget/utils";
+import { getFamiliesCount, getNodesCount, getTreeDepth } from "@/components/Widget/utils";
 import Widget from "@/components/Widget/Widget";
 import ballS from "@/styles/Ball.module.css";
 import s from "@/styles/HomePage.module.css";
@@ -10,6 +10,7 @@ import Image from "next/image";
 const HomePage: NextPage = () => {
   const nodesCount = getNodesCount();
   const treeDepth = getTreeDepth();
+  const familiesCount = getFamiliesCount();
 
   return (
     <div className={s.pageContainer}>
@@ -45,6 +46,7 @@ const HomePage: NextPage = () => {
         <div className={s.widgets}>
           <Widget title="Всего человек в дереве" value={nodesCount.toString()} />
           <Widget title="Поколений в дереве" value={treeDepth.toString()} />
+          <Widget title="Разных семей в дереве" value={familiesCount.toString()} />
         </div>
       </div>
       <div className={s.imageContainer}>
