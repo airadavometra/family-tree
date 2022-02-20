@@ -1,3 +1,8 @@
+.familiesContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
 .pageContainer {
   height: 100%;
   padding: 4.2rem 6rem;
@@ -5,17 +10,17 @@
   overflow: auto;
 }
 .content {
+  max-width: 50%;
   height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .descriptionContainer {
-  max-width: 50%;
   display: flex;
   flex-direction: column;
 }
-.logoContainer {
+.titleContainer {
   display: flex;
   align-items: center;
 }
@@ -25,12 +30,6 @@
 }
 .description {
   font-size: 2.4rem;
-}
-.buttonsContainer {
-  margin-top: 24px;
-  margin-bottom: 24px;
-  display: flex;
-  flex-wrap: wrap;
 }
 .descriptionItem {
   margin-bottom: 24px;
@@ -44,32 +43,22 @@
   top: 60px;
   z-index: -1;
 }
-.widgets {
-  height: fit-content;
-  display: flex;
-  overflow-x: auto;
-}
-
-@media (max-height: 860px) {
-  .content {
-    height: fit-content;
-  }
-}
 
 @media (max-width: 700px) {
   .pageContainer {
     padding: 6rem 3rem;
   }
-  .logoContainer {
-    display: none;
-  }
-  .descriptionContainer {
+  .content {
     max-width: 100%;
   }
   .imageContainer {
     display: none;
   }
-  .buttonsContainer {
-    flex-direction: column;
+  .logoContainer {
+    display: none;
+  }
+  .logoTitle {
+    margin-left: 0px;
+    font-size: 4rem;
   }
 }

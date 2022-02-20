@@ -16,8 +16,9 @@ export type Navigation = {
 const navigation: Navigation[] = [
   { id: 1, title: "О проекте", path: "/" },
   { id: 2, title: "Дерево", path: "/tree" },
-  { id: 3, title: "Благодарности", path: "/credits" },
-  //{ id: 4, title: "FAQ", path: "/faq" },
+  { id: 3, title: "Семьи", path: "/families" },
+  { id: 4, title: "Благодарности", path: "/credits" },
+  //{ id: 5, title: "FAQ", path: "/faq" },
 ];
 
 const Header: FC = () => {
