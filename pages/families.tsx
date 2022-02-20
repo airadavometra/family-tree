@@ -20,13 +20,13 @@ const FamiliesPage: NextPage = () => {
             </div>
             <span className={s.logoTitle}>СЕМЬИ В ПРОЕКТЕ</span>
           </div>
-          <div className={s.familiesContainer}>
-            {familiesMap
-              .filter((family) => !family.lastName.includes("от ("))
-              .map((family, index) => (
-                <FamilyLink key={index} href={`/tree?root=${family.id}`} familyName={family.lastName} />
-              ))}
-          </div>
+        </div>
+        <div className={s.familiesContainer}>
+          {familiesMap
+            .filter((family) => !family.lastName.includes("от ("))
+            .map((family, index) => (
+              <FamilyLink key={index} href={`/tree?root=${family.id}`} familyName={family.lastName} />
+            ))}
         </div>
       </div>
       <div className={s.imageContainer}>

@@ -11,7 +11,7 @@
 }
 .content {
   max-width: 50%;
-  height: 100%;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -31,12 +31,6 @@
 .description {
   font-size: 2.4rem;
 }
-.buttonsContainer {
-  margin-top: 24px;
-  margin-bottom: 24px;
-  display: flex;
-  flex-wrap: wrap;
-}
 .descriptionItem {
   margin-bottom: 24px;
 }
@@ -48,16 +42,6 @@
   right: 60px;
   top: 60px;
   z-index: -1;
-}
-.widgets {
-  display: flex;
-  overflow-x: auto;
-}
-
-@media (max-width: 1520px) {
-  .content {
-    height: fit-content;
-  }
 }
 
 @media (max-width: 700px) {
@@ -72,9 +56,6 @@
   }
   .logoContainer {
     display: none;
-  }
-  .buttonsContainer {
-    flex-direction: column;
   }
   .logoTitle {
     margin-left: 0px;
