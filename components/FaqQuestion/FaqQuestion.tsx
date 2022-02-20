@@ -7,11 +7,10 @@ import { ExpandIcon } from "@/icons/ExpandIcon";
 type FaqQuestionProps = {
   question: string;
   answer: ReactNode;
-  pictures: string[];
   isCollapsedByDefault: boolean;
 };
 
-const FaqQuestion: FC<FaqQuestionProps> = ({ question, answer, pictures, isCollapsedByDefault }) => {
+const FaqQuestion: FC<FaqQuestionProps> = ({ question, answer, isCollapsedByDefault }) => {
   const [isCollapsed, setIsCollapsed] = useState<boolean>(isCollapsedByDefault);
 
   const toggleIsCollapsed = useCallback(() => {
@@ -37,11 +36,6 @@ const FaqQuestion: FC<FaqQuestionProps> = ({ question, answer, pictures, isColla
         })}
       >
         {answer}
-        <div className={s.picturesContainer}>
-          {pictures.map((picture, index) => (
-            <Image key={index} src={picture} width={120} height={110} />
-          ))}
-        </div>
       </div>
     </div>
   );

@@ -5,6 +5,10 @@ import classNames from "classnames";
 import type { NextPage } from "next";
 import BioLink from "@/components/Tree/TreeNodeDetails/BioLink/BioLink";
 import FaqQuestion from "@/components/FaqQuestion/FaqQuestion";
+import personCard from "../public/personCard.png";
+import personCard2 from "../public/personCard2.png";
+import tree from "../public/tree.png";
+import yellowCircle from "../public/yellowCircle.png";
 
 const questions = [
   {
@@ -16,7 +20,6 @@ const questions = [
         newTab={true}
       />
     ),
-    pictures: [],
   },
   {
     question: "Если я есть в дереве, информацию обо мне можно будет найти в Гугл или Яндекс поисковике?",
@@ -32,7 +35,6 @@ const questions = [
         - удалим вас из дерева или сократим информацию до комфортного минимума.
       </span>
     ),
-    pictures: [],
   },
   {
     question: "Информация о каких семьях уже есть в проекте?",
@@ -50,7 +52,6 @@ const questions = [
         .
       </span>
     ),
-    pictures: [],
   },
   {
     question: "Что я вижу на странице Дерево?",
@@ -68,7 +69,6 @@ const questions = [
         которых является этот человек.
       </span>
     ),
-    pictures: [],
   },
   {
     question: "Что я могу узнать о конкретном человеке? Где это посмотреть?",
@@ -80,12 +80,20 @@ const questions = [
         Биография, Галерея и Семьи.
         <br />
         <br />
+        <div className={s.pictureWrapper}>
+          <Image src={tree} layout="responsive" />
+        </div>
+        <br />
         На вкладке Биография может быть информация о дате и месте рождения, дате и месте смерти, ближайших родственниках
         человека (родители, супруги, дети, братья и сестры). Также там можно найти информацию о национальности,
         образовании, профессии и наградах человека и его краткую биографию. К сожалению, мы не обладаем такой
         информацией о всех людях в дереве, поэтому если вы желаете помочь и добавить что-то, напишите нам в WhatsApp
         (ссылка).
         <br />
+        <br />
+        <div className={s.pictureWrapper}>
+          <Image src={personCard} layout="responsive" />
+        </div>
         <br />
         На вкладке Галерея можно посмотреть фотографии этого человека.
         <br />
@@ -94,19 +102,28 @@ const questions = [
         ссылка на дерево этой семьи.
       </span>
     ),
-    pictures: [],
   },
   {
     question: "Почему некоторые шарики имеют желтое кольцо?",
     answer: (
       <span>
         Так мы отмечаем людей, чьи родители не отображаются в просматриваемом дереве. Мы специально не показываем
-        всех-всех в одном дереве, потому что такое дерево сложно не только построить, но и читать… Но вы можете открыть
-        карточку человека с таким шариком, перейти на вкладку Семьи и увидеть, потомком каких семей он является. Каждая
-        фамилия там - это ссылка на дерево этой семьи.
+        всех-всех в одном дереве, потому что такое дерево сложно не только построить, но и читать…
+        <br />
+        <br />
+        <div className={s.pictureWrapper}>
+          <Image src={yellowCircle} layout="responsive" />
+        </div>
+        <br />
+        Но вы можете открыть карточку человека с таким шариком, перейти на вкладку Семьи и увидеть, потомком каких семей
+        он является. Каждая фамилия там - это ссылка на дерево этой семьи.
+        <br />
+        <br />
+        <div className={s.pictureWrapper}>
+          <Image src={personCard2} layout="responsive" />
+        </div>
       </span>
     ),
-    pictures: [],
   },
   {
     question: "Я могу поделиться ссылкой на конкретное дерево?",
@@ -116,7 +133,6 @@ const questions = [
         скопируете ссылку из строки браузера, то эта ссылка всегда будет вести на это дерево.
       </span>
     ),
-    pictures: [],
   },
 ];
 
@@ -144,13 +160,7 @@ const FaqPage: NextPage = () => (
       </div>
       <div className={s.questionsContainer}>
         {questions.map((item, index) => (
-          <FaqQuestion
-            key={index}
-            question={item.question}
-            answer={item.answer}
-            pictures={item.pictures}
-            isCollapsedByDefault={index > 0}
-          />
+          <FaqQuestion key={index} question={item.question} answer={item.answer} isCollapsedByDefault={index > 0} />
         ))}
       </div>
     </div>
