@@ -57,7 +57,7 @@
   width: 600px;
   height: 600px;
   margin: auto;
-  position: absolute;
+  position: fixed;
   right: 60px;
   top: 60px;
   z-index: -1;
