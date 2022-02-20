@@ -18,7 +18,7 @@ const navigation: Navigation[] = [
   { id: 2, title: "Дерево", path: "/tree" },
   { id: 3, title: "Семьи", path: "/families" },
   { id: 4, title: "Благодарности", path: "/credits" },
-  //{ id: 5, title: "FAQ", path: "/faq" },
+  { id: 5, title: "FAQ", path: "/faq" },
 ];
 
 const Header: FC = () => {
