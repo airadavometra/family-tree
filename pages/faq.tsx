@@ -76,12 +76,18 @@ const questions = [
       <span>
         На <BioLink href="/tree" text="странице Дерево" newTab={true} /> можно посмотреть дерево семьи. Дерево состоит
         из узлов в виде шариков. На каждом шарике отображается ФИО человека и его годы жизни, если они нам известны.
+        <br />
+        <br />
+        <div className={s.pictureWrapper}>
+          <Image src={tree} layout="responsive" />
+        </div>
+        <br />
         Также по клику на шарик открывается карточка с подробной информацией о человеке, где вы можете видеть 3 вкладки:
         Биография, Галерея и Семьи.
         <br />
         <br />
         <div className={s.pictureWrapper}>
-          <Image src={tree} layout="responsive" />
+          <Image src={personCard} layout="responsive" />
         </div>
         <br />
         На вкладке Биография может быть информация о дате и месте рождения, дате и месте смерти, ближайших родственниках
@@ -90,10 +96,6 @@ const questions = [
         информацией о всех людях в дереве, поэтому если вы желаете помочь и добавить что-то, напишите нам в WhatsApp
         (ссылка).
         <br />
-        <br />
-        <div className={s.pictureWrapper}>
-          <Image src={personCard} layout="responsive" />
-        </div>
         <br />
         На вкладке Галерея можно посмотреть фотографии этого человека.
         <br />
