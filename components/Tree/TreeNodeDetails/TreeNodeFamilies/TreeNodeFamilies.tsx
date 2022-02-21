@@ -9,7 +9,7 @@ type TreeNodeFamiliesProps = TreeNodeDataWithRelations;
 export const TreeNodeFamilies: FC<TreeNodeFamiliesProps> = ({ families, fullName }) => {
   const { rootId } = useUrlTreeRootId();
 
-  return families.length ? (
+  return families.length > 0 ? (
     <>
       <span className={s.familyLinksTitle}>{`${fullName} является потомком семей:`}</span>
       <div className={s.familyLinksContainer}>
@@ -17,12 +17,13 @@ export const TreeNodeFamilies: FC<TreeNodeFamiliesProps> = ({ families, fullName
           if (rootId === family.id) {
             return (
               <span
+                key={family.id}
                 className={classNames(s.selectedFamily, s.familyItem)}
               >{`${family.lastName} – открыта сейчас`}</span>
             );
           } else {
             return (
-              <a href={`/tree?root=${family.id}`} className={classNames(s.familyLink, s.familyItem)}>
+              <a key={family.id} href={`/tree?root=${family.id}`} className={classNames(s.familyLink, s.familyItem)}>
                 {family.lastName}
               </a>
             );
