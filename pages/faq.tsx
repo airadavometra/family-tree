@@ -71,6 +71,11 @@ const questions = [
         <BioLink href="/families" text="странице Семьи" newTab={true} /> можно посмотреть список ссылок на деревья
         других семей. А на карточке с подробной информацией о человеке есть вкладка Семья со списком тех семей, потомком
         которых является этот человек.
+        <br />
+        <br />
+        <div className={s.pictureWrapper}>
+          <Image src={personCard2} layout="responsive" />
+        </div>
       </span>
     ),
   },
