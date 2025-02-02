@@ -1,12 +1,12 @@
 import {defineField} from 'sanity'
-import {UsersIcon} from '@sanity/icons'
+import {UserIcon} from '@sanity/icons'
 import {MONTH_NAMES} from '../../constants/monthNames'
 
 export default defineField({
   name: 'person',
   title: 'Люди',
   type: 'document',
-  icon: UsersIcon,
+  icon: UserIcon,
   fieldsets: [
     {name: 'birthData', title: 'Данные о рождении'},
     {name: 'parents', title: 'Родители'},
@@ -257,7 +257,7 @@ export default defineField({
             ? `${surname || 'Фамилия'} ${name || 'Имя'} ${parentalName || 'Отчество'}`
             : 'Неизвестный человек',
         subtitle: birthDate ? `Дата рождения: ${birthDate}` : 'Дата рождения неизвестна',
-        media: UsersIcon,
+        media: UserIcon,
       }
     },
   },
